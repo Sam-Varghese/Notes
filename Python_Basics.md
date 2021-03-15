@@ -249,7 +249,9 @@ set4 = {"abc", 34, True, 40, "male"}
  }
  ```
  * [Click to know about dictionary methods](Dictionary_Methods.md)
+ 
  ### Operators
+ 
  | Operator | Description |
  |-|-|
  |  ( )	|  grouping parenthesis, function call, tuple declaration |
@@ -291,6 +293,7 @@ set4 = {"abc", 34, True, 40, "male"}
 <br>
 
 ****
+
 <br>
 
  #### Operators Precedence Order
@@ -322,6 +325,7 @@ set4 = {"abc", 34, True, 40, "male"}
 ****
 
  ### Operators
+ 
  | Operator | Description |
  |-|-|
  |  ( )	|  grouping parenthesis, function call, tuple declaration |
@@ -360,9 +364,13 @@ set4 = {"abc", 34, True, 40, "male"}
  |  ^= | bitwise exclusive or and store|
  |  \|= | bitwise or and store|
  |  , | separator as in   ( y=x,z=++x )|
+ 
  <br>
+ 
  ****
+ 
  <br>
+ 
  |Operator(In precedence order)|
  |-|
  |()|
