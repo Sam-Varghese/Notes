@@ -294,6 +294,7 @@ set4 = {"abc", 34, True, 40, "male"}
 <br>
 
  #### Operators Precedence Order
+ 
  |Operator(In precedence order)|
  |-|
  |()|
@@ -309,6 +310,7 @@ set4 = {"abc", 34, True, 40, "male"}
  |not|
  |and|
  |or|
+ 
 <br>
 
 ****
