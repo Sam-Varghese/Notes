@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="300" height="300" src="https://media1.giphy.com/media/fU4elxKlRsulB4Jy7w/200.gif">
+</p>
+
 # Python Basics Notes
 
 <p align="center">
