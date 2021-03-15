@@ -393,6 +393,12 @@ set4 = {"abc", 34, True, 40, "male"}
 
 ****
 
+<p align="center">
+  <img width="300" height="300" src="https://i.imgflip.com/tqjxf.jpg">
+</p>
+
+****
+
 ### Conditional branching
 
 <p align="center">
