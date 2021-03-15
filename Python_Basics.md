@@ -684,3 +684,6 @@ Two ways are there in order to open files in python:
    print(i)
  file_handle.close()
  ```
+<p align="center">
+  <img width="300" height="300" src="https://media2.giphy.com/media/l1J9MWYvcvxIb719m/giphy.gif">
+</p>
