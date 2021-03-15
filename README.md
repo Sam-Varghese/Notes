@@ -2,7 +2,7 @@
 
 ****
 
-- [Python](Python_Notes/Python_Basics.md)(made)
+- [Python](Python_Basics.md)(made)
 
 - [Datetime](Python_Notes/Datetime.md)(Work in progress)
 
