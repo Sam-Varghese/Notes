@@ -31,7 +31,7 @@
 
 ****
 
-## >Git Github Notes
+# Git Github Notes
   
  - [Notes](Git_Notes.md)
 
