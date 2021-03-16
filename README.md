@@ -14,7 +14,7 @@
 
 # <div style='text-align:center'><span style='color:gold;font-family:Georgia;font-size:2em'>Git Github Notes
   
- - [Notes](Git Notes.md)
+ - [Notes](Git_Notes.md)
 
 ## How to contribute
 
