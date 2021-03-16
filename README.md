@@ -1,6 +1,8 @@
- ![l](https://media.tenor.com/images/050660411171d18abae541c21601a0f5/tenor.gif)
+ ![l](https://thumbs.gfycat.com/BasicNearBlackbuck-size_restricted.gif)
+ 
+ 
 
-## Python Notes
+# Python Notes
 
 ****
 
