@@ -6,23 +6,36 @@
 
 ****
 
-- [Python](Python_Basics.md)(made) ![l](https://www.ethans.co.in/wp-content/uploads/2020/03/course-inner.jpg)
+- [Python](Python_Basics.md)(made) 
+![l](https://www.ethans.co.in/wp-content/uploads/2020/03/course-inner.jpg)
+
+****
 
 - [Datetime](Python_Notes/Datetime.md)(Work in progress) 
 - ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklKcuBRcggXKxnQgzZrwT-t1Ugh8vygn58Q&usqp=CAU)
 
+****
+
 - [Matplotlib](Python_Notes/Matplotlib.md)(Work in progress)
 - ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
+
+****
 
 - [Pandas](Python_Notes/Pandas.md)(Work in progress)
 - ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
 
+****
+
 - [Tkinter](Python_Notes/Tkinter.md)(Work in progress)
 - ![](https://data.whicdn.com/images/62282152/original.gif)
+
+****
 
 ## >Git Github Notes
   
  - [Notes](Git_Notes.md)
+
+****
 
 # How to contribute
 
@@ -32,5 +45,5 @@ This is a repository made on 15th March 2021 .For notes to be better and more in
 
 Hope you would like notes
 
-Thanks
+Thanks<br>
 Sam Varghese
