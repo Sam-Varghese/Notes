@@ -7,6 +7,7 @@
 ****
 
 - [Python](Python_Basics.md)(made) 
+
 ![l](https://www.ethans.co.in/wp-content/uploads/2020/03/course-inner.jpg)
 
 ****
