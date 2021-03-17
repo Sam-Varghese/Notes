@@ -116,18 +116,24 @@ Varghese'''#This multiline string does not require slash.
 | \\n |New line character|
 | \\t |Vertical Tab(4 spaces)|
 ****
+
 #### Numeric Literals
 
 These are numeric values.
+
 ****
+
 #### Boolean Literals
 
 These are just True or False
 ****
+
 #### Special Literal None
 
 This is **None** literal used to denote absence of any value.
+
 ****
+
 #### List Literals
 
 - List is a collection which is ordered and changeable. Allows uplicate members.
@@ -192,6 +198,7 @@ thistuple = ("apple")#This is not a tuple
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 ```
 ****
+
 ### Set Literal
 
 - Set is a collection which is unordered and unindexed. No duplicate members.
@@ -220,6 +227,7 @@ set4 = {"abc", 34, True, 40, "male"}
 thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
 ```
 ****
+
 ### Dictionary Literal
 
 - Dictionary is a collection which is unordered and changeable. No duplicate members.
@@ -258,6 +266,7 @@ thisdict = {
 }
 ```
 * [Click to know about dictionary methods](Dictionary_Methods.md)
+
 ### Operators
 
 | Operator | Description |
@@ -298,6 +307,7 @@ thisdict = {
 |  ^= | bitwise exclusive or and store|
 |  \|= | bitwise or and store|
 |  , | separator as in   ( y=x,z=++x )|
+
 <br>
 
 ****
@@ -558,6 +568,7 @@ Two ways are there in order to open files in python:
 <br>
 
 #### Using With Open Method
+
 Syntax:
 ```py
 with open(file_name,mode):
@@ -568,6 +579,7 @@ The advantage of using this method of opening file is that we do not need to clo
 <br>
 
 #### Using Open Method
+
 Syntax:
 ```py
 file_handle=open(file_name,mode)
@@ -575,6 +587,7 @@ file_handle=open(file_name,mode)
 file_handle.close()
 ```
 ### Text Files
+
 In this type of file, Each line of text is terminated with a special character called > EOL(End of Line), which is the new line character (‘\n’) in python by default.
 
 #### Writing Into A Text File
