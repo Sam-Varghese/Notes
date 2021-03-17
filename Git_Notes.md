@@ -1,4 +1,4 @@
-# <div style='text-align:center'><span style='font-family:Georgia;font-size:2em;color:gold;'>Git/Github Notes</span></div>
+# Git/Github Notes
 
 ****
 
