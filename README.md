@@ -12,7 +12,7 @@
 
 ****
 
-- [Datetime](Python_Notes/Datetime.md)(Work in progress) 
+- [Datetime](Datetime.md)
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklKcuBRcggXKxnQgzZrwT-t1Ugh8vygn58Q&usqp=CAU)
 
