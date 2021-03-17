@@ -21,6 +21,12 @@ https://sam-varghese.github.io/Notes/
 
 ****
 
+- [Random Module](Random.md)
+
+![](https://www.stevens.edu/sites/stevens_edu/files/styles/news_detail/public/shutterstock_1165123768.jpg?itok=haoBDwhQ)
+
+****
+
 - [Matplotlib](Matplotlib.md)
 
 ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
