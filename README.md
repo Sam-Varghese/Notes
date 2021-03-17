@@ -9,7 +9,7 @@
 
 ****
 
-- [Python](Python_Basics.md)(made) 
+- [Python](Python_Basics.md)
 
 ![l](https://www.ethans.co.in/wp-content/uploads/2020/03/course-inner.jpg)
 
