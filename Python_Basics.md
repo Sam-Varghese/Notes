@@ -115,6 +115,7 @@ Varghese'''#This multiline string does not require slash.
 | \\' |Single quote(')|
 | \\n |New line character|
 | \\t |Vertical Tab(4 spaces)|
+
 ****
 
 #### Numeric Literals
