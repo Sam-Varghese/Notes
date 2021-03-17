@@ -21,19 +21,19 @@
 
 ****
 
-- [Matplotlib](Python_Notes/Matplotlib.md)(Work in progress)
+- [Matplotlib](Matplotlib.md)(Work in progress)
 
 ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
 
 ****
 
-- [Pandas](Python_Notes/Pandas.md)(Work in progress)
+- [Pandas](Pandas.md)(Work in progress)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
 
 ****
 
-- [Tkinter](Python_Notes/Tkinter.md)(Work in progress)
+- [Tkinter](Tkinter.md)(Work in progress)
 
 ![](https://data.whicdn.com/images/62282152/original.gif)
 
