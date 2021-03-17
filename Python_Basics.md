@@ -106,6 +106,7 @@ string='''Sam
 Varghese'''#This multiline string does not require slash.
 ```
 ****
+
 ##### Important Escape Sequences
 
 |Escape Sequence|Denotion|
