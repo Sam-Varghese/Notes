@@ -99,6 +99,7 @@ The part of a program where a variable is accessible is called its scope.
 ****
 
  #### String Literals
+ 
  String literal is a sequence of character surrounded by quotes.
  ```py
  string='Sam Varghese'#Single line string literal
@@ -110,42 +111,62 @@ The part of a program where a variable is accessible is called its scope.
  Varghese'''#This multiline string does not require slash.
  ```
  ****
+ 
  ##### Important Escape Sequences
+ 
  |Escape Sequence|Denotion|
  |-|-|
  | \\\ |Backlash(\\)|
  | \\' |Single quote(')|
  | \\n |New line character|
  | \\t |Vertical Tab(4 spaces)|
+ 
  ****
+ 
  #### Numeric Literals
+ 
  These are numeric values.
+ 
  ****
+ 
  #### Boolean Literals
+ 
  These are just True or False
+ 
  ****
+ 
  #### Special Literal None
+ 
  This is **None** literal used to denote absence of any value.
+ 
  ****
+ 
  #### List Literals
+ 
  - List is a collection which is ordered and changeable. Allows uplicate members.
  - Lists are created using square brackets:
+ 
  ```py
  thislist = ["apple", "banana", "cherry"] 
  ```
+ 
  - List items are ordered, changeable, and allow duplicate values.
  - List items are indexed, the first item has index `[0]`, the second tem has index `[1]` tc
  - List items have one more kind of index in which last item has been assigned index `[-1]`  last second item `[-2]` ,and so on.
  - The list is changeable, meaning that we can change, add, and remove items in a list fter it has been created.
  - To determine how many items a list has, use the `len()` function.
  - A list can contain different data types:
+ 
  ```py
  list1 = ["abc", 34, True, 40, "male"]
  ```
+ 
  - It is also possible to use the list() constructor when creating a new list
+ 
  ```py
  thislist = list(("apple", "banana", "cherry"))  > # note the double round-brackets
  ```
+ 
  It is also possible to slice a list in following way:
  
  ```py
@@ -153,73 +174,101 @@ The part of a program where a variable is accessible is called its scope.
  sliced_lst=lst[1:6:2]#Syntax: lst[start_index,stop_index,step]
 sliced_lst is now [2,5,6]
  ```
+ 
  - Here stop_index is excluded while start_index is included
+ 
  * [Click to know list methods](List_Methods.md)
+ 
  ****
+ 
  #### Tuple Literals
+ 
  - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
  - A tuple is a collection which is ordered and unchangeable.
  - Tuples are written with round brackets.
+ 
  ```py
  thistuple = ("apple", "banana", "cherry")
  ```
+ 
  - Tuple items are ordered, unchangeable, and allow duplicate values.
  - Tuple items are indexed, the first item has index `[0]`, the second item has index `[1]` tc.
  - When we say that tuples are ordered, it means that the items have a defined order, and ht order will not change.
  - Tuples are unchangeable, meaning that we cannot change, add or remove items after the uple has been created.
  - Since tuple are indexed, tuples can have items with the same value
  - Tuples allow duplicate values.
+ 
  ```py
  thistuple = ("apple", "banana", "cherry", "apple", "cherry")
  ```
+ 
  - Methods count and index which are used for lists are also applicable for tuples.
  - To determine how many items a tuple has, use the  `len()`function:
+ 
 ```py
 thistuple = ("apple", "banana", "cherry")
 print(len(thistuple))
 ```
 
+
  - To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+ 
  ```py
  thistuple = ("apple",)#This is a tuple
  thistuple = ("apple")#This is not a tuple
  ```
+ 
  - It is also possible to use the tuple() constructor to make a tuple.
+ 
  ```py
  thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
  ```
+ 
  ****
+ 
  ### Set Literal
+ 
  - Set is a collection which is unordered and unindexed. No duplicate members.
  - A set is a collection which is both unordered and unindexed.
+ 
  ```py
  thisset = {"apple", "banana", "cherry"}
  ```
+ 
  - Set items are unordered, unchangeable, and do not allow duplicate values.
  - Unordered means that the items in a set do not have a defined order.
  - Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
  - Sets are unchangeable, meaning that we cannot change the items after the set has been created.
  - Duplicate values will be ignored.
  - To determine how many items a set has, use the `len()` method.
+ 
  ```py
  thisset = {"apple", "banana", "cherry"}
  ```
+ 
  - Set items can be of any data type:
+ 
 ```py
 set1 = {"apple", "banana", "cherry"}
 set2 = {1, 5, 7, 9, 3}
 set3 = {True, False, False}
 set4 = {"abc", 34, True, 40, "male"}
 ```
+
  - It is also possible to use the `set()` constructor to make a set.
+ 
  ```py
  thisset = set(("apple", "banana", "cherry")) # note the double round-brackets
  ```
+ 
  ****
+ 
  ### Dictionary Literal
+ 
  - Dictionary is a collection which is unordered and changeable. No duplicate members.
  - Dictionaries are used to store data values in key:value pairs.
  - Dictionaries are written with curly brackets, and have keys and values:
+ 
  ```py
  thisdict = {
    "brand": "Ford",
@@ -227,7 +276,9 @@ set4 = {"abc", 34, True, 40, "male"}
    "year": 1964
  }
  ```
+ 
  - Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+ 
  ```py
  thisdict = {
    "brand": "Ford",
@@ -236,14 +287,18 @@ set4 = {"abc", 34, True, 40, "male"}
  }
  print(thisdict["brand"])
  ```
+ 
  - Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
  - Dictionaries cannot have two items with the same key.
  - Duplicate values will overwrite existing values.
  - To determine how many items a dictionary has, use the `len()` function.
+ 
  ```py
  print(len(thisdict))
  ```
+ 
  - The values in dictionary items can be of any data type
+ 
  ```py
  thisdict = {
    "brand": "Ford",
@@ -252,6 +307,7 @@ set4 = {"abc", 34, True, 40, "male"}
    "colors": ["red", "white", "blue"]
  }
  ```
+ 
  * [Click to know about dictionary methods](Dictionary_Methods.md)
  
  ### Operators
@@ -294,6 +350,7 @@ set4 = {"abc", 34, True, 40, "male"}
  |  ^= | bitwise exclusive or and store|
  |  \|= | bitwise or and store|
  |  , | separator as in   ( y=x,z=++x )|
+ 
 <br>
 
 ****
@@ -323,6 +380,7 @@ set4 = {"abc", 34, True, 40, "male"}
 ****
 
  ### Punctuators
+ 
  Most common punctuators of Python are:-<br>
  ( ) { } [ ] ; , . \ # @ : = ‘ “
 
@@ -429,14 +487,17 @@ else:
 2. for loops
 
 #### While Loop
+
 - With the `while` loop we can execute a set of statements as long as a condition is true.
 - Example: Print i as long as i is less than 6
+
 ```py
 i = 1
 while i < 6:
   print(i)
   i += 1
 ```
+
 - The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
 - With the `break` statement we can stop the loop even if the while condition is true
 - With the continue statement we can stop the current iteration, and continue with the next.
@@ -444,16 +505,21 @@ while i < 6:
 - With the else statement we can run a block of code once when the condition no longer is true.
 
 #### For Loop
+
 - A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
 - This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.
 
 - With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+
 ```py
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
 ```
+
+
 - The for loop does not require an indexing variable to set beforehand.
 - To loop through a set of code a specified number of times, we can use the range() function.
 - The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
@@ -477,11 +543,19 @@ for x in adj:
 for x in [0, 1, 2]:
   pass
 ```
+
+
 ****
 
 ### Functions
+
+
 * A function is a block of organized, reusable code that is used to perform a single, related action.
+
+
 #### Function definition
+
+
 ```py
 def function_name():
 
@@ -489,6 +563,8 @@ def function_name():
 
   return
 ```
+
+
 * Values received in function definition are called parameters/formal parameters/formal arguments.
 * **In a function header ,any parameter cannot have a default value unless all parameters appearing on its right have their default values.**
 * Fuctions that returns something are called non void/ fruitful functions.
@@ -555,6 +631,7 @@ Two ways are there in order to open files in python:
 <br>
 
  #### Using With Open Method
+ 
  Syntax:
  ```py
  with open(file_name,mode):
@@ -565,6 +642,7 @@ Two ways are there in order to open files in python:
  <br>
  
  #### Using Open Method
+ 
  Syntax:
  ```py
  file_handle=open(file_name,mode)
