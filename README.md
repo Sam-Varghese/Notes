@@ -23,7 +23,7 @@ https://sam-varghese.github.io/Notes/
 
 - [Random Module](Random.md)
 
-![](https://www.stevens.edu/sites/stevens_edu/files/styles/news_detail/public/shutterstock_1165123768.jpg?itok=haoBDwhQ)
+![](https://www.roulette17.com/images/random-number.gif)
 
 ****
 
