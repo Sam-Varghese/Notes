@@ -98,7 +98,7 @@ The part of a program where a variable is accessible is called its scope.
 
 ****
 
- #### String Literals
+#### String Literals
  
  String literal is a sequence of character surrounded by quotes.
  ```py
@@ -112,7 +112,7 @@ The part of a program where a variable is accessible is called its scope.
  ```
  ****
  
- ##### Important Escape Sequences
+##### Important Escape Sequences
  
  |Escape Sequence|Denotion|
  |-|-|
@@ -123,25 +123,25 @@ The part of a program where a variable is accessible is called its scope.
  
  ****
  
- #### Numeric Literals
+#### Numeric Literals
  
  These are numeric values.
  
  ****
  
- #### Boolean Literals
+#### Boolean Literals
  
  These are just True or False
  
  ****
  
- #### Special Literal None
+#### Special Literal None
  
  This is **None** literal used to denote absence of any value.
  
  ****
  
- #### List Literals
+#### List Literals
  
  - List is a collection which is ordered and changeable. Allows uplicate members.
  - Lists are created using square brackets:
@@ -181,7 +181,7 @@ sliced_lst is now [2,5,6]
  
  ****
  
- #### Tuple Literals
+#### Tuple Literals
  
  - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
  - A tuple is a collection which is ordered and unchangeable.
@@ -226,7 +226,7 @@ print(len(thistuple))
  
  ****
  
- ### Set Literal
+### Set Literal
  
  - Set is a collection which is unordered and unindexed. No duplicate members.
  - A set is a collection which is both unordered and unindexed.
@@ -263,7 +263,7 @@ set4 = {"abc", 34, True, 40, "male"}
  
  ****
  
- ### Dictionary Literal
+### Dictionary Literal
  
  - Dictionary is a collection which is unordered and changeable. No duplicate members.
  - Dictionaries are used to store data values in key:value pairs.
@@ -357,7 +357,7 @@ set4 = {"abc", 34, True, 40, "male"}
 
 <br>
 
- #### Operators Precedence Order
+#### Operators Precedence Order
  
  |Operator(In precedence order)|
  |-|
@@ -379,14 +379,14 @@ set4 = {"abc", 34, True, 40, "male"}
 
 ****
 
- ### Punctuators
+### Punctuators
  
  Most common punctuators of Python are:-<br>
  ( ) { } [ ] ; , . \ # @ : = ‘ “
 
 ****
 
- ### Operators
+### Operators
  
  | Operator | Description |
  |-|-|
@@ -751,7 +751,7 @@ Two ways are there in order to open files in python:
 
 #### Binary Files
  
- #### Writing Binary Files
+#### Writing Binary Files
  
  Syntax:
  ```py
@@ -761,7 +761,7 @@ Two ways are there in order to open files in python:
  file_handle.close()
  ```
  
- #### Reading Binary Files
+#### Reading Binary Files
  
  Syntax:
  ```py
