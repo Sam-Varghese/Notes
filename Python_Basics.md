@@ -284,16 +284,16 @@ thisdict = {
 | \-   | 	subtract, a - b |
 | <<   | shift left,  left operand is shifted left by right operand bits |
 | \>>   |	shift right, left operand is shifted right by right operand bits|
-| <    |	less than, result is true or false,  a %lt; b
-| <=   |	less than or equal, result is true or false,  a <= b
-| \>    |	greater than, result is true or false,  a > b
-| \>=   |	greater than or equal, result is true or false, a >= b
-|  ==   |	equal, result is true or false,  a == b
-| !=  | 	not equal, result is true or false,  a != b
-|  & | bitwise and,  a & b
-| ^ | bitwise exclusive or XOR,  a ^ b
-| \| | bitwise or,  a | b
-|  &&, and | relational and, result is true or false,  a < b && c >= d
+| <    |	less than, result is true or false,  a %lt; b|
+| <=   |	less than or equal, result is true or false,  a <= b|
+| \>    |	greater than, result is true or false,  a > b|
+| \>=   |	greater than or equal, result is true or false, a >= b|
+|  ==   |	equal, result is true or false,  a == b|
+| !=  | 	not equal, result is true or false,  a != b|
+|  & | bitwise and,  a & b|
+| ^ | bitwise exclusive or XOR,  a ^ b|
+| \| | bitwise or,  a \| b|
+|  &&, and | relational and, result is true or false,  a < b && c >= d|
 | \|\|, or | relational or, result is true or false,  a < b \|\| c >= d |
 | =  | store or assignment |
 |  += | add and store |
