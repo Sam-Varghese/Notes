@@ -1,4 +1,4 @@
-# <div style='text-align:center'><span style='font-family:Georgia;font-size:2em;color:gold;'>Git/Github Notes</div>
+# <div style='text-align:center'><span style='font-family:Georgia;font-size:2em;color:gold;'>Git/Github Notes</span></div>
 
 ****
 
@@ -12,7 +12,7 @@
 
 [Official Documentation](https://git-scm.com/doc)
 
-</div></span>
+</span></div>
 
 ****
 <br>
