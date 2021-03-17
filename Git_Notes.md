@@ -1,4 +1,4 @@
-# <div style='text-align:center'>Git/Github Notes</div>
+# <div style='text-align:center'><span style='font-family:Georgia;font-size:2em;color:gold;'>Git/Github Notes</div>
 
 ****
 
@@ -8,11 +8,11 @@
 
 ****
 
-<div style='text-align:center'>
+<div style='text-align:center'><span style='font-family:Georgia;font-size:2em;color:gold;'>
 
 [Official Documentation](https://git-scm.com/doc)
 
-</div>
+</div></span>
 
 ****
 <br>
@@ -662,7 +662,7 @@ Just type following code in order to copy the contents of master branch to our l
 
 <br>
 
-## <div style='text-align:center'> <span style='color:gold;font-size:2em'>Practical</span>
+## <div style='text-align:center'> <span style='color:gold;font-size:2em'>Practical</span></div>
 
 <br>
 
