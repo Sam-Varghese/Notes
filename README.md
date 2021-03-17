@@ -21,7 +21,7 @@
 
 ****
 
-- [Matplotlib](Matplotlib.md)(Work in progress)
+- [Matplotlib](Matplotlib.md)
 
 ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
 
