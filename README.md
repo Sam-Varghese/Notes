@@ -29,6 +29,12 @@ https://sam-varghese.github.io/Notes/
 
 ****
 
+-[Math Module](Math.md)
+
+![](https://44aqyd1gir1l3zgqxe1m5r43-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/metrics-gif.gif)
+
+****
+
 - [Matplotlib](Matplotlib.md)
 
 ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
