@@ -29,7 +29,7 @@ https://sam-varghese.github.io/Notes/
 
 ****
 
--[Math Module](Math.md)
+- [Math Module](Math.md)
 
 ![](https://44aqyd1gir1l3zgqxe1m5r43-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/metrics-gif.gif)
 
