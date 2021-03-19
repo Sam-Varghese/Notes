@@ -5,7 +5,7 @@ https://sam-varghese.github.io/Notes/
  
  # Purpose Of Making Notes
  
- Whenever I learn any new thing , I have the habit of noting it down so that I could retain and preserve that information with me for a longer duration. These notes are made so that it can summarize whole of the concepts (Which are most oftenly used) in least amount of time. 
+ Whenever I learn any new thing , I have the habit of noting it down so that I could retain with me for a longer duration. These notes are made so that it can summarize whole of the concepts (Which are most oftenly used) in least amount of time. 
 
 # Python Notes
 
