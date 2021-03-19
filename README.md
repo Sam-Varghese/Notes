@@ -12,7 +12,7 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 ****
 
-# 👉Python Notes 📖
+# 👉👉👉Python Notes 📖
 
 ****
 
@@ -58,7 +58,7 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 ****
 
-# 👉Git Github Notes
+# 👉👉👉 Git Github Notes :octocat:
   
  - [Notes](Git_Notes.md)
 
