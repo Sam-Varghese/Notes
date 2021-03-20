@@ -176,7 +176,6 @@ thistuple = ("apple", "banana", "cherry")
 ```
 
 - Tuples can also be made without putting brackets. Example:
-
 ```py
 _tuple=1,2,3,4
 
