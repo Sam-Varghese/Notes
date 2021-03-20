@@ -55,6 +55,8 @@ Keywords are the words having special meaning reserved by a programming language
 |return	 | executable statement with or without a value|
 |while| executable statement, while loop|
 
+***Point to note:*** range is not a keyword
+
 ****
 
 ### Identifiers
