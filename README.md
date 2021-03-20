@@ -58,9 +58,17 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 ****
 
-# 👉👉👉 Git Github Notes:octocat:
+# 👉👉👉 Git Github Notes📘
   
  - [Notes](Git_Notes.md)
+
+****
+
+# SQL Notes📘
+
+- [Notes]SQL.md
+
+![](https://img.favpng.com/2/3/9/mysql-logo-database-microsoft-sql-server-png-favpng-8BiL0NVk5zh0ViJa9xDnMbMB5.jpg)
 
 ****
 
