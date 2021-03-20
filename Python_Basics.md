@@ -174,6 +174,15 @@ liced_lst is now [2,5,6]
 ```py
 thistuple = ("apple", "banana", "cherry")
 ```
+
+- Tuples can also be made without putting brackets. Example:
+
+```py
+_tuple=1,2,3,4
+
+# _tuple is a tuple
+```
+
 - Tuple items are ordered, unchangeable, and allow duplicate values.
 - Tuple items are indexed, the first item has index `[0]`, the second item has index `[1]`tc.
 - When we say that tuples are ordered, it means that the items have a defined order, and htorder will not change.
