@@ -66,9 +66,9 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 # SQL Notes📘
 
-- [Notes]SQL.md
+- [Notes](SQL.md)
 
-![](https://img.favpng.com/2/3/9/mysql-logo-database-microsoft-sql-server-png-favpng-8BiL0NVk5zh0ViJa9xDnMbMB5.jpg)
+![](http://pngimg.com/uploads/mysql/mysql_PNG23.png)
 
 ****
 
