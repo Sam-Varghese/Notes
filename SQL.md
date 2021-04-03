@@ -3,7 +3,7 @@
 ****
 
 <p align='center'>
-<img src='http://pngimg.com/uploads/mysql/mysql_PNG23.png'width='200'hieght='200'>
+<img src='http://pngimg.com/uploads/mysql/mysql_PNG23.png' width='200' hieght='200'>
 </p>
 
 *******
@@ -12,7 +12,7 @@
 
 ****
 
-<div><span style='color:orange; font-size:2em;'>Connecting to SQL>>>></span></div>
+<div><span style='color:orange; font-size:2em;'>Connecting to SQL>>>> </span></div>
 
 * Firstly start with [this.](https://youtu.be//HZU0JRwv6AE)
 
@@ -27,7 +27,7 @@ con=mysql.connector.connect(host='localhost',user='root',password='root')
 
 ****
 
-<div><span style='color:orange; font-size:2em;'>Checking for successful connection>>></div></span>
+<div><span style='color:orange; font-size:2em;'>Checking for successful connection>>> </div></span>
 
 ****
 
@@ -41,7 +41,7 @@ else:
 
 ****
 
-<div><span style='color:orange; font-size:2em;'>Creating a cursor object>>></div></span>
+<div><span style='color:orange; font-size:2em;'>Creating a cursor object>>> </div></span>
 
 ****
 
@@ -56,7 +56,7 @@ cur=con.cursor(buffered=True)#You dont use buffered
 
 ****
 
-<span style='color:orange;font-size:2em;'>Creating a database>>></span>
+<span style='color:orange;font-size:2em;'>Creating a database>>> </span>
 
 ****
 
@@ -72,7 +72,7 @@ cur.execute('create database if not exists sql_notes')
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Making a table>>></span></div>
+<div><span style='color:orange;font-size:2em;'>Making a table>>> </span></div>
 
 ****
 
@@ -90,7 +90,7 @@ cur.execute('Create table if not exists sql_note\
 
 ****
 
-</div><span style='color:orange;font-size:2em'>Inserting values>>></div></span>
+</div><span style='color:orange;font-size:2em'>Inserting values>>> </div></span>
 
 ****
 
@@ -119,7 +119,7 @@ while count<100:
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Accessing all data from table>>></span></span>
+<div><span style='color:orange;font-size:2em;'>Accessing all data from table>>> </span></span>
 
 ****
 
@@ -130,7 +130,7 @@ cur.execute('select * from sql_note')
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em'>fetchall Method>>></div></span><br>
+* <div><span style='color:orange;font-size:1.5em'>fetchall Method>>> </div></span><br>
 Used in fetching all of the data.
 
 ****
@@ -147,7 +147,7 @@ len(data)
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em'>fetchone method>>></div></span><br>
+* <div><span style='color:orange;font-size:1.5em'>fetchone method>>> </div></span><br>
 Used to fetch the first record.
 
 ****
@@ -165,7 +165,7 @@ print(data)
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em'>fetchmany Function>>></div></span><br>This function enables us to extract as many rows as we want to fetch.
+* <div><span style='color:orange;font-size:1.5em'>fetchmany Function>>> </div></span><br>This function enables us to extract as many rows as we want to fetch.
 
 ****
 
@@ -180,7 +180,7 @@ data
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em'>rowcount Function>>></div></span><br>
+* <div><span style='color:orange;font-size:1.5em'>rowcount Function>>> </div></span><br>
 This function enables us to count number of rows in cur object.
 
 ****
@@ -206,7 +206,7 @@ data
 
 ****
 
-<div><span style='color:orange;font-size:2em'>Types of Queries>>></div></span>
+<div><span style='color:orange;font-size:2em'>Types of Queries>>> </div></span>
 
 ****
 
@@ -239,7 +239,7 @@ Commands that fall under this category:-
 
 ****
 
-<div><span style='color:orange;font-size:2em'>Some Important Terms>>></div></span>
+<div><span style='color:orange;font-size:2em'>Some Important Terms>>> </div></span>
 
 ****
 
@@ -278,7 +278,7 @@ My SQL is an Open Source
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Creating Database in SQL if it doesnt exists>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Creating Database in SQL if it doesnt exists>>> </div></span>
 
 ****
 
@@ -289,7 +289,7 @@ cur.execute('Create database if not exists sql_notes')
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Selecting a database>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Selecting a database>>> </div></span>
 
 ****
 
@@ -313,7 +313,7 @@ cur.execute('Create table if not exists sql_note\
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Inserting values in table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Inserting values in table>>> </div></span>
 
 ****
 
@@ -342,7 +342,7 @@ while count<50:
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Conditional Selection from table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Conditional Selection from table>>> </div></span>
 
 ****
 
@@ -356,7 +356,7 @@ data
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Selecting particular columns from table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Selecting particular columns from table>>> </div></span>
 
 ****
 
@@ -367,7 +367,7 @@ data
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Accessing distinct values from a column>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Accessing distinct values from a column>>> </div></span>
 
 ****
 
@@ -381,7 +381,7 @@ data
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Getting the description of the table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Getting the description of the table>>> </div></span>
 
 ****
 
@@ -395,7 +395,7 @@ data
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Performing simple calculations>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Performing simple calculations>>> </div></span>
 
 ****
 
@@ -408,7 +408,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Using table aliases>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Using table aliases>>> </div></span>
 
 ****
 
@@ -421,7 +421,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>BETWEEN keyword >>></div></span>
+<div><span style='color:orange;font-size:2em;'>BETWEEN keyword >>> </div></span>
 
 ****
 
@@ -454,7 +454,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Searching for NULL Values >>></div></span>
+<div><span style='color:orange;font-size:2em;'>Searching for NULL Values >>> </div></span>
 
 ****
 
@@ -467,7 +467,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>NOT NULL Condition in table creation >>></div></span>
+<div><span style='color:orange;font-size:2em;'>NOT NULL Condition in table creation >>> </div></span>
 
 ****
 
@@ -480,7 +480,7 @@ cur.execute('Create table if not exists not_null_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting a default value during table creation>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Setting a default value during table creation>>> </div></span>
 
 ****
 
@@ -493,7 +493,7 @@ cur.execute('Create table if not exists default_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting unique value constraint in table creation >>></div></span>
+<div><span style='color:orange;font-size:2em;'>Setting unique value constraint in table creation >>> </div></span>
 
 ****
 
@@ -506,7 +506,7 @@ cur.execute('Create table if not exists unique_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>CHECK function during table creation>>></div></span>
+<div><span style='color:orange;font-size:2em;'>CHECK function during table creation>>> </div></span>
 
 ****
 
@@ -519,7 +519,7 @@ cur.execute('Create table if not exists check_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting primary key during table creation>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Setting primary key during table creation>>> </div></span>
 
 ****
 
@@ -542,7 +542,7 @@ cur.execute('alter table primary1_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Inserting specific values from one table to another>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Inserting specific values from one table to another>>> </div></span>
 
 
 ```python
@@ -553,7 +553,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Updating values of table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Updating values of table>>> </div></span>
 
 ****
 
@@ -573,7 +573,7 @@ cur.execute('select *from primary_table where Class=0')
 cur.fetchall()
 ```
 
-<div><span style='color:orange;font-size:2em;'>Deletion of rows in SQL >>></div></span>
+<div><span style='color:orange;font-size:2em;'>Deletion of rows in SQL >>> </div></span>
 
 
 ```python
@@ -585,7 +585,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Altering tables >>></div></span><br><br>
+<div><span style='color:orange;font-size:2em;'>Altering tables >>> </div></span><br><br>
 
 Used to:-<br>
 
@@ -593,7 +593,7 @@ Used to:-<br>
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em;'>Adding a column>>></div></span>
+* <div><span style='color:orange;font-size:1.5em;'>Adding a column>>> </div></span>
 
 ****
 
@@ -607,7 +607,7 @@ con.commit()
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em;'>Modifying existing columns>>></div></span>
+* <div><span style='color:orange;font-size:1.5em;'>Modifying existing columns>>> </div></span>
 
 ****
 
@@ -635,7 +635,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Dropping table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Dropping table>>> </div></span>
 
 ****
 
@@ -648,11 +648,11 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Joining Tables>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Joining Tables>>> </div></span>
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Equi Join>>></div></span><br><br>
+<div><span style='color:orange;font-size:2em;'>Equi Join>>> </div></span><br><br>
 This functions gives a table with a column value same in both and given 2 times in output table(unlike Natural join)
 
 ****
@@ -667,7 +667,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Natural Join>>></div></span><br><br>
+<div><span style='color:orange;font-size:2em;'>Natural Join>>> </div></span><br><br>
 This function works same as equi join but the only diffrence is that ki it wont give 2 diffrent column of names with same values in it.
 
 ****
@@ -681,7 +681,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering of table>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Ordering of table>>> </div></span>
 
 ****
 
@@ -693,7 +693,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering on the basis of expression>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Ordering on the basis of expression>>> </div></span>
 
 ****
 
@@ -705,7 +705,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering by a field in custom way>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Ordering by a field in custom way>>> </div></span>
 
 ****
 
@@ -729,7 +729,7 @@ These are the functions which performs a calculation on a set of values, and ret
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Average function>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Average function>>> </div></span>
 
 ****
 
@@ -741,7 +741,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Count function>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Count function>>> </div></span>
 
 ****
 
@@ -753,7 +753,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Max function>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Max function>>> </div></span>
 
 ****
 
@@ -765,7 +765,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Sum fuction>>></div></span>
+<div><span style='color:orange;font-size:2em;'>Sum fuction>>> </div></span>
 
 ****
 
@@ -777,7 +777,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Group by SQL function>>></div></span><br><br>
+<div><span style='color:orange;font-size:2em;'>Group by SQL function>>> </div></span><br><br>
 
 The SQL GROUP BY clause is used in collaboration with the SELECT statement to arrange identical data into groups.
 
@@ -791,11 +791,11 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>HAVING Function SQL>>></div></span><br>
+<div><span style='color:orange;font-size:2em;'>HAVING Function SQL>>> </div></span><br>
 
 The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.<br><br>
 
-<div><span style='color:gold;font-size:1.5em;'>Syntax>>></div></span><br>
+<div><span style='color:gold;font-size:1.5em;'>Syntax>>> </div></span><br>
 
 SELECT column_name(s)<br>
 FROM table_name<br>
