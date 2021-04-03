@@ -12,6 +12,12 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 ****
 
+# 👉For Whom Are These Notes? :slightly_frowning_face:
+
+These notes can be hepful for all who wants to revise all important significant concepts in least possible duration. For students of class 11th and 12th these notes are sufficient as these notes have been made by reffering to **Sumita Arora** , Indian CS books author.
+
+****
+
 # 👉👉👉Python Notes 📖
 
 ****
