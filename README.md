@@ -16,31 +16,31 @@ Whenever I learn any new thing , I have the habit of noting it down so that I co
 
 ****
 
-- [Python](Python_Basics.md)📖
+- [Python](Python_Section/Python_Basics.md)📖
 
 ![l](https://www.ethans.co.in/wp-content/uploads/2020/03/course-inner.jpg)
 
 ****
 
-- 👉[Datetime](Python_Libraries/Datetime.md)🕦
+- 👉[Datetime](Python_Section/Python_Libraries/Datetime.md)🕦
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTklKcuBRcggXKxnQgzZrwT-t1Ugh8vygn58Q&usqp=CAU)
 
 ****
 
-- 👉[Random Module](Python_Libraries/Random.md)
+- 👉[Random Module](Python_Section/Python_Libraries/Random.md)
 
 ![](https://www.roulette17.com/images/random-number.gif)
 
 ****
 
-- 👉[Math Module](Python_Libraries/Math.md)
+- 👉[Math Module](Python_Section/Python_Libraries/Math.md)
 
 ![](https://44aqyd1gir1l3zgqxe1m5r43-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/metrics-gif.gif)
 
 ****
 
-- 👉[Matplotlib](Python_Libraries/Matplotlib.md)
+- 👉[Matplotlib](Python_Section/Python_Libraries/Matplotlib.md)
 
 ![](https://matplotlib.org/devdocs/_static/logo2_compressed.svg)
 

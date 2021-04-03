@@ -52,11 +52,11 @@ cur=con.cursor(buffered=True)#You dont use buffered
 
 ****
 
-<div style='text-align:center'><span style='color:yellow; font-size:2em;font-family:Georgia;'>SQL Queries</span></dev>
+<div style='text-align:center'><span style='color:yellow; font-size:2em;font-family:Georgia;'>SQL Queries</span></div>
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Creating a database>>></span></div>
+<span style='color:orange;font-size:2em;'>Creating a database>>></span>
 
 ****
 
@@ -68,11 +68,6 @@ except Exception:
     pass
 
 cur.execute('create database if not exists sql_notes')
-```
-
-
-```python
-
 ```
 
 ****
@@ -177,16 +172,9 @@ print(data)
 
 ```python
 cur.execute('select * from sql_note')
-```
 
-
-```python
-#
 data=cur.fetchmany(2)
-```
 
-
-```python
 data
 ```
 
@@ -446,7 +434,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Pattern matching in SQL>>>
+<div><span style='color:orange;font-size:2em;'>Pattern matching in SQL>>> </div></span>
 
 ****
 
@@ -466,7 +454,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Searching for NULL Values >>>
+<div><span style='color:orange;font-size:2em;'>Searching for NULL Values >>></div></span>
 
 ****
 
@@ -479,7 +467,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>NOT NULL Condition in table creation >>>
+<div><span style='color:orange;font-size:2em;'>NOT NULL Condition in table creation >>></div></span>
 
 ****
 
@@ -492,7 +480,7 @@ cur.execute('Create table if not exists not_null_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting a default value during table creation>>>
+<div><span style='color:orange;font-size:2em;'>Setting a default value during table creation>>></div></span>
 
 ****
 
@@ -505,7 +493,7 @@ cur.execute('Create table if not exists default_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting unique value constraint in table creation >>>
+<div><span style='color:orange;font-size:2em;'>Setting unique value constraint in table creation >>></div></span>
 
 ****
 
@@ -518,7 +506,7 @@ cur.execute('Create table if not exists unique_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>CHECK function during table creation>>>
+<div><span style='color:orange;font-size:2em;'>CHECK function during table creation>>></div></span>
 
 ****
 
@@ -531,7 +519,7 @@ cur.execute('Create table if not exists check_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Setting primary key during table creation>>>
+<div><span style='color:orange;font-size:2em;'>Setting primary key during table creation>>></div></span>
 
 ****
 
@@ -554,7 +542,7 @@ cur.execute('alter table primary1_table \
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Inserting specific values from one table to another>>>
+<div><span style='color:orange;font-size:2em;'>Inserting specific values from one table to another>>></div></span>
 
 
 ```python
@@ -565,7 +553,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Updating values of table>>>
+<div><span style='color:orange;font-size:2em;'>Updating values of table>>></div></span>
 
 ****
 
@@ -585,7 +573,7 @@ cur.execute('select *from primary_table where Class=0')
 cur.fetchall()
 ```
 
-<div><span style='color:orange;font-size:2em;'>Deletion of rows in SQL >>>
+<div><span style='color:orange;font-size:2em;'>Deletion of rows in SQL >>></div></span>
 
 
 ```python
@@ -605,7 +593,7 @@ Used to:-<br>
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em;'>Adding a column>>>
+* <div><span style='color:orange;font-size:1.5em;'>Adding a column>>></div></span>
 
 ****
 
@@ -619,7 +607,7 @@ con.commit()
 
 ****
 
-* <div><span style='color:orange;font-size:1.5em;'>Modifying existing columns>>>
+* <div><span style='color:orange;font-size:1.5em;'>Modifying existing columns>>></div></span>
 
 ****
 
@@ -647,7 +635,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Dropping table>>>
+<div><span style='color:orange;font-size:2em;'>Dropping table>>></div></span>
 
 ****
 
@@ -660,7 +648,7 @@ con.commit()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Joining Tables>>>
+<div><span style='color:orange;font-size:2em;'>Joining Tables>>></div></span>
 
 ****
 
@@ -693,7 +681,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering of table>>>
+<div><span style='color:orange;font-size:2em;'>Ordering of table>>></div></span>
 
 ****
 
@@ -705,7 +693,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering on the basis of expression>>>
+<div><span style='color:orange;font-size:2em;'>Ordering on the basis of expression>>></div></span>
 
 ****
 
@@ -717,7 +705,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Ordering by a field in custom way>>>
+<div><span style='color:orange;font-size:2em;'>Ordering by a field in custom way>>></div></span>
 
 ****
 
@@ -741,7 +729,7 @@ These are the functions which performs a calculation on a set of values, and ret
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Average function>>>
+<div><span style='color:orange;font-size:2em;'>Average function>>></div></span>
 
 ****
 
@@ -753,7 +741,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Count function>>>
+<div><span style='color:orange;font-size:2em;'>Count function>>></div></span>
 
 ****
 
@@ -765,7 +753,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Max function>>>
+<div><span style='color:orange;font-size:2em;'>Max function>>></div></span>
 
 ****
 
@@ -777,7 +765,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Sum fuction>>>
+<div><span style='color:orange;font-size:2em;'>Sum fuction>>></div></span>
 
 ****
 
@@ -789,7 +777,7 @@ cur.fetchall()
 
 ****
 
-<div><span style='color:orange;font-size:2em;'>Group by SQL function>>></dev></span><br><br>
+<div><span style='color:orange;font-size:2em;'>Group by SQL function>>></div></span><br><br>
 
 The SQL GROUP BY clause is used in collaboration with the SELECT statement to arrange identical data into groups.
 
@@ -804,9 +792,11 @@ cur.fetchall()
 ****
 
 <div><span style='color:orange;font-size:2em;'>HAVING Function SQL>>></div></span><br>
+
 The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.<br><br>
 
 <div><span style='color:gold;font-size:1.5em;'>Syntax>>></div></span><br>
+
 SELECT column_name(s)<br>
 FROM table_name<br>
 WHERE condition<br>
@@ -822,7 +812,12 @@ ORDER BY column_name(s);<br>
 cur.execute("select * from sql_note group by Class having count(*)>10")
 
 cur.fetchall()
+
 ```
+
+<hr>
+
+<br>
 
 ![Namaste](https://img.etimg.com/thumb/msid-79427694,width-1200,height-900/news/politics-and-nation/pm-modi-pays-tribute-to-victims-of-26/11-mumbai-terror-attacks.jpg)
 
