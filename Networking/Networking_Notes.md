@@ -627,3 +627,85 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 ![](https://i.ytimg.com/vi/OBlJ3QuEt9k/maxresdefault.jpg)
+
+<hr>
+
+### Router
+
+<hr>
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/11-40.png)
+
+<hr>
+
+* A device that works like a bridge but can **handle diffrent protocols**.
+* The router is responsible for forwarding data from one network to a diffrent network.
+* If the destination is unknown to a router , it sends the traffic to another router which knows the destination.
+
+<hr>
+
+### Gateway
+
+<hr>
+
+![](https://i.ytimg.com/vi/ai5bFPVToMU/maxresdefault.jpg)
+
+<hr>
+
+* A gateway is a device that connects **dissimilar networks**.
+* It establishes an intelligent between a local area networks with completely diffrent structures.
+
+<hr>
+
+### WiFi Card
+
+<hr>
+
+![](https://m.media-amazon.com/images/I/41j64HDGwLL.jpg)
+
+<hr>
+
+* Similar to Ethernet card , but **it allows our computers to connect with other devices without wire , i.e. for wireless connectivity**.
+* It may be internal or external with built-in wireless radio and antenna the most common Wi-Fi card used in desktop computer are PCI express Wi-Fi card made it fit the PCI express card slot on the motherboard.
+* It **allows to connect our device to hotspot available**.
+* Advantage is that it allows computer to become part of a network without being physically connected through wire and can be placed anywhere.
+
+<hr>
+
+## Network Protocols
+
+<hr>
+
+* In network there are variety of computers connected to each other and share data in many ways.
+* ***For interaction among these , some rules aare applied like how and when a device can send and receive data , how to send the data packet and how to receive**.
+* Some network protocols are given below:-
+
+<hr>
+
+* HTTP
+* FTP
+* SMTP
+* TCP/IP
+* PPP
+* IMAP
+* POP3
+* VoIP
+* TELNET
+
+<hr>
+
+### HTTP
+
+<hr>
+
+**H**: Hyper
+**T**: Text
+**T**: Transfer
+**P**: Protocol
+
+<hr>
+
+* HTTP is a protocol for the transfer of information on the internet and the World Wide Web.
+* HTTP is a request /response standard between a client and a aserver. A client is the end-user ; the server is the web site.
+
+<hr>
