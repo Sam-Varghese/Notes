@@ -928,3 +928,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It is easy to install.
+* It is easy to diagnose the fault in Star Topology.
