@@ -804,3 +804,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * It is a **client/server protocol in which E-Mail is received and held for the user by Internet server**.
 * As this requires only a small data transfer , this works well over a slow connection such as Modem.
 * Only if a user requests to read a specific message , then it will be downloaded from the server.
+
+<hr>
