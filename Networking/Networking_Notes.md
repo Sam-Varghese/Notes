@@ -698,6 +698,10 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HTTP_logo.svg/1200px-HTTP_logo.svg.png)
+
+<hr>
+
 **H**: Hyper
 **T**: Text
 **T**: Transfer
@@ -709,3 +713,94 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * HTTP is a request /response standard between a client and a aserver. A client is the end-user ; the server is the web site.
 
 <hr>
+
+### FTP
+
+<hr>
+
+![](https://www.colocationamerica.com/picts/blog/ftp.jpg)
+
+<hr>
+
+**F**: File
+**T**: Transfer
+**P**: Protocol
+
+<hr>
+
+* FTP is the simplest and the most secure way to exchange files over the internet. The objectives of FTP are:
+* TO promote sharing of files(Computer programs and /or data)
+* TO encourage indirect or implicit use of remote computers.
+* To sheild a user from the variations in a file storage systems among diffrent hosts.
+
+<hr>
+
+### TCP/IP
+
+<hr>
+
+![](https://safebytes.com/wp-content/uploads/2016/11/TCP-IP.png)
+
+<hr>
+
+**T**: Transmission
+**C**: Control
+**P**: Protocol
+**I**: Internet
+**P**: Protocol 
+
+<hr>
+
+* TCP **is responsible for verifying the correct delivery of data from client to server**. Data can be lost in the intermediate network. TCP adds support to detect errors or the lost data and to detect errors or lost data and to trigger retransmission until the data is correctly and completely received.
+* TCP is a **connection-oriented protocol** that is first the connection is established between the sender and the receiver.
+* TCP divides the large packets to to transmit into smaller data packets called **Datagrams**.
+* At the receiving end , it also reassemble the packet from original message.
+
+<hr>
+
+* IP is responsible for moving packet of data from node to node. IP forwards each packet based on a four byte destination address(the IP number) .The Internet authorities assign ranges of numbers to different organisations .The organisations assign groups of their numbers to departments. IP operates on gateway machines that move data from department to organization to region and then around the world.
+* Internet protocol is responsible for providing address of each packet is a sign with destination IP address.
+
+<hr>
+
+### PPP
+
+<hr>
+
+![](https://www.timigate.com/wp-content/uploads/2018/05/ppp.png)
+
+<hr>
+
+* PPP stands for **Point to Point Protocol**.
+* It is a communication protocol of the data link layer that is **used to transmit multi-protocol data between two directly connected point-to-point computers**.
+* It is a byte oriented protocol that is widely used in broadband communications having heavy loads and high speeds.
+
+<hr>
+
+### SMTP
+
+<hr>
+
+![](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png)
+
+<hr>
+
+* SMTP stands for **Simple Mail Transfer Protocol**.
+* SMTP is a set of communication guidelines that allows software to transmit an electronic mail over the internet.
+* It is a program **used for sending messages to computer users based on email address.**
+
+<hr>
+
+### IMAP
+
+<hr>
+
+![](https://ccnatutorials.in/wp-content/uploads/2019/11/imap-1.jpg)
+
+<hr>
+
+* IMAP stands for **Internet Message Acccess Protocol**.
+* It is a standard protocol for accessing E-Mail from local server.
+* It is a **client/server protocol in which E-Mail is received and held for the user by Internet server**.
+* As this requires only a small data transfer , this works well over a slow connection such as Modem.
+* Only if a user requests to read a specific message , then it will be downloaded from the server.
