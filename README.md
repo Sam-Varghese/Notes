@@ -82,7 +82,7 @@ These notes can be hepful for all who wants to revise all important significant 
 
 - [Notes](Networking/Networking_Notes.md)
 
-![](https://i.gifer.com/5VsC.gif)
+![](https://thumbs.gfycat.com/HorribleDaringAnemone-size_restricted.gif)
 
 <hr>
 
