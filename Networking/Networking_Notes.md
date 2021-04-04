@@ -938,3 +938,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * Failure of Hub / Switch leads to failure of entire network.
+* It requires more cable length as compared to Bus Topology.
