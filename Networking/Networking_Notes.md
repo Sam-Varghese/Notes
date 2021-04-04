@@ -860,3 +860,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* Topology is an **art of connecting diffrent computers in a network.**
