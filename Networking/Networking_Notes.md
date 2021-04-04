@@ -913,6 +913,10 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+![](https://ars.els-cdn.com/content/image/3-s2.0-B9780128024379000059-f05-17-9780128024379.jpg)
+
+<hr>
+
 * In a Star topology , **each node is directly connected to a hub / switch**.
 * I any node has to send any information to any other node , it sends the signal to the hub/switch.
 * The star topology uses a separate cable for each node / workstation. The cable connects the node to a central device typically a HUB.
