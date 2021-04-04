@@ -905,4 +905,7 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * In case of a cable fault , the entire network goes down.
-* At a time , only one node cantransmit data.
+* At a time , only one node can transmit data.
+
+<hr>
+
