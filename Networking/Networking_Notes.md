@@ -851,4 +851,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Telnet is one of the earliest remote protocols on the internet.
 * Through telnet , **an administrator or another user can access someone as computer remotely**.
-* 
+* On the web , HTTP and FTP protocols allow you to request specific files from remote computers but not actually be log on as a user of that computer.
