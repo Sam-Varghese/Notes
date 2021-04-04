@@ -2,7 +2,7 @@
 
 <hr>
 
-![](https://lh3.googleusercontent.com/proxy/ZKKmFY76aSqLI_u5gRDnK54O5Nzou-fMLlJnhhUhVDs7KxWWmveb--NaqCF2qAV6XABvl9WVcvmz3c094eAXX28tFz4ceEeAUA)
+![](https://networkencyclopedia.com/wp-content/uploads/2019/08/computer-networking-1.jpg)
 
 <hr>
 
@@ -124,11 +124,11 @@ A Personal Area Network is a computyer network organized around an individual pe
 
 <hr>
 
-|LAN|WAN|
-|-|-|
-|It is spread over a small area.|It is spread over a very large area|
-|It usually costs less to set it up|It costs much to set it up.|
-|It is usually a single network|It is usually a network of many networks.|
+| LAN                                | WAN                                       |
+| ---------------------------------- | ----------------------------------------- |
+| It is spread over a small area.    | It is spread over a very large area       |
+| It usually costs less to set it up | It costs much to set it up.               |
+| It is usually a single network     | It is usually a network of many networks. |
 
 <hr>
 
@@ -191,12 +191,12 @@ A Personal Area Network is a computyer network organized around an individual pe
 
 <hr>
 
-|Criteria|Circuit Switching|Packet Switching|Message Switching|
-|-|-|-|-|
-|**Path established in advance**|YES|NO|NO|
-|**Store and Forward Technique**|NO|YES(Stored in main menory)|YES (Stored in Disk)|
-|**Message followsmultiple routes**|NO|YES|YES|
-|**Block Size**|No Block Size|No Limit on BLock|Limit on Block Size|
+| Criteria                           | Circuit Switching | Packet Switching           | Message Switching    |
+| ---------------------------------- | ----------------- | -------------------------- | -------------------- |
+| **Path established in advance**    | YES               | NO                         | NO                   |
+| **Store and Forward Technique**    | NO                | YES(Stored in main menory) | YES (Stored in Disk) |
+| **Message followsmultiple routes** | NO                | YES                        | YES                  |
+| **Block Size**                     | No Block Size     | No Limit on BLock          | Limit on Block Size  |
 
 <hr>
 
@@ -247,6 +247,8 @@ A Personal Area Network is a computyer network organized around an individual pe
 * Kbps
 * Gbps
 * Tbps
+
+<hr>
 
 ## Transmission Media
 
@@ -356,4 +358,133 @@ A Personal Area Network is a computyer network organized around an individual pe
 
 <hr>
 
-* The infrared 
+* The infrared light **transmits data through the air and can propagate throughout a room , but will not penetrate walls**. It is secure medium of signal transmission .The infrared transmission has become common in TV remotes ,automotive garage doors ,wireless speakers etc.
+
+<hr>
+
+![](https://i.ytimg.com/vi/wIZozabAMO8/maxresdefault.jpg)
+
+<hr>
+
+### Radio Waves
+
+<hr>
+
+* Radio waves are electromagnetic waves with a wavelength between 0.5cm and 30,000m. The transmission making use of radio frequencies is termed as radio-wave transmission.
+
+<hr>
+
+![](https://internetofbusiness.com/wp-content/uploads/2017/05/Riding-the-Airways-Ultra-Wideband-Ambient-Backscatter-via-Commercial-Broadcast-Systems-Image.png)
+
+<hr>
+
+#### Advantages
+
+<hr>
+
+* Radio wave transmission offer mobility.
+* It ischeaper than laying cables and fibres.
+* It offers ease of communication over difficult terrain.
+
+<hr>
+
+#### Disadvantages
+
+<hr>
+
+* Radio wave communication is insecure communication.
+* Radio wave propagation is susceptible to weather effects like rains , thunder storms etc. 
+
+<hr>
+
+### Microwave
+
+<hr>
+
+* The microwave transmission is a line of sight transmission. Microwave signals travel at a higher frequency than radio waves and are popularly used for transmitting data over long distances.
+
+<hr>
+
+#### Advantages
+
+* It is cheaper than lying cable or fiber.
+* It hasthe ability to communicate over oceans.
+
+<hr>
+
+### Satellite Link
+
+<hr>
+
+* The satellite transmission is also kind of line of sight transmission that is used to transmit signals throughout the world.
+
+<hr>
+
+#### Advantages
+
+<hr>
+
+* Area covered is quite large.
+* No line of sight restrictions such as natural mountains ,tall buildings ,towers.
+* Earth station which receives the signals can be in fixed position or relatively mobile.
+
+<hr>
+
+#### Disadvantages
+
+<hr>
+
+* Very expensive as compared to other transmission mediums.
+* Installation is extremely complex.
+* Signals sent to the stations can be tampered by external interference.
+
+<hr>
+
+## Network Devices
+
+<hr>
+
+Networking hardware ,also known as network equipments or computer networking devices , are **electronic devices which are required for communication and interaction between devices on a computer network.**
+
+<hr>
+
+* Ethernet Card
+* Modem
+* Bridge
+* WiFi Card
+* Hub
+* Repeater
+* Gateway
+* RJ 45
+* Switch
+* Router
+
+<hr>
+
+### Modem
+
+<hr>
+
+* Full form: **Modulator** or **Demodulator**.
+* A modem is a hardware device that allows a computer or another devoce ,such as router or switch ,to connect to the Internet.
+* As we know **phone lines work on Analog signals ,while computer works on digital signal**.
+* So the role of modem is to **convert Digital Signal to Analog** so that it can be carried by telephone lines and other side it convert **Analog signal to Digital Signals** ,so that it can be carried by computer.
+
+<hr>
+
+### Types Of Modems
+
+<hr>
+
+#### Internal Modems
+
+<hr>
+
+The modems that are fixed within the computer.
+
+<hr>
+
+![](http://1.bp.blogspot.com/-3vO1gkXsd9U/UWLxEJFbxMI/AAAAAAAAA6o/ywfEzES1IXY/s1600/internal-modem.jpg)
+
+<hr>
+
