@@ -862,3 +862,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Topology is an **art of connecting diffrent computers in a network.**
 * The way in which the computers / devices are physically interconnected to form a network is called a **Topology**.
+
+<hr>
+
+## Types Of Topology
+
+<hr>
+
+* Ring Topology
+* Bus Topology
+* Star Topology
+* Tree Topology
