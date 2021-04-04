@@ -969,3 +969,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * All the data being transferref over the network must pass through each workstation on the network , which can make it slower than a star topology.
+* The entire network will be impacted if one workstation shuts down.
