@@ -929,3 +929,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * It is easy to install.
 * It is easy to diagnose the fault in Star Topology.
+* If one link fails , the network can still function.
