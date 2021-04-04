@@ -488,3 +488,142 @@ The modems that are fixed within the computer.
 
 <hr>
 
+#### External Modems
+
+<hr>
+
+The modems that are connected externally to a computer as other peripherals are connected.
+
+<hr>
+
+![](http://3.bp.blogspot.com/-VtH8WiRYtHk/UWL0vZ1BklI/AAAAAAAAA7A/xU9kU6vNy_8/s1600/Advantages-and-Disadvantages-of-External-and-Internal-Modem.jpg)
+
+<hr>
+
+### RJ-45
+
+<hr>
+
+* RJ in RJ-45 stands for **Registered Jack** .It is a standard type of physical connector for network cables.
+* RJ-45 connectors are most commonly seen with ethernet cables feature small plastic plugs on each end that are inserted into the RJ-45 jacks of Ethernat devices.
+
+<hr>
+
+![](https://image.slidesharecdn.com/rj45connector-180308154831/95/rj-45-connector-1-638.jpg?cb=1520524344)
+
+<hr>
+
+### Ethernet Card
+
+<hr>
+
+* It is also known as **NIC** (**Network Interface Card**)
+* It is a device that is ***attached to each of the workstations and the server and helps the workstations establish all important connection the network**.
+* It contain RJ-45 slot to connect ethernet cable with RJ-45 connector.
+* Each NIC attached to workstation has a unique number identifying it , known as MAC address.
+* Also known as **Network Interface Unit**.
+
+<hr>
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTikiOPRaRS9mJ0KKEyHjkWsVt4w8t6t9dQ4g&usqp=CAU)
+
+<hr>
+
+![](https://images-na.ssl-images-amazon.com/images/I/71eFq4i3xRL._AC_SL1500_.jpg)
+
+<hr>
+
+### Hub
+
+<hr>
+
+* A hub is a hardware device **used to connect several computers together**.
+* A hub is a networking device **with multiple ports** that are used for connecting multiple computers or segments of LAN together.
+* **Sends the incomming data to all destinations**
+
+<hr>
+
+![](https://www.lifewire.com/thmb/6l2Z12EeDG6T3lRVX9abimarwRs=/1280x847/filters:fill(auto,1)/149238278-56a1ad765f9b58b7d0c19fe8.jpg)
+
+<hr>
+
+![](https://www.learnabhi.com/wp-content/uploads/2018/01/hub-thumbnail-copy.jpg)
+
+<hr>
+
+### Types of Hub
+
+<hr>
+
+#### Active Hub
+
+<hr>
+
+It **amplifies the signal as it moves from one connected device to another**. These are like repeaters to extend the length of a network.
+
+<hr>
+
+#### Passive Hub
+
+<hr>
+
+It **allows the signal to pass from one computer to another ,without any change**.
+
+<hr>
+
+### Working Of Hub
+
+<hr>
+
+* Hub is a multiplort repeater , which **broadcasts all information to all other ports**. Hence it is called as **Non intelligent ** or **dumb device**.
+* Causes unnecessary traffic.
+* Hub can send or receive information , but it can not do both at a same time.
+
+<hr>
+
+### Switch
+
+<hr>
+
+![](https://previews.123rf.com/images/wklzzz/wklzzz1607/wklzzz160700188/59379580-network-cables-connected-in-network-switches.jpg)
+
+<hr>
+
+A switch is responsible for filtering , i.e. **transforming data in a specific way and for forwarding packets between LAN Segments**
+
+<hr>
+
+### Working Of A Switch
+
+<hr>
+
+* A switch has same job as that of a hub's , i.e. to connect multiple computers . But ,**a switch is a smart device**.
+* It **can identify the intended destination** and send the information only to the target computers.
+* No unnecessary traffic generated.
+* Can send and receive information at the same time.
+
+<hr>
+
+### Repeater
+
+<hr>
+
+![](https://t4tutorials.com/wp-content/uploads/2017/12/repeaters.png)
+
+<hr>
+
+* A repeater is a device that **amplifies and restore the signals for long distance transmission**.
+
+<hr>
+
+### Bridge
+
+<hr>
+
+* A bridge is a device that lets you **link two networks together**.
+* Bridges are smart enough to know which commputers are on side of bridge , so they only allow those messages that need to get to the other side to cross the bridge.
+* Bridges can **handle networks that follow same protocol**
+
+<hr>
+
+![](https://i.ytimg.com/vi/OBlJ3QuEt9k/maxresdefault.jpg)
