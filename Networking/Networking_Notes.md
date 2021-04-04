@@ -927,3 +927,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* It is easy to install.
