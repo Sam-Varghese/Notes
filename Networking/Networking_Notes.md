@@ -882,3 +882,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * In a bus topology , **all the nodes are connected to a main cable called backbone.
 * If any node has to send some information to any other node , it **sends the signal to the backbone**.
+* The signal travels through the entire length of the backbone and is received by the node for which it is intended.
