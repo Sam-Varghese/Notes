@@ -960,3 +960,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Easy to install and configure.
 * Easy to detect the problem.
+* All the data flows in one direction , reducing the chance of the packet collission.
