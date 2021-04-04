@@ -811,3 +811,10 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+![](https://www.gatevidyalay.com/wp-content/uploads/2018/09/Simple-Mail-Transfer-Protocol-1.png)
+
+<hr>
+
+* POP3 stands for **Post Office Protocol**.
+* **It is a client-server protocol in which email is received and held for you by your internet server**
+* Periodically you check yourmailbox on the server and download any email probably using POP3.
