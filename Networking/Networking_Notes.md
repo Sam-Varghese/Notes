@@ -873,3 +873,12 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Bus Topology
 * Star Topology
 * Tree Topology
+
+<hr>
+
+### Bus Topology
+
+<hr>
+
+* In a bus topology , **all the nodes are connected to a main cable called backbone.
+* 
