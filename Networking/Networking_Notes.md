@@ -806,3 +806,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Only if a user requests to read a specific message , then it will be downloaded from the server.
 
 <hr>
+
+### POP3
+
+<hr>
+
