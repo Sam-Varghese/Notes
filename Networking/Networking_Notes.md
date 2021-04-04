@@ -957,3 +957,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 #### Advantages
 
 <hr>
+
+* Easy to install and configure.
