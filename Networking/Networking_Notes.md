@@ -830,3 +830,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * VoIP stands for Voice over Internet Protocol.
 * It is a protocol **that enables voice communication over the internet through** the compression of voice into data packets that can be effectively transmitted over data network and then convert back into voice at receiving end.
 * It uses packet switching (store and forward).
+* It is an elternative to traditional telephone Network.
