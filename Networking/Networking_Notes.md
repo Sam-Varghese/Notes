@@ -826,3 +826,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 ### VoIP
 
 <hr>
+
+* VoIP stands for Voice over Internet Protocol.
