@@ -950,3 +950,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* In a ring topology , **every computer is connected to the next computer in the ring and each transmit the signal , what it receives from the previous computer**. The messages flow around the ring in one direction.
