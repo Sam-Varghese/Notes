@@ -818,3 +818,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * POP3 stands for **Post Office Protocol**.
 * **It is a client-server protocol in which email is received and held for you by your internet server**
 * Periodically you check yourmailbox on the server and download any email probably using POP3.
+* I also **allows to download the received messages on the local machine using tool like Outlook so that user can read them even when they are not connected to the internet**. The user choose to leave copies of the mails on the server as well.
