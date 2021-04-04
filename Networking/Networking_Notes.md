@@ -831,3 +831,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * It is a protocol **that enables voice communication over the internet through** the compression of voice into data packets that can be effectively transmitted over data network and then convert back into voice at receiving end.
 * It uses packet switching (store and forward).
 * It is an elternative to traditional telephone Network.
+
+<hr>
+
+### Remote Login
+
+<hr>
+
+* Remote login is a network application that **permits a user sitting at a diffrent location to work on a specific program on another computer**.
