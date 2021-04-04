@@ -914,4 +914,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * In a Star topology , **each node is directly connected to a hub / switch**.
+* I any node has to send any information to any other node , it sends the signal to the hub/switch.
 * 
