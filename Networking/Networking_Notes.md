@@ -892,3 +892,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * It is easy to install
 * It requires less cable length and hence , it is cost effective.
+* Failure of a node does not affect the network.
