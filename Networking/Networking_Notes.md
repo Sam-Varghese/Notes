@@ -939,3 +939,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Failure of Hub / Switch leads to failure of entire network.
 * It requires more cable length as compared to Bus Topology.
+
+<hr>
+
+### Ring Topology
+
+<hr>
+
+![](https://service.snom.com/download/attachments/22839393/image2018-7-24_11-3-30.png?version=1&modificationDate=1559110233215&api=v2)
+
+<hr>
+
