@@ -1153,3 +1153,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* **Unwanted messages or mails** are known as Spams.
+* 
