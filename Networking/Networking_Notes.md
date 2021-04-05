@@ -991,3 +991,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It offers easy way of network expansion.
+* Even if one network fails , the other network remains connected and working.
