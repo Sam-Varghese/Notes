@@ -1004,3 +1004,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * Network Security is any activity designed to protect the usability and integrity of your network and data.
+* It includes both Hardware and SOftware Technologies.
