@@ -1037,7 +1037,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
-* AUthentication is the process of verifying who a user is.
+* Authentication is the process of verifying who a user is.
 
 <hr>
 
+### Authorization
+
+<hr>
+
+* Authorization is the process of varifying what they have access to.
+
+<hr>
