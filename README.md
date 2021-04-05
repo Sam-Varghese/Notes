@@ -74,7 +74,7 @@ These notes can be hepful for all who wants to revise all important significant 
 
 - [Notes](SQL.md)
 
-![](http://pngimg.com/uploads/mysql/mysql_PNG23.png)
+<img src='http://pngimg.com/uploads/mysql/mysql_PNG23.png' height='300' width='300'>
 
 ****
 
