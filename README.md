@@ -90,7 +90,7 @@ These notes can be hepful for all who wants to revise all important significant 
 
 - [Notes](https://guides.github.com/features/mastering-markdown/)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--iTXz4nMt--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/hicgro2uxfq5upxlfor5.PNG)
 
 <hr>
 
