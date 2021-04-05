@@ -1202,3 +1202,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * **H**ypertext **T**ransfer **P**rotocol **S**ecure is an internet communication protocol that protects the integrity and the confidentiality of data between the users computeer and the site.
+* User expect a secure and private online experience when using a website.
+* While doing transactions , make sure your protocol is https.
+
+<hr>
+
