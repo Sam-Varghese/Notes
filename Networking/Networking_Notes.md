@@ -1293,3 +1293,15 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Computer Networking Terms
+
+<hr>
+
+### WWW
+
+<hr>
+
+* WWW stands for **World Wide Web**.
+* The term WWW was coined by **Tim Berners Lee**.
+* It is a **collection of linked documents or pages , stored on millions of computers and distributed across the internet**.
+* It is a set of protocols that allows you to access any document on the net through a naming system called the URL(**Uniform Resource Locator**).
