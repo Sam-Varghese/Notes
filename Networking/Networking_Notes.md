@@ -1057,3 +1057,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+### Biometric System
+
+<hr>
+
+* Involves unique aspect for person's identification such as Finger-prints , retinal patterns etc to establish his/her identity.
