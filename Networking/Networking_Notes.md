@@ -702,10 +702,10 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
-**H**: Hyper
-**T**: Text
-**T**: Transfer
-**P**: Protocol
+**H**: Hyper<br>
+**T**: Text<br>
+**T**: Transfer<br>
+**P**: Protocol<br>
 
 <hr>
 
@@ -722,9 +722,9 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
-**F**: File
-**T**: Transfer
-**P**: Protocol
+**F**: File<br>
+**T**: Transfer<br>
+**P**: Protocol<br>
 
 <hr>
 
@@ -743,11 +743,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
-**T**: Transmission
-**C**: Control
-**P**: Protocol
-**I**: Internet
-**P**: Protocol 
+**T**: Transmission<br>
+**C**: Control<br>
+**P**: Protocol<br>
+**I**: Internet<br>
+**P**: Protocol <br>
 
 <hr>
 
@@ -1074,4 +1074,18 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 ### VIRUS
+
+<hr>
+
+![](https://www.lifewire.com/thmb/_twpha56FPU3mJIsTs6bS2Ytfrg=/1920x1200/filters:fill(auto,1)/what-is-a-computer-virus-a82f9491ad3644b89446d45233b57761.jpg)
+
+<hr>
+
+**V**: Vital<br>
+**I**: Information<br>
+**R**: Resource<br>
+**U**: Under<br>
+**S**: Seize
+
+<hr>
 
