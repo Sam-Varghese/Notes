@@ -1167,4 +1167,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Always scan files downloaded from the internet.
 * Use licensed software.
 * Put password protection to the PC.
-* 
+* Make regular backups.
+* Install and run Antivirus software.
