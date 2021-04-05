@@ -1048,3 +1048,12 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Authorization is the process of varifying what they have access to.
 
 <hr>
+
+### Encryption
+
+<hr>
+
+* Conversion of the form of data from one form to another form.
+
+<hr>
+
