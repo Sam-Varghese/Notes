@@ -981,3 +981,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* Tree topology is **a combination of Bus and Star Topology**
+* 
