@@ -992,3 +992,15 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * It offers easy way of network expansion.
 * Even if one network fails , the other network remains connected and working.
+
+<hr>
+
+## Network Security
+
+<hr>
+
+![](https://www.solarwindsmsp.com/sites/solarwindsmsp/files/blog/2019/10/1910_BP_Types_Network_Security_720x356_v1_BT.png)
+
+<hr>
+
+* Network Security is any activity designed to protect the usability and integrity of your network and data.
