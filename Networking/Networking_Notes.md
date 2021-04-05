@@ -1131,3 +1131,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+### Trojan Horse
+
+<hr>
+
+![](https://images.idgesg.net/images/article/2019/06/trojan-horse_malware_virus_binary_by-v-graphix-getty-100799531-large.jpg)
+
+<hr>
+
