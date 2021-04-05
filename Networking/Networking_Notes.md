@@ -1094,3 +1094,13 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+#### Damages Caused By Viruses
+
+<hr>
+
+* Damage or delete files
+* Slows down your system.
+* Screen FLickering
+
+<hr>
+
