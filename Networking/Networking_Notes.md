@@ -1305,3 +1305,17 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * The term WWW was coined by **Tim Berners Lee**.
 * It is a **collection of linked documents or pages , stored on millions of computers and distributed across the internet**.
 * It is a set of protocols that allows you to access any document on the net through a naming system called the URL(**Uniform Resource Locator**).
+
+<hr>
+
+### Attributes Of WWW
+
+<hr>
+
+* **User Friendly**: Works easily with most internet browsers.
+* **Multimedia documents**: audio , vedio , text , animations.
+* **Hyperlinks and Hypertext**
+* **Interactive** Hyperlinks and input boxes.
+* **Includes Frames**: Display of more than one independdently controllable section on single web page.
+
+<hr>
