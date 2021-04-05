@@ -1179,3 +1179,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * A cookie is a **small piece of data sent from a website and stored in a user's web browser while a user is browsing in a website**.
 * Google Chrome stores all cookies in a sigle file called *Cookies*. The file is located at the following path:
 > **C:\Users\Your  User Name\AppData\Local\Google\Chrome\UserData\Default**
+* SOme cookies remain saved and load the next time , user visits the same website.
+* Cookie help website to store information about visitors like username , password and other details.
