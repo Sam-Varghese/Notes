@@ -1246,3 +1246,24 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Cyber law is the part of overall legal system that deals with Internet , cyberspace , and their respective legal issues.
 * Generally , cyber law is reffered to as **Law Of Internet**.
 * Cyber law also called IT law is the law regarding Information-Technology including computers and the Internet.
+
+<hr>
+
+## Cybercrime
+
+<hr>
+
+* Any crime that involves a computer or a network as a tool or a target , is called a **Computer Crime** or a **Cyber Crime**.
+* Or in other term , it is **a crime in which a computer is the object of the crime** (hacking , phishing , spamming) or is used as a tool to commit an offene (hate crimes).
+
+<hr>
+
+## Importance Of Cyber Laws
+
+<hr>
+
+* It covers all transactions over Internet.
+* It keeps an eye on all activities over Internet.
+
+<hr>
+
