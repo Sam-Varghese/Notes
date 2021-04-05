@@ -1124,3 +1124,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* A worm is **  self replicating program which eats up the entire disk space or memory**.
+* 
