@@ -1232,3 +1232,17 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * They are malacious programmers who break into secure systems.
+
+<hr>
+
+## Cyber Law
+
+<hr>
+
+![](https://online.norwich.edu/sites/default/files/styles/resource_standard_hero/public/content/resources/teaser/what-is-cyber-law.jpg?itok=bWj88i_j)
+
+<hr>
+
+* Cyber law is the part of overall legal system that deals with Internet , cyberspace , and their respective legal issues.
+* Generally , cyber law is reffered to as **Law Of Internet**.
+* Cyber law also called IT law is the law regarding Information-Technology including computers and the Internet.
