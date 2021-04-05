@@ -1277,3 +1277,19 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * **Child Pornography**: Is considered to be any depiction of a minor or an individual who appears to be a minor who is engaged in sexually related conduct.
 * Accessing protected system
 * Breach of confidentiality and privacy.
+
+<hr>
+
+## Steps TO Protect Yourself Against Cyber Crime
+
+<hr>
+
+* Make sure your security software is current -and update it regularly.
+* Lock or log off your computer when you step away.
+* Go offline when you don't need an internet connection
+* Consider sharing less online.
+* Think twice about using public Wi-Fi.
+* When in doubt , don't click.
+
+<hr>
+
