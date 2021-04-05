@@ -983,3 +983,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Tree topology is **a combination of Bus and Star Topology**
 * It is usedto combine multiple star topologies.
+
+<hr>
+
+#### Advantages
+
+<hr>
+
+* It offers easy way of network expansion.
