@@ -1113,3 +1113,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Dont click on link in email which is from unknown sources.
 * Disconnect the internet , if you are anyway.
 * Disable cookies , if possible.
+
+<hr>
+
+### Worm
+
+<hr>
+
+![](https://safebytes.com/wp-content/uploads/2016/03/computer-worms-image.jpg)
+
+<hr>
+
