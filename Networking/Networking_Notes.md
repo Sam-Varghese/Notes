@@ -1021,3 +1021,23 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+### Protection Methods
+
+<hr>
+
+* Authentication
+* Authorization
+* Encryption
+* Biometric System
+* Firewall
+
+<hr>
+
+### Authentication
+
+<hr>
+
+* AUthentication is the process of verifying who a user is.
+
+<hr>
+
