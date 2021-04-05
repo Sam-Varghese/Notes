@@ -1337,3 +1337,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Eg: Google Chrome , Firefox , Internet Explorer
 
 <hr>
+
+## Web Server
+
+<hr>
+
+* A web server is a WWW server that responds to the requests made by the web browser.
+
+<hr>
