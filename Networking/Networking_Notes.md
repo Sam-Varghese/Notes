@@ -1155,4 +1155,13 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * **Unwanted messages or mails** are known as Spams.
 * At times internet is flooded with multiple copies of the same message , it is nothing but spam.
+* Most spam is commercial **advertising**. In addition to wasting people's time , spam also **eats up a lot of network bandwidth**.
+
+<hr>
+
+### Virus Prevention
+
+<hr>
+
+* Never use a secondary storage device without scanning it for virus.
 * 
