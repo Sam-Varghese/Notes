@@ -1345,3 +1345,18 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * A web server is a WWW server that responds to the requests made by the web browser.
 
 <hr>
+
+## URL
+
+<hr>
+
+* **Uniform Resource Locator**
+* Each website has a unique address called URL.
+* URL looks like this:
+* **type://address//path**
+* **type**-> refers type of server in which the file is located( FTP , HTTP)
+* **address**-> address of the server
+* **path**-> location of file in the server.
+
+<hr>
+
