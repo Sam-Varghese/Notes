@@ -1189,3 +1189,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* A system designed **to prevent unauthorized access to or from a private network** is called firewall. It can be implemented in both hardware and software or combination or both.
