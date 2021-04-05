@@ -1104,3 +1104,9 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+### Prevention From Virus
+
+<hr>
+
+* Install and update **Antivirus** software.
+* Dont download or open email from any unknown sender.
