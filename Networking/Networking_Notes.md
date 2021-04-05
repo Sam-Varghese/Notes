@@ -1319,3 +1319,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * **Includes Frames**: Display of more than one independdently controllable section on single web page.
 
 <hr>
+
+## Telnet
+
+<hr>
+
+* It is an Internet utility that allows you to **log onto remote computer systems**.
+
+<hr>
