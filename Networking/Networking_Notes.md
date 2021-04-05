@@ -1089,3 +1089,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* Viruses are malacious code / programs that causes damage to data and files on a system.
+* **Virus attach itself to program or file so that it can spread from one computer to another.**
+
+<hr>
+
