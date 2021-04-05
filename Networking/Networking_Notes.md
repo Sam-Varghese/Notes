@@ -1222,3 +1222,13 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Hackers are more intrested in gsining knowledge about computer systems and possibly using this knowledge for playful pranks.
 
 <hr>
+
+### Crackers
+
+<hr>
+
+![](https://images.newindianexpress.com/uploads/user/imagelibrary/2018/8/3/w900X450/Cyber-Attack-Express-Illustrations.jpg)
+
+<hr>
+
+* They are malacious programmers who break into secure systems.
