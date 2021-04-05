@@ -1327,3 +1327,13 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * It is an Internet utility that allows you to **log onto remote computer systems**.
 
 <hr>
+
+## Web Browser
+
+<hr>
+
+* A webbrowser is a WWW client that navigates through World Wide Web and display pages.
+* A webrowser is a **software used to access the websites**.
+* Eg: Google Chrome , Firefox , Internet Explorer
+
+<hr>
