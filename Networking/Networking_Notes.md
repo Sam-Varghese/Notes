@@ -1127,3 +1127,7 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * A worm is **  self replicating program which eats up the entire disk space or memory**.
 * A worm keeps on creating its copies until all the disk space or memory is free.
 * Consumes bandwidth and slow down the network.
+* It is also a malacious program like a virus. But unlike viruses , it does not need to attach itself to a host program . A worm works by itself as an independent object.
+
+<hr>
+
