@@ -1062,3 +1062,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * Involves unique aspect for person's identification such as Finger-prints , retinal patterns etc to establish his/her identity.
+
+<hr>
+
+### Firewall
+
+<hr>
+
+* A system designed to **prevent unauthorized access to or from a private network**.
+
+<hr>
+
