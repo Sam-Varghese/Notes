@@ -1139,3 +1139,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+* It is a program that appears harmless but actually performs malacious functions such as damaging or deleting files.
+* 
