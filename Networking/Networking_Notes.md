@@ -1189,4 +1189,16 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyR3o6Qrro0wczDInb4gwCUJbZQLM79imOwg&usqp=CAU)
+
+<hr>
+
 * A system designed **to prevent unauthorized access to or from a private network** is called firewall. It can be implemented in both hardware and software or combination or both.
+
+<hr>
+
+### HTTPS
+
+<hr>
+
+* **H**ypertext **T**ransfer **P**rotocol **S**ecure is an internet communication protocol that protects the integrity and the confidentiality of data between the users computeer and the site.
