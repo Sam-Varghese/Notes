@@ -1006,4 +1006,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Network Security is any activity designed to protect the usability and integrity of your network and data.
 * It includes both Hardware and SOftware Technologies.
 * Effective network security manages access to the network. It targets a variety of threats and stops them from entering or spreading on your network.
-* It includes measures to make 
+* It includes measures to make  sure that only legal or authorized users and programs gain access to information resources like databases.
