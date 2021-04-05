@@ -1154,4 +1154,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * **Unwanted messages or mails** are known as Spams.
+* At times internet is flooded with multiple copies of the same message , it is nothing but spam.
 * 
