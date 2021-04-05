@@ -1166,3 +1166,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Never use a secondary storage device without scanning it for virus.
 * Always scan files downloaded from the internet.
 * Use licensed software.
+* Put password protection to the PC.
+* 
