@@ -1207,3 +1207,18 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Hackers And Crackers
+
+<hr>
+
+### Hackers
+
+<hr>
+
+![](http://www.mcgilltribune.com/wp-content/uploads/2020/02/hacker.png)
+
+<hr>
+
+* Hackers are more intrested in gsining knowledge about computer systems and possibly using this knowledge for playful pranks.
+
+<hr>
