@@ -1141,3 +1141,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * It is a program that appears harmless but actually performs malacious functions such as damaging or deleting files.
 * Trojan Horses **trick users into installing them by appearing to be ligitimate programs**. Once installed on a system , they reveal their true nature and cause damage.
+* Some trojan horses will contact a central server and report back information such as passwords , user ID's , and captired keystrokes.
