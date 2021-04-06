@@ -1407,4 +1407,7 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It is a way of hosting a web server application on a computer system through which the contents are readily available to any web browser.
-* 
+* Basically , the web hosts allow their customers to place web documents such as HTML pages , graphics and other multimedia files to a special type of computer called a web server.
+
+<hr>
+
