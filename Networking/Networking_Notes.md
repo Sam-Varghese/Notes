@@ -1437,3 +1437,12 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * In a shared hosting environment , **you and other website owners shared one server**. This includes **sharing physical server and the software applications within the server**. Shared hosting services are affordable because the low cost to operate the server is shared between you and these other owners. There are , however ,a number of down sides , such as being slower.
+
+<hr>
+
+## Dedicated hosting
+
+<hr>
+
+* In this type of hosting , the company wishing to go online , rents an entire web server from a hosting company.
+* 
