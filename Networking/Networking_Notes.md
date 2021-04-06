@@ -1628,4 +1628,4 @@ This includes acts like:
 
  * The local police stations can be approached for filling complaints as the cybercrime cells specially designated with the jurisdiction to register complaint.
  * Provixions have now been made for filling 'E-FIR' in most states.
- * 
+ * Cybercrime has global jurisdiction , meaning that the crime may be reposted in the cyber crime units of any city irrespective of the place where the act was committed.
