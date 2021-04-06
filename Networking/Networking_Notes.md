@@ -1429,3 +1429,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * It offers to host web pages for no cost.
 * If you want to experiment with a site or put up a small personal site for the fun of it , a free package will be sufficient.
 * Example of such sites are : geocitees , tripod , homestead etc.
+
+<hr>
+
+## Virtual or Sharing Hosting
+
+<hr>
+
+* In a shared hosting environment , **you and other website owners shared one server**. This includes **sharing physical server and the software applications within the server**. Shared hosting services are affordable because the low cost to operate the server is shared between you and these other owners. There are , however ,a number of down sides , such as being slower.
