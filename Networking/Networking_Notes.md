@@ -1479,3 +1479,18 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Vedio sharing possible on the websites.
 
 <hr>
+
+## HTML
+
+<hr>
+
+* The web document is written in a special language called HTML.
+* It tells the browser , how the data , image should be displayed.
+
+<hr>
+
+## XML
+
+<hr>
+
+* It stands for **Extensible Markup Language**.
