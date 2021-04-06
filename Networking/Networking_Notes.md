@@ -1629,3 +1629,39 @@ This includes acts like:
  * The local police stations can be approached for filling complaints as the cybercrime cells specially designated with the jurisdiction to register complaint.
  * Provixions have now been made for filling 'E-FIR' in most states.
  * Cybercrime has global jurisdiction , meaning that the crime may be reposted in the cyber crime units of any city irrespective of the place where the act was committed.
+
+<hr>
+
+## Mobile Technologies
+
+<hr>
+
+### 1G
+
+<hr>
+
+![](https://lh3.googleusercontent.com/proxy/5Yzk219aenh0NCe3Wvr6pCdlUd1JULV9DvLBMKKJ7AszO_1n9dzSFhD48HlTMenbLvtEVk9_12hceIy_QET33JE3QOU5bSxYAYqYoft5hBsPIV7MxC6gBbIVwAczHsjCC__TGjbrhEM9z_gvqdng0GNm63OdNvq8dUgi)
+
+<hr>
+
+* Considered to be the first analog cellular systems , used only for voice calls , no data security.
+
+<hr>
+
+## Some Mobile Terms
+
+<hr>
+
+### FDMA
+
+<hr>
+
+* **Frequency Division Multiple Access**. In this , each user utilizes a portion of this frequency bandwidth available. Each user has its own frequency domain.
+
+<hr>
+
+### CDMA
+
+<hr>
+
+* **Code Division Multiple Access**. In this , each user is allocated a unique code sequence. On the sender's end , the data signal is encoded using the given unique code. The receiver decodes the signal according the unique code and recovers the original data.
