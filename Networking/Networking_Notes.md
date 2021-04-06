@@ -1385,3 +1385,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Homepage
+
+<hr>
+
+* The first page which is opened in a website is called as the Home page.
+
+<hr>
+
