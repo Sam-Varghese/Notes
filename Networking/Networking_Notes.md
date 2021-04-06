@@ -1601,3 +1601,23 @@ This includes acts like:
 
 * Phishing is the criminally fraudulent process of attemplting to acquire sensitive information such as usernames , account details , passwords.
 * In phishing , an imposter uses an authentic looking email or website to trick recippients into giving out sensitive personal information.
+
+<hr>
+
+### Scams
+
+<hr>
+
+* Any fraudulent business practise that extracts money from an unsuspecting ignorant person is called a scam.
+
+[Do watch him catching a scam](https://youtu.be/R1etkjUN6Ak)
+
+<hr>
+
+### Child Pronography
+
+<hr>
+
+* According to newly ammended ***Information Technology Bill , Section 67 , has been amended that not only creating and transmitting obscene material in electronic form , but also to browse such site is an offence***.
+
+ <hr>
