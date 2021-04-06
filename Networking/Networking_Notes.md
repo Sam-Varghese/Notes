@@ -1529,3 +1529,13 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * Identity theft is a kind of fraud which involves else's identity to steal money or gain other benefits.
+
+<hr>
+
+## Anonymous Browsing
+
+<hr>
+
+* Anonymous browdsng **allows users to view websites without revealing any personal information** of users like IP address and location etc.
+
+<hr>
