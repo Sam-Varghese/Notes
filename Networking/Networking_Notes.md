@@ -1665,3 +1665,11 @@ This includes acts like:
 <hr>
 
 * **Code Division Multiple Access**. In this , each user is allocated a unique code sequence. On the sender's end , the data signal is encoded using the given unique code. The receiver decodes the signal according the unique code and recovers the original data.
+
+<hr>
+
+### TDMA
+
+<hr>
+
+* **Time Division Multiple Access**. 
