@@ -1672,4 +1672,29 @@ This includes acts like:
 
 <hr>
 
-* **Time Division Multiple Access**. 
+* **Time Division Multiple Access**. In this , each user is allowed to transmit only within specified time intervals. Diffrent users transmit in diffrent time slots. When users transmit , they occupy the whole frequency bandwidth.
+
+<hr>
+
+### 2G
+
+<hr>
+
+![](https://5.imimg.com/data5/PH/WK/WX/SELLER-66497281/keypad-mobile-phones-500x500.jpg)
+
+<hr>
+
+* Offered improved sounfdquality , better security , upto 104 kbit/s data rate. New services like text messaging , packet data  called ID , SIM's were introduced.
+
+
+<hr>
+
+### 3G
+
+<hr>
+
+![](https://drop.ndtv.com/TECH/product_database/images/8172013122705PM_635_celkon_a107_plus.jpeg)
+
+<hr>
+
+* Web Browsing , E-Mail , Vedio Conferencing , Vedio
