@@ -1542,3 +1542,18 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 ***A safe site's address starts with https and not by http***
 
+<hr>
+
+## Cyber Crimes
+
+<hr>
+
+### Cyber Trolls
+
+<hr>
+
+* Cyber trolls refers to a person who purposely post opposing -, sarcastic , or insulting comments about someone with an aim of targeting a person online.
+* It is a cyber crime and is closely related to cyber bullying.
+
+<hr>
+
