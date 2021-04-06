@@ -1508,3 +1508,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Cyber Safety
+
+<hr>
+
+* Cyber Safety refers to the **safe responsible use of Internet** to  ensure ssafety and security of personal information , and not posing threat to anyone else's information.
+
+<hr>
+
