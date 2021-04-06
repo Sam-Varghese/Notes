@@ -1360,3 +1360,9 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Domain Name
+
+<hr>
+
+* Refers to the type of domain in which they are categorized into.
+* com,edu,net,tv,biz,org,gov,co
