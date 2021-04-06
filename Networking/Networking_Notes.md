@@ -1506,3 +1506,10 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * **Dynamic HyperText Markup Language**.
 * refers to the web content that changes each time it is reviewed. (Time of the day , Geographic Location of the reader , News).
 
+<hr>
+
+## Network Security
+
+<hr>
+
+* Network security is any activity designed to protect the usablility and integrity of your network and data.
