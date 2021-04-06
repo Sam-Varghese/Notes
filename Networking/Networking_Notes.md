@@ -1621,3 +1621,11 @@ This includes acts like:
 * According to newly ammended ***Information Technology Bill , Section 67 , has been amended that not only creating and transmitting obscene material in electronic form , but also to browse such site is an offence***.
 
  <hr>
+
+ # To report A Cyber Crime
+
+ <hr>
+
+ * The local police stations can be approached for filling complaints as the cybercrime cells specially designated with the jurisdiction to register complaint.
+ * Provixions have now been made for filling 'E-FIR' in most states.
+ * 
