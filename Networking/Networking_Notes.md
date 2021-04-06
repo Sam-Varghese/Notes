@@ -1516,3 +1516,16 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## IP Address
+
+<hr>
+
+* IP address is a unique address of your device when you connect to the internet . From your IP address , a website can determine your rough geographic location.
+
+<hr>
+
+## Identity Theft
+
+<hr>
+
+* Identity theft is a kind of fraud which involves else's identity to steal money or gain other benefits.
