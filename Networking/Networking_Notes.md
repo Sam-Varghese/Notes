@@ -1422,3 +1422,9 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Free Hosting
+
+<hr>
+
+* It offers to host web pages for no cost.
+* 
