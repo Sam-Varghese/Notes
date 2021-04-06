@@ -1475,3 +1475,7 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Makes web more interative through online social media.
 * Supports easy online information exchange.
+* Interoperability on the internet.
+* Vedio sharing possible on the websites.
+
+<hr>
