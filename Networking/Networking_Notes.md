@@ -1456,4 +1456,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * In this type of hosting , **you wil purchase your own server** and have it housed at a web host's facilities.
-* 
+* You will be responsible for the server itself.
+* An **advantage** to this type of hosting is you have **full control of the web server**. YOu can install any scripts or applications you need.
+
+<hr>
+
