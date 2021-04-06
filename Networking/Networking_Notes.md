@@ -1402,3 +1402,9 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Web Hosting
+
+<hr>
+
+* It is a way of hosting a web server application on a computer system through which the contents are readily available to any web browser.
+* 
