@@ -1366,3 +1366,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Refers to the type of domain in which they are categorized into.
 * com,edu,net,tv,biz,org,gov,co
+
+<hr>
+
+## Webpage
+
+<hr>
+
+* A single page in a website is called as webpage.
+
+<hr>
+
