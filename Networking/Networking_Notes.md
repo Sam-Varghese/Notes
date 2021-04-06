@@ -1494,3 +1494,15 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It stands for **Extensible Markup Language**.
+* It is a language for defining a structures information.
+* In XML , we create our own tags.
+
+<hr>
+
+## DHTML
+
+<hr>
+
+* **Dynamic HyperText Markup Language**.
+* refers to the web content that changes each time it is reviewed. (Time of the day , Geographic Location of the reader , News).
+
