@@ -1697,4 +1697,4 @@ This includes acts like:
 
 <hr>
 
-* Web Browsing , E-Mail , Vedio Conferencing , Vedio
+* Web Browsing , E-Mail , Vedio Conferencing , Vedio ,etc now were supported. Data speed also increased to 144kbps to 2mbps.
