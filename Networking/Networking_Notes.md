@@ -1411,3 +1411,14 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Types Of Web Hosting
+
+<hr>
+
+* Free Hosting
+* Virtual or Shared Hosting
+* Dedicated Hosting
+* Co-location Hosting
+
+<hr>
+
