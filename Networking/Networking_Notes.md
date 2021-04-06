@@ -1712,3 +1712,16 @@ This includes acts like:
 * 4G is all about faster internet speed which was from 100mbps to 1Gbps.
 
 <hr>
+
+## Various Parts Of Processors
+
+<hr>
+
+### CPU( **Central Processing Unit** )
+
+<hr>
+
+It receives commands , makes instant calculations and send signals throughout your device.
+
+<hr>
+
