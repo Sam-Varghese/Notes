@@ -1466,3 +1466,12 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * The new features of web application that makes the web more interactive , support easy online information exchange. Some features of web 2.0 is blog , facebook , Myspace , Teitter , YouTube.
+
+<hr>
+
+## Characteristics of Wb 2.0
+
+<hr>
+
+* Makes web more interative through online social media.
+* Supports easy online information exchange.
