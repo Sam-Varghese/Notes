@@ -1557,3 +1557,8 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+### Cyber Bullying
+
+<hr>
+
+* Cyber bullying occurs when someone uses the internet , a cellphone , email  , etc to embarass , intimidate someone.
