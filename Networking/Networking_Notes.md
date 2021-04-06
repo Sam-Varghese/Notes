@@ -1571,3 +1571,27 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 * Cyber Stalking refers to online stalking where someone uses the internet , chat rooms etc to stalk his/her victim.
 * Cyber Stalker follows the victim online everywhere and keeps posting / sending something which are unsolicited.
+
+<hr>
+
+### Spreading Rumours Online
+
+<hr>
+
+* Spreading Rumours Onlinr is a Cybercrime and is punishable offence.
+
+<hr>
+
+### Online Fraud
+
+<hr>
+
+This includes acts like:
+
+* Non delivered goods
+* Stealing information
+* Non-existent companies
+* Fraudulent payments
+
+<hr>
+
