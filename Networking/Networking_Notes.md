@@ -1595,3 +1595,9 @@ This includes acts like:
 
 <hr>
 
+### Information Theft
+
+<hr>
+
+* Phishing is the criminally fraudulent process of attemplting to acquire sensitive information such as usernames , account details , passwords.
+* In phishing , an imposter uses an authentic looking email or website to trick recippients into giving out sensitive personal information.
