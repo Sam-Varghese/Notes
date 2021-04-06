@@ -1539,3 +1539,6 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * Anonymous browdsng **allows users to view websites without revealing any personal information** of users like IP address and location etc.
 
 <hr>
+
+***A safe site's address starts with https and not by http***
+
