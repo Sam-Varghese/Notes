@@ -1447,3 +1447,4 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 * In this type of hosting , the company wishing to go online , rents an entire web server from a hosting company.
 * This is suitable for companies hosting larger web sites.
 * This allows for faster performance , as you have all the the server's resources entire without sharing with other website owners.
+* However , this also means that you will be responsible  for the cost of server operation entirely. This is a good choice for websites that requires a lot of system resources , or need a higher level of security.
