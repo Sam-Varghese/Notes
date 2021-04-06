@@ -1698,3 +1698,17 @@ This includes acts like:
 <hr>
 
 * Web Browsing , E-Mail , Vedio Conferencing , Vedio ,etc now were supported. Data speed also increased to 144kbps to 2mbps.
+
+<hr>
+
+### 4G
+
+<hr>
+
+![](https://www.youngisthan.in/wp-content/uploads/2017/09/phones.jpg)
+
+<hr>
+
+* 4G is all about faster internet speed which was from 100mbps to 1Gbps.
+
+<hr>
