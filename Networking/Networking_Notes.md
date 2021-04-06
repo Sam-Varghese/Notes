@@ -1741,3 +1741,14 @@ This includes acts like:
 
 <hr>
 
+### Camera ISP(**Image Signal Processor**)
+
+<hr>
+
+![](https://www.cenozon.com/wp-content/uploads/2018/07/Computer_visioning.jpg)
+
+<hr>
+
+* It provides instant image capture , high resolution support , image stabilisation and other enhancements.
+
+<hr>
