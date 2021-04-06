@@ -1427,4 +1427,5 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It offers to host web pages for no cost.
-* 
+* If you want to experiment with a site or put up a small personal site for the fun of it , a free package will be sufficient.
+* Example of such sites are : geocitees , tripod , homestead etc.
