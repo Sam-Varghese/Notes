@@ -1398,4 +1398,7 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 <hr>
 
 * It is a website that host other websites. In other words web portal has hyperlinks to many other websites.
-* 
+* Eg yahoo.com , google.com , indiatimes.com
+
+<hr>
+
