@@ -1377,3 +1377,11 @@ A switch is responsible for filtering , i.e. **transforming data in a specific w
 
 <hr>
 
+## Website
+
+<hr>
+
+* A collection of related web pages is called web site.
+
+<hr>
+
