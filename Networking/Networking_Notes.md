@@ -1721,7 +1721,23 @@ This includes acts like:
 
 <hr>
 
-It receives commands , makes instant calculations and send signals throughout your device.
+![](https://www.howtogeek.com/wp-content/uploads/2018/10/cpu_lede.png?height=200p&trim=2,2,2,2)
+
+<hr>
+
+* It receives commands , makes instant calculations and send signals throughout your device.
+
+<hr>
+
+### GPU( **Graphics Processing Unit** )
+
+<hr>
+
+![](https://www.technipages.com/wp-content/uploads/2020/08/external-gpu-header-600x343.png)
+
+<hr>
+
+* The GPU assists the CPU by handling the visuals , even for games and other graphically rich applications.
 
 <hr>
 
