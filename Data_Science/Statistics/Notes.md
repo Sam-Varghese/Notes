@@ -244,3 +244,5 @@
 3. If np is an integer, then the average of the values in positiond np and np+1 is the sample 100p percentile.
 
 ![](percentile_ex1.PNG)
+
+![](percentile_ex2.PNG)
