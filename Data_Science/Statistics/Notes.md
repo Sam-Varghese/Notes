@@ -29,3 +29,5 @@
 
 * **Each variable have its own column**
 * **Each observation have its own row**
+
+***Data are of two types, Categorical and numerical***
