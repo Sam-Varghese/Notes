@@ -150,3 +150,4 @@
 ## Some New Terms
 
 1. **Lower Class Limit**: The smallest value that could go in a class.
+2. **Upper Class Limit**: The larget value that could go in a class.
