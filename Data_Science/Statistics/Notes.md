@@ -278,3 +278,11 @@ IQR=Q3-Q1
 
 ![](row_rel_freq.PNG)
 
+## Column Relative Frequency
+
+![](col_rel_freq.PNG)
+
+## Association Between Two Variables
+
+* Association between variables means whether knowing information about one variable provides information about the other variable.
+* **If the row relative frequencies (the column relative frequencies) are the same for all rows (columns) , then we say that the two variables are not associated with each other.**
