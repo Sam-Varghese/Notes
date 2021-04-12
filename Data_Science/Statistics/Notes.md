@@ -286,3 +286,8 @@ IQR=Q3-Q1
 
 * Association between variables means whether knowing information about one variable provides information about the other variable.
 * **If the row relative frequencies (the column relative frequencies) are the same for all rows (columns) , then we say that the two variables are not associated with each other.**
+* **Is the row relative frequencies (the column relative frequencies) are diffrent for some rows (some columns) then we say that the two variables are associated with each other**
+
+![](association1.PNG)
+
+![](association2.PNG)
