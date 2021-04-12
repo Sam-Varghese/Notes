@@ -258,3 +258,9 @@
 * Q2: Second Quartile of Median
 * Q3: Third Quartile or upper quartile
 * Maximum
+
+## Interquartile Range (IQR)
+
+* The interquartile range, IQR is the diffrence between the first and third quartiles; that is,
+
+IQR=Q3-Q1
