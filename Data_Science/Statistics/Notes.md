@@ -73,3 +73,12 @@
 * This is simply nominal scale of measurement with an added feature that the data can be ordered or ranked meaningfully.
 * Ex, Remarks which can include bad<good<excellent<extraordinary
 
+## Interval Scale Of Measurement
+
+* This scale of measurement just consist of ordinal scale with an added feature that the intervals between values can be expressed in terms of fixed unit of measure.
+* Ratios have no meaning here because value of zero is arbitrary.
+* As values of zero is arbitrary, hence ratios also have no meaning.
+* Ex: Consider an AC room where temperature is set at 20deg C and the temperature outside the room is 40deg C. So it would be right to say that diffrence between both is 20deg C, but it is very incorrect to say that outdoors is twice as hot as indoors because we dont know which temperature signifies absolute absence of heat.
+
+## Ratio Scale Of Measurement
+
