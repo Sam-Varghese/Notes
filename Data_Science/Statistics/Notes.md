@@ -19,3 +19,6 @@
 ## Sample
 
 * A subgroup of the population that will be studied in detail is called sample.
+
+* A descriptive study may be performed either on a sample or on a population.
+* When inference is made about population based on information from sample, the study becomes **inferential**.
