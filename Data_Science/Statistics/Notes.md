@@ -205,3 +205,30 @@
 ## Mode
 
 * Mentioned above
+
+## Measures Of Dispersion
+
+* Range
+* Variance
+* Standard Variance
+* Interquatile range
+
+## Range
+
+* The range of a data set is the diffrence between its largest and smallest values.
+* **Range is sensitive to outliers**
+
+## Variance
+
+![](variance.PNG)
+
+* Adding a constant does not changes variance.
+* Multiplying a constant makes new variance as old variance times*c*c
+* It has a disadvantage that its unit is not same as that of the units of all entries.
+
+## Standard Deviation
+
+![Standard Deviation](Standard_Deviation.PNG)
+
+* Adding a constant to all entries does not change the standard deviation.
+* 
