@@ -151,3 +151,5 @@
 
 1. **Lower Class Limit**: The smallest value that could go in a class.
 2. **Upper Class Limit**: The larget value that could go in a class.
+3. **Class Width**: The diffrence between lower limit of a class and the lower limit of the next higher class.
+4. **Class Mark**: he avaerage of two class limits of a class.
