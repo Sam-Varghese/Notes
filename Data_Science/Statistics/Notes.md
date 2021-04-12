@@ -128,3 +128,7 @@
 ## Median
 
 * ***Firstly put all records in order***.
+
+![Median](Median.PNG)
+
+* If two values come in between, then any of them can become median.
