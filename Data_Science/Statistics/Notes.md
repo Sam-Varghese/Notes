@@ -125,3 +125,6 @@
 
 * If two or more categories tie for the highest frequency, the data are said to be **bimodal** (in case of two) or **multimodal** (more than two).
 
+## Median
+
+* ***Firstly put all records in order***.
