@@ -132,3 +132,11 @@
 ![Median](Median.PNG)
 
 * If two values come in between, then any of them can become median.
+
+## Organizing Discrete Data (Single Value)
+
+* If the data set contains only a small number of distinct, or diffrent values, it is convenient to represent it in a **frequency table**.
+
+![Frequency Table](freq_table.PNG)
+
+## Organizing Continous Data
