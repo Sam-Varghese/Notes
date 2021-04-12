@@ -250,3 +250,11 @@
 ## Quartiles
 
 * The sample 25th percentile is called **first quartile** , the sample 50th percentile is called **second quartile** , the sample 75th percentile is called the **third quartile**.
+
+## The Five Number Summary
+
+* Minimum
+* Q1: First quartile or lower quartile
+* Q2: Second Quartile of Median
+* Q3: Third Quartile or upper quartile
+* Maximum
