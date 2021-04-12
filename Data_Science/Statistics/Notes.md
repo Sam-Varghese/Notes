@@ -82,3 +82,6 @@
 
 ## Ratio Scale Of Measurement
 
+* If the data have all the properties of interval data, and the ratio of two values is meaningful, then the scale of measurement is ratio scale.
+* Here the knowledge of absolute zero numerical value is known.
+* Ex height, weight, age, marks, etc
