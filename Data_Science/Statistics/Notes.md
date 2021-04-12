@@ -118,3 +118,6 @@
 ## Mode
 
 * The mode of a categorical variable is the most common category, the category with the highest frequency.
+
+![Bar Chart Mode](Bar_Chart_Frequency.PNG)
+
