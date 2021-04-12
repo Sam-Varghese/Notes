@@ -291,3 +291,7 @@ IQR=Q3-Q1
 ![](association1.PNG)
 
 ![](association2.PNG)
+
+## Stacked Bar Chart
+
+![](stacked_bar1.PNG)
