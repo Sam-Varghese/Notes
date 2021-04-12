@@ -85,3 +85,10 @@
 * If the data have all the properties of interval data, and the ratio of two values is meaningful, then the scale of measurement is ratio scale.
 * Here the knowledge of absolute zero numerical value is known.
 * Ex height, weight, age, marks, etc
+* All operations like addittion, subtraction, multiplication, division are possible.
+
+![Summary](Scale_Of_Measurement.PNG)
+
+## Relative Frequency
+
+* Number of cases/Total number of observation taken
