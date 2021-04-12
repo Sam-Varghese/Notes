@@ -264,3 +264,17 @@
 * The interquartile range, IQR is the diffrence between the first and third quartiles; that is,
 
 IQR=Q3-Q1
+
+## Contingency Table
+
+* Organizing bivariate data into a two way table is what makes a contingency table.
+* If data is ordinal, maintain the order of the variable in the table.
+
+![](con_table1.PNG)
+
+![](con_table2.PNG)
+
+## Row Relative Frequency
+
+![](row_rel_freq.PNG)
+
