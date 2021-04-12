@@ -67,3 +67,9 @@
 * When the data for a variable consists of names or labels used to identify the characteristics of an observation, the scale of measurement is called **Nominal Scale**.
 * The main characteristic feature of this scale is that no ordering happens.
 * Variables can even be numerically coded like male as 0 and female as 1 or vice-versa and here also we can see that 0<1 is meaningless.
+
+## Ordinal Scale Of Measurement
+
+* This is simply nominal scale of measurement with an added feature that the data can be ordered or ranked meaningfully.
+* Ex, Remarks which can include bad<good<excellent<extraordinary
+
