@@ -5,3 +5,17 @@
 ## Major Branches of Statistics
 
 ### Description
+
+* The part of statistics concerned with the description and summarization of data is called **Descriptive Statistics**.
+
+### Inference
+
+* Part of statistics concerned with the drawing of conclusions from the data is called **Inferential Statistics**
+
+## Population
+
+* The total collection of all elements that we are intrsted in is called a population.
+
+## Sample
+
+* A subgroup of the population that will be studied in detail is called sample.
