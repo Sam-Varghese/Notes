@@ -193,5 +193,11 @@
 * Adding a constant to every value of data shifts mean by (orig mean + constant added)
 * Multiplying every value in dataset makes new mean=old mean*(constant/total entries)
 
+* Remember **Sample mean is sensitive to outliers**
+
 ## Median
 
+* Mentioned above
+
+* Adding a constant to all entries of data makes new mean constant + old mean
+* new median=old median*constant
