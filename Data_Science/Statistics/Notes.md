@@ -92,3 +92,8 @@
 ## Relative Frequency
 
 * Number of cases/Total number of observation taken
+
+## Pareto Charts
+
+* These are simply bar charts sorted by frequency.
+* If categorical variable is ordinal, the bar chart must preserve th ordering.
