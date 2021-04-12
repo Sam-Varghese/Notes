@@ -232,3 +232,13 @@
 
 * Adding a constant to all entries does not change the standard deviation.
 * Multiplying every data by some constant makes new data's stand deviation equal to c*root(old st deviation)
+
+## Percentiles
+
+* The sample 100p percentile is that data value having the property that at least 100p percent of the data are less than or equal to it and at least 100(1-p) percent of the data values are greater than or equal to it.
+
+### Computing Percentile
+
+1. Arrange the data in increasing order.
+2. If np is not an integer, determine the smallest integer value greater than np. The data value in that position is the sample 100p percentile.
+3. If np is an integer, then the average of the values in positiond np and np+1 is the sample 100p percentile.
