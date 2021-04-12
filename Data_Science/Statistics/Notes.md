@@ -114,3 +114,7 @@
 * As for a valid graph, rounding off is done very carefully. Because if rounding off is done in pie charts uncarefully, then all percentages when added up can add up to more than 100%.
 
 ![Invalid Pie Chart](Invalid_Pie_Chart.PNG)
+
+## Mode
+
+* The mode of a categorical variable is the most common category, the category with the highest frequency.
