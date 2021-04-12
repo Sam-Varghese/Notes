@@ -121,3 +121,7 @@
 
 ![Bar Chart Mode](Bar_Chart_Frequency.PNG)
 
+## Bimodal Data
+
+* If two or more categories tie for the highest frequency, the data are said to be **bimodal** (in case of two) or **multimodal** (more than two).
+
