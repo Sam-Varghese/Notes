@@ -201,3 +201,7 @@
 
 * Adding a constant to all entries of data makes new mean constant + old mean
 * new median=old median*constant
+
+## Mode
+
+* Mentioned above
