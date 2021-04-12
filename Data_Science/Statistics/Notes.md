@@ -154,3 +154,38 @@
 3. **Class Width**: The diffrence between lower limit of a class and the lower limit of the next higher class.
 4. **Class Mark**: he avaerage of two class limits of a class.
 5. ***A class interval contains its left-end but not its right-end boundary point***.
+
+## Stem And Leaf Diag
+
+* This can be understood inly by example itself:
+
+![StemLeafDiag](Stem_Leaf_Diag.PNG)
+
+# Descriptive Measures
+
+## Measures Of Central Tendency
+
+* These are measures that indicate the most typical value or canter of a data set.
+
+## Measures Of Dispersion
+
+* These measures indicate the variablity or the spread of a dataset.
+
+## Measures Of Central Tendency
+
+### Mean
+
+* Sample Mean=(x1+x2+x3+....xn)/n
+* Population Mean=(x1+x2+x3+....xN)/N
+
+### Mean Of Frequency Table Graph
+
+* Mean=(f1x1+f2x2+....+fnxn)/n
+
+![Freq_Table_Mean](Freq_Table_Mean.PNG)
+
+### Mean For Grouped Data
+
+* Mean=(f1m1+f2m2+....+fnmn)/n
+
+![](Cont_Data_Mean.PNG)
