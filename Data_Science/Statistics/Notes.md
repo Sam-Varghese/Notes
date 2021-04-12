@@ -97,3 +97,20 @@
 
 * These are simply bar charts sorted by frequency.
 * If categorical variable is ordinal, the bar chart must preserve th ordering.
+
+# Valid Charts Rule
+
+## Area Principle
+
+* **The area occupied by a part of graph should correspond to the amount of data it represents.**
+* Hence for a valid bar chart,  all the bars should be of same width.
+
+## Truncated Graphs
+
+* Valid graphs always starts from 0 of y axis, so as to give full information.
+
+## Rounding Off
+
+* As for a valid graph, rounding off is done very carefully. Because if rounding off is done in pie charts uncarefully, then all percentages when added up can add up to more than 100%.
+
+![Invalid Pie Chart](Invalid_Pie_Chart.PNG)
