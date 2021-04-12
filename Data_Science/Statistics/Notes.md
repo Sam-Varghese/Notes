@@ -246,3 +246,7 @@
 ![](percentile_ex1.PNG)
 
 ![](percentile_ex2.PNG)
+
+## Quartiles
+
+* The sample 25th percentile is called **first quartile** , the sample 50th percentile is called **second quartile** , the sample 75th percentile is called the **third quartile**.
