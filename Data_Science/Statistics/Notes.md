@@ -31,3 +31,22 @@
 * **Each observation have its own row**
 
 ***Data are of two types, Categorical and numerical***
+
+## Categorical Variables
+
+* Also called **Qualitative variables**
+* Identifies group membership.
+
+## Numerical Variables
+
+* Also called **Quantitative variables**
+* Describes numerical properties of cases.
+* Have measurement units.
+
+## Time Series
+
+* Data recorded over time
+
+## Timeplot
+
+* Graph of time series showing values in chronological order.
