@@ -22,3 +22,10 @@
 
 * A descriptive study may be performed either on a sample or on a population.
 * When inference is made about population based on information from sample, the study becomes **inferential**.
+
+## Data
+
+* Data are facts and figures collected, analyzed, and summarized for presentation and interpretation.
+
+* **Each variable have its own column**
+* **Each observation have its own row**
