@@ -50,3 +50,20 @@
 ## Timeplot
 
 * Graph of time series showing values in chronological order.
+
+## Cross-Sectional
+
+* Data observed at the same time.
+
+## Scales Of Measurement
+
+* Nominal
+* Ordinal
+* Interval
+* Ratio
+
+## Nominal Scale Of Measurement
+
+* When the data for a variable consists of names or labels used to identify the characteristics of an observation, the scale of measurement is called **Nominal Scale**.
+* The main characteristic feature of this scale is that no ordering happens.
+* Variables can even be numerically coded like male as 0 and female as 1 or vice-versa and here also we can see that 0<1 is meaningless.
