@@ -131,7 +131,7 @@
 
 ![Median](Median.PNG)
 
-* If two values come in between, then any of them can become median.
+* If two values come in between, then mean of the two is final median.
 
 ## Organizing Discrete Data (Single Value)
 
@@ -189,3 +189,9 @@
 * Mean=(f1m1+f2m2+....+fnmn)/n
 
 ![](Cont_Data_Mean.PNG)
+
+* Adding a constant to every value of data shifts mean by (orig mean + constant added)
+* Multiplying every value in dataset makes new mean=old mean*(constant/total entries)
+
+## Median
+
