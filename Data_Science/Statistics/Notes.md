@@ -231,4 +231,4 @@
 ![Standard Deviation](Standard_Deviation.PNG)
 
 * Adding a constant to all entries does not change the standard deviation.
-* 
+* Multiplying every data by some constant makes new data's stand deviation equal to c*root(old st deviation)
