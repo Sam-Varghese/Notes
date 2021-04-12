@@ -140,3 +140,8 @@
 ![Frequency Table](freq_table.PNG)
 
 ## Organizing Continous Data
+
+* Best method of organizing continous data is to split them into diffrent classes. However there are few points that needs to be kept in mind while making classes:
+
+1. **Number of classes**: The appropiate number is subjective choice, the rule of thumb is to have 5 to 20 classes.
+2. Each observation must belong to some class and no observation should belong to more than one class.
