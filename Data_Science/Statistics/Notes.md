@@ -315,3 +315,15 @@ IQR=Q3-Q1
 
 * Covariance has a unit which is equal tp unit of x axis*unit of y axis
 
+## Correlation
+
+* It is a more easily interpreted measure of lineaar association between two numerical variables is correlation.
+
+![](correlation.PNG)
+
+* **Correlation values always lies from [-1,+1]**
+* More associated variables are, the more they are nearer to +1
+
+## Best Fit Line
+
+* Line in scatter plot that contains / is nearer to maximum points of scatter plot points
