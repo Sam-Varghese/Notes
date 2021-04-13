@@ -330,3 +330,11 @@ IQR=Q3-Q1
 * **R2 {R*R}**: Goodness of fit measure.
 * 0<=R*R<=1
 * Closer R*R is to one 1, the better is the fit.
+
+## Point Bi-Serial Correlation Coefficient
+
+* Let X be a numerical variable and Y be a categorical variable with 2 categories (a dichotomous variable).
+* Use following steps to find point bi serial coefficient:
+
+1. Group the data into two sets based on the value of dichotomous variable Y. That is, assume that the value of Y is either 0 or 1.
+2. Calculate the mean values of two groups:
