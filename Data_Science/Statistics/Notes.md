@@ -309,3 +309,9 @@ IQR=Q3-Q1
 1. Covariance
 2. Correlation
 
+## Covariance
+
+![](covariance.PNG)
+
+* Covariance has a unit which is equal tp unit of x axis*unit of y axis
+
