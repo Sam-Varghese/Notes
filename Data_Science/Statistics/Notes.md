@@ -295,3 +295,17 @@ IQR=Q3-Q1
 ## Stacked Bar Chart
 
 ![](stacked_bar1.PNG)
+
+## Scatter Plot
+
+* A scatter plot is a graph that displays pairs of values as points on a two dimensional plane.
+
+## Tightly Clustered Scatter Plot
+
+![](tightly_clustered.PNG)
+
+## Strength Of Association Between Two Variables
+
+1. Covariance
+2. Correlation
+
