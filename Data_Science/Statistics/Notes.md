@@ -326,4 +326,7 @@ IQR=Q3-Q1
 
 ## Best Fit Line
 
-* Line in scatter plot that contains / is nearer to maximum points of scatter plot points
+* Line in scatter plot that contains / is nearer to maximum points of scatter plot points.
+* **R2 {R*R}**: Goodness of fit measure.
+* 0<=R*R<=1
+* Closer R*R is to one 1, the better is the fit.
