@@ -337,4 +337,7 @@ IQR=Q3-Q1
 * Use following steps to find point bi serial coefficient:
 
 1. Group the data into two sets based on the value of dichotomous variable Y. That is, assume that the value of Y is either 0 or 1.
-2. Calculate the mean values of two groups:
+2. Calculate the mean values of two groups: Let Yo and Y1 be the mean values of groups with Y=0 and Y=1, respectively.
+3. Let P0 and P1 be the proportion of observations in a group with Y=0 and Y=1 respectively and Sx be the standard deviation of the random variable X.
+
+![](pt_bi_serial_coeff.PNG)
