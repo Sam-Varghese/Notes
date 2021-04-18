@@ -24,3 +24,31 @@ fn main(){
 
 <hr>
 
+## Printing Constants
+
+<hr>
+
+```rs
+fn main(){
+    println!("{}",1);
+}
+```
+
+<hr>
+
+## Printing Tuples
+
+<hr>
+
+```rs
+fn main(){
+    println!("{:?}",("Sam","Angel",true))
+}
+```
+
+<hr>
+
+* Note that boolean true hear is written as true and not True as used in Python.
+
+<hr>
+
