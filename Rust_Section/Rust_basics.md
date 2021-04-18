@@ -6,3 +6,21 @@
 
 <hr>
 
+* Codes in rust start with `fn main(){program}`
+* Semocolon is necessary after every line.
+* Only double quotes applicable.
+
+<hr>
+
+## Hello World Program
+
+<hr>
+
+```rs
+fn main(){
+    println!("Hello World");
+}
+```
+
+<hr>
+
