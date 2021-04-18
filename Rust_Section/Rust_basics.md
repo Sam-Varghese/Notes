@@ -52,3 +52,27 @@ fn main(){
 
 <hr>
 
+## Having Multiple Placeholders
+
+<hr>
+
+```rs
+fn main(){
+    println!("Hi {} name is {}","my","Sam");
+}
+```
+
+<hr>
+
+## Positional Parameters
+
+<hr>
+
+```rs
+fn main(){
+    println!("{a}, this is {b}; and {b}, this is {a}",a="Sam",b="Angel");
+}
+```
+
+<hr>
+
