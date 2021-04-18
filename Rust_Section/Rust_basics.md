@@ -76,3 +76,14 @@ fn main(){
 
 <hr>
 
+The same result can also be received from the following code:-
+
+<hr>
+
+```rs
+fn main(){
+    println!("{0}, this is {1}; and {1}, this is {0}",a="Sam",b="Angel");
+}
+```
+
+<hr>
