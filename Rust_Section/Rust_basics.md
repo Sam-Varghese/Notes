@@ -400,3 +400,18 @@ fn main(){
 
 <hr>
 
+## Create String Of Specified Capacity
+
+<hr>
+
+```rs
+fn main(){
+    let mut s=String::with_capacity(10);
+    s.push('s');
+    s.push('a');
+    println!("String with specified capacity is {}",s);
+}
+```
+
+<hr>
+
