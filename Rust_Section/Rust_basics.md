@@ -470,3 +470,21 @@ fn main(){
 ```
 
 <hr>
+
+## Arrays In Rust
+
+<hr>
+
+* **Arrays in rust are fixed list where elements are of same datatypes**
+
+<hr>
+
+```rs
+fn main(){
+    let arr=[1,2,3,4,5];
+    println!("Array is={:?}",arr);
+}
+```
+
+<hr>
+
