@@ -514,3 +514,17 @@ fn main(){
 
 <hr>
 
+## Replacing An Element
+
+<hr>
+
+```rs
+fn main(){
+    let mut a=[1,2,3,4,5];
+    a[2]=10;
+    println!("The third element of a is={}",a[2]);
+}
+```
+
+<hr>
+
