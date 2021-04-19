@@ -598,3 +598,16 @@ fn main(){
 
 <hr>
 
+## Getting Vector Length
+
+<hr>
+
+```rs
+fn main(){
+    let v=vec![1,2,3,4,5,6];
+    println!("Length of vector v is={}",v.len());
+}
+```
+
+<hr>
+
