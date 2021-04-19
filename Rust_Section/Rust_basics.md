@@ -541,3 +541,15 @@ fn main(){
 
 <hr>
 
+## Getting Amount Of Memory Occupied By Array
+
+<hr>
+
+```rs
+fn main(){
+    let a=[1,2,3,4,5];
+    println!("The memory occupied by a is={}", std::mem::size_of_val(&a));
+}
+```
+
+<hr>
