@@ -528,3 +528,16 @@ fn main(){
 
 <hr>
 
+## Getting Length Of Arrays
+
+<hr>
+
+```rs
+fn main(){
+    let a=[1,2,3,4,5];
+    println!("The length of array a={}",a.len());
+}
+```
+
+<hr>
+
