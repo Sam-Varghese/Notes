@@ -284,3 +284,13 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    let a="Hi this is a primitive string";
+    let b = String::from("Hello");
+    println!("{:?}",(a,b));
+}
+```
+
+<hr>
+
