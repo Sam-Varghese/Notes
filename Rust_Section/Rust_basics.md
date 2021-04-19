@@ -117,3 +117,6 @@ fn main(){
     println!("{:?}",(12,true,false,"Sam"));
 }
 ```
+
+<hr>
+
