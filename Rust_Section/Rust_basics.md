@@ -317,5 +317,16 @@ fn main(){
 
 ```rs
 fn main(){
+    let mut a=String::from("Hello");
     
+    //Pushing a character
+    a.push('W');
+
+    println!("Pushing a character: {}",a)
+
+    //Pushing a string
+    a.push_str("orld!");
+
+    println!("Pushing a string: {}",a);
 }
+```
