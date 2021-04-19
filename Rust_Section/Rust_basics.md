@@ -120,7 +120,7 @@ fn main(){
 
 <hr>
 
-## Dealing Wirh Variables
+## Dealing With Variables
 
 <hr>
 
@@ -172,6 +172,36 @@ fn main(){
 <hr>
 
 * Note that the above code wont produce an error but would warn us that the first value of variable name is unused.
+
+<hr>
+
+## Dealing With Constants
+
+<hr>
+
+```rs
+fn main(){
+    const ID: i32=20;
+    println!("My ID number is {}",ID);
+}
+```
+
+<hr>
+
+* Note that in rust constant are in upper case only else a warning would be given by compiler.
+
+<hr>
+
+## Declaring Value Of Multiple Variables In A Single Go
+
+<hr>
+
+```rs
+fn main(){
+    let (my_name, my_age, my_status)=("Sam", 18, "Happy");
+    println!("Hi, myself {}, I am {}, and I am a {} person", my_name, my_age, my_status);
+}
+```
 
 <hr>
 
