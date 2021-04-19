@@ -667,3 +667,34 @@ fn main(){
 
 <hr>
 
+## Iteration In Vector
+
+<hr>
+
+```rs
+fn main(){
+    let v=vec![1,2,3,4,5];
+    for i in v.iter(){
+        println!("{}",i);
+    }
+}
+```
+
+<hr>
+
+## Looping And Mutating Values Of A Vector
+
+<hr>
+
+```rs
+fn main(){
+    let mut v=vec![1,2,3,4,5];
+    for i in v.iter_mut(){
+        *i *=2;
+    }
+    println!("Vector after doubling every element={:?}",v)
+}
+```
+
+<hr>
+
