@@ -262,4 +262,22 @@ fn main(){
 
 * Has only a single character
 
-Diffrent from string datatype
+* Diffrent from string datatype
+
+<hr>
+
+```rs
+fn main(){
+    let a='a';
+    let b='b';
+    println!("{:?}",(a,b));
+}
+```
+
+<hr>
+
+## Strings in Rust
+
+* Rust has two types of string data structure.
+* **Primitive str**: Immutable fixed length string somewhere in the memory.
+* **String**: 
