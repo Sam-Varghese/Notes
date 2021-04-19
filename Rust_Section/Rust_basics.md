@@ -383,3 +383,20 @@ fn main(){
 }
 ```
 
+<hr>
+
+## Loop Through String By White Spaces
+
+<hr>
+
+```rs
+fn main(){
+    let statement="Hi, myself Sam";
+    for word in statement.split_whitespace(){
+        println!("{}",word);
+    }
+}
+```
+
+<hr>
+
