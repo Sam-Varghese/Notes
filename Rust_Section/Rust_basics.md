@@ -738,3 +738,29 @@ fn main(){
 ```
 
 <hr>
+
+## Using OR Operator (||)
+
+<hr>
+
+```rs
+fn main(){
+    let age=18;
+    let has_id=false;
+    let already_know=true;
+
+    if (age>20 && has_id) || (age>20 && already_know){
+        println!("Your age is really above 20");
+    }
+    else if (age<20 && has_id) || (already_know && age<20){
+        println!("Your age is really below 20");
+    }
+    else if has_id==false && already_know==false{
+        println!("Sorry but neither you have has_id nor do we know you");
+    }
+
+}
+```
+
+<hr>
+
