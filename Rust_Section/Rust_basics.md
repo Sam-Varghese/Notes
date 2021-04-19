@@ -639,3 +639,17 @@ fn main(){
 
 <hr>
 
+## Adding Elements To A Vector
+
+<hr>
+
+```rs
+fn main(){
+    let mut v=vec![1,2,3,4,5];
+    v.push(6);
+    println!("Value of the vector={:?}",v);
+}
+```
+
+<hr>
+
