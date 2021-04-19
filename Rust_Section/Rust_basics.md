@@ -331,3 +331,15 @@ fn main(){
 }
 ```
 
+<hr>
+
+## Finding Capacity
+
+<hr>
+
+```rs
+fn main(){
+    let a=String::from("Hellomoto");
+    println!("{}",a.capacity());
+}
+```
