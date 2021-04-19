@@ -2,6 +2,8 @@
 
 ![Rust logo](https://miqh.gallerycdn.vsassets.io/extensions/miqh/vscode-language-rust/0.14.0/1536151476041/Microsoft.VisualStudio.Services.Icons.Default)
 
+[Rust Playground](https://play.rust-lang.org/)
+
 * Grew out of personal project of **Graydon Hoare** who worked at **Mozilla Research** . Soon **Bredan Eich** (Creator of Javascript) started contributing to this project.
 
 <hr>
@@ -217,3 +219,37 @@ fn main(){
 * Arrays
 * Characters (char)
 * Tuples
+
+<hr>
+
+* **Note**: Rust is a statically typed language, which means that it must know types of all variables at compile type, however, the compiler can usually infer what type we want to use based on the value and how we use use it.
+
+<hr>
+
+```rs
+fn main(){
+    let a=1; //default is i32
+    let b=1.54321; //default is f64
+
+    //Adding type explicitly
+    let c: i64=23432423;
+
+    //Finding max int possible for a type
+    println!("Max int in i32={}", std::i32::MAX);
+    println!("Max int in i64={}", std::i64::MAX);
+
+    //Boolean type
+    let d=true;
+    //or use
+    let d: bool=true;
+    //or use
+    let d=10<5;
+
+    println!("{:?}",(a,b,c,d));
+
+}
+```
+
+<hr>
+
+* Note that when you run these programmes in 
