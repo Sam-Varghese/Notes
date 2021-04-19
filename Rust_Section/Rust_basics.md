@@ -568,3 +568,11 @@ fn main(){
 
 <hr>
 
+## Vectors
+
+<hr>
+
+* In rust programming language, vectors are resizable arrays.
+
+<hr>
+
