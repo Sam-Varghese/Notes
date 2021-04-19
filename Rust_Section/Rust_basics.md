@@ -280,4 +280,7 @@ fn main(){
 
 * Rust has two types of string data structure.
 * **Primitive str**: Immutable fixed length string somewhere in the memory.
-* **String**: 
+* **String**: Growable (possible to append it as if it were an array), heap-allocated data structure- Use when you need to modify or own string data.
+
+<hr>
+
