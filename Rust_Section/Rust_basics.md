@@ -698,3 +698,43 @@ fn main(){
 
 <hr>
 
+## Conditionals In Rust
+
+<hr>
+
+```rs
+fn main(){
+    let age=22;
+    if age>20{
+        println!("You are above 20");
+    }
+    else{
+        println!("You are below 20");
+    }
+}
+```
+
+<hr>
+
+## Using AND Operator (&&)
+
+<hr>
+
+```rs
+fn main(){
+    let age=16;
+    let confirm=true;
+
+    if age>20 && confirm{
+        println!("You are really above 20");
+    }
+    else if age<20 && confirm{
+        println!("You are really below 20");
+    }
+    else{
+        println!("You are not confirm about your age");
+    }
+}
+```
+
+<hr>
