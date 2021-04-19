@@ -501,3 +501,16 @@ fn main(){
 
 <hr>
 
+## Getting Single Element From Array
+
+<hr>
+
+```rs
+fn main(){
+    let a=[1,2,3,4,5];
+    println!("The second element of this array is={}",a[1]);
+}
+```
+
+<hr>
+
