@@ -653,3 +653,17 @@ fn main(){
 
 <hr>
 
+## Popping An Element Out From A Vector
+
+<hr>
+
+```rs
+fn main(){
+    let mut v=vec![1,2,3,4,5];
+    v.pop();
+    println!("The value of v after popping={:?}",v);
+}
+```
+
+<hr>
+
