@@ -359,3 +359,16 @@ fn main(){
 
 <hr>
 
+## Contains Condition
+
+<hr>
+
+```rs
+fn main(){
+    let a="Sam";
+    println!("{}",a.contains("am"));
+}
+```
+
+<hr>
+
