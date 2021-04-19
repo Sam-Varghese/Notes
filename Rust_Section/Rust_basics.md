@@ -576,3 +576,25 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    let v=vec![1,2,3,4];
+    println!("Value of vector={:?}",v);
+}
+```
+
+<hr>
+
+## Getting An Element Of An Array
+
+<hr>
+
+```rs
+fn main(){
+    let v=vec![1,2,3,4,5];
+    println!("Second element={}",v[1]);
+}
+```
+
+<hr>
+
