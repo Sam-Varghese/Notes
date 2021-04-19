@@ -294,3 +294,28 @@ fn main(){
 
 <hr>
 
+## Length Function In Rust
+
+<hr>
+
+* In order to find length of any item in rust, the following command:
+
+<hr>
+
+```rs
+fn main(){
+    let a="Myself Sam";
+    println!("Length of a is={}",a.len());
+}
+```
+
+<hr>
+
+## Pushing In String Datatype
+
+<hr>
+
+```rs
+fn main(){
+    
+}
