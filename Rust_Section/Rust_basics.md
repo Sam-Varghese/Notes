@@ -611,3 +611,21 @@ fn main(){
 
 <hr>
 
+## Replacing An Element In Vector
+
+<hr>
+
+```rs
+fn main(){
+    let mut v=vec![1,2,3,4,5];
+    v[1]=10;
+    println!("The value of vector={:?}",v);
+}
+```
+
+<hr>
+
+## Slicing Vectors
+
+<hr>
+
