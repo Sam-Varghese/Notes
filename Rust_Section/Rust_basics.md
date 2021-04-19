@@ -198,10 +198,14 @@ fn main(){
 
 ```rs
 fn main(){
-    let (my_name, my_age, my_status)=("Sam", 18, "Happy");
+    let (my_name, my_age, my_status)=("Sam", 18, "happy");
     println!("Hi, myself {}, I am {}, and I am a {} person", my_name, my_age, my_status);
 }
 ```
+
+<hr>
+
+## Datatypes In Rust
 
 <hr>
 
