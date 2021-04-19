@@ -346,7 +346,7 @@ fn main(){
 
 <hr>
 
-## Is Empty Condition
+## Is Empty Function
 
 <hr>
 
@@ -359,7 +359,7 @@ fn main(){
 
 <hr>
 
-## Contains Condition
+## Contains Function
 
 <hr>
 
@@ -371,4 +371,15 @@ fn main(){
 ```
 
 <hr>
+
+## Replace
+
+<hr>
+
+```rs
+fn main(){
+    let a="I am bad";
+    println!("After replacing={}",a.replace("bad","good"));
+}
+```
 
