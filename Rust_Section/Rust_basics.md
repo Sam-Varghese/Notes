@@ -120,3 +120,13 @@ fn main(){
 
 <hr>
 
+## Dealing Wirh Variables
+
+<hr>
+
+* Variables hold primitive data or references to data
+* Variables are **immutable by default**.
+* Rust is a block scoped language.
+
+<hr>
+
