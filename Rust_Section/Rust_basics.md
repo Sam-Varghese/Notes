@@ -340,6 +340,22 @@ fn main(){
 ```rs
 fn main(){
     let a=String::from("Hellomoto");
-    println!("{}",a.capacity());
+    println!("Capacity of this string: {}",a.capacity());
 }
 ```
+
+<hr>
+
+## Is Empty Condition
+
+<hr>
+
+```rs
+fn main(){
+    let s=String::from("Hello");
+    println!("Is this string s empty? {}",s.is_empty());
+}
+```
+
+<hr>
+
