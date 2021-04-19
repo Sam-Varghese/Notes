@@ -130,3 +130,30 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    let name="Sam Varghese";
+    println!("Hi, myself {}",name);
+}
+```
+
+<hr>
+
+**Code to check if variables are really immutable**:
+
+<hr>
+
+```rs
+fn main(){
+    let name="Sam Varghese";
+    name="Angel Varghese";
+    println!("Hi, myself {}",name);
+}
+```
+
+<hr>
+
+* This code will produce an error that would verify that strings are immutable.
+
+<hr>
+
