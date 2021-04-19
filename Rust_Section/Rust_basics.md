@@ -64,7 +64,7 @@ fn main(){
 
 <hr>
 
-## Positional Parameters
+## Named Parameters
 
 <hr>
 
@@ -80,6 +80,10 @@ The same result can also be received from the following code:-
 
 <hr>
 
+## Positional Parameters
+
+<hr>
+
 ```rs
 fn main(){
     println!("{0}, this is {1}; and {1}, this is {0}",a="Sam",b="Angel");
@@ -87,3 +91,4 @@ fn main(){
 ```
 
 <hr>
+
