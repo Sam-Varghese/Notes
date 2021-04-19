@@ -419,3 +419,10 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    assert_eq!("sam","sam");//prog will stop id I write unequal string
+}
+```
+
+<hr>
