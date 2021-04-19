@@ -317,12 +317,12 @@ fn main(){
 
 ```rs
 fn main(){
-    let mut a=String::from("Hello");
+    let mut a=String::from("Hello"); //Works only with this datatype
     
     //Pushing a character
     a.push('W');
 
-    println!("Pushing a character: {}",a)
+    println!("Pushing a character: {}",a);
 
     //Pushing a string
     a.push_str("orld!");
@@ -330,3 +330,4 @@ fn main(){
     println!("Pushing a string: {}",a);
 }
 ```
+
