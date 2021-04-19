@@ -426,3 +426,47 @@ fn main(){
 ```
 
 <hr>
+
+## Tuples In Rust
+
+<hr>
+
+* Tuples group together values of diffrent types
+* **Max 12 Elements Possible**.
+
+<hr>
+
+```rs
+fn main(){
+    let tup=(1,"Sam",true,false);
+    println!("{:?}",tup);
+}
+```
+
+<hr>
+
+OR
+
+<hr>
+
+```rs
+fn main(){
+    let tup: (&str, &str, i8)=("Sam", "Angel", 1);
+    println!("Tuple is {:?}",tup);
+}
+```
+
+<hr>
+
+## Selecting Specific Element Of Tuple
+
+<hr>
+
+```rs
+fn main(){
+    let tup=(1, true, false, "Sam");
+    println!("First element is {}, Second {}, Third {}, Fourth {}",tup.0, tup.1, tup.2, tup.3);
+}
+```
+
+<hr>
