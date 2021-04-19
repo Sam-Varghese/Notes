@@ -92,3 +92,28 @@ fn main(){
 
 <hr>
 
+## Placeholder Traits
+
+<hr>
+
+```rs
+fn main(){
+    println!("Binary Number: {:b}, Hexadecimal Number: {:x}, Octal Number: {:o}",10,10,10);
+}
+```
+
+* Execution of above code gives binary form of number 10, hexadecimal form of number 10, octal form of number 10.
+
+<hr>
+
+## Placeholder For Debug Traits
+
+<hr>
+
+* Used for printing tuples..
+
+```rs
+fn main(){
+    println!("{:?}",(12,true,false,"Sam"));
+}
+```
