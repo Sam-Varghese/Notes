@@ -764,3 +764,17 @@ fn main(){
 
 <hr>
 
+## Shorthand If Else
+
+<hr>
+
+```rs
+fn main(){
+    let age=18;
+    let checked=if age >=20 {false} else {true};
+    println!("Statement customer has been checked is {}",checked);
+}
+```
+
+<hr>
+
