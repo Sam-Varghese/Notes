@@ -212,4 +212,8 @@ fn main(){
 **Primitive Datatypes**
 
 * Integers: u8 (unsigned 8 bit int), i8 (signed int), u16, i16, u32, i32, u64, i64, u128, i128
-* 
+* Floats: f32, f64
+* Boolean (bool): true, false
+* Arrays
+* Characters (char)
+* Tuples
