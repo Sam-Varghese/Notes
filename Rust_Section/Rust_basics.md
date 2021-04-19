@@ -629,3 +629,13 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    let v=vec![1,2,3,4,5];
+    let sl=&v[1..3];
+    println!("Value of the sliced vector={:?}",sl);
+}
+```
+
+<hr>
+
