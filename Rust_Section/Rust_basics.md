@@ -253,4 +253,13 @@ fn main(){
 <hr>
 
 * Note that when you run these programmes in suppose rust playground, then compiler gives warning such as ```#[warn(unused_variables)]` on by default``` which simply signifies that there is a variable which is unused throughout execution. If we want to avoid popping out of this warning, simply put ``_`` before variable name. Ex make variable named ``a`` to ``_a``.
-```
+
+<hr>
+
+## Char Type
+
+<hr>
+
+* Has only a single character
+
+Diffrent from string datatype
