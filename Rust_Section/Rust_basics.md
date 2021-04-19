@@ -209,3 +209,7 @@ fn main(){
 
 <hr>
 
+**Primitive Datatypes**
+
+* Integers: u8 (unsigned 8 bit int), i8 (signed int), u16, i16, u32, i32, u64, i64, u128, i128
+* 
