@@ -157,3 +157,21 @@ fn main(){
 
 <hr>
 
+## Explicitly Making Variables Mutable
+
+<hr>
+
+```rs
+fn main(){
+    let mut name="Sam Varghese";
+    name="Angel Varghese";
+    println!("Hi, myself {}",name);
+}
+```
+
+<hr>
+
+* Note that the above code wont produce an error but would warn us that the first value of variable name is unused.
+
+<hr>
+
