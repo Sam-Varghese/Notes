@@ -553,3 +553,18 @@ fn main(){
 ```
 
 <hr>
+
+## Getting Slice Of An Array
+
+<hr>
+
+```rs
+fn main(){
+    let arr=[1,2,3,4,5];
+    let slice=&arr[1..4];
+    println!("Sliced array is ={:?}",slice);
+}
+```
+
+<hr>
+
