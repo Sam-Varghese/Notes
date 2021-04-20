@@ -862,3 +862,30 @@ fn main(){
 
 <hr>
 
+## Functions Returning Some Value
+
+<hr>
+
+```rs
+fn main(){
+    fn add(num1: &str, num2: &str) -> i32 {
+        num1+num2 //No ';' required
+    }
+    println!("Sum of  2 and 3={}",add("2","3"));
+}
+```
+
+<hr>
+
+## Shorthand Functions (Closure)
+
+<hr>
+
+```rs
+fn main(){
+    let add = |n1: i32, n2:i32|n1+n2;
+    println!("Sum of numbers 2 and 3 is={}",add(2,3));
+}
+```
+
+<hr>
