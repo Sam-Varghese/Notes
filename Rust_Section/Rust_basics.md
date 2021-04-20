@@ -891,7 +891,11 @@ fn main(){
 
 <hr>
 
-* **Reference Pointers**: Points to a resource in memory.
+## Reference Pointers
+
+<hr>
+
+* Points to a resource in memory.
 
 <hr>
 
@@ -906,6 +910,14 @@ fn main(){
     println!("The main feature of primitive arrays is that assigning another array from an older array doesnt changes value of first array, like here arr1={:?}, and arr2={:?}",arr1, arr2);
 }
 ```
+
+<hr>
+
+* **Non Primitive Arrays**
+
+<hr>
+
+* With non primitive datatypes, if you assign another variable to a piece of data, the first variable will no longer hold that value. Vectors comes under this category.
 
 <hr>
 
