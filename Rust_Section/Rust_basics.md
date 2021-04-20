@@ -945,4 +945,40 @@ fn main(){
 
 <hr>
 
-## Structures (Classes) 
+## Structures (Classes In Rust) 
+
+<hr>
+
+```rs
+fn main(){
+    struct Color{
+        red: u8,
+        green: u8,
+        blue: u8,
+    }
+    let c=Color{
+        red: 255,
+        green: 0,
+        blue: 0,
+    };
+    c.red=250;
+    println!("Color={},{},{}",c.red, c.green, c.blue);
+}
+```
+
+<hr>
+
+## Tuple Struct
+
+<hr>
+
+```rs
+fn main(){
+    struct Color(i8, i8, i8);
+    let c=Color(12,13,14);
+    println!("Elements of c are={},{},{}",c.0,c.1,c.2);
+}
+```
+
+<hr>
+
