@@ -883,9 +883,15 @@ fn main(){
 
 ```rs
 fn main(){
-    let add = |n1: i32, n2:i32|n1+n2;
-    println!("Sum of numbers 2 and 3 is={}",add(2,3));
+    let n3=10;
+    let add = |n1: i32, n2:i32|n1+n2+n3;
+    println!("Sum of numbers 2, 3 and 10 is={}",add(2,3));
 }
 ```
 
 <hr>
+
+* **Reference Pointers**: Points to a resource in memory.
+
+<hr>
+
