@@ -921,3 +921,13 @@ fn main(){
 
 <hr>
 
+```rs
+fn main(){
+    let v1=vec![1,2,3,4,5];
+    let v2=v1;
+    println!("Value of v1 and v2={:?}{:?}",v1,v2);
+}
+```
+
+<hr>
+
