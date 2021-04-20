@@ -793,6 +793,35 @@ fn main(){
         }
     }
 }
+```
+
+<hr>
+
+## FizzBuzz Program
+
+<hr>
+
+* It is a kind of challenging problem wherein we are given numbers belonging to a range, and if the number is deivisible by 15, outut should be fizzbuzz, if the number is divisible by 3, out should be only fizz, else if the number is divisible by 5, output should be buzz only.
+
+<hr>
+
+```rs
+fn main(){
+    let mut count=0;
+    while count<=100{
+        if count%15==0{
+            println!("Fizz Buzz for number {}",count);
+        }
+        else if count%5==0{
+            println!("Fizz (Divisible by 5) for number {}",count);
+        }
+        else if count%3==0{
+            println!("Buzz for number {}",count);
+        }
+        count+=1;
+    }
+}
+```
 
 <hr>
 
