@@ -778,3 +778,21 @@ fn main(){
 
 <hr>
 
+## Loops In Rust
+
+<hr>
+
+```rs
+fn main(){
+    let mut count=0;
+    loop{
+        count += 1;
+        println!("Value of count presently={}",count);
+        if count==20{
+            break;
+        }
+    }
+}
+
+<hr>
+
