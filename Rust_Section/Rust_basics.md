@@ -895,3 +895,17 @@ fn main(){
 
 <hr>
 
+* **Primitive Array**
+
+<hr>
+
+```rs
+fn main(){
+    let arr1=[1,2,3,4,5];
+    let arr2=arr1;
+    println!("The main feature of primitive arrays is that assigning another array from an older array doesnt changes value of first array, like here arr1={:?}, and arr2={:?}",arr1, arr2);
+}
+```
+
+<hr>
+
