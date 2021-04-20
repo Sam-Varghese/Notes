@@ -825,3 +825,25 @@ fn main(){
 
 <hr>
 
+OR
+
+<hr>
+
+```rs
+fn main(){
+    for count in 0..100{
+        if count%15==0{
+            println!("Fizz Buzz for number {}",count);
+        }
+        else if count%5==0{
+            println!("Fizz (Divisible by 5) for number {}",count);
+        }
+        else if count%3==0{
+            println!("Buzz for number {}",count);
+        }
+    }
+}
+```
+
+<hr>
+
