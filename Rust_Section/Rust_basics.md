@@ -931,3 +931,18 @@ fn main(){
 
 <hr>
 
+* On running the above code you would receive the same error which has been pointed. There is a way out from getting this error, and that is to use refrences(&)
+
+<hr>
+
+```rs
+fn main(){
+    let vec1=vec![1,2,3,4,5];
+    let vec2=&vec1;
+    println!("Two vectors are={:?},{:?}",vec1,vec2);
+}
+```
+
+<hr>
+
+## Structures (Classes) 
