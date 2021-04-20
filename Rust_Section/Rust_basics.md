@@ -847,3 +847,18 @@ fn main(){
 
 <hr>
 
+## Functions In Rust
+
+<hr>
+
+```rs
+fn main(){
+    fn greeting(name: &str,greeting: &str){
+        println!("{} {}, nice to have you here.",greeting, name);
+    }
+    greeting("Sam Varghese", "Hi");
+}
+```
+
+<hr>
+
