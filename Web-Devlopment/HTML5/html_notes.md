@@ -102,7 +102,29 @@
 
 <hr>
 
-* In order to insert images, we use ``<img src="link" alt="text if img is not shown" width="img width" height="img height">``.
+- In order to insert images, we use `<img src="link" alt="text if img is not shown" width="img width" height="img height">`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML Images</h1>
+    <p>Here is an html logo</p>
+    <img
+      src="https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600.jpg"
+      height="500"
+      width="500"
+      alt="HTML logo"
+    />
+  </body>
+</html>
+```
+
+<hr>
+
+![output image](Images/img.png)
 
 <hr>
 
