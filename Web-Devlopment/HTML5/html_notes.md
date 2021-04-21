@@ -165,7 +165,3 @@
 - HTML tags with only opening tag (no closing tag)
 
 <hr>
-
-## Hyperlink
-
-<hr>
