@@ -32,9 +32,20 @@
 
 <hr>
 
-* To put headings in html file, we use ``<h1>``, ``</h1>``.
-* In HTML we have 6 heading tags, from ``<h1>`` till ``<h6>``.
-* As we go on from ``<h1>`` till ``<h6>``, the size of headings keep on reducing.
+- To put headings in html file, we use `<h1>`, `</h1>`.
+- In HTML we have 6 heading tags, from `<h1>` till `<h6>`.
+- As we go on from `<h1>` till `<h6>`, the size of headings keep on reducing.
+
+<hr>
+
+```html
+<!DOCTYPE hml>
+<html>
+  <body>
+    <h1>HTML Notes</h1>
+  </body>
+</html>
+```
 
 <hr>
 
@@ -42,3 +53,22 @@
 
 <hr>
 
+# Paragraphs
+
+<hr>
+
+- Paragraphs are written in HTML with the help of `<p>`, `</p>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML Notes</html>
+    <p>These are my html notes</p>
+  </body>
+</html>
+```
+
+<hr>
