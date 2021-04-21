@@ -32,3 +32,6 @@
 * Class is a blueprint of an Object
 * Class is a description of Object's property set and set of operations.
 * Creating Class is as good as defining a new data type.
+* Class is a means to achieve encapsulation.
+* Object is a run time entity.
+* Object is an instance of a class.
