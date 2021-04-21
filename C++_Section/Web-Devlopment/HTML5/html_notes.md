@@ -19,10 +19,10 @@
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
     <h1></h1>
     <p></p>
-</body>
+  </body>
 </html>
 ```
 
