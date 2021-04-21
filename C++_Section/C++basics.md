@@ -256,11 +256,32 @@ cin>>a>>b; //C++
 void()
 {
     clrscr() //Calling function first then entering its program
-    int x;
+    int x; //Declaration after action statement
     cout<<"Enter a number"<<endl;
     cin>>x;
-    int s=x*x;
+    int s=x*x; //Dynamic initialisation
     cout<<"Square of "<<x<<" is "<<s;
     getch();
 }
 ```
+
+<hr>
+
+## Refrencing A Variable
+
+<hr>
+
+* In C:-
+
+<hr>
+
+```c++
+int x=5;
+int *p; //means p would be refrencing memory address
+p=&x;
+```
+
+<hr>
+
+```c++
+int
