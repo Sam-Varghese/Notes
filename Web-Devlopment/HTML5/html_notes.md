@@ -384,3 +384,11 @@ Hope you liked
 ![Output](Images/txt-align.png)
 
 <hr>
+
+# Bold Texts
+
+<hr>
+
+- To mske html texts bold, we use ``<b>``, ``</b>`` property.
+
+<hr>
