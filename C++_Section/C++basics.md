@@ -84,3 +84,20 @@
 #### Integer Constant
 
 <hr>
+
+23, -341, 0, 5
+
+<hr>
+
+#### Real Constant
+
+<hr>
+
+3.4, **3.0**
+
+<hr>
+
+#### Character Constant
+
+<hr>
+
