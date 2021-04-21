@@ -52,3 +52,16 @@
 
 <hr>
 
+## Types Of Constants
+
+<hr>
+
+### Primary Constants
+
+<hr>
+
+* Integer
+* Real
+* Character
+
+<hr>
