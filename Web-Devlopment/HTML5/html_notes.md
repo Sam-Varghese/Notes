@@ -6,7 +6,7 @@
 
 <hr>
 
-## HTML5 Basics
+# HTML5 Basics
 
 <hr>
 
@@ -27,3 +27,18 @@
 ```
 
 <hr>
+
+# Headings
+
+<hr>
+
+* To put headings in html file, we use ``<h1>``, ``</h1>``.
+* In HTML we have 6 heading tags, from ``<h1>`` till ``<h6>``.
+* As we go on from ``<h1>`` till ``<h6>``, the size of headings keep on reducing.
+
+<hr>
+
+![headings](headings.png)
+
+<hr>
+
