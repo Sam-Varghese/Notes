@@ -389,6 +389,28 @@ Hope you liked
 
 <hr>
 
-- To mske html texts bold, we use ``<b>``, ``</b>`` property.
+- To mske html texts bold, we use `<b>`, `</b>` property.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>
+      <b
+        >Minim irure officia ut sint commodo cillum consectetur elit aliqua aute
+        dolor. Nulla amet eiusmod laboris duis do ea cupidatat proident ad. Duis
+        est voluptate amet ad aliqua ad laboris laborum aliquip ea
+        exercitation.</b
+      >
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/bold.png)
 
 <hr>
