@@ -59,16 +59,17 @@
 
 <hr>
 
-- In order to make bigger/smaller headings as per your needs, we use ``font-size`` attribute inside ``style``.
+- In order to make bigger/smaller headings as per your needs, we use `font-size` attribute inside `style`.
+- It is convenient to mention size in pixels, so we use pixels.
 
 <hr>
 
 ```html
 <!DOCTYPE html>
 <html>
-<body>
-<h1 style="font-size: 60px">Custom Heading Size</h1>
-</body>
+  <body>
+    <h1 style="font-size: 60px">Custom Heading Size</h1>
+  </body>
 </html>
 ```
 
