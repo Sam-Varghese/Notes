@@ -240,4 +240,9 @@ cin>>a>>b; //C++
 
 <hr>
 
-* Inserting endl into the output stream causes the screen cursir to move to the begninning of the next line.
+- Inserting endl into the output stream causes the screen cursir to move to the begninning of the next line.
+- `endl` is a manipulator and it is declared in iostream.h
+- `'\n'` character also works as it works in C.
+
+<hr>
+
