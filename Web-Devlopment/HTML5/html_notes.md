@@ -103,7 +103,7 @@
 
 <hr>
 
-- In order to insert images, we use `<img src="link" alt="text if img is not shown" width="img width" height="img height">`.
+- In order to insert images, we use `<img src="Img URL" alt="text if img is not shown" width="img width" height="img height">`.
 
 <hr>
 
@@ -165,3 +165,4 @@
 - HTML tags with only opening tag (no closing tag)
 
 <hr>
+
