@@ -169,3 +169,9 @@
 
 ## Output INstruction
 
+* In C, standard output device is monitor and ``printf()`` is used to send data/message to monitor.
+* ``printf()`` is a predefined function.
+* In C++, we can use ``cout`` to send data/message to monitor.
+* ``cout`` is a predefined object.
+* The operator << is called the insertion or put to operator
+
