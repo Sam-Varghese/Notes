@@ -310,17 +310,17 @@ Hope you liked
 
 <hr>
 
-- In order to put colorful texts in websites, we use ``color`` attribute.
+- In order to put colorful texts in websites, we use `color` attribute.
 
 <hr>
 
 ```html
 <!DOCTYPE html>
 <html>
-<body>
-<h1 style="color: red">Text Coloring</h1>
-<p style="color:blue">This is an example of text coloring</p>
-</body>
+  <body>
+    <h1 style="color: red">Text Coloring</h1>
+    <p style="color:blue">This is an example of text coloring</p>
+  </body>
 </html>
 ```
 
@@ -329,4 +329,3 @@ Hope you liked
 ![Output](Images/text-color.png)
 
 <hr>
-
