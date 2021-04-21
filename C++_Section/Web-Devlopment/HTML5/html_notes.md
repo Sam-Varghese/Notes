@@ -15,3 +15,15 @@
 - Then HTML document itself begins with `<html>` and end with `</html>`
 
 <hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+    <h1></h1>
+    <p></p>
+</body>
+</html>
+```
+
+<hr>
