@@ -185,3 +185,5 @@ printf("sum of %d and %d is %d",a,b,c);//C
 cout<<"sum of "<<a<<" and "<<b<<" is "<<c;//C++
 ```
 
+## Input Instructions
+
