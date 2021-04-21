@@ -314,3 +314,19 @@ Hope you liked
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color: red">Text Coloring</h1>
+<p style="color:blue">This is an example of text coloring</p>
+</body>
+</html>
+```
+
+<hr>
+
+![Output](Images/text-color.png)
+
+<hr>
+
