@@ -166,3 +166,23 @@
 - HTML tags with only opening tag (no closing tag)
 
 <hr>
+
+## Style Attribute
+
+<hr>
+
+- Style attribute is used to add styles to an element such as color, size, fonts etc.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Styles in HTML</h1>
+<p style='color:red'>This is my red colored paragraph</p>
+</body>
+</html>
+```
+
+<hr>
