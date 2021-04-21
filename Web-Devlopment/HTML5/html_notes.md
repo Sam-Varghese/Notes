@@ -49,7 +49,7 @@
 
 <hr>
 
-![headings](headings.png)
+![headings](Images\headings.png)
 
 <hr>
 
@@ -80,3 +80,21 @@
 - We put links in html with the help of anchor tag, ie `<a>`,`</a>`
 
 <hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML Notes</h1>
+    <p>These are my html notes</p>
+    <a href="https://www.w3schools.com">This is a link</a>
+  </body>
+</html>
+```
+
+<hr>
+
+![links](Images\links.png)
+
+<hr>
+
