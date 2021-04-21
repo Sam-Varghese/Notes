@@ -220,4 +220,13 @@ cin>>a>>b; //C++
 
 <hr>
 
-- According to the ANSI standards
+- According to the ANSI standards for C language, explicit declaration of function is recommended but not mandatory.
+- ANSI standards for C++ language says explicit declaration of function is compulsory.
+
+<hr>
+
+## Header Files
+
+<hr>
+
+- Predefined functions are declared in header files, so whenever you are using any predefined function in your code, you have to include specific header file taht contains its declaration.
