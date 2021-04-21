@@ -306,3 +306,11 @@ Hope you liked
 
 <hr>
 
+# Text Color
+
+<hr>
+
+- In order to put colorful texts in websites, we use ``color`` attribute.
+
+<hr>
+
