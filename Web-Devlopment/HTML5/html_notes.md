@@ -104,6 +104,7 @@
 <hr>
 
 - In order to insert images, we use `<img src="Img URL" alt="text if img is not shown" width="img width" height="img height">`.
+- Instead of URL, we xan also put relative pah of images that sre on the working directory.
 
 <hr>
 
