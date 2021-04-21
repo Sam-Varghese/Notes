@@ -13,6 +13,7 @@
 - All html documents start with `<!DOCTYPE html>`.
 - Used to tell browsers that this is an HTML document.
 - Then HTML document itself begins with `<html>` and end with `</html>`
+- HTML is not case sensitive
 
 <hr>
 
@@ -128,3 +129,39 @@
 
 <hr>
 
+## Break Line
+
+<hr>
+
+- To jump to next line, we use break tag, ie `<br>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML Images</h1>
+    <p>Here is an html logo</p>
+    <br /><br /><br />
+    <img
+      src="https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600.jpg"
+      height="500"
+      width="500"
+      alt="HTML logo"
+    />
+  </body>
+</html>
+```
+
+<hr>
+
+![outpur of br tag](Images/br.png)
+
+## Empty HTML Tags
+
+<hr>
+
+- HTML tags with only opening tag (no closing tag)
+
+<hr>
