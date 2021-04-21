@@ -125,3 +125,24 @@
 * Variable name is any combination of alphabet (a to z or A to Z), digit (0 to 9) and underscore(_).
 * Variables in C++ can start with only **alphabets, underscores**.
 
+<hr>
+
+## Keywords
+
+<hr>
+
+![Keywords](Images\keywords.png)
+
+<hr>
+
+## Data Types
+
+<hr>
+
+* int  {int a, b=5;}
+* char {char ch='a';}
+* float {float k=3.45;}
+* double {double d1;}
+
+<hr>
+
