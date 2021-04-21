@@ -175,3 +175,13 @@
 * ``cout`` is a predefined object.
 * The operator << is called the insertion or put to operator
 
+## Output Instruction
+
+```c
+printf("Printing in C");//C
+cout<<"Printing in C++";//C++
+
+printf("sum of %d and %d is %d",a,b,c);//C
+cout<<"sum of "<<a<<" and "<<b<<" is "<<c;//C++
+```
+
