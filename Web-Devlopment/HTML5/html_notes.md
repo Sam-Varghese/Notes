@@ -36,6 +36,7 @@
 - To put headings in html file, we use `<h1>`, `</h1>`.
 - In HTML we have 6 heading tags, from `<h1>` till `<h6>`.
 - As we go on from `<h1>` till `<h6>`, the size of headings keep on reducing.
+- Headings are important because browsers look onto this headings in order to index our webpage in websites.
 
 <hr>
 
@@ -51,6 +52,29 @@
 <hr>
 
 ![headings](Images\headings.png)
+
+<hr>
+
+## Custom Heading Size
+
+<hr>
+
+- In order to make bigger/smaller headings as per your needs, we use ``font-size`` attribute inside ``style``.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="font-size: 60px">Custom Heading Size</h1>
+</body>
+</html>
+```
+
+<hr>
+
+![Output image](Images/heading_size.png)
 
 <hr>
 
