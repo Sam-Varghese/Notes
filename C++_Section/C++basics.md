@@ -13,6 +13,8 @@
 - The **Object Oriented** language tradition represented by class enhancements C++ adds to C;
 - **Generic Programming** supported by C++ templates.
 
+<hr>
+
 ## DIffrence Between C and C++
 
 * C++ is the super set of C language.
@@ -22,10 +24,14 @@
 * C adopts Procedural Oriented Programming
 * C++ adopts Object Oriented Programming
 
+<hr>
+
 ## Object Oriented Programming
 
 * OOPs is a programming approach which revolves around the concept of Object.
 * Any entity in the system that can be defined as a set of properties and set of operations performed using entity's property set, is known as Object.
+
+<hr>
 
 ## Concept Of Classes And Objects
 
@@ -35,3 +41,5 @@
 * Class is a means to achieve encapsulation.
 * Object is a run time entity.
 * Object is an instance of a class.
+
+<hr>
