@@ -15,3 +15,14 @@
 
 ## DIffrence Between C and C++
 
+* C++ is the super set of C language.
+* C++ programs can use existing C software libraries.
+* C follows top down approach of programming.
+* C++ follows bottom up approach of programming.
+* C adopts Procedural Oriented Programming
+* C++ adopts Object Oriented Programming
+
+## Object Oriented Programming
+
+* OOPs is a programming approach which revolves around the concept of Object.
+* Any entity in the system that can be defined as a set of properties and set of operations performed using entity's property set, is known as Object.
