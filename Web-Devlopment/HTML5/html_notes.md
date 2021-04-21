@@ -227,7 +227,7 @@ Hope you liked
 <hr>
 
 - Style attribute is used to add styles to an element such as color, size, fonts etc.
-- It's format is like:- ``<tagname style="property:value">``.
+- It's format is like:- `<tagname style="property:value">`.
 
 <hr>
 
