@@ -101,3 +101,8 @@
 
 <hr>
 
+* Length should be 1
+* Should be enclosed with only single quotes.
+
+<hr>
+
