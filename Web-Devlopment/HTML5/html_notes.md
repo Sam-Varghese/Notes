@@ -102,3 +102,7 @@
 
 <hr>
 
+* In order to insert images, we use ``<img src="link" alt="text if img is not shown" width="img width" height="img height">``.
+
+<hr>
+
