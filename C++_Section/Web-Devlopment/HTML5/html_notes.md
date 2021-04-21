@@ -10,3 +10,7 @@
 
 * All html documents start with ``<!DOCTYPE html>``.
 * Used to tell browsers that this is an HTML document.
+* Then HTML document itself begins with ``<html>`` and end with ``</html>``
+
+<hr>
+
