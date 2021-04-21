@@ -334,17 +334,20 @@ Hope you liked
 
 <hr>
 
-- In order to customize the font syles, we use ``font-family`` attribute.
+- In order to customize the font syles, we use `font-family` attribute.
 
 <hr>
 
 ```html
 <!DOCTYPE html>
 <html>
-<body>
-<h1 style="font-family:georgia">Font Family Customization</h1>
-<p style="font-family:helvetica">This font is written in helvetica font style, while the title is in georgia.</p>
-</body>
+  <body>
+    <h1 style="font-family:georgia">Font Family Customization</h1>
+    <p style="font-family:helvetica">
+      This font is written in helvetica font style, while the title is in
+      georgia.
+    </p>
+  </body>
 </html>
 ```
 
@@ -353,4 +356,3 @@ Hope you liked
 ![Output](Images/font.png)
 
 <hr>
-
