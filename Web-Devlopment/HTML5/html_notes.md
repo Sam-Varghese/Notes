@@ -178,10 +178,10 @@
 ```html
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Styles in HTML</h1>
-<p style='color:red'>This is my red colored paragraph</p>
-</body>
+  <body>
+    <h1>Styles in HTML</h1>
+    <p style="color:red">This is my red colored paragraph</p>
+  </body>
 </html>
 ```
 
@@ -197,7 +197,31 @@
 
 ```html
 <!DOCTYPE html>
-<html lang='en-In'> <!--en is the language and In is to specify India-->
+<html lang="en-In">
+  <!--en is the language and In is to specify India-->
+</html>
+```
+
+<hr>
+
+## Title Attribute
+
+<hr>
+
+- Title attribute is used to give some extra detail to an element while cursor is hovered over there.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 title="This is heading title">Heading</h1>
+    <p title="This is para title">
+      Please hover the mouse over to h1 as well as this para to notice
+      functioning of the title attribute.
+    </p>
+  </body>
 </html>
 ```
 
