@@ -59,7 +59,7 @@
 
 <hr>
 
-- In order to make bigger/smaller headings as per your needs, we use `font-size` attribute inside `style`.
+- In order to make bigger/smaller headings as per your needs, we use `font-size` property inside `style`.
 - It is convenient to mention size in pixels, so we use pixels.
 
 <hr>
@@ -226,7 +226,7 @@ Hope you liked
 
 <hr>
 
-- In order to assist search engine to figure out the language of out website, there is a lang attribute to specify language, and to specify country, we have country attribute. Example of syntaxes of these are shown below.
+- In order to assist search engine to figure out the language of out website, there is a lang property to specify language, and to specify country, we have country property. Example of syntaxes of these are shown below.
 
 <hr>
 
@@ -239,11 +239,11 @@ Hope you liked
 
 <hr>
 
-# Title Attribute
+# Title property
 
 <hr>
 
-- Title attribute is used to give some extra detail to an element while cursor is hovered over there.
+- Title property is used to give some extra detail to an element while cursor is hovered over there.
 
 <hr>
 
@@ -254,7 +254,7 @@ Hope you liked
     <h1 title="This is heading title">Heading</h1>
     <p title="This is para title">
       Please hover the mouse over to h1 as well as this para to notice
-      functioning of the title attribute.
+      functioning of the title property.
     </p>
   </body>
 </html>
@@ -262,11 +262,11 @@ Hope you liked
 
 <hr>
 
-# Style Attribute
+# Style property
 
 <hr>
 
-- Style attribute is used to add styles to an element such as color, size, fonts etc.
+- Style property is used to add styles to an element such as color, size, fonts etc.
 - It's format is like:- `<tagname style="property:value">`.
 
 <hr>
@@ -287,7 +287,7 @@ Hope you liked
 
 <hr>
 
-- In order to put a background color, we use CSS `background-color` attribute.
+- In order to put a background color, we use CSS `background-color` property.
 
 <hr>
 
@@ -310,7 +310,7 @@ Hope you liked
 
 <hr>
 
-- In order to put colorful texts in websites, we use `color` attribute.
+- In order to put colorful texts in websites, we use `color` property.
 
 <hr>
 
@@ -334,7 +334,7 @@ Hope you liked
 
 <hr>
 
-- In order to customize the font syles, we use `font-family` attribute.
+- In order to customize the font syles, we use `font-family` property.
 
 <hr>
 
@@ -356,3 +356,8 @@ Hope you liked
 ![Output](Images/font.png)
 
 <hr>
+
+# Text Alignment
+
+<hr>
+
