@@ -166,16 +166,23 @@
     int x=4;
 }
 ```
+<hr>
 
-## Output INstruction
+## Output Instruction
+
+<hr>
 
 * In C, standard output device is monitor and ``printf()`` is used to send data/message to monitor.
 * ``printf()`` is a predefined function.
 * In C++, we can use ``cout`` to send data/message to monitor.
 * ``cout`` is a predefined object.
-* The operator << is called the insertion or put to operator
+* The operator ``<<`` is called the **insertion** or put to operator
+
+<hr>
 
 ## Output Instruction
+
+<hr>
 
 ```c
 printf("Printing in C");//C
@@ -185,5 +192,26 @@ printf("sum of %d and %d is %d",a,b,c);//C
 cout<<"sum of "<<a<<" and "<<b<<" is "<<c;//C++
 ```
 
+<hr>
+
 ## Input Instructions
+
+<hr>
+
+* In C, standard input device is keyboard and ``scanf()`` is used to receive data from keyboard.
+* ``scanf()`` is predefined function.
+* The identifier ``cin`` is a predefined object in C++
+* The operator ``>>`` is known as **extraction** or get from operator.
+
+<hr>
+
+```c
+scanf("%d",&a); //C
+cin>>a;//C++
+
+scanf("%d%d",&a,&b);
+cin>>a>>b;
+```
+
+<hr>
 
