@@ -146,3 +146,24 @@
 
 <hr>
 
+* int takes 2 bytes
+* char takes 1 byte
+* float takes 4 bytes
+* double takes 8 bytes
+
+<hr>
+
+## Declare Variable Anywhere
+
+<hr>
+
+* Unlike C, you can declare variables even after action statements.
+* Ex
+
+```c
+{
+    cirscr();
+    int x=4;
+}
+```
+
