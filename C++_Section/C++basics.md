@@ -232,3 +232,12 @@ cin>>a>>b; //C++
 - Predefined functions are declared in header files, so whenever you are using any predefined function in your code, you have to include specific header file taht contains its declaration.
 - We need to include header file `iostream.h`, it contains declarations for the identifier `cout` and the operator `<<`. And also for the identifier `cin` and `>>`.
 - Header files contains declaration of identifiers.
+- Identifiers can be function names, variables, objects, Macros etc.
+
+<hr>
+
+## endl
+
+<hr>
+
+* Inserting endl into the output stream causes the screen cursir to move to the begninning of the next line.
