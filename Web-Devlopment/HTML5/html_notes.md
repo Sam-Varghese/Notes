@@ -55,7 +55,7 @@
 
 <hr>
 
-## Custom Heading Size
+# Custom Heading Size
 
 <hr>
 
@@ -96,6 +96,36 @@
   </body>
 </html>
 ```
+
+<hr>
+
+# Custom Paragraph Structure
+
+<hr>
+
+- In HTML, suppose if we break line, without `<br>` tag, or put more than 1 space between words, then browsers, by default would ignore all the extra spaces or line breaks.
+- Hence in order to over this problem, we use `<pre>` tag.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>My Poem</h1>
+    <pre>
+I am a poet
+I write poem
+This is my poem
+Hope you liked
+    </pre>
+  </body>
+</html>
+```
+
+<hr>
+
+![output](Images/pre.png)
 
 <hr>
 
@@ -155,7 +185,7 @@
 
 <hr>
 
-## Break Line
+# Break Line
 
 <hr>
 
@@ -184,7 +214,7 @@
 
 ![outpur of br tag](Images/br.png)
 
-## Empty HTML Tags
+# Empty HTML Tags
 
 <hr>
 
@@ -192,7 +222,7 @@
 
 <hr>
 
-## Style Attribute
+# Style Attribute
 
 <hr>
 
@@ -212,7 +242,7 @@
 
 <hr>
 
-## Language And Country Code
+# Language And Country Code
 
 <hr>
 
@@ -229,7 +259,7 @@
 
 <hr>
 
-## Title Attribute
+# Title Attribute
 
 <hr>
 
@@ -251,4 +281,3 @@
 ```
 
 <hr>
-
