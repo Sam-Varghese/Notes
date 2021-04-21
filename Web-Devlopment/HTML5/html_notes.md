@@ -282,3 +282,26 @@ Hope you liked
 ```
 
 <hr>
+
+# Background Color
+
+<hr>
+
+- In order to put a background color, we use CSS `background-color` attribute.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body style="background-color: gold">
+    <h1>Background Color Demo</h1>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/bg.png)
+
+<hr>
