@@ -101,9 +101,9 @@
 
 <hr>
 
-* Length should be 1
-* Should be enclosed with only single quotes.
-* 'a', 'A', '+'
+- Length should be 1
+- Should be enclosed with only single quotes.
+- 'a', 'A', '+'
 
 <hr>
 
@@ -111,9 +111,9 @@
 
 <hr>
 
-* Enclosed by double quotes.
-* Can have any length.
-* Ex "Sam Varghese"
+- Enclosed by double quotes.
+- Can have any length.
+- Ex "Sam Varghese"
 
 <hr>
 
@@ -121,9 +121,9 @@
 
 <hr>
 
-* Variables are the names of memory locations where we store data.
-* Variable name is any combination of alphabet (a to z or A to Z), digit (0 to 9) and underscore(_).
-* Variables in C++ can start with only **alphabets, underscores**.
+- Variables are the names of memory locations where we store data.
+- Variable name is any combination of alphabet (a to z or A to Z), digit (0 to 9) and underscore(\_).
+- Variables in C++ can start with only **alphabets, underscores**.
 
 <hr>
 
@@ -139,17 +139,17 @@
 
 <hr>
 
-* int  {int a, b=5;}
-* char {char ch='a';}
-* float {float k=3.45;}
-* double {double d1;}
+- int {int a, b=5;}
+- char {char ch='a';}
+- float {float k=3.45;}
+- double {double d1;}
 
 <hr>
 
-* int takes 2 bytes
-* char takes 1 byte
-* float takes 4 bytes
-* double takes 8 bytes
+- int takes 2 bytes
+- char takes 1 byte
+- float takes 4 bytes
+- double takes 8 bytes
 
 <hr>
 
@@ -157,8 +157,8 @@
 
 <hr>
 
-* Unlike C, you can declare variables even after action statements.
-* Ex
+- Unlike C, you can declare variables even after action statements.
+- Ex
 
 ```c
 {
@@ -166,17 +166,18 @@
     int x=4;
 }
 ```
+
 <hr>
 
 ## Output Instruction
 
 <hr>
 
-* In C, standard output device is monitor and ``printf()`` is used to send data/message to monitor.
-* ``printf()`` is a predefined function.
-* In C++, we can use ``cout`` to send data/message to monitor.
-* ``cout`` is a predefined object.
-* The operator ``<<`` is called the **insertion** or put to operator
+- In C, standard output device is monitor and `printf()` is used to send data/message to monitor.
+- `printf()` is a predefined function.
+- In C++, we can use `cout` to send data/message to monitor.
+- `cout` is a predefined object.
+- The operator `<<` is called the **insertion** or put to operator
 
 <hr>
 
@@ -198,10 +199,10 @@ cout<<"sum of "<<a<<" and "<<b<<" is "<<c;//C++
 
 <hr>
 
-* In C, standard input device is keyboard and ``scanf()`` is used to receive data from keyboard.
-* ``scanf()`` is predefined function.
-* The identifier ``cin`` is a predefined object in C++
-* The operator ``>>`` is known as **extraction** or get from operator.
+- In C, standard input device is keyboard and `scanf()` is used to receive data from keyboard.
+- `scanf()` is predefined function.
+- The identifier `cin` is a predefined object in C++
+- The operator `>>` is known as **extraction** or get from operator.
 
 <hr>
 
@@ -209,9 +210,14 @@ cout<<"sum of "<<a<<" and "<<b<<" is "<<c;//C++
 scanf("%d",&a); //C
 cin>>a;//C++
 
-scanf("%d%d",&a,&b);
-cin>>a>>b;
+scanf("%d%d",&a,&b); //C
+cin>>a>>b; //C++
 ```
 
 <hr>
 
+## Remember
+
+<hr>
+
+- According to the ANSI standards
