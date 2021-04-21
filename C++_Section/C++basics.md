@@ -26,3 +26,9 @@
 
 * OOPs is a programming approach which revolves around the concept of Object.
 * Any entity in the system that can be defined as a set of properties and set of operations performed using entity's property set, is known as Object.
+
+## Concept Of Classes And Objects
+
+* Class is a blueprint of an Object
+* Class is a description of Object's property set and set of operations.
+* Creating Class is as good as defining a new data type.
