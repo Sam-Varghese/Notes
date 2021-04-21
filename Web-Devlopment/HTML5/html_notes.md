@@ -222,27 +222,6 @@ Hope you liked
 
 <hr>
 
-# Style Attribute
-
-<hr>
-
-- Style attribute is used to add styles to an element such as color, size, fonts etc.
-- It's format is like:- `<tagname style="property:value">`.
-
-<hr>
-
-```html
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>Styles in HTML</h1>
-    <p style="color:red">This is my red colored paragraph</p>
-  </body>
-</html>
-```
-
-<hr>
-
 # Language And Country Code
 
 <hr>
@@ -283,6 +262,27 @@ Hope you liked
 
 <hr>
 
+# Style Attribute
+
+<hr>
+
+- Style attribute is used to add styles to an element such as color, size, fonts etc.
+- It's format is like:- `<tagname style="property:value">`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Styles in HTML</h1>
+    <p style="color:red">This is my red colored paragraph</p>
+  </body>
+</html>
+```
+
+<hr>
+
 # Background Color
 
 <hr>
@@ -305,3 +305,4 @@ Hope you liked
 ![Output](Images/bg.png)
 
 <hr>
+
