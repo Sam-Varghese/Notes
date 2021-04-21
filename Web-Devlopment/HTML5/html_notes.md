@@ -361,3 +361,23 @@ Hope you liked
 
 <hr>
 
+- In order to align texts, we use ``text-align`` property.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align:center">Text Alignment</h1>
+<p style="text-align:center">Sunt et magna irure proident sint quis ut laborum velit laborum dolor deserunt culpa. Nostrud do cupidatat id tempor do do voluptate enim occaecat labore. Ullamco sit officia officia mollit ut sint ipsum.</p>
+</body>
+</html>
+```
+
+<hr>
+
+![Output](Images/txt-align.png)
+
+<hr>
+
