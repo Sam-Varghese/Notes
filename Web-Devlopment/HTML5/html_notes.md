@@ -186,3 +186,20 @@
 ```
 
 <hr>
+
+## Language And Country Code
+
+<hr>
+
+- In order to assist search engine to figure out the language of out website, there is a lang attribute to specify language, and to specify country, we have country attribute. Example of syntaxes of these are shown below.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang='en-In'> <!--en is the language and In is to specify India-->
+</html>
+```
+
+<hr>
+
