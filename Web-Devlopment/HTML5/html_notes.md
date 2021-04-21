@@ -72,3 +72,11 @@
 ```
 
 <hr>
+
+# Links
+
+<hr>
+
+- We put links in html with the help of anchor tag, ie `<a>`,`</a>`
+
+<hr>
