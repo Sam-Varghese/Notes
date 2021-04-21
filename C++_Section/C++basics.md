@@ -246,3 +246,21 @@ cin>>a>>b; //C++
 
 <hr>
 
+## Sample Program (square.cpp)
+
+<hr>
+
+```c++
+#include<iostream.h> //For declaration of cin, cout
+#include<conio.h> //Declaration of cirscr(), getch()
+void()
+{
+    clrscr() //Calling function first then entering its program
+    int x;
+    cout<<"Enter a number"<<endl;
+    cin>>x;
+    int s=x*x;
+    cout<<"Square of "<<x<<" is "<<s;
+    getch();
+}
+```
