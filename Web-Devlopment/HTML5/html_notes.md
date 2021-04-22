@@ -659,3 +659,29 @@ Hope you liked
 <hr>
 
 - Used to put superscript texts in websites. For this, we use ``<sup>``, ``</sup>``.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Subscript Txt</h1>
+    <p>
+      Aliquip eiusmod fugiat reprehenderit
+      <sup
+        >ullamco ut culpa sint velit fugiat. Ut non ipsum incididunt velit</sup
+      >
+      exercitation ad ea aliquip nostrud consectetur veniam mollit proident
+      ullamco. Eu aliquip elit sunt do ipsum laboris ipsum.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/sup.png)
+
+<hr>
+
