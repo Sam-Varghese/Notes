@@ -504,3 +504,12 @@ Hope you liked
 
 <hr>
 
+# Smaller Text
+
+<hr>
+
+- Used in order to write small texts.
+
+<hr>
+
+```html
