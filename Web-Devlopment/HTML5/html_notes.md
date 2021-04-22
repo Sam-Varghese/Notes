@@ -415,3 +415,15 @@ Hope you liked
 
 <hr>
 
+# Strong Texts
+
+<hr>
+
+- Strong texts are also generally bold, but to browser, they signify that the content is somewhat related to that keyword, which improves indexing.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
