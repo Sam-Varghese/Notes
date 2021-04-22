@@ -163,6 +163,7 @@ Hope you liked
 - In order to insert images, we use `<img src="Img URL" alt="text if img is not shown" width="img width" height="img height">`.
 - Instead of URL, we xan also put relative pah of images that sre on the working directory.
 - We can also put GIF's URL in place of image's URL
+- Use ``float:right/left`` inside style in ``<img src>``'s ``style=`` to align image to left or right side.
 
 <hr>
 
