@@ -809,3 +809,13 @@ Hope you liked
 ![Output](Images/add.png)
 
 <hr>
+
+# Cite
+
+<hr>
+
+- In order to write titles of books, movies, or anything, we use ``<title>``, ``</title>`` tags.
+
+<hr>
+
+```html
