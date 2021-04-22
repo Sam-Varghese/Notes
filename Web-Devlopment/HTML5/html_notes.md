@@ -719,3 +719,8 @@ Hope you liked
 
 <hr>
 
+- In order to write some short quotations, we use ``<q>``, ``</q>`` property.
+- It simply put quotation inside double inverted commas.
+
+<hr>
+
