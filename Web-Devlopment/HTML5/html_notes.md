@@ -719,8 +719,27 @@ Hope you liked
 
 <hr>
 
-- In order to write some short quotations, we use ``<q>``, ``</q>`` property.
+- In order to write some short quotations, we use `<q>`, `</q>` property.
 - It simply put quotation inside double inverted commas.
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Browsers usually insert quotation marks around the q element.</p>
+
+    <p>
+      WWF's goal is to:
+      <q>Build a future where people live in harmony with nature.</q>
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/q.png)
+
+<hr>
