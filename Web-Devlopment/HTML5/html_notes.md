@@ -134,8 +134,8 @@ Hope you liked
 <hr>
 
 - We put links in html with the help of anchor tag, ie `<a>`,`</a>`
-- We use ``<a href="URL" target="_blank">`` in order to open link in a new window or a new tab.
-- We use ``<a href="URL" target="_self">`` in order to open link in the same window or the same tab.
+- We use `<a href="URL" target="_blank">` in order to open link in a new window or a new tab.
+- We use `<a href="URL" target="_self">` in order to open link in the same window or the same tab.
 
 <hr>
 
@@ -162,6 +162,7 @@ Hope you liked
 
 - In order to insert images, we use `<img src="Img URL" alt="text if img is not shown" width="img width" height="img height">`.
 - Instead of URL, we xan also put relative pah of images that sre on the working directory.
+- We can also put GIF's URL in place of image's URL
 
 <hr>
 
@@ -882,4 +883,66 @@ Hope you liked
 <hr>
 
 - In order to jump from one content to another in that same webpage, we use bookmarks.
-- For this we give ``id`` to HTML element, and in anchor tag, we write as follows: ``<a href="#id">Text</a>``
+- For this we give `id` to HTML element, and in anchor tag, we write as follows: `<a href="#id">Text</a>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Bookmarks</h1>
+    <p>
+      <a href="#lst">Last Para</a>Commodo laboris sit commodo in nostrud velit
+      consectetur dolore exercitation sit laboris qui sint dolor.<br />Duis in
+      fugiat ad culpa.<br />Et aliqua exercitation ex officia.<br />Exercitation
+      sint labore consequat exercitation cupidatat ex id nisi aliquip.<br />Velit
+      irure et deserunt eu ex consequat elit quis ex excepteur ea incididunt
+      est.Consectetur laboris elit irure aliquip sunt aute qui aliqua anim qui
+      ipsum.<br />Est sint ea sint nostrud exercitation esse.<br />Esse
+      cupidatat veniam sunt Lorem in.<br />Fugiat cupidatat velit labore
+      adipisicing et sit dolor deserunt dolore exercitation enim ad quis
+      adipisicing.<br />Nostrud ad cupidatat aliquip aute eiusmod.<br />Velit
+      duis cupidatat excepteur pariatur nulla eiusmod.Laboris in eiusmod tempor
+      officia nostrud do in dolore laborum sunt mollit.<br />Elit fugiat in sunt
+      sit amet mollit sint eu aute aliquip adipisicing deserunt. Sit irure
+      exercitation consequat est incididunt elit eu.<br />Voluptate commodo
+      proident est nulla cupidatat aliquip consequat et.<br />Magna veniam
+      cupidatat esse velit sunt Lorem elit sunt exercitation officia.<br />Cillum
+      exercitation laboris fugiat labore quis cupidatat.<br />Officia sint dolor
+      minim nostrud eu eu commodo cillum ex.Veniam amet ut tempor irure
+      incididunt cillum quis enim.<br />Dolor ullamco ad proident minim
+      adipisicing nulla labore.<br />Ullamco sit deserunt esse consequat velit
+      ullamco amet consectetur laborum cillum velit pariatur.<br />Veniam est et
+      sit id fugiat occaecat.Aliquip nisi incididunt anim sit eiusmod sunt ut
+      consectetur veniam anim incididunt id do.<br />Proident aliqua dolore
+      velit enim tempor laborum exercitation magna. Sunt deserunt ad duis ad.<br />Elit
+      Lorem magna est consectetur ullamco exercitation laboris velit id.<br />Ut
+      ad in do voluptate pariatur sunt cupidatat laboris officia aliquip tempor
+      cillum.<br />Exercitation velit occaecat quis aliquip occaecat mollit
+      aliqua minim non.<br />Velit nostrud laboris et esse.Non ad labore cillum
+      enim.<br />Cillum occaecat tempor id voluptate ut elit aliquip amet eu
+      enim nostrud nostrud non fugiat. Adipisicing elit fugiat consectetur enim
+      laborum laboris dolore irure aliqua sit.<br />Sint occaecat magna
+      consequat qui.<br />Qui non non amet incididunt nulla enim.<br />Pariatur
+      reprehenderit est ad ex tempor adipisicing aliqua ex ipsum do.<br />Laborum
+      incididunt qui exercitation tempor cillum irure adipisicing anim est
+      nulla.Nostrud id veniam ex labore veniam qui.<br />Do velit dolor elit
+      officia sunt voluptate est velit irure velit laboris et in ad.
+    </p>
+    <p id="lst">
+      Officia deserunt incididunt non velit.<br />Dolor culpa mollit aute ea
+      esse eiusmod nisi nisi adipisicing.<br />Fugiat anim fugiat commodo nisi
+      ad fugiat et qui.<br />Ex in fugiat tempor commodo est aliquip dolore.<br />Magna
+      veniam anim nisi duis voluptate eiusmod id occaecat.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/bm.png)
+
+<hr>
+
