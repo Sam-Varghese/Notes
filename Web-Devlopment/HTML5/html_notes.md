@@ -134,6 +134,7 @@ Hope you liked
 <hr>
 
 - We put links in html with the help of anchor tag, ie `<a>`,`</a>`
+- We use ``<a href="URL" target="_blank">`` in order to open link in a new window or a new tab.
 
 <hr>
 
@@ -836,3 +837,42 @@ Hope you liked
 ![Output](Images/cite.png)
 
 <hr>
+
+# Comments In HTML
+
+<hr>
+
+- Commenting is done in HTML by writing our comments between `<--` and `-->`.
+
+<hr>
+
+# Borders
+
+<hr>
+
+- In order to put border with custom colors, we use the `border: width solid color` property.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 style="border: 2px solid blue">Borders</h1>
+    <p style="border: 3px solid green">
+      Ipsum ea id aliqua sit tempor velit pariatur non velit consectetur minim.
+      Proident ex elit exercitation velit duis occaecat labore anim id sint elit
+      qui do. Veniam do pariatur culpa sit ex culpa fugiat ipsum eiusmod. Dolor
+      sit reprehenderit consequat consectetur exercitation minim consequat
+      proident occaecat.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/border.png)
+
+<hr>
+
