@@ -426,4 +426,12 @@ Hope you liked
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
+    <h1>Strong Tag</h1>
+    <p>
+      This paragraph is written to show that <strong>Strong Tag</strong> is now
+      wriiten in string text format.
+    </p>
+  </body>
+</html>
+```
