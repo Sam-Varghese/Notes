@@ -947,3 +947,8 @@ Hope you liked
 
 <hr>
 
+# Background Image In Paragraphs
+
+<hr>
+
+- In order to put background images in paragraps, we use ``<div style="background-image: url('URL')">``
