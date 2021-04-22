@@ -622,3 +622,40 @@ Hope you liked
 ![Output](Images/ins.png)
 
 <hr>
+
+# Subscript Text
+
+<hr>
+
+- Used to enter text as a subscript. For this, `<sub>`,`</sub>` properties are used.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Subscript Txt</h1>
+    <p>
+      Aliquip eiusmod fugiat reprehenderit
+      <sub
+        >ullamco ut culpa sint velit fugiat. Ut non ipsum incididunt velit</sub
+      >
+      exercitation ad ea aliquip nostrud consectetur veniam mollit proident
+      ullamco. Eu aliquip elit sunt do ipsum laboris ipsum.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/sub.png)
+
+<hr>
+
+# Superscript Element
+
+<hr>
+
+- Used to put superscript texts in websites. For this, we use ``<sup>``, ``</sup>``.
