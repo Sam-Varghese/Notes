@@ -562,3 +562,29 @@ Hope you liked
 
 <hr>
 
+# Deleted Text
+
+<hr>
+
+- In order to show that some text has been deleted, we use delete tag ie `<del>`, `</del>`.
+- It simply strikes through the line.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Deleted Text</h1>
+    <p>
+      Sint ad elit non et
+      <del>irure ex ipsum ex est sit deserunt amet est. Cillum pariatur</del>
+      minim ad excepteur eiusmod dolor magna ut occaecat est veniam et quis
+      consequat. Aliquip laboris dolore commodo irure laboris quis ex esse
+      laborum laboris esse anim cupidatat adipisicing.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
