@@ -467,3 +467,10 @@ Hope you liked
   </body>
 </html>
 ```
+
+<hr>
+
+![Output](Images/Italic.png)
+
+<hr>
+
