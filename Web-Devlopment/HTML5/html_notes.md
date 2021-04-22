@@ -743,3 +743,35 @@ Hope you liked
 ![Output](Images/q.png)
 
 <hr>
+
+# Abbreviations
+
+<hr>
+
+- In HTML we have tags like `<abbr title="full form">`,`</abbr>` for indicating what our abbreviations actually mean.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>
+      The <abbr title="World Health Organization">WHO</abbr> was founded in
+      1948.
+    </p>
+
+    <p>
+      Marking up abbreviations can give useful information to browsers,
+      translation systems and search-engines.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/abbr.png)
+
+<hr>
+
