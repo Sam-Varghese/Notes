@@ -513,3 +513,22 @@ Hope you liked
 <hr>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Small Texts</h1>
+    <p>
+      <small
+        >Ad commodo reprehenderit velit excepteur nisi. Cupidatat minim tempor
+        reprehenderit reprehenderit nulla nostrud non pariatur ea. Ut labore et
+        pariatur sit. Quis laboris do amet et mollit ea consequat exercitation
+        labore est pariatur.</small
+      >
+      This is the normal size
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
