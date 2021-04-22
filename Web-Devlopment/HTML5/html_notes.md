@@ -588,3 +588,31 @@ Hope you liked
 ```
 
 <hr>
+
+![Output](Images/del.png)
+
+<hr>
+
+# Inserted Text
+
+<hr>
+
+- Inserted text is simply underlined text. This is achieved by `<ins>`, `</ins>` property.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Text Insertion</h1>
+    <p>
+      Sunt Lorem excepteur culpa officia ea
+      <ins>ut sit dolor laborum. Laborum id dolore id irure nisi et enim</ins>
+      deserunt. Ullamco officia cillum incididunt elit esse. Duis nisi ad
+      adipisicing dolor sunt duis sunt in eu non deserunt. Ullamco nostrud
+      laboris ad do in non dolor cupidatat quis excepteur quis sit.
+    </p>
+  </body>
+</html>
+```
