@@ -814,8 +814,25 @@ Hope you liked
 
 <hr>
 
-- In order to write titles of books, movies, or anything, we use ``<title>``, ``</title>`` tags.
+- In order to write titles of books, movies, or anything, we use `<title>`, `</title>` tags.
 
 <hr>
 
 ```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>The HTML cite element defines the title of a work.</p>
+    <p>Browsers usually display cite elements in italic.</p>
+
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream" />
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/cite.png)
+
+<hr>
