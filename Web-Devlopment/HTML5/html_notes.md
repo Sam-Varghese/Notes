@@ -658,7 +658,7 @@ Hope you liked
 
 <hr>
 
-- Used to put superscript texts in websites. For this, we use ``<sup>``, ``</sup>``.
+- Used to put superscript texts in websites. For this, we use `<sup>`, `</sup>`.
 
 <hr>
 
@@ -682,6 +682,36 @@ Hope you liked
 <hr>
 
 ![Output](Images/sup.png)
+
+<hr>
+
+# Blockquote
+
+<hr>
+
+- Copying information from any other source as i is would make browsers feel that our website is just a scam.
+- Hence in order to copy data from any other source and put that on out website, we use blockquotes, ie `<blockquote>`, `</blockquote>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/bq.png)
 
 <hr>
 
