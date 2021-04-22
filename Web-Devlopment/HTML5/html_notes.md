@@ -775,3 +775,37 @@ Hope you liked
 
 <hr>
 
+# Address
+
+<hr>
+
+- In order to specify address in HTML, we use `<address>`, `</address>` tag.
+- It simply writes our address in italics.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>
+      The HTML address element defines contact information (author/owner) of a
+      document or article.
+    </p>
+
+    <address>
+      Written by John Doe.<br />
+      Visit us at:<br />
+      Example.com<br />
+      Box 564, Disneyland<br />
+      USA
+    </address>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/add.png)
+
+<hr>
