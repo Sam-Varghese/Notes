@@ -715,3 +715,7 @@ Hope you liked
 
 <hr>
 
+# ShortQuotation
+
+<hr>
+
