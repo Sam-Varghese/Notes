@@ -1010,4 +1010,5 @@ Background Image In Window
 
 - But even after using ``background-size: cover``, on resizing the window, image will refuse to cover the entire element. Hence in this situation we use ``background-size: 100% 100%`
 
-<hr`
+<hr>
+
