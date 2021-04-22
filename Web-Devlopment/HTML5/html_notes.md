@@ -478,7 +478,7 @@ Hope you liked
 
 <hr>
 
-- Used to emphasize a text, the contents in this style are generally put up in italics. This is achieved using ``<em>``, ``</em>`` tags.
+- Used to emphasize a text, the contents in this style are generally put up in italics. This is achieved using `<em>`, `</em>` tags.
 
 <hr>
 
@@ -508,7 +508,7 @@ Hope you liked
 
 <hr>
 
-- Used in order to write small texts. This is achieved using ``<small>``, ``</small>`` property.
+- Used in order to write small texts. This is achieved using `<small>`, `</small>` property.
 
 <hr>
 
@@ -536,4 +536,23 @@ Hope you liked
 
 <hr>
 
-- This property is used to highlight the text. This is usually achieved with the help of ``<mark>``, ``</mark>`` property.
+- This property is used to highlight the text. This is usually achieved with the help of `<mark>`, `</mark>` property.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Highted Texts</h1>
+    <p>
+      Duis enim duis qui nulla tempor.
+      <mark
+        >Adipisicing eu eiusmod Lorem culpa aliquip est tempor est proident
+        esse</mark
+      >. Dolor ea voluptate magna nisi cupidatat elit incididunt.
+    </p>
+  </body>
+</html>
+```
+
