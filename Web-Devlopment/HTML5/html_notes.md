@@ -419,7 +419,7 @@ Hope you liked
 
 <hr>
 
-- Strong texts are also generally bold, but to browser, they signify that the content is somewhat related to that keyword, which improves indexing. Strong texts are made with the help of ``<strong>``, ``</strong>`` tags.
+- Strong texts are also generally bold, but to browser, they signify that the content is somewhat related to that keyword, which improves indexing. Strong texts are made with the help of `<strong>`, `</strong>` tags.
 
 <hr>
 
@@ -446,7 +446,24 @@ Hope you liked
 
 <hr>
 
-- Italic texts are made wit the help of ``<i>``, ``</i>`` tags.
+- Italic texts are made wit the help of `<i>`, `</i>` tags.
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Italics</h1>
+    <p>
+      <i
+        >Est fugiat cillum in culpa quis commodo in incididunt amet sit. Non
+        exercitation nisi fugiat reprehenderit consequat qui aliquip labore
+        nulla nostrud occaecat enim nulla pariatur. Officia ea quis
+        reprehenderit nisi. Dolor laborum sit non proident commodo. Anim
+        occaecat magna enim aute ea duis veniam duis ex minim et incididunt.</i
+      >
+    </p>
+  </body>
+</html>
+```
