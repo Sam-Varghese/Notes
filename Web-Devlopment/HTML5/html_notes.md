@@ -474,3 +474,26 @@ Hope you liked
 
 <hr>
 
+# Emphasized Text
+
+<hr>
+
+- Used to emphasize a text, the contents in this style are generally put up in italics.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Emphasizing Text</h1>
+    <p>
+      <em
+        >Non sunt nulla aliqua enim tempor exercitation cillum irure do sit.
+        Consectetur commodo consequat tempor officia enim ut. Ut cupidatat elit
+        occaecat non consequat est.</em
+      >
+    </p>
+  </body>
+</html>
+```
