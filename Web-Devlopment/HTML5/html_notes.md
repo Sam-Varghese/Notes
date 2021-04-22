@@ -956,7 +956,7 @@ Hope you liked
 
 <hr>
 
-Background Image In Window
+# Background Image In Window
 
 <hr>
 
@@ -973,7 +973,8 @@ Background Image In Window
       deserunt sit qui culpa incididunt.<br />Culpa irure esse sit quis sit
       pariatur id pariatur excepteur veniam.<br />Culpa proident quis sunt
       aliqua eiusmod laboris.<br />Cupidatat culpa aliquip mollit veniam anim
-      ipsum duis id elit minim et officia.<br />Ut sunt elit eu Non laboris cupidatat deserunt consectetur.
+      ipsum duis id elit minim et officia.<br />Ut sunt elit eu Non laboris
+      cupidatat deserunt consectetur.
     </p>
   </body>
 </html>
@@ -990,7 +991,7 @@ Background Image In Window
 <hr>
 
 - If image is smaller than window, then usually it gets repeated.
-- In order to stop it repeat, we use ``background-repeat: no-repeat`` and ``background-size: cover`` property.
+- In order to stop it repeat, we use `background-repeat: no-repeat` and `background-size: cover` property.
 
 <hr>
 
@@ -1008,7 +1009,43 @@ Background Image In Window
 
 <hr>
 
-- But even after using ``background-size: cover``, on resizing the window, image will refuse to cover the entire element. Hence in this situation we use ``background-size: 100% 100%`
+- But even after using `background-size: cover`, on resizing the window, image will refuse to cover the entire element. Hence in this situation we use ``background-size: 100% 100%`
 
 <hr>
 
+# Tables
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Table</h1>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid blue;
+      }
+    </style>
+    <table style="width: 100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
