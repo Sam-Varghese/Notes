@@ -135,6 +135,7 @@ Hope you liked
 
 - We put links in html with the help of anchor tag, ie `<a>`,`</a>`
 - We use ``<a href="URL" target="_blank">`` in order to open link in a new window or a new tab.
+- We use ``<a href="URL" target="_self">`` in order to open link in the same window or the same tab.
 
 <hr>
 
@@ -144,7 +145,7 @@ Hope you liked
   <body>
     <h1>HTML Notes</h1>
     <p>These are my html notes</p>
-    <a href="https://www.w3schools.com">This is a link</a>
+    <a href="https://www.w3schools.com" target="_self">This is a link</a>
   </body>
 </html>
 ```
@@ -876,3 +877,9 @@ Hope you liked
 
 <hr>
 
+# Bookmarks
+
+<hr>
+
+- In order to jump from one content to another in that same webpage, we use bookmarks.
+- For this we give ``id`` to HTML element, and in anchor tag, we write as follows: ``<a href="#id">Text</a>``
