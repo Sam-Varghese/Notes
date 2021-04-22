@@ -163,7 +163,7 @@ Hope you liked
 - In order to insert images, we use `<img src="Img URL" alt="text if img is not shown" width="img width" height="img height">`.
 - Instead of URL, we xan also put relative pah of images that sre on the working directory.
 - We can also put GIF's URL in place of image's URL
-- Use ``float:right/left`` inside style in ``<img src>``'s ``style=`` to align image to left or right side.
+- Use `float:right/left` inside style in `<img src>`'s `style=` to align image to left or right side.
 
 <hr>
 
@@ -902,33 +902,7 @@ Hope you liked
       est.Consectetur laboris elit irure aliquip sunt aute qui aliqua anim qui
       ipsum.<br />Est sint ea sint nostrud exercitation esse.<br />Esse
       cupidatat veniam sunt Lorem in.<br />Fugiat cupidatat velit labore
-      adipisicing et sit dolor deserunt dolore exercitation enim ad quis
-      adipisicing.<br />Nostrud ad cupidatat aliquip aute eiusmod.<br />Velit
-      duis cupidatat excepteur pariatur nulla eiusmod.Laboris in eiusmod tempor
-      officia nostrud do in dolore laborum sunt mollit.<br />Elit fugiat in sunt
-      sit amet mollit sint eu aute aliquip adipisicing deserunt. Sit irure
-      exercitation consequat est incididunt elit eu.<br />Voluptate commodo
-      proident est nulla cupidatat aliquip consequat et.<br />Magna veniam
-      cupidatat esse velit sunt Lorem elit sunt exercitation officia.<br />Cillum
-      exercitation laboris fugiat labore quis cupidatat.<br />Officia sint dolor
-      minim nostrud eu eu commodo cillum ex.Veniam amet ut tempor irure
-      incididunt cillum quis enim.<br />Dolor ullamco ad proident minim
-      adipisicing nulla labore.<br />Ullamco sit deserunt esse consequat velit
-      ullamco amet consectetur laborum cillum velit pariatur.<br />Veniam est et
-      sit id fugiat occaecat.Aliquip nisi incididunt anim sit eiusmod sunt ut
-      consectetur veniam anim incididunt id do.<br />Proident aliqua dolore
-      velit enim tempor laborum exercitation magna. Sunt deserunt ad duis ad.<br />Elit
-      Lorem magna est consectetur ullamco exercitation laboris velit id.<br />Ut
-      ad in do voluptate pariatur sunt cupidatat laboris officia aliquip tempor
-      cillum.<br />Exercitation velit occaecat quis aliquip occaecat mollit
-      aliqua minim non.<br />Velit nostrud laboris et esse.Non ad labore cillum
-      enim.<br />Cillum occaecat tempor id voluptate ut elit aliquip amet eu
-      enim nostrud nostrud non fugiat. Adipisicing elit fugiat consectetur enim
-      laborum laboris dolore irure aliqua sit.<br />Sint occaecat magna
-      consequat qui.<br />Qui non non amet incididunt nulla enim.<br />Pariatur
-      reprehenderit est ad ex tempor adipisicing aliqua ex ipsum do.<br />Laborum
-      incididunt qui exercitation tempor cillum irure adipisicing anim est
-      nulla.Nostrud id veniam ex labore veniam qui.<br />Do velit dolor elit
+      a
       officia sunt voluptate est velit irure velit laboris et in ad.
     </p>
     <p id="lst">
@@ -951,4 +925,43 @@ Hope you liked
 
 <hr>
 
-- In order to put background images in paragraps, we use ``<div style="background-image: url('URL')">``
+- In order to put background images in paragraps, we use `<div style="background-image: url('URL')">`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>HTML</h1>
+    <div
+      style="background-image: url('https://sm.mashable.com/mashable_in/seo/default/8-years-of-the-avengers-how-joss-whedons-risk-became-crucial_5z9w.jpg')"
+    >
+      <p>
+        Esse ea eiusmod dolore ullamco enim aute deserunt ad. Veniam laboris
+        amet laboris non consectetur ad pariatur voluptate labore. Nisi officia
+        fugiat enim anim laboris est culpa deserunt. Aliqua aliquip do nisi
+        velit minim ipsum non occaecat excepteur in. Laborum nisi consequat sint
+        ut pariatur magna tempor aute adipisicing sit.Amet cupidatat amet
+        proident non ipsum quis ut duis consectetur laboris magna minim commodo.
+        Magna minim aliqua occaecat amet non proident do id. Do duis minim nisi
+        sit elit aute ullamco non et cupidatat do labore. Culpa officia laboris
+        reprehenderit ad incididunt non aute mollit laborum. Adipisicing tempor
+        ad eu sunt tempor amet consectetur laboris qui aute est in sit
+        reprehenderit.Ea voluptate commodo in nulla. Irure cupidatat et
+        exercitation officia cillum est labore. Nostrud non commodo occaecat qui
+        exercitation sit commodo labore sunt in anim elit irure excepteur. Ad
+        reprehenderit proident mollit minim mollit ea nisi sit sit eiusmod
+        nostrud.
+      </p>
+    </div>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/pbg.png)
+
+<hr>
+
