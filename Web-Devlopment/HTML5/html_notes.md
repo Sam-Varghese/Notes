@@ -901,8 +901,7 @@ Hope you liked
       irure et deserunt eu ex consequat elit quis ex excepteur ea incididunt
       est.Consectetur laboris elit irure aliquip sunt aute qui aliqua anim qui
       ipsum.<br />Est sint ea sint nostrud exercitation esse.<br />Esse
-      cupidatat veniam sunt Lorem in.<br />Fugiat cupidatat velit labore
-      a
+      cupidatat veniam sunt Lorem in.<br />Fugiat cupidatat velit labore a
       officia sunt voluptate est velit irure velit laboris et in ad.
     </p>
     <p id="lst">
@@ -944,15 +943,7 @@ Hope you liked
         velit minim ipsum non occaecat excepteur in. Laborum nisi consequat sint
         ut pariatur magna tempor aute adipisicing sit.Amet cupidatat amet
         proident non ipsum quis ut duis consectetur laboris magna minim commodo.
-        Magna minim aliqua occaecat amet non proident do id. Do duis minim nisi
-        sit elit aute ullamco non et cupidatat do labore. Culpa officia laboris
-        reprehenderit ad incididunt non aute mollit laborum. Adipisicing tempor
-        ad eu sunt tempor amet consectetur laboris qui aute est in sit
-        reprehenderit.Ea voluptate commodo in nulla. Irure cupidatat et
-        exercitation officia cillum est labore. Nostrud non commodo occaecat qui
-        exercitation sit commodo labore sunt in anim elit irure excepteur. Ad
-        reprehenderit proident mollit minim mollit ea nisi sit sit eiusmod
-        nostrud.
+        Magna minim aliqua occ
       </p>
     </div>
   </body>
@@ -965,3 +956,58 @@ Hope you liked
 
 <hr>
 
+Background Image In Window
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body
+    style="background-image: url('https://wallpaperaccess.com/full/13453.jpg')"
+  >
+    <h1>HTML</h1>
+    <p>
+      Veniam Lorem aliquip irure non sit irure anim.<br />Ut laboris tempor
+      consectetur id dolore.<br />Dolore esse dolore occaecat commodo dolor
+      deserunt sit qui culpa incididunt.<br />Culpa irure esse sit quis sit
+      pariatur id pariatur excepteur veniam.<br />Culpa proident quis sunt
+      aliqua eiusmod laboris.<br />Cupidatat culpa aliquip mollit veniam anim
+      ipsum duis id elit minim et officia.<br />Ut sunt elit eu Non laboris cupidatat deserunt consectetur.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/bgimg.png)
+
+<hr>
+
+# Image Repeat And Cover
+
+<hr>
+
+- If image is smaller than window, then usually it gets repeated.
+- In order to stop it repeat, we use ``background-repeat: no-repeat`` and ``background-size: cover`` property.
+
+<hr>
+
+## Before
+
+![Output1](Images/rep1.png)
+
+<hr>
+
+## After Using Property
+
+<hr>
+
+![Output](Images/rep2.png)
+
+<hr>
+
+- But even after using ``background-size: cover``, on resizing the window, image will refuse to cover the entire element. Hence in this situation we use ``background-size: 100% 100%`
+
+<hr`
