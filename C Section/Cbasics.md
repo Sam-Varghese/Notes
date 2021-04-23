@@ -41,5 +41,30 @@ main()
     float a=5.5;
     int b=5;
     char c='y'; //For single character, single inverted commas, else double.
-    
+
 }
+```
+
+<hr>
+
+# Simple Arithematic Operation
+
+<hr>
+
+```c
+#include<stdio.h>
+
+main()
+{
+    int a=1;
+    int b=2;
+    printf("%d",a+b);
+}
+```
+
+<hr>
+
+![Output](Images/op1.png)
+
+<hr>
+
