@@ -324,3 +324,12 @@ cout<<x; //output is 6
 # Functions In C++
 
 <hr>
+
+- Function is a block of code, performing a unit task.
+- Function has a name, return type and arguments.
+- Function is a way to acheive modularization.
+- Functions are pre-defined and user-defined.
+- Pre-defined functions are declared in header files, and defined in library files.
+
+<hr>
+
