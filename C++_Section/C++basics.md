@@ -314,4 +314,5 @@ cout<<x; //output is 6
 
 - Reference means address.
 - Reference variable is an internal pointer.
-- Declaration of variable is preceded by ``&`` symbol.
+- Declaration of variable is preceded by ``&`` symbol. (but do not read as ``address of``)
+- Reference variable must be initialised during declaration.
