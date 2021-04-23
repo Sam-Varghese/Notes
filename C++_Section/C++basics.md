@@ -271,7 +271,7 @@ void()
 
 <hr>
 
-* In C:-
+- In C:-
 
 <hr>
 
@@ -283,5 +283,35 @@ p=&x;
 
 <hr>
 
+- In C++:-
+
+<hr>
+
 ```c++
-int
+int x=5;
+int *p;
+p=&x;
+```
+
+<hr>
+
+- Now if we do `y++;`, then the address does not gets incremented, rather x gets incremented as y now addresses x .
+
+<hr>
+
+```c++
+int x=5;
+int &y=x;
+y++;
+cout<<x; //output is 6
+```
+
+<hr>
+
+# Reference Variable
+
+<hr>
+
+- Reference means address.
+- Reference variable is an internal pointer.
+- Declaration of variable is preceded by ``&`` symbol.

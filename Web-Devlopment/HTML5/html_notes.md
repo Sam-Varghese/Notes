@@ -1049,3 +1049,61 @@ Hope you liked
   </body>
 </html>
 ```
+
+<hr>
+
+![Output](Images/t1.png)
+
+<hr>
+
+# Cell Padding
+
+<hr>
+
+- In order to increase size of eack cell of table, use cell padding.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Table</h1>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid blue;
+      }
+      th,
+      td {
+        padding: 15px;
+      }
+    </style>
+    <table style="width: 100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/t2.png)
+
+<hr>
+
