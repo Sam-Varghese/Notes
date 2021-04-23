@@ -72,3 +72,17 @@ main()
 
 <hr>
 
+- Till now we saw that output does appears correctly, but a small warning comes comes for main. This happens because the function main should return something. Hence this is the reason that we use the following syntax to code correctly.
+
+<hr>
+
+```c
+int main() // Called 'return type'
+{
+    //Code
+
+    return 0;
+}
+```
+
+<hr>
