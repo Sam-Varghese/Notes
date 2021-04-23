@@ -86,3 +86,31 @@ int main() // Called 'return type'
 ```
 
 <hr>
+
+# Garbage Value
+
+<hr>
+
+- Just observe the output of the following code:-
+
+<hr>
+
+```c
+#include<stdio.h>
+int main()
+{
+    int a, b, c, d;
+    printf("a is =%d, b is =%d, c is =%d, d is =%d", a, b, c, d);
+    return 0;
+}
+```
+
+<hr>
+
+![Output](Images/op2.png)
+
+<hr>
+
+- These values came becuse when we initialised a, b, c, d as int's, then they got a default value and got stored in memory.
+
+<hr>
