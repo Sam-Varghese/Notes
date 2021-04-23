@@ -68,3 +68,7 @@ main()
 
 <hr>
 
+# Return Type
+
+<hr>
+
