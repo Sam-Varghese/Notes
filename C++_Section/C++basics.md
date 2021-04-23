@@ -317,3 +317,10 @@ cout<<x; //output is 6
 - Declaration of variable is preceded by `&` symbol. (but do not read as `address of`)
 - Reference variable must be initialised during declaration.
 - It can be initialized with already declared variables only.
+- Reference variables can not be updated.
+
+<hr>
+
+# Functions In C++
+
+<hr>
