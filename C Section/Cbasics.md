@@ -19,7 +19,7 @@
 
 main()
 {
-    printf("Hello World");
+    printf("Hello World"); //printf==print format
 }
 ```
 
@@ -58,7 +58,7 @@ main()
 {
     int a=1;
     int b=2;
-    printf("%d",a+b);
+    printf("The addition of %d and %d is %d",a,b,a+b);//"%d" in order to specify that we are to print integer.
 }
 ```
 
