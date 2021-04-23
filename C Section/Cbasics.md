@@ -114,3 +114,9 @@ int main()
 - These values came becuse when we initialised a, b, c, d as int's, then they got a default value and got stored in memory.
 
 <hr>
+
+# Taking Inputs
+
+<hr>
+
+- In order
