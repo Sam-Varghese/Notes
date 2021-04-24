@@ -213,3 +213,11 @@ alert(`The value of x is ${x}`);
 5!=="6" -> `true`
 
 <hr>
+
+# AND Operator
+
+<hr>
+
+- In JavaScript, `&&` is the AND operator.
+
+#
