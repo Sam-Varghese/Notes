@@ -220,4 +220,10 @@ alert(`The value of x is ${x}`);
 
 - In JavaScript, `&&` is the AND operator.
 
-#
+# OR Operator
+
+<hr>
+
+- In JavaScript, `||` is used as an OR operator.
+
+<hr>
