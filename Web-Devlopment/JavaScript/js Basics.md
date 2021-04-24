@@ -26,6 +26,10 @@
 
 <hr>
 
+![Output](Images/alert1.png)
+
+<hr>
+
 - If the javascript program is written in another js file, then we need not start coding js code inside `<script>`, `</script>`. Just put `<script src="path">`, `</script>`.
 
 <hr>
@@ -39,3 +43,35 @@
 
 - **Defer**: Now suppose if we want browsers to read through full code and then run, in this case we use defer.
 - _Syntax_: `<script defer src="path"></script>`
+
+<hr>
+
+# Printing In Console
+
+- Firstly go to the google browser, ``Inspect>Console``.
+
+<hr>
+
+```js
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Javascript Tutorial</h1>
+    <script>
+      alert("Hello World");
+      console.log("Written hello world sir");
+    </script>
+  </body>
+</html>
+```
+
+<hr>
+
+![Output](Images/console1.png)
+
+<hr>
