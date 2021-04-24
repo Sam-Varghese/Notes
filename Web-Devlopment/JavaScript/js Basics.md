@@ -48,7 +48,7 @@
 
 # Printing In Console
 
-- Firstly go to the google browser, ``Inspect>Console``.
+- Firstly go to the google browser, `Inspect>Console`.
 
 <hr>
 
@@ -78,10 +78,13 @@
 
 # Defining Variables In JavaScript
 
-
 ```js
 var a;
-a=5;
+a = 5;
+//Or
+let a = 5;
+//Or
+const a = 5; //Now value of a can be never changed as const==constant
 alert(a);
 ```
 
@@ -89,6 +92,5 @@ alert(a);
 
 # Comments In JavaScript
 
-<hr>
-
-- Comments in javascript starts with ``//``.
+- Single line comments in javascript starts with `//`.
+- Multi line comments in javascript start with `/*` and ends with `*/`.
