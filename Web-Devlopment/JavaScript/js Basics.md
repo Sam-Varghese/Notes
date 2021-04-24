@@ -128,5 +128,6 @@ x++;
 
 - All pluses in above code can be replaced by ``-`` if we wanna subtract 1 from variable.
 - In JavaScript, strings can be written inside either double quotes, or single quotes.
+- Using backlash can tell browser to ignore the comming quote to recognise as the ending quote.
 
 <hr>
