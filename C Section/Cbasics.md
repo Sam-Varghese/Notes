@@ -119,4 +119,4 @@ int main()
 
 <hr>
 
-- In order
+- In order to take inputs, we use ``scanf`` function.
