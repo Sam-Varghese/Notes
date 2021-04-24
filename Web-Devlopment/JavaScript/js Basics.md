@@ -26,4 +26,10 @@
 
 <hr>
 
-- If the javascript program is written in another js file, then we need not start coding js code inside ``<script>``, ``</script>``. Just put ``<script src="path">``, ``</script>``.
+- If the javascript program is written in another js file, then we need not start coding js code inside `<script>`, `</script>`. Just put `<script src="path">`, `</script>`.
+
+<hr>
+
+# Async And Defer
+
+- Now, when we use `<script src="path">`, `</script>`, then there are two ways in which we can ask browser to load our html file.
