@@ -187,3 +187,6 @@ alert(`The value of x is ${x}`);
 
 `5==5` -> `true`<br>
 `'5'==5` -> `false`<br>
+
+<hr>
+
