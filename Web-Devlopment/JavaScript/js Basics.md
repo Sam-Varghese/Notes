@@ -105,6 +105,6 @@ alert(a);
 <hr>
 
 - ``let x;`` is a correct javascript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as ``undefined``.
+- In JavaScript, ``x=x+y`` can also be written as ``x+=y`` just like that in python. 
 
 <hr>
-
