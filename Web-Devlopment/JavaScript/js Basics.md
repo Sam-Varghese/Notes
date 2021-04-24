@@ -126,6 +126,6 @@ x+=1;
 x++;
 ```
 
-
+- All pluses in above code can be replaced by ``-`` if we wanna subtract 1 from variable.
 
 <hr>
