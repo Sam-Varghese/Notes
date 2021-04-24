@@ -76,3 +76,7 @@
 
 <hr>
 
+# Defining Variables In JavaScript
+
+<hr>
+
