@@ -33,3 +33,6 @@
 # Async And Defer
 
 - Now, when we use `<script src="path">`, `</script>`, then there are two ways in which we can ask browser to load our html file.
+
+- **Async**: Async is the default method for browsers. In this method, browsers firstly try reading code line by line and when it reaches script tag, then it downloads that js file and reads through that. So if our js file calls an element that is below ``<script></script>``, then browser gives error saying that ie does not know about existence of this element.
+
