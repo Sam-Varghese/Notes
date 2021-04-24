@@ -227,3 +227,11 @@ alert(`The value of x is ${x}`);
 - In JavaScript, `||` is used as an OR operator.
 
 <hr>
+
+# NOT Operator
+
+<hr>
+
+- In JavaScript, `!` is used as a NOT operator, ie, gives false if true comes, and vice-versa.
+
+<hr>
