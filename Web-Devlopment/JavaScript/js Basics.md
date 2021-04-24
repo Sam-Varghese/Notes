@@ -1,6 +1,6 @@
 # JavaScript Notes
 
-![Logo](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
+![Logo](https://www.freepnglogos.com/uploads/JavaScript-png/JavaScript-logo-transparent-logo-JavaScript-images-3.png)
 
 <hr>
 
@@ -16,7 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Javascript Tutorial</h1>
+    <h1>JavaScript Tutorial</h1>
     <script>
       alert("Hello World");
     </script>
@@ -30,7 +30,7 @@
 
 <hr>
 
-- If the javascript program is written in another js file, then we need not start coding js code inside `<script>`, `</script>`. Just put `<script src="path">`, `</script>`.
+- If the JavaScript program is written in another js file, then we need not start coding js code inside `<script>`, `</script>`. Just put `<script src="path">`, `</script>`.
 
 <hr>
 
@@ -61,7 +61,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Javascript Tutorial</h1>
+    <h1>JavaScript Tutorial</h1>
     <script>
       alert("Hello World");
       console.log("Written hello world sir");
@@ -95,8 +95,8 @@ alert(a);
 
 # Comments In JavaScript
 
-- Single line comments in javascript starts with `//`.
-- Multi line comments in javascript start with `/*` and ends with `*/`.
+- Single line comments in JavaScript starts with `//`.
+- Multi line comments in JavaScript start with `/*` and ends with `*/`.
 
 <hr>
 
@@ -104,7 +104,7 @@ alert(a);
 
 <hr>
 
-- `let x;` is a correct javascript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as `undefined`.
+- `let x;` is a correct JavaScript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as `undefined`.
 - In JavaScript, `x=x+y` can also be written as `x+=y` just like that in python.
 - The output of the following code:-
 
@@ -127,5 +127,6 @@ x++;
 ```
 
 - All pluses in above code can be replaced by ``-`` if we wanna subtract 1 from variable.
+- In JavaScript, strings can be written inside either double quotes, or single quotes.
 
 <hr>
