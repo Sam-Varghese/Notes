@@ -220,6 +220,7 @@ alert(`The value of x is ${x}`);
 
 - In JavaScript, `&&` is the AND operator.
 
+<hr>
 # OR Operator
 
 <hr>
@@ -233,5 +234,22 @@ alert(`The value of x is ${x}`);
 <hr>
 
 - In JavaScript, `!` is used as a NOT operator, ie, gives false if true comes, and vice-versa.
+
+<hr>
+
+# Conditionals
+
+<hr>
+
+```js
+let age=14;
+
+if(age<>=18){
+  alert("Sorry sir, but you are not allowed to have vaccine.")
+}
+else{
+  alert("Sir, you are eligible to have vaccine.")
+}
+```
 
 <hr>
