@@ -84,6 +84,9 @@ a = 5;
 //Or
 let a = 5;
 //Or
+let a;
+a=5;
+//Or
 const a = 5; //Now value of a can be never changed as const==constant
 alert(a);
 ```
@@ -94,3 +97,14 @@ alert(a);
 
 - Single line comments in javascript starts with `//`.
 - Multi line comments in javascript start with `/*` and ends with `*/`.
+
+<hr>
+
+**Note**
+
+<hr>
+
+- ``let x;`` is a correct javascript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as ``undefined``.
+
+<hr>
+
