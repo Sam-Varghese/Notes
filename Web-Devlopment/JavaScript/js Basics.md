@@ -164,3 +164,9 @@ console.log(x);
 
 <hr>
 
+```js
+x=5;
+console.log(`The value of x is ${x}`) //NO QUOTES USED!
+alert(`The value of x is ${x}`)
+```
+
