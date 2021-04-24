@@ -144,3 +144,23 @@ alert(x);
 - Bollean values:- ``true``, ``false``.
 
 <hr>
+
+# Getting Type
+
+<hr>
+
+In order to get the type of an object in javascript, we use ``typeof`` function.
+
+<hr>
+
+```js
+let x=typeof 1;
+console.log(x);
+```
+
+<hr>
+
+# Printing Multiple type Data
+
+<hr>
+
