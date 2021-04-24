@@ -183,4 +183,7 @@ alert(`The value of x is ${x}`);
 `6==5` -> `false`<br>
 `5=="5"` -> **_true_**
 
--
+- Now comes `===` operator which is used to check wether type and value of LHS and RHS are equal.
+
+`5==5` -> `true`<br>
+`'5'==5` -> `false`<br>
