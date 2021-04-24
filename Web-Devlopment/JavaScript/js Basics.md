@@ -172,7 +172,7 @@ alert(`The value of x is ${x}`);
 
 <hr>
 
-# = Operator
+# Equal to Operator
 
 <hr>
 
@@ -190,3 +190,16 @@ alert(`The value of x is ${x}`);
 
 <hr>
 
+# Not Equal to Operator
+
+<hr>
+
+- Here firsty comes the `!=` operator which is used to check wether the vale of LHS and RHS are unequal or not.
+
+<hr>
+
+`5!=5` -> `false`<br>
+`5!='5'` -> `false`<br>
+`6!=5` -> `true`
+
+<hr>
