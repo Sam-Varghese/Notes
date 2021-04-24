@@ -130,4 +130,17 @@ x++;
 - In JavaScript, strings can be written inside either double quotes, or single quotes.
 - Using backlash can tell browser to ignore the comming quote to recognise as the ending quote.
 
+```js
+str='Sam\'s'
+```
+
+- Boolean variables can be sored in the following manner:
+
+```js
+x=(5>3);
+alert(x);
+```
+
+- Bollean values:- ``true``, ``false``.
+
 <hr>
