@@ -203,3 +203,13 @@ alert(`The value of x is ${x}`);
 `6!=5` -> `true`
 
 <hr>
+
+- Now comes the `!==` operator which is used to check wether RHS and LHS have unequal value or unequal datatype. (**Are really diffrent or not**)
+
+<hr>
+
+`5!==5` -> `false`<br>
+`5!=="5"` -> `true`<br>
+5!=="6" -> `true`
+
+<hr>
