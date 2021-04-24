@@ -118,30 +118,30 @@ console.log(x + y);
 - If we want to increase an int number by 1, then here are all he ways to do so:
 
 ```js
-let x=2;
-x=x+1;
+let x = 2;
+x = x + 1;
 //Or
-x+=1;
+x += 1;
 //Or
 x++;
 ```
 
-- All pluses in above code can be replaced by ``-`` if we wanna subtract 1 from variable.
+- All pluses in above code can be replaced by `-` if we wanna subtract 1 from variable.
 - In JavaScript, strings can be written inside either double quotes, or single quotes.
 - Using backlash can tell browser to ignore the comming quote to recognise as the ending quote.
 
 ```js
-str='Sam\'s'
+str = "Sam's";
 ```
 
 - Boolean variables can be sored in the following manner:
 
 ```js
-x=(5>3);
+x = 5 > 3;
 alert(x);
 ```
 
-- Bollean values:- ``true``, ``false``.
+- Bollean values:- `true`, `false`.
 
 <hr>
 
@@ -149,12 +149,12 @@ alert(x);
 
 <hr>
 
-In order to get the type of an object in javascript, we use ``typeof`` function.
+In order to get the type of an object in javascript, we use `typeof` function.
 
 <hr>
 
 ```js
-let x=typeof 1;
+let x = typeof 1;
 console.log(x);
 ```
 
@@ -165,9 +165,9 @@ console.log(x);
 <hr>
 
 ```js
-x=5;
-console.log(`The value of x is ${x}`) //NO QUOTES USED!
-alert(`The value of x is ${x}`)
+x = 5;
+console.log(`The value of x is ${x}`); //NO QUOTES USED!
+alert(`The value of x is ${x}`);
 ```
 
 <hr>
@@ -178,3 +178,9 @@ alert(`The value of x is ${x}`)
 
 - Firstly there is an `=` operator which is used to put the value of the RHS to LHS.
 - Then we have an `==` operator which is used to check wether the value of RHS and LHS are same.(**Type can be diffrent**).
+
+`5==5` -> `true`<br>
+`6==5` -> `false`<br>
+`5=="5"` -> **_true_**
+
+-
