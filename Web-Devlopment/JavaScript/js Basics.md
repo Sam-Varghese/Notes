@@ -1,6 +1,6 @@
 # JavaScript Notes
 
-![Logo](https://www.freepnglogos.com/uploads/JavaScript-png/JavaScript-logo-transparent-logo-JavaScript-images-3.png)
+![Logo](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
 
 <hr>
 
@@ -170,3 +170,11 @@ console.log(`The value of x is ${x}`) //NO QUOTES USED!
 alert(`The value of x is ${x}`)
 ```
 
+<hr>
+
+# = Operator
+
+<hr>
+
+- Firstly there is an `=` operator which is used to put the value of the RHS to LHS.
+- Then we have an `==` operator which is used to check wether the value of RHS and LHS are same.(**Type can be diffrent**).
