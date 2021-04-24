@@ -78,5 +78,17 @@
 
 # Defining Variables In JavaScript
 
+
+```js
+var a;
+a=5;
+alert(a);
+```
+
 <hr>
 
+# Comments In JavaScript
+
+<hr>
+
+- Comments in javascript starts with ``//``.
