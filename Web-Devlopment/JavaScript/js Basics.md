@@ -266,7 +266,7 @@ let age = 18;
 switch (age) {
   case 18: //if(age===18){}
     alert("You re exactly 18");
-    break;
+    break; //Compulsory
   case 17: //if(age===17){}
     alert("You are exactly 17");
     break;
