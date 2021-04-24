@@ -85,7 +85,7 @@ a = 5;
 let a = 5;
 //Or
 let a;
-a=5;
+a = 5;
 //Or
 const a = 5; //Now value of a can be never changed as const==constant
 alert(a);
@@ -104,16 +104,28 @@ alert(a);
 
 <hr>
 
-- ``let x;`` is a correct javascript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as ``undefined``.
-- In JavaScript, ``x=x+y`` can also be written as ``x+=y`` just like that in python.
+- `let x;` is a correct javascript variable initialising process. Here if we dont assign x a value after putting this step, then on calling for x in console, we would get its value as `undefined`.
+- In JavaScript, `x=x+y` can also be written as `x+=y` just like that in python.
 - The output of the following code:-
 
 ```js
-let x=5;
-let y='5';
-console.log(x+y);
+let x = 5;
+let y = "5";
+console.log(x + y);
 ```
 
 - would be `'55'`, a feature of JavaScript.
+- If we want to increase an int number by 1, then here are all he ways to do so:
+
+```js
+let x=2;
+x=x+1;
+//Or
+x+=1;
+//Or
+x++;
+```
+
+
 
 <hr>
