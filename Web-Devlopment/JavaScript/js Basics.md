@@ -142,6 +142,7 @@ alert(x);
 ```
 
 - Bollean values:- `true`, `false`.
+- In VSCode, do `Ctrl`+`/` in order to comment line in fastest possible way.
 
 <hr>
 
@@ -242,13 +243,15 @@ alert(`The value of x is ${x}`);
 <hr>
 
 ```js
-let age=14;
+let age = 14;
 
-if(age<>=18){
-  alert("Sorry sir, but you are not allowed to have vaccine.")
-}
-else{
-  alert("Sir, you are eligible to have vaccine.")
+if (age < 18) {
+  alert("Sorry sir, but you are not allowed to have vaccine.");
+} else if (age == 18) {
+  //Multiple conditional
+  alert("You are exactly 18, let me ask once about you.");
+} else {
+  alert("Sir, you are eligible to have vaccine.");
 }
 ```
 
