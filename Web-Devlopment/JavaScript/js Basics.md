@@ -464,3 +464,14 @@ document.write(variable+null)
 
 <hr>
 
+```js
+variable="Sam+";
+document.write(variable+null);
+```
+
+<hr>
+
+![Output](Images/eh2.png)
+
+<hr>
+
