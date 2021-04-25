@@ -454,7 +454,7 @@ if (response) {
 <hr>
 
 ```js
-document.write(5+null)//Took null to be=0
+document.write(5 + null); //Took null to be=0
 ```
 
 <hr>
@@ -464,7 +464,7 @@ document.write(5+null)//Took null to be=0
 <hr>
 
 ```js
-document.write("Sam+"+null);//Took null as a string
+document.write("Sam+" + null); //Took null as a string
 ```
 
 <hr>
@@ -474,7 +474,7 @@ document.write("Sam+"+null);//Took null as a string
 <hr>
 
 ```js
-document.write(5+'5');//Converted variable to a string datatype
+document.write(5 + "5"); //Converted variable to a string datatype
 ```
 
 <hr>
@@ -484,7 +484,7 @@ document.write(5+'5');//Converted variable to a string datatype
 <hr>
 
 ```js
-document.write(5-2);//Now variable's datatype would get converted to number
+document.write(5 - 2); //Now variable's datatype would get converted to number
 ```
 
 <hr>
@@ -494,7 +494,7 @@ document.write(5-2);//Now variable's datatype would get converted to number
 <hr>
 
 ```js
-document.write('5'*'2');//Converted both strings to numbers
+document.write("5" * "2"); //Converted both strings to numbers
 ```
 
 <hr>
@@ -503,3 +503,11 @@ document.write('5'*'2');//Converted both strings to numbers
 
 <hr>
 
+# NaN Error
+
+<hr>
+
+- NaN is an error in JavaScript which stands for `Not A Number` and occurs when we mistakenly code smething like `document.write('5'*'yes')`.
+- This happened because JavaScript while handling this error tried to convert `'yes'` to number datatype, which was unsuccessfull and hence resulted in this error.
+
+<hr>
