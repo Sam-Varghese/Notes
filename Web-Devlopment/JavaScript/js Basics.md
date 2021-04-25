@@ -398,5 +398,8 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
-- `alert`:- Shows a message.
+- `alert()`:- Shows a message.
 - `prompt()`:- Shows a message, input text. It return a text if Ok is pressed, and null if Cancel button or Esc is clicked.
+- `confirm()`:- Shows a message, confirm with `Ok` or `Cancel`. Returns `true` or `false` ('false` with Esc or Cancel).
+
+<hr>
