@@ -272,3 +272,10 @@ switch (age) {
     break;
 }
 ```
+
+<hr>
+
+- We put break statement because if we wont put that, then switch statement has a prperty that it would directly execute all code line below that, which are under rest of switch statements, without noticing wether the switch statement has approved or disapproved the condition fulfillment.
+
+<hr>
+
