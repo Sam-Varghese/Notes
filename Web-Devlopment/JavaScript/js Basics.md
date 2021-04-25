@@ -347,3 +347,23 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
+- `break` statemet in javascript is used in order to get out of the current loop when a certain condition is met.
+
+<hr>
+
+```js
+for (counter = 1; counter <= 15; counter += 1) {
+  document.write(`<br>${counter}) Running for loop`);
+  if (counter === 5) {
+    document.write("<br>Condition inside if is met, putting break statement");
+    break;
+  }
+}
+document.write("<br>Loop has ended.");
+```
+
+<hr>
+
+![Output](Images/break.png)
+
+<hr>
