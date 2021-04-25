@@ -270,6 +270,8 @@ switch (age) {
   case 17: //if(age===17){}
     alert("You are exactly 17");
     break;
+  default:
+    alert("Your age is neither 17 nor 18");//Similar to else statement
 }
 ```
 
