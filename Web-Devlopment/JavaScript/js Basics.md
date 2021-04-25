@@ -533,7 +533,7 @@ document.write("5" * "2"); //Converted both strings to numbers
 - `Boolean()`
 - If you ever do `Number("Sam")` which is obviously incorrect, then it returns `NaN` whose type is `Number`.
 - `Number` of `true` is `1` while that of `false` is `0`.
-- `Boolean` of `0` is `false` while that of all numbers except `0` is `true`.
+- `Boolean` of `0` and `""`(Empty String) is `false` while that of all numbers except `0`, and all strings except empty string is `true`.
 
 <hr>
 
