@@ -454,8 +454,7 @@ if (response) {
 <hr>
 
 ```js
-variable=5
-document.write(variable+null)//Took null to be=0
+document.write(5+null)//Took null to be=0
 ```
 
 <hr>
@@ -465,8 +464,7 @@ document.write(variable+null)//Took null to be=0
 <hr>
 
 ```js
-variable="Sam+";
-document.write(variable+null);//Took null as a string
+document.write("Sam+"+null);//Took null as a string
 ```
 
 <hr>
@@ -476,8 +474,7 @@ document.write(variable+null);//Took null as a string
 <hr>
 
 ```js
-variable=5;
-document.write(variable+'5');//Converted variable to a string datatype
+document.write(5+'5');//Converted variable to a string datatype
 ```
 
 <hr>
@@ -487,13 +484,18 @@ document.write(variable+'5');//Converted variable to a string datatype
 <hr>
 
 ```js
-variable=5;
-document.write(variable-2);//Now variable's datatype would get converted to number
+document.write(5-2);//Now variable's datatype would get converted to number
 ```
 
 <hr>
 
 ![Output](Images/eh4.png)
+
+<hr>
+
+```js
+document.write('5'*'2');
+```
 
 <hr>
 
