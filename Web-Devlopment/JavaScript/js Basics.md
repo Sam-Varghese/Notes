@@ -522,3 +522,15 @@ document.write("5" * "2"); //Converted both strings to numbers
 - `Boolean`
 
 <hr>
+
+# Type Conversion
+
+<hr>
+
+- There are basically these three functions in order to convert one type to another.
+- `String()`
+- `Number()`
+- `Boolean()`
+
+<hr>
+
