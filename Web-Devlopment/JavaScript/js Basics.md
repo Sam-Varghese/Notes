@@ -1,6 +1,6 @@
 # JavaScript Notes
 
-![Logo](https://www.freepnglogos.com/uploads/JavaScript-png/JavaScript-logo-transparent-logo-JavaScript-images-3.png)
+![Logo](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
 
 <hr>
 
@@ -144,7 +144,6 @@ alert(x);
 - Bollean values:- `true`, `false`.
 - In VSCode, do `Ctrl`+`/` in order to comment line in fastest possible way.
 - To put output in new line, we have `'\n'` while to put strings in new line in window, we have `<br>` in midst of string.
-- To find length of string in JavaScript, we use `word.length` where word is the string.
 
 <hr>
 
@@ -539,3 +538,9 @@ document.write("5" * "2"); //Converted both strings to numbers
 
 <hr>
 
+# String Manipulation
+
+<hr>
+
+- To find length of string in JavaScript, we use `word.length` where word is the string.
+- To get he character at a specified position of a string, we use `word[index]` where word is the string and index is the index value of character we want to access. (Index of first character is 0).
