@@ -419,3 +419,10 @@ document.write("<h1>Paul Classes</h1>");
 
 <hr>
 
+# Prompt
+
+<hr>
+
+```js
+prompt("Please enter your name: ", "Sam Varghese"); //prompt(question, default value)
+```
