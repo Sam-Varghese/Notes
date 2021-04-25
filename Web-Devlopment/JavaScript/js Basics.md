@@ -303,3 +303,20 @@ while (counter <= 10) {
 - But suppose if we ever want to run loop once no matter if condition has been satisfied or not, and then after running loop once it should continue only if condition gets satisfied, then to achieve this, we use do-while statement.
 
 <hr>
+
+```js
+document.write("While loop running once even though it has not fulfilled condition<br>")
+counter=10
+do{
+  document.write('Running');
+}while(counter<=5);
+```
+
+<hr>
+
+# For Loop
+
+<hr>
+
+- For loop in javascript works a bit diffrently than other languages.
+- Refer the below code and its explanation given below code:-
