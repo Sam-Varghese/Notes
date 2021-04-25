@@ -367,3 +367,8 @@ document.write("<br>Loop has ended.");
 ![Output](Images/break.png)
 
 <hr>
+
+# Continue
+
+<hr>
+
