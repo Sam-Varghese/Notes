@@ -455,7 +455,7 @@ if (response) {
 
 ```js
 variable=5
-document.write(variable+null)
+document.write(variable+null)//Took null to be=0
 ```
 
 <hr>
@@ -466,7 +466,7 @@ document.write(variable+null)
 
 ```js
 variable="Sam+";
-document.write(variable+null);
+document.write(variable+null);//Took null as a string
 ```
 
 <hr>
