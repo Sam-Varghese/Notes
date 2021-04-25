@@ -447,8 +447,9 @@ if (response) {
 
 # Automatic Exception Handling
 
-<br>
+<hr>
+
+- JavaScript has this added feature that it can handle small logicall errors automatically.
 
 <hr>
 
-- JavaScript
