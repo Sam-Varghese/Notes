@@ -424,5 +424,23 @@ document.write("<h1>Paul Classes</h1>");
 <hr>
 
 ```js
-prompt("Please enter your name: ", "Sam Varghese"); //prompt(question, default value)
+name = prompt("Please enter your name: ", "Sam Varghese"); //prompt(question, default value)
+document.write(`Welcome Master ${name}`);
 ```
+
+<hr>
+
+# Confirm
+
+<hr>
+
+```js
+response = confirm("Are you sure you wanna load this malacious website?");
+if (response) {
+  document.write("Congrats, you are brave");
+} else {
+  document.write("You loser, timid person");
+}
+```
+
+<hr>
