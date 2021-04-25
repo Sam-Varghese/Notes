@@ -476,6 +476,24 @@ document.write(variable+null);//Took null as a string
 <hr>
 
 ```js
-variable=5
-document.write(variable+'5')//Converted variable to a string datatype
+variable=5;
+document.write(variable+'5');//Converted variable to a string datatype
 ```
+
+<hr>
+
+![Output](Images/eh3.png)
+
+<hr>
+
+```js
+variable=5;
+document.write(variable-2);//Now variable's datatype would get converted to number
+```
+
+<hr>
+
+![Output](Images/eh4.png)
+
+<hr>
+
