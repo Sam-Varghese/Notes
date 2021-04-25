@@ -1,6 +1,6 @@
 # JavaScript Notes
 
-![Logo](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
+![Logo](https://www.freepnglogos.com/uploads/JavaScript-png/JavaScript-logo-transparent-logo-JavaScript-images-3.png)
 
 <hr>
 
@@ -150,7 +150,7 @@ alert(x);
 
 <hr>
 
-In order to get the type of an object in javascript, we use `typeof` function.
+In order to get the type of an object in JavaScript, we use `typeof` function.
 
 <hr>
 
@@ -320,7 +320,7 @@ do {
 
 <hr>
 
-- For loop in javascript works a bit diffrently than other languages.
+- For loop in JavaScript works a bit diffrently than other languages.
 - Refer the below code and its explanation given below code:-
 
 <hr>
@@ -337,8 +337,8 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
-- What for loop in javascript does is that it asks all variables that are needed to stop for loop and code related to that variable to be written inside for loop's parenthesis only.
-- Now after this what javascript does is that in the first iteration, it reads only `let counter=1;` code and `counter<=15;` code and ignores the `counter+=1` code.
+- What for loop in JavaScript does is that it asks all variables that are needed to stop for loop and code related to that variable to be written inside for loop's parenthesis only.
+- Now after this what JavaScript does is that in the first iteration, it reads only `let counter=1;` code and `counter<=15;` code and ignores the `counter+=1` code.
 - Then on the subsequent iterations, it firstly reads `counter+=1` code followed by `counter<=15` code and ignores the `counter=1;` code for rest of ts iterations.
 
 <hr>
@@ -347,7 +347,7 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
-- `break` statemet in javascript is used in order to get out of the current loop when a certain condition is met.
+- `break` statemet in JavaScript is used in order to get out of the current loop when a certain condition is met.
 - We use `break outer` (After naming 1st for as outer by: `outer: for(;;){}`) if we are in a for loop which is also in a for loop, and inside the 2nd for loop we write break in order to break the outer for loop , not the 2nd for.
 
 <hr>
@@ -444,3 +444,11 @@ if (response) {
 ```
 
 <hr>
+
+# Automatic Exception Handling
+
+<br>
+
+<hr>
+
+- JavaScript
