@@ -494,8 +494,12 @@ document.write(5-2);//Now variable's datatype would get converted to number
 <hr>
 
 ```js
-document.write('5'*'2');
+document.write('5'*'2');//Converted both strings to numbers
 ```
+
+<hr>
+
+![Output](Images/eh5.png)
 
 <hr>
 
