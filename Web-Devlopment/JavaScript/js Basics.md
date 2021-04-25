@@ -372,3 +372,18 @@ document.write("<br>Loop has ended.");
 
 <hr>
 
+- If we ever wanna jump onto next iteration stopping the currently going iteration, then we use `continue` statement.
+
+<hr>
+
+```js
+for (let counter = 1; counter <= 15; counter += 1) {
+  if (counter === 5) {
+    document.write("<br>Condition met, executing continue statement");
+    continue;
+  }
+  document.write(`<br>Present iteration=${counter}`);
+}
+```
+
+<hr>
