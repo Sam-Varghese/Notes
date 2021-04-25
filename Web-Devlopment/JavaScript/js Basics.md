@@ -305,11 +305,13 @@ while (counter <= 10) {
 <hr>
 
 ```js
-document.write("While loop running once even though it has not fulfilled condition<br>")
-counter=10
-do{
-  document.write('Running');
-}while(counter<=5);
+document.write(
+  "While loop running once even though it has not fulfilled condition<br>"
+);
+counter = 10;
+do {
+  document.write("Running");
+} while (counter <= 5);
 ```
 
 <hr>
@@ -320,3 +322,11 @@ do{
 
 - For loop in javascript works a bit diffrently than other languages.
 - Refer the below code and its explanation given below code:-
+
+<hr>
+
+```js
+for (let counter = 1; counter <= 15; counter += 1) {
+  document.write(`${counter})Running for loop<br>`);
+}
+```
