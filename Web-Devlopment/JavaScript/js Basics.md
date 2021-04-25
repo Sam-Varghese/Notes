@@ -544,3 +544,14 @@ document.write("5" * "2"); //Converted both strings to numbers
 
 - To find length of string in JavaScript, we use `word.length` where word is the string.
 - To get he character at a specified position of a string, we use `word[index]` where word is the string and index is the index value of character we want to access. (Index of first character is 0).
+- Addittion of strings is directly possible.
+- String concatenation can also be done using following method:
+
+```js
+str1='Sam';
+str2='Varghese';
+fin_str=str1.concat(" ",str2);//Means fin_str=str1+" "+str2
+document.write(fin_str);
+```
+
+- String Slicing in JavaScript is done using `word.substr(starting_index, word_length)`.
