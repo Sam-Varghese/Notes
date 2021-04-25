@@ -348,7 +348,7 @@ for (let counter = 1; counter <= 15; counter += 1) {
 <hr>
 
 - `break` statemet in javascript is used in order to get out of the current loop when a certain condition is met.
-- We use `break outer` if we are in a for loop which is also in a for loop, and inside the 2nd for loop we write break in order to break the outer for loop , not the 2nd for.
+- We use `break outer` (After naming 1st for as outer by: `outer: for(;;){}`) if we are in a for loop which is also in a for loop, and inside the 2nd for loop we write break in order to break the outer for loop , not the 2nd for.
 
 <hr>
 
@@ -374,6 +374,7 @@ document.write("<br>Loop has ended.");
 <hr>
 
 - If we ever wanna jump onto next iteration stopping the currently going iteration, then we use `continue` statement.
+- - We use `continue outer` (After naming 1st for as outer by: `outer: for(;;){}`) if we are in a for loop which is also in a for loop, and inside the 2nd for loop we write continue in order to continue the outer for loop , not the 2nd for.
 
 <hr>
 
@@ -388,3 +389,14 @@ for (let counter = 1; counter <= 15; counter += 1) {
 ```
 
 <hr>
+
+# Alert, Prompt, Confirm
+
+<hr>
+
+- In order to interact with the user, we use `alert`, `prompt`, `confirm`.
+
+<hr>
+
+- `alert`:- Shows a message.
+- `prompt()`:- Shows a message, input text. It return a text if Ok is pressed, and null if Cancel button or Esc is clicked.
