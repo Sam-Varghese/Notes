@@ -271,7 +271,7 @@ switch (age) {
     alert("You are exactly 17");
     break;
   default:
-    alert("Your age is neither 17 nor 18");//Similar to else statement
+    alert("Your age is neither 17 nor 18"); //Similar to else statement
 }
 ```
 
@@ -281,3 +281,25 @@ switch (age) {
 
 <hr>
 
+# While Loop
+
+<hr>
+
+```js
+let counter = 0;
+while (counter <= 10) {
+  document.write("Sam");
+  counter += 1;
+}
+```
+
+<hr>
+
+# Do-While
+
+<hr>
+
+- While loop has speciality that firstly it checks wether condition is satisfied or not, and if the condition gets satisfied, then only would it allow any iteration/looping.
+- But suppose if we ever want to run loop once no matter if condition has been satisfied or not, and then after running loop once it should continue only if condition gets satisfied, then to achieve this, we use do-while statement.
+
+<hr>
