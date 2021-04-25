@@ -342,3 +342,8 @@ for (let counter = 1; counter <= 15; counter += 1) {
 - Then on the subsequent iterations, it firstly reads `counter+=1` code followed by `counter<=15` code and ignores the `counter=1;` code for rest of ts iterations.
 
 <hr>
+
+# Break
+
+<hr>
+
