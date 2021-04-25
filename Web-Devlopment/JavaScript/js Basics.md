@@ -408,3 +408,14 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
+# Alert
+
+<hr>
+
+```js
+alert("Welcome to Paul Classes");
+document.write("<h1>Paul Classes</h1>");
+```
+
+<hr>
+
