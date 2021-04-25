@@ -453,3 +453,14 @@ if (response) {
 
 <hr>
 
+```js
+variable=5
+document.write(variable+null)
+```
+
+<hr>
+
+![Output](Images/eh1.png)
+
+<hr>
+
