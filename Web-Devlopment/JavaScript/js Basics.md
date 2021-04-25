@@ -330,3 +330,11 @@ for (let counter = 1; counter <= 15; counter += 1) {
   document.write(`${counter})Running for loop<br>`);
 }
 ```
+
+<hr>
+
+![Output](Images/for.png)
+
+<hr>
+
+- What for loop in javascript does is that it asks all variables that are needed to stop for loop and code related to that variable to be written inside for loop's parenthesis only.
