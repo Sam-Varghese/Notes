@@ -84,6 +84,8 @@
 
 # Defining Variables In JavaScript
 
+<hr>
+
 ```js
 var a;
 a = 5;
