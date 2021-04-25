@@ -555,4 +555,4 @@ document.write(fin_str);
 ```
 
 - String Slicing in JavaScript is done using `word.substr(starting_index, word_length)`.
-- String slicing can also be done using `word.substring(start_index, end_index)`. Remember that slicing like this would give string slice from start_index character till end_index-1 character.
+- String slicing can also be done using `word.substring(start_index, end_index)`.** Remember** that slicing like this would give string slice from start_index character till end_index-1 character.
