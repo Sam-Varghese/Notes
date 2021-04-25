@@ -475,3 +475,7 @@ document.write(variable+null);//Took null as a string
 
 <hr>
 
+```js
+variable=5
+document.write(variable+'5')//Converted variable to a string datatype
+```
