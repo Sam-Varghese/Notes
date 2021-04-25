@@ -531,6 +531,6 @@ document.write("5" * "2"); //Converted both strings to numbers
 - `String()`
 - `Number()`
 - `Boolean()`
+- If you ever do `Number("Sam")` which is obviously incorrect, then it returns `NaN` whose type is `Number`.
 
 <hr>
-
