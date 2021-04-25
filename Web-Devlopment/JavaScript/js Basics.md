@@ -403,3 +403,8 @@ for (let counter = 1; counter <= 15; counter += 1) {
 - `confirm()`:- Shows a message, confirm with `Ok` or `Cancel`. Returns `true` or `false` ('false` with Esc or Cancel).
 
 <hr>
+
+**Note**: Unless and until the user does not interacts and give required response to these popups, he won't be able to interact with the rest of the window.
+
+<hr>
+
