@@ -511,3 +511,14 @@ document.write("5" * "2"); //Converted both strings to numbers
 - This happened because JavaScript while handling this error tried to convert `'yes'` to number datatype, which was unsuccessfull and hence resulted in this error.
 
 <hr>
+
+# Datatypes
+
+<hr>
+
+- There are basically 3 datatypes in JavaScript:-
+- `String`
+- `Number`
+- `Boolean`
+
+<hr>
