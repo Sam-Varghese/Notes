@@ -1,10 +1,14 @@
 # JavaScript Notes
 
+<hr>
+
 ![Logo](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
 
 <hr>
 
 # Hello World Program
+
+<hr>
 
 ```js
 <!DOCTYPE html>
@@ -35,6 +39,8 @@
 <hr>
 
 # Async And Defer
+
+<hr>
 
 - Now, when we use `<script src="path">`, `</script>`, then there are two ways in which we can ask browser to load our html file.
 
@@ -94,6 +100,8 @@ alert(a);
 <hr>
 
 # Comments In JavaScript
+
+<hr>
 
 - Single line comments in JavaScript starts with `//`.
 - Multi line comments in JavaScript start with `/*` and ends with `*/`.
