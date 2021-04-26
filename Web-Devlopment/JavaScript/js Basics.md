@@ -597,3 +597,5 @@ console.log(`arr2=${arr2});
 - In order to update an element of array, do `array[index]=new_value`.
 - In order to find the length of array, do `array.length`.
 - In order to push an element into the array, use `array.push(element)`.
+- Pushed element will go at the end of the array.
+- Suppose if we want to push the element at the begnning of the array, then use `array.unshift(element)`
