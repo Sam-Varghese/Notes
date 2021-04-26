@@ -866,3 +866,23 @@ for(let key in person){
 <hr>
 
 - A function associated with an object is called a **method**.
+
+<hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+
+person.sayhello=function(){
+  document.write("Hello from person");
+  alert("Hello");
+};
+
+person.sayhello();//Don't forget these parenthesis
+```
+
+<hr>
