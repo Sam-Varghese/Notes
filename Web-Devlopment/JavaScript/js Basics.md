@@ -831,3 +831,19 @@ console.log(person);
 
 <hr>
 
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+console.log("City" in person);
+```
+
+<hr>
+
+# Iterating Through Object Properties
+
+<hr>
+
