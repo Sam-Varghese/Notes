@@ -558,11 +558,12 @@ document.write("5" * "2"); //Converted both strings to numbers
 - String concatenation can also be done using following method:
 
 ```js
-str1='Sam';
-str2='Varghese';
-fin_str=str1.concat(" ",str2);//Means fin_str=str1+" "+str2
+str1 = "Sam";
+str2 = "Varghese";
+fin_str = str1.concat(" ", str2); //Means fin_str=str1+" "+str2
 document.write(fin_str);
 ```
 
 - String Slicing in JavaScript is done using `word.substr(starting_index, word_length)`.
 - String slicing can also be done using `word.substring(start_index, end_index)`.** Remember** that slicing like this would give string slice from start_index character till end_index-1 character.
+- To get the starting index of a slice of string, we use `word.indexOf(slice)`.
