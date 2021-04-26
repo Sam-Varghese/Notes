@@ -605,4 +605,5 @@ console.log(`arr2=${arr2});
 - In order to remove the first element of an array, use `array.shift()`.
 - In order to remove multiple elements from an array, we use `array.splice(start_index, no_of_elements)`.
 - If we ever wanna empty an array just put `array.length=0` or simply `a=[]`.
-- If we ever wanna get the index 
+- If we ever wanna get the index value of an element, just use `array.indexOf(element)`.
+- **Note**: String can be called as an array of characters, hence all these functions can also be very well applied on a string.
