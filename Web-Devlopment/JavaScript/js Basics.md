@@ -783,7 +783,7 @@ let person = {
   age: 17,
   school: "Sica",
 };
-console.log(`First name=${person["first name"]}`);//Dot notation of objects wont work hence dont use spaces
+console.log(`First name=${person["first name"]}`); //Dot notation of objects wont work hence dont use spaces
 ```
 
 <hr>
@@ -791,4 +791,15 @@ console.log(`First name=${person["first name"]}`);//Dot notation of objects wont
 - To add a new property to the object, from outside `let person=`'s bracket, use the following method:-
 
 <hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+person.city = "Indore";
+console.log(person);
+```
 
