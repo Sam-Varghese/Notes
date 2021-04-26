@@ -703,16 +703,33 @@ let addition = add; //This will enable function to be called even when addition 
 ```js
 let func = function () {
   //Called function expression
+  //Functions like this are called ANONYMOUS FUNCTIONS
   console.log("Hello World!");
 }; //Making functions like this is also valid in JavaScript
 ```
 
 <hr>
 
-# setTimeOut Function
+# setTimeout Function
 
 <hr>
 
 - In JavaScript, suppose if we ever want a function to get executed after a certain time interval, then we use this function.
 
 <hr>
+
+```js
+function say(){
+  console.log("Hello sir");
+}
+setTimeout(say, 3000);//setTimeout(function_name, time in milli seconds);
+
+//OR
+
+setTimeout(function (){
+  console.log("Hello sir");
+}, 3000);//Using anonymous function to save memory associated with the name of functions
+```
+
+<hr>
+
