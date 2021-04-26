@@ -570,3 +570,5 @@ document.write(fin_str);
 - Now suppose if the slice exists multiple times in the string, then in order to specify to brwser, from which index we want it to begin the search for the slice, then the syntax is `word.indexOf(slice, index)` where index is simply the index after which we want browser to start the search for the slice.
 - Now if we want browser to start search for the slice from end of string, then we use `word.lastIndexOf(slice)`.
 - Now if the slice does not exists in word, then output is `-1`, similar to python.
+- If we ever have a string with space at its begning and end, and if we wanna remove those(only start and end space, hence not exactly same as capwords), then we use `word.trim()`.
+- 
