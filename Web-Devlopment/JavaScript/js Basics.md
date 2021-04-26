@@ -685,26 +685,34 @@ function func_name(args) {
 
 ```js
 function add() {
-  console.log(arguments);//All arguments that we put are in array named arguments
+  console.log(arguments); //All arguments that we put are in array named arguments
   let sum = 0;
   for (i = 0; i < arguments.length; i += 1) {
     sum += arguments[i];
   }
   document.write(`<br>Sum of the array is=${sum}`);
-  return sum;//In case of no return function, Undefined is returned
+  return sum; //In case of no return function, Undefined is returned
 }
-add(1,2,3,4,5);
+add(1, 2, 3, 4, 5);
 
-let addition=add;//This will enable function to be called even when addition is written, like addition(1,2,3,4,5);
+let addition = add; //This will enable function to be called even when addition is written, like addition(1,2,3,4,5);
 ```
 
 <hr>
 
 ```js
-let func=function(){
+let func = function () {
+  //Called function expression
   console.log("Hello World!");
 }; //Making functions like this is also valid in JavaScript
 ```
 
 <hr>
 
+# setTimeOut Function
+
+<hr>
+
+- In JavaScript, suppose if we ever want a function to get executed after a certain time interval, then we use this function.
+
+<hr>
