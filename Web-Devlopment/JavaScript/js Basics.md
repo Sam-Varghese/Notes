@@ -54,6 +54,8 @@
 
 # Printing In Console
 
+<hr>
+
 - Firstly go to the google browser, `Inspect>Console`.
 
 <hr>
@@ -598,4 +600,7 @@ console.log(`arr2=${arr2});
 - In order to find the length of array, do `array.length`.
 - In order to push an element into the array, use `array.push(element)`.
 - Pushed element will go at the end of the array.
-- Suppose if we want to push the element at the begnning of the array, then use `array.unshift(element)`
+- Suppose if we want to push the element at the begnning of the array, then use `array.unshift(element)`.
+- In order to remove the last element of the array, use `array.pop()`.
+- In order to remove the first element of an array, use `array.shift()`.
+- In order to remove multiple elements from an array, we use `array.splice(start_index, no_of_elements)`.
