@@ -854,8 +854,8 @@ let person = {
   age: 17,
   school: "Sica",
 };
-for(let key in person){
-  console.log(key+": "+person[key]);//Remember dot notation won't work here
+for (let key in person) {
+  console.log(key + ": " + person[key]); //Remember dot notation won't work here
 }
 ```
 
@@ -877,12 +877,13 @@ let person = {
   school: "Sica",
 };
 
-person.sayhello=function(){
+person.sayhello = function () {
+  //Here anonymous function has been used, you can also use normal functions
   document.write("Hello from person");
   alert("Hello");
 };
 
-person.sayhello();//Don't forget these parenthesis
+person.sayhello(); //Don't forget these parenthesis
 ```
 
 <hr>
