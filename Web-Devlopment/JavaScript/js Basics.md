@@ -634,3 +634,16 @@ document.write(arr1.join(' then '))
 
 <hr>
 
+# Iterating Through Array
+
+<hr>
+
+```js
+arr1=['word1','word2','word3','word4','word5','word6'];
+for(i=0; i<arr1.length; i++){
+  console.log(arr1[i])
+}
+```
+
+<hr>
+
