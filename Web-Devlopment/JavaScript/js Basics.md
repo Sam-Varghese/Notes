@@ -803,3 +803,27 @@ person.city = "Indore";
 console.log(person);
 ```
 
+<hr>
+
+# Deleting An Object property
+
+<hr>
+
+- If we ever wanna delete a property of an object, then use the following method:-
+
+<hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+
+delete person.first_name;
+console.log(person);
+```
+
+<hr>
+
