@@ -624,8 +624,8 @@ console.log(`arr2=${arr2});
 # Joining Array
 
 ```js
-arr1=[1,2,3,4,5]
-document.write(arr1.join(' then '))
+arr1 = [1, 2, 3, 4, 5];
+document.write(arr1.join(" then "));
 ```
 
 <hr>
@@ -638,28 +638,28 @@ document.write(arr1.join(' then '))
 
 <hr>
 
-- ## *For* Method
+- ## _For_ Method
 
 <hr>
 
 ```js
-arr1=['word1','word2','word3','word4','word5','word6'];
-for(i=0; i<arr1.length; i++){
-  console.log(arr1[i])
+arr1 = ["word1", "word2", "word3", "word4", "word5", "word6"];
+for (i = 0; i < arr1.length; i++) {
+  console.log(arr1[i]);
 }
 ```
 
 <hr>
 
-- ## *ForEach* Method
+- ## _ForEach_ Method
 
 <hr>
 
 ```js
-arr1=['word1','word2','word3','word4','word5','word6'];
+arr1 = ["word1", "word2", "word3", "word4", "word5", "word6"];
 arr1.forEach(func);
 
-function func(value){
+function func(value) {
   console.log(value);
 }
 ```
@@ -671,8 +671,25 @@ function func(value){
 <hr>
 
 ```js
-function func_name(args){
-  code
+function func_name(args) {
+  code;
 }
 ```
 
+<hr>
+
+- If we do not put any variables inside `func_name`, then also while calling the function we can add as many arguments as we want. Example has been shown below:
+
+<hr>
+
+```js
+function add() {
+  console.log(arguments);//All arguments that we put are in array named arguments
+  let sum = 0;
+  for (i = 0; i < arguments.length; i += 1) {
+    sum += arguments[i];
+  }
+  document.write(`<br>Sum of the array is=${sum}`);
+}
+add(1,2,3,4,5);
+```
