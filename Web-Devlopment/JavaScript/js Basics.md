@@ -638,7 +638,7 @@ document.write(arr1.join(' then '))
 
 <hr>
 
-## *For* Method
+- ## *For* Method
 
 <hr>
 
@@ -651,7 +651,7 @@ for(i=0; i<arr1.length; i++){
 
 <hr>
 
-## * ForEach* Method
+- ## *ForEach* Method
 
 <hr>
 
@@ -663,3 +663,16 @@ function func(value){
   console.log(value);
 }
 ```
+
+<hr>
+
+# Functions
+
+<hr>
+
+```js
+function func_name(args){
+  code
+}
+```
+
