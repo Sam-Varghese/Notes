@@ -592,3 +592,7 @@ console.log(`arr2=${arr2});
 ```
 
 <hr>
+
+- To get a specific element of array do `array[index]`.
+- In order to update an element of array, do `array[index]=new_value`.
+- In order to find the length 
