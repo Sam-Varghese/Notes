@@ -783,7 +783,7 @@ let person = {
   age: 17,
   school: "Sica",
 };
-console.log(`First name=${person["first name"]}`);
+console.log(`First name=${person["first name"]}`);//Dot notation of objects wont work hence dont use spaces
 ```
 
 <hr>
