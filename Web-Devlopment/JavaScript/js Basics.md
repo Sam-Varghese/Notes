@@ -156,6 +156,7 @@ alert(x);
 - Bollean values:- `true`, `false`.
 - In VSCode, do `Ctrl`+`/` in order to comment line in fastest possible way.
 - To put output in new line, we have `'\n'` while to put strings in new line in window, we have `<br>` in midst of string.
+- Declaring a global variable twice (ie putting `let` for same global variable twice) is wrong.
 
 <hr>
 
