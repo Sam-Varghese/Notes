@@ -847,3 +847,17 @@ console.log("City" in person);
 
 <hr>
 
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+for(let key in person){
+  console.log(key);
+}
+```
+
+<hr>
+
