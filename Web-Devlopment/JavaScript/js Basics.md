@@ -609,7 +609,7 @@ console.log(`arr2=${arr2});
 - **Note**: String can be called as an array of characters, hence all these functions can also be very well applied on a string.
 - Suppose if we ever wanna check wether a given object is an array or not, (output in `true` or `false`) then we use `Array.isArray(object)`.
 - In order to add arrays, we cant simply do so by `arr1+arr2` as it would then assume both `arr1` and `arr2` as strings.
-- 
+- Hence we do so as follows:- `arr1.concat(arr2)`
 
 <hr>
 
