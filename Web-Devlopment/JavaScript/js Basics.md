@@ -887,3 +887,20 @@ person.sayhello(); //Don't forget these parenthesis
 ```
 
 <hr>
+
+OR
+
+<br>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+  sayhello(){document.write("Hello from person");// Inroduced in ES6 probably
+  alert("Hello");},
+};
+
+person.sayhello();
+```
