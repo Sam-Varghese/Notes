@@ -604,3 +604,5 @@ console.log(`arr2=${arr2});
 - In order to remove the last element of the array, use `array.pop()`.
 - In order to remove the first element of an array, use `array.shift()`.
 - In order to remove multiple elements from an array, we use `array.splice(start_index, no_of_elements)`.
+- If we ever wanna empty an array just put `array.length=0` or simply `a=[]`.
+- If we ever wanna get the index 
