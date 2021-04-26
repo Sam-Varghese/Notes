@@ -618,3 +618,16 @@ console.log(`arr2=${arr2});
 - To split text. use `text.split(split_by)`.
 
 <hr>
+
+# Joining Array
+
+```js
+arr1=[1,2,3,4,5]
+document.write(arr1.join(' then '))
+```
+
+<hr>
+
+![Output](Images/jn1.png)
+
+<hr>
