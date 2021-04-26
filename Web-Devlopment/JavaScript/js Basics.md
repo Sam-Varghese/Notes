@@ -855,7 +855,7 @@ let person = {
   school: "Sica",
 };
 for(let key in person){
-  console.log(key);
+  console.log(key+": "+person[key]);//Remember dot notation won't work here
 }
 ```
 
