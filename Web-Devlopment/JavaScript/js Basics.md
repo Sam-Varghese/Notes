@@ -692,4 +692,9 @@ function add() {
   document.write(`<br>Sum of the array is=${sum}`);
 }
 add(1,2,3,4,5);
+
+let addition=add;//This will enable function to be called even when addition is written
 ```
+
+<hr>
+
