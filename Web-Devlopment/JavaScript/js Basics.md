@@ -700,3 +700,11 @@ let addition=add;//This will enable function to be called even when addition is 
 
 <hr>
 
+```js
+let func=function(){
+  console.log("Hello World!");
+}; //Making functions like this is also valid in JavaScript
+```
+
+<hr>
+
