@@ -572,4 +572,4 @@ document.write(fin_str);
 - Now if the slice does not exists in word, then output is `-1`, similar to python.
 - If we ever have a string with space at its begning and end, and if we wanna remove those(only start and end space, hence not exactly same as capwords), then we use `word.trim()`.
 - Now if we just want to remove the extra spaces from start (& not from the end), then we use `word.trimStart()`.
-- Similarly
+- Similarly to remove extra spaces from only end, then we use `word.trimEnd()`.
