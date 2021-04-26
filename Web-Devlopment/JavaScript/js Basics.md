@@ -624,6 +624,8 @@ console.log(`arr2=${arr2});
 
 # Joining Array
 
+<hr>
+
 ```js
 arr1 = [1, 2, 3, 4, 5];
 document.write(arr1.join(" then "));
@@ -720,16 +722,16 @@ let func = function () {
 <hr>
 
 ```js
-function say(){
+function say() {
   console.log("Hello sir");
 }
-setTimeout(say, 3000);//setTimeout(function_name, time in milli seconds);
+setTimeout(say, 3000); //setTimeout(function_name, time in milli seconds);
 
 //OR
 
-setTimeout(function (){
+setTimeout(function () {
   console.log("Hello sir");
-}, 3000);//Using anonymous function to save memory associated with the name of functions
+}, 3000); //Using anonymous function to save memory associated with the name of functions
 ```
 
 <hr>
@@ -744,7 +746,7 @@ setTimeout(function (){
 <hr>
 
 ```js
-(function func(){
+(function func() {
   console.log("Hello world");
   alert("Hello sir");
 })();
@@ -756,3 +758,32 @@ setTimeout(function (){
 
 <hr>
 
+```js
+let person = {
+  first_name: "Sam", //Remember, only ',' and no ';'
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+console.log(`First name=${person.first_name}`);
+//Or
+console.log(`First name=${person["first_name"]}`);
+```
+
+<hr>
+
+- **Note**: Suppose if you really wanted to put a space in place of the underscore in `first_name`, then do that in the following way:
+
+<hr>
+
+```js
+let person = {
+  "first name": "Sam",
+  "last name": "Varghese",
+  age: 17,
+  school: "Sica",
+};
+console.log(`First name=${person["first name"]}`);
+```
+
+<hr>
