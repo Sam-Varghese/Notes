@@ -787,3 +787,8 @@ console.log(`First name=${person["first name"]}`);//Dot notation of objects wont
 ```
 
 <hr>
+
+- To add a new property to the object, from outside `let person=`'s bracket, use the following method:-
+
+<hr>
+
