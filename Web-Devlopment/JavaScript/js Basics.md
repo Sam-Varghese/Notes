@@ -573,4 +573,7 @@ document.write(fin_str);
 - If we ever have a string with space at its begning and end, and if we wanna remove those(only start and end space, hence not exactly same as capwords), then we use `word.trim()`.
 - Now if we just want to remove the extra spaces from start (& not from the end), then we use `word.trimStart()`.
 - Similarly to remove extra spaces from only end, then we use `word.trimEnd()`.
-- Now if we ever wanna make all letters capital, then we use `word.toUpperCase()`
+- Now if we ever wanna make all letters capital, then we use `word.toUpperCase()`.
+- Now, if we ever wanna make all letters in lower case, then we use `word.toLowerCase()`.
+- Now if we ever wanna replace a something from a string, then we use `string.replace(string_to_be_replaced, replacing_string)`.
+- Now if we ever wanna find wether a string is inside another string, then we use `main_string.includes(sub_string)` which gives output in either `true` or `false`.
