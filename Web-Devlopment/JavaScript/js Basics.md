@@ -638,6 +638,10 @@ document.write(arr1.join(' then '))
 
 <hr>
 
+## *For* Method
+
+<hr>
+
 ```js
 arr1=['word1','word2','word3','word4','word5','word6'];
 for(i=0; i<arr1.length; i++){
@@ -647,3 +651,15 @@ for(i=0; i<arr1.length; i++){
 
 <hr>
 
+## * ForEach* Method
+
+<hr>
+
+```js
+arr1=['word1','word2','word3','word4','word5','word6'];
+arr1.forEach(func);
+
+function func(value){
+  console.log(value);
+}
+```
