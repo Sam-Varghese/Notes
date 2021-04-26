@@ -690,10 +690,11 @@ function add() {
     sum += arguments[i];
   }
   document.write(`<br>Sum of the array is=${sum}`);
+  return sum;//In case of no return function, Undefined is returned
 }
 add(1,2,3,4,5);
 
-let addition=add;//This will enable function to be called even when addition is written
+let addition=add;//This will enable function to be called even when addition is written, like addition(1,2,3,4,5);
 ```
 
 <hr>
