@@ -861,3 +861,8 @@ for(let key in person){
 
 <hr>
 
+# Method
+
+<hr>
+
+- A function associated with an object is called a **method**.
