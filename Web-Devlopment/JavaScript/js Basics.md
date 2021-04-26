@@ -595,4 +595,5 @@ console.log(`arr2=${arr2});
 
 - To get a specific element of array do `array[index]`.
 - In order to update an element of array, do `array[index]=new_value`.
-- In order to find the length 
+- In order to find the length of array, do `array.length`.
+- In order to push an element into the array, use `array.push(element)`.
