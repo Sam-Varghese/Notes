@@ -577,3 +577,18 @@ document.write(fin_str);
 - Now, if we ever wanna make all letters in lower case, then we use `word.toLowerCase()`.
 - Now if we ever wanna replace a something from a string, then we use `string.replace(string_to_be_replaced, replacing_string)`.
 - Now if we ever wanna find wether a string is inside another string, then we use `main_string.includes(sub_string)` which gives output in either `true` or `false`.
+
+<hr>
+
+# Arrays
+
+<hr>
+
+```js
+arr1=[1,2,"Sam","Angel"];//Method1
+arr2=new Array(1,2,"Sam","Angel",12);//Method2
+console.log(`arr1=${arr1});
+console.log(`arr2=${arr2});
+```
+
+<hr>
