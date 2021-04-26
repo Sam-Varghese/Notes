@@ -739,6 +739,7 @@ setTimeout(function (){
 <hr>
 
 - These are the functions that are Immediately executed while they are being made a function.
+- Apart from the benefit that they immediately invoke the function, they are also used to be safe from error of double declaration of same variable which happens usually when we use a third party library and their and our variable (some of them) are same , and double declaration of variable is prohibited in JavaScript. (Unless and until this happens inside a function)
 
 <hr>
 
@@ -748,3 +749,10 @@ setTimeout(function (){
   alert("Hello sir");
 })();
 ```
+
+<hr>
+
+# Objects
+
+<hr>
+
