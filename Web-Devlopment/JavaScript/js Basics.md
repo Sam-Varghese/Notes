@@ -704,6 +704,7 @@ let addition = add; //This will enable function to be called even when addition 
 let func = function () {
   //Called function expression
   //Functions like this are called ANONYMOUS FUNCTIONS
+  //If we dont assign any name to this function then anonymous functions would produce error.
   console.log("Hello World!");
 }; //Making functions like this is also valid in JavaScript
 ```
@@ -733,3 +734,17 @@ setTimeout(function (){
 
 <hr>
 
+# Immediately Invoked Functions
+
+<hr>
+
+- These are the functions that are Immediately executed while they are being made a function.
+
+<hr>
+
+```js
+(function func(){
+  console.log("Hello world");
+  alert("Hello sir");
+})();
+```
