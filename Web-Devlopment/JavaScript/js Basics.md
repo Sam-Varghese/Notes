@@ -827,3 +827,7 @@ console.log(person);
 
 <hr>
 
+# Checking Presence Of A Property
+
+<hr>
+
