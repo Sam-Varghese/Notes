@@ -568,3 +568,5 @@ document.write(fin_str);
 - String slicing can also be done using `word.substring(start_index, end_index)`.** Remember** that slicing like this would give string slice from start_index character till end_index-1 character.
 - To get the starting index of a slice of string, we use `word.indexOf(slice)`.
 - Now suppose if the slice exists multiple times in the string, then in order to specify to brwser, from which index we want it to begin the search for the slice, then the syntax is `word.indexOf(slice, index)` where index is simply the index after which we want browser to start the search for the slice.
+- Now if we want browser to start search for the slice from end of string, then we use `word.lastIndexOf(slice)`.
+- Now if the slice does not exists in word, then output is `-1`, similar to python.
