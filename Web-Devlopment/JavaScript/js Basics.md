@@ -607,3 +607,14 @@ console.log(`arr2=${arr2});
 - If we ever wanna empty an array just put `array.length=0` or simply `a=[]`.
 - If we ever wanna get the index value of an element, just use `array.indexOf(element)`.
 - **Note**: String can be called as an array of characters, hence all these functions can also be very well applied on a string.
+- Suppose if we ever wanna check wether a given object is an array or not, (output in `true` or `false`) then we use `Array.isArray(object)`.
+
+<hr>
+
+# Splitting
+
+<hr>
+
+- To split text. use `text.split(split_by)`.
+
+<hr>
