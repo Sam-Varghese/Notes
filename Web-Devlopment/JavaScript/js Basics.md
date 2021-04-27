@@ -1083,3 +1083,5 @@ document.write(stand_time);
 
 <hr>
 
+- If we ever wanna **change year** of the timestamp, then we use `time_stamp.setFullYear(new_year)`.
+-  
