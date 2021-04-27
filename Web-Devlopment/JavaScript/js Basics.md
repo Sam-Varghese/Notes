@@ -983,3 +983,35 @@ person.sayhello();
 <hr>
 
 - If we wanna see only the integer part of a number, and remove its decimal part, then we use `Math.trunc(number)`.
+
+<hr>
+
+## Power
+
+<hr>
+
+- If we ever wanna find out the power to any number, then we can either do this simply by `base**num`, and for more accurate answers, we use `Math.pow(base, num)`.
+
+<hr>
+
+## Square Root
+
+<hr>
+
+- To find square root, we can obviously do `num1**(1/2)`, but for accurate answers, we use `Math.sqrt(4)`
+
+<hr>
+
+## Minimum
+
+<hr>
+
+- In order to find the minimum number among many such numbers, we use `Math.min(num1, num2, ....., numn)`.
+
+<hr>
+
+## Maximum
+
+<hr>
+
+- In order to find maximum, we use `Math.max(num1, num2, ......, numn)`.
