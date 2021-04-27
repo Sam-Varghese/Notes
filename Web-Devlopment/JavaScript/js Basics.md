@@ -1135,3 +1135,14 @@ console.log(x);
 <hr>
 
 - **Remember** that direct comparision of `new Date(...)` is possible as these timestamps are actually stored in milliseconds.
+
+<hr>
+
+# Getter
+
+<hr>
+
+- Just see the following code:-
+
+<hr>
+
