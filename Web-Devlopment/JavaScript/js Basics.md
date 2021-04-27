@@ -1289,3 +1289,20 @@ console.log(Student1.Nationality);
 <hr>
 
 - This is a feature of JavaScript to firstly read all the code and then start executing it, after reading all definitions and declarations.
+- Hence if you call a function before it has been declared, then also our program will run smoothly as it would have already read the declaration.
+
+<hr>
+
+- But if we put the following code:-
+
+<hr>
+
+```js
+var x;
+console.log(x);
+x=10;
+```
+
+<hr>
+
+- Then, according to our expectations, our console shoul show `10`, but console in this case actually shows `undefined`. This is because whenever we declare a variable like this, then variable automatically gets `undefined` unless and until it is maunally defined by us.
