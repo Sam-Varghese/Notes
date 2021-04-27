@@ -968,6 +968,18 @@ person.sayhello();
 
 - In order to get the `ceil` value, just use `Math.ceil(number)`.
 
+<hr>
+
 ## Floor
 
-- In order to get the floor value, we use `Mah.floor(number)`.
+<hr>
+
+- In order to get the floor value, we use `Math.floor(number)`.
+
+<hr>
+
+## Trunc
+
+<hr>
+
+- If we wanna see only the integer part of a number, and remove its decimal part, then we use `Math.trunc(number)`.
