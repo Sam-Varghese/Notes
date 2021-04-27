@@ -1076,3 +1076,4 @@ document.write(stand_time);
 - In order to get just **year** from time stamp, we use `time_stamp.getFullYear()`
 - In order to get the **month number**, we use `time_stamp.getMonth()`.
 - In order to get **date(dd)**, we use `time_stamp.getDate()`.
+- In order to get the **hour**, we use `time_stamp.getHours()`.
