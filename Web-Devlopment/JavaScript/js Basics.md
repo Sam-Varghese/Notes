@@ -1074,7 +1074,7 @@ document.write(stand_time);
 <hr>
 
 - In order to get just **year** from time stamp, we use `time_stamp.getFullYear()`
-- In order to get the **month number**, we use `time_stamp.getMonth()`.
+- In order to get the **month number**, we use `time_stamp.getMonth()`. Here **January is 0**.
 - In order to get **date(dd)**, we use `time_stamp.getDate()`.
 - In order to get the **hour**, we use `time_stamp.getHours()`.
 - In order to get the **minutes**, we use `time_stamp.getMinutes()`.
@@ -1084,4 +1084,7 @@ document.write(stand_time);
 <hr>
 
 - If we ever wanna **change year** of the timestamp, then we use `time_stamp.setFullYear(new_year)`.
--  
+- If we ever wanna **change month** of the timestamp, then we use `time_stamp.setMonth(new_month_number)`. 
+- If we ever wanna **change date** of the timestamp, then we use `time_stamp.setDate(new_date)`. 
+- If we ever wanna **change hours** of the timestamp, then we use `time_stamp.setHours(new_hour)`. 
+- If we ever wanna **change minute** of the timestamp, then we use `time_stamp.setMinutes(new_minute)`. 
