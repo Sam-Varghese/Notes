@@ -1087,7 +1087,7 @@ document.write(stand_time);
 
 <hr>
 
-## Updating timestamp
+## Updating TimeStamp
 
 <hr>
 
@@ -1097,3 +1097,14 @@ document.write(stand_time);
 - If we ever wanna **change hours** of the timestamp, then we use `time_stamp.setHours(new_hour)`. 
 - If we ever wanna **change minute** of the timestamp, then we use `time_stamp.setMinutes(new_minute)`. 
 - If we ever wanna **change seconds** of the timestamp, then we use `time_stamp.setSeconds(new_second)`. 
+
+<hr>
+
+## Getting Future TimeStamp
+
+<hr>
+
+- Suppose if we wanna get a timestamp after 50 days from a given timestamp x, use:-
+
+<hr>
+
