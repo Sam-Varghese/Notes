@@ -1080,3 +1080,6 @@ document.write(stand_time);
 - In order to get the **minutes**, we use `time_stamp.getMinutes()`.
 - In order to get **seconds**, we use `time_stamp.getSeconds()`.
 - In order to get the **day**, we use `time_stamp.getDay()`. Here **Sunday is 0**.
+
+<hr>
+
