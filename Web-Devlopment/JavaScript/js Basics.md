@@ -1247,6 +1247,20 @@ console.log(
 
 <hr>
 
+- If we ever wanna make a nested objects, then simply do as shown:
+
+<hr>
+
+```js
+Student = {
+  name: "Sam",
+  address: { City: "Indore", Country: "India", State: "MP" },//Do like this
+};
+console.log(Student.address.City);
+```
+
+<hr>
+
 # Adding A New Property To Object Constructor
 
 <hr>
@@ -1262,8 +1276,16 @@ function Student(first_name, last_name, age, school) {
   this.age = age;
   this.school = school;
 }
-Student.prototype.Nationality="Indian";
-Student1=new Student("Sam", "Varghese", 17, "School");
+Student.prototype.Nationality = "Indian";
+Student1 = new Student("Sam", "Varghese", 17, "School");
 
 console.log(Student1.Nationality);
 ```
+
+<hr>
+
+# Hoisting
+
+<hr>
+
+- This is a feature of JavaScript to firstly read all the code and then start executing it, after reading all definitions and declarations.
