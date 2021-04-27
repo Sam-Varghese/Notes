@@ -1364,3 +1364,22 @@ x=5;
 
 <hr>
 
+- Hence out in this case would also be `undefined`.
+
+<hr>
+
+- Now suppose if we use `let` as follows:-
+
+<hr>
+
+```js
+console.write(x);
+let x=10;
+```
+
+<hr>
+
+- As seen from above points, we may conclude that output would be `undefined`, but here we woud get the error that this variable has never been initialised. This is because **unlike `var`, `let` does not assigns variable an `undefined` value**.
+
+<hr>
+
