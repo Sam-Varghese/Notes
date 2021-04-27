@@ -1288,8 +1288,8 @@ console.log(Student1.Nationality);
 
 <hr>
 
-- This is a feature of JavaScript to firstly read all the code and then start executing it, after reading all definitions and declarations.
-- Hence if you call a function before it has been declared, then also our program will run smoothly as it would have already read the declaration.
+- This is a feature of JavaScript to firstly read all the code and then put all declaration statements above, after reading all definitions and declarations.
+- Hence if you call a function before it has been declared, then also our program will run smoothly as it would have already read the declaration and put it above.
 
 <hr>
 
