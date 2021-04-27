@@ -898,8 +898,10 @@ let person = {
   last_name: "Varghese",
   age: 17,
   school: "Sica",
-  sayhello(){document.write("Hello from person");// Inroduced in ES6 probably
-  alert("Hello");},
+  sayhello() {
+    document.write("Hello from person"); // Inroduced in ES6 probably
+    alert("Hello");
+  },
 };
 
 person.sayhello();
@@ -916,13 +918,13 @@ person.sayhello();
 <hr>
 
 ```js
-person={
+person = {
   first_name: "Sam",
   last_name: "Varghese",
-  sayhello(){
-    console.log(`Hello Master ${this.first_name}`)
+  sayhello() {
+    console.log(`Hello Master ${this.first_name}`);
   },
-}
+};
 person.sayhello();
 ```
 
@@ -949,3 +951,23 @@ person.sayhello();
 <hr>
 
 - To get the value of eulers number, just use `Math.E`.
+
+<hr>
+
+## Round Off
+
+<hr>
+
+- In order to round off a number, use `Math.round(number)`.
+
+<hr>
+
+## Ceil
+
+<hr>
+
+- In order to get the `ceil` value, just use `Math.ceil(number)`.
+
+## Floor
+
+- In order to get the floor value, we use `Mah.floor(number)`.
