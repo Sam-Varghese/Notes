@@ -1288,7 +1288,7 @@ console.log(Student1.Nationality);
 
 <hr>
 
-- This is a feature of JavaScript to firstly read all the code and then put all declaration statements above, after reading all definitions and declarations.
+- This is a feature of JavaScript to firstly read all the code and then put all declaration statements above.
 - Hence if you call a function before it has been declared, then also our program will run smoothly as it would have already read the declaration and put it above.
 
 <hr>
@@ -1352,4 +1352,15 @@ var x=5;
 
 <hr>
 
-- In this case, this code gets transformed to
+- In this case, this code gets transformed to:-
+
+<hr>
+
+```js
+var x;//Declaration step shifted up
+console.log(x);
+x=5;
+```
+
+<hr>
+
