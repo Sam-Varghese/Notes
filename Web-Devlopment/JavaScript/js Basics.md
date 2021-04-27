@@ -1204,3 +1204,21 @@ console.log(person.first_name);
 
 <hr>
 
+# Object Constructor (Classes)
+
+<hr>
+
+- Instead of making multiple objects of same type, JavaScript gives us object constructors which can make this big task eaier.
+
+<hr>
+
+```js
+function Student(first_name, last_name, age, school){
+  this.first_name: first_name,
+  this.last_name: last_name,
+  this.age: age,
+  this.school: school,
+};
+Student1=new Student("Sam","Varghese",17,"Sica");
+console.log(`Information about Student\nFirst name: ${Student1.first_name}\nLast name: ${Student1.last_name}\nAge: ${Student1.age}\nSchool: ${Student1.school}`);
+```
