@@ -1239,7 +1239,7 @@ function Student(first_name, last_name, age, school) {
   this.school = school;
 }
 Student1 = new Student("Sam", "Varghese", 17, "Sica");
-Student1.country = "India";//Do like this
+Student1.country = "India"; //Do like this
 console.log(
   `Information about Student\nFirst name: ${Student1.first_name}\nLast name: ${Student1.last_name}\nAge: ${Student1.age}\nSchool: ${Student1.school}\nCountry: ${Student1.country}`
 );
@@ -1247,3 +1247,23 @@ console.log(
 
 <hr>
 
+# Adding A New Property To Object Constructor
+
+<hr>
+
+- Suppose at any point of time you are wanting to add one more property to the object constructor, then use the following `prototype` method to do so.
+
+<hr>
+
+```js
+function Student(first_name, last_name, age, school) {
+  this.first_name = first_name; //Only = and ;
+  this.last_name = last_name;
+  this.age = age;
+  this.school = school;
+}
+Student.prototype.Nationality="Indian";
+Student1=new Student("Sam", "Varghese", 17, "School");
+
+console.log(Student1.Nationality);
+```
