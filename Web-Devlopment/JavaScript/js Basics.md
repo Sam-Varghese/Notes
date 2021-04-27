@@ -1028,3 +1028,30 @@ person.sayhello();
 - And if we ever wanna have a random floating point number in range `[max, min)`, then just remove `Math.floor()` from the above formula.
 
 <hr>
+
+# Date Object
+
+<hr>
+
+- In order to deal with date and times, we use date object of JavaScript.
+
+<hr>
+
+```js
+current=new Date();//In order to generate present time-stamp
+document.write(current);
+```
+
+<hr>
+
+- If we wanna generate time stamp of some specific date-time, use following:
+
+<hr>
+
+```js
+time_stamp= new Date(2018, 1, 12, 13, 12, 49,999)//new Date(Year, Month, Date, Minutes, Seconds, MilliSeconds)
+document.write(time_stamp);
+```
+
+<hr>
+
