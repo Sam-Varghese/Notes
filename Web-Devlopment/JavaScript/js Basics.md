@@ -758,6 +758,10 @@ setTimeout(function () {
 
 <hr>
 
+**Method 1**
+
+<hr>
+
 ```js
 let person = {
   first_name: "Sam", //Remember, only ',' and no ';'
@@ -768,6 +772,20 @@ let person = {
 console.log(`First name=${person.first_name}`);
 //Or
 console.log(`First name=${person["first_name"]}`);
+```
+
+<hr>
+
+**Method 2**
+
+<hr>
+
+```js
+var person=new Object();
+person.first_name="Sam";
+person.last_name"Varghese";
+person.age=17;
+person.school="Sica";
 ```
 
 <hr>
@@ -1110,8 +1128,10 @@ document.write(stand_time);
 
 ```js
 let x = new Date();
-x.setDate(x.getDate() + 50);
+x.setDate(x.getDate() + 50);//50 is actually 50 days
 console.log(x);
 ```
 
 <hr>
+
+- **Remember** that direct comparision of `new Date(...)` is possible as these timestamps are actually stored in milliseconds.
