@@ -1056,3 +1056,22 @@ document.write(time_stamp);
 <hr>
 
 - We can also convert dates of out format to standard form, as follows:-
+
+<hr>
+
+```js
+custom_date="10/28/2021 11:45:48:345";//should be mm/dd/yyyy hh/mm/ss
+stand_time=new Date(custom_date);
+document.write(stand_time);
+```
+
+<hr>
+
+- **Zero time is January 01, 1970 00:00:00 UTC.**
+- All timestamps with which JavaScript actually deals is in milliseconds which have passed since January 01, 1970 00:00:00 UTC.
+- In order to get time in milliseconds, we use `time_stamp.getTime()`.
+
+<hr>
+
+- In order to get just **year** from time stamp, we use `time_stamp.getFullYear()`
+- In order to get the **month number**, we use `time_stamp.getMonth()`.
