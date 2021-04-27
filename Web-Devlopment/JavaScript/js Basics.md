@@ -1038,7 +1038,7 @@ person.sayhello();
 <hr>
 
 ```js
-current=new Date();//In order to generate present time-stamp
+current = new Date(); //In order to generate present time-stamp
 document.write(current);
 ```
 
@@ -1049,7 +1049,7 @@ document.write(current);
 <hr>
 
 ```js
-time_stamp= new Date(2018, 1, 12, 13, 12, 49,999)//new Date(Year, Month, Date, Minutes, Seconds, MilliSeconds)
+time_stamp = new Date(2018, 1, 12, 13, 12, 49, 999); //new Date(Year, Month, Date, Minutes, Seconds, MilliSeconds)
 document.write(time_stamp);
 ```
 
@@ -1060,8 +1060,8 @@ document.write(time_stamp);
 <hr>
 
 ```js
-custom_date="10/28/2021 11:45:48:345";//should be mm/dd/yyyy hh/mm/ss
-stand_time=new Date(custom_date);
+custom_date = "10/28/2021 11:45:48:345"; //should be mm/dd/yyyy hh/mm/ss
+stand_time = new Date(custom_date);
 document.write(stand_time);
 ```
 
@@ -1077,4 +1077,5 @@ document.write(stand_time);
 - In order to get the **month number**, we use `time_stamp.getMonth()`.
 - In order to get **date(dd)**, we use `time_stamp.getDate()`.
 - In order to get the **hour**, we use `time_stamp.getHours()`.
-- In order to get then **minutes**, we use `time_stamp.getMinutes()`.
+- In order to get the **minutes**, we use `time_stamp.getMinutes()`.
+- In order to get **seconds**, we use `time_stamp.getSeconds()`.
