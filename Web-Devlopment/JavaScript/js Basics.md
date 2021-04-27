@@ -1088,3 +1088,4 @@ document.write(stand_time);
 - If we ever wanna **change date** of the timestamp, then we use `time_stamp.setDate(new_date)`. 
 - If we ever wanna **change hours** of the timestamp, then we use `time_stamp.setHours(new_hour)`. 
 - If we ever wanna **change minute** of the timestamp, then we use `time_stamp.setMinutes(new_minute)`. 
+- If we ever wanna **change seconds** of the timestamp, then we use `time_stamp.setSeconds(new_second)`. 
