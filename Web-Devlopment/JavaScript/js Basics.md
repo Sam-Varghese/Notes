@@ -1213,12 +1213,37 @@ console.log(person.first_name);
 <hr>
 
 ```js
-function Student(first_name, last_name, age, school){
-  this.first_name= first_name;//Only = and ;
-  this.last_name= last_name;
-  this.age= age;
-  this.school= school;
-};
-Student1=new Student("Sam","Varghese",17,"Sica");
-console.log(`Information about Student\nFirst name: ${Student1.first_name}\nLast name: ${Student1.last_name}\nAge: ${Student1.age}\nSchool: ${Student1.school}`);
+function Student(first_name, last_name, age, school) {
+  this.first_name = first_name; //Only = and ;
+  this.last_name = last_name;
+  this.age = age;
+  this.school = school;
+}
+Student1 = new Student("Sam", "Varghese", 17, "Sica");
+console.log(
+  `Information about Student\nFirst name: ${Student1.first_name}\nLast name: ${Student1.last_name}\nAge: ${Student1.age}\nSchool: ${Student1.school}`
+);
 ```
+
+<hr>
+
+- If you ever wanna create more properties for an object (without disturbing the main object constructor), then just do as follows:-
+
+<hr>
+
+```js
+function Student(first_name, last_name, age, school) {
+  this.first_name = first_name; //Only = and ;
+  this.last_name = last_name;
+  this.age = age;
+  this.school = school;
+}
+Student1 = new Student("Sam", "Varghese", 17, "Sica");
+Student1.country = "India";//Do like this
+console.log(
+  `Information about Student\nFirst name: ${Student1.first_name}\nLast name: ${Student1.last_name}\nAge: ${Student1.age}\nSchool: ${Student1.school}\nCountry: ${Student1.country}`
+);
+```
+
+<hr>
+
