@@ -890,7 +890,7 @@ person.sayhello(); //Don't forget these parenthesis
 
 OR
 
-<br>
+<hr>
 
 ```js
 let person = {
@@ -904,3 +904,48 @@ let person = {
 
 person.sayhello();
 ```
+
+<hr>
+
+# This Keyword
+
+<hr>
+
+- Suppose if we have an object which want to access some properties of that same function, then at that situation, though we can use `object_name.property`, but we can also use `this.property` where `this` refers to the object name until and unless we are using this inside the same object.
+
+<hr>
+
+```js
+person={
+  first_name: "Sam",
+  last_name: "Varghese",
+  sayhello(){
+    console.log(`Hello Master ${this.first_name}`)
+  },
+}
+person.sayhello();
+```
+
+<hr>
+
+# Math Object
+
+<hr>
+
+- There is already a math object in JavaScript for mathematical calculations.
+
+<hr>
+
+## PI
+
+<hr>
+
+- To get the value of Pi, just use `Math.PI`.
+
+<hr>
+
+## Eulers Number
+
+<hr>
+
+- To get the value of eulers number, just use `Math.E`.
