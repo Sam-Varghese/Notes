@@ -1073,6 +1073,10 @@ document.write(stand_time);
 
 <hr>
 
+## Fetching Data From timestamp
+
+<hr>
+
 - In order to get just **year** from time stamp, we use `time_stamp.getFullYear()`
 - In order to get the **month number**, we use `time_stamp.getMonth()`. Here **January is 0**.
 - In order to get **date(dd)**, we use `time_stamp.getDate()`.
@@ -1080,6 +1084,10 @@ document.write(stand_time);
 - In order to get the **minutes**, we use `time_stamp.getMinutes()`.
 - In order to get **seconds**, we use `time_stamp.getSeconds()`.
 - In order to get the **day**, we use `time_stamp.getDay()`. Here **Sunday is 0**.
+
+<hr>
+
+## Updating timestamp
 
 <hr>
 
