@@ -1177,3 +1177,29 @@ let person = {
 };
 console.log(person.get_name);
 ```
+
+<hr>
+
+# Setter
+
+<hr>
+
+- Suppose if we ever wanna change a property of an object, but after processing a given data, and if this task hasto be repeated multiple times, then setter functions can be helpful.
+
+<hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  Class: 12,
+
+  set set_name(name) {
+    this.first_name = name.toUpperCase();
+  },
+};
+person.set_name = "rohan";
+console.log(person.first_name);
+```
+
+<hr>
