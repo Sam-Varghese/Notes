@@ -1015,3 +1015,16 @@ person.sayhello();
 <hr>
 
 - In order to find maximum, we use `Math.max(num1, num2, ......, numn)`.
+
+<hr>
+
+## Random
+
+<hr>
+
+- Suppose if we wanna find a random number in range [0,1), use `Math.random()`.
+- We generate all random numbers only through this function.
+- In general, if we wanna find a integer random number in range `[max, min)`, then we use formula, `Math.floor(Math.random()*(max-min))+min`.
+- And if we ever wanna have a random floating point number in range `[max, min)`, then just remove `Math.floor()` from the above formula.
+
+<hr>
