@@ -1306,3 +1306,22 @@ x=10;
 <hr>
 
 - Then, according to our expectations, our console shoul show `10`, but console in this case actually shows `undefined`. This is because whenever we declare a variable like this, then variable automatically gets `undefined` unless and until it is maunally defined by us.
+
+<br>
+
+- So, if we put the following code:-
+
+<br>
+
+```js
+x=10;
+console.log(x);
+var x;
+```
+
+<hr>
+
+- Then, our output would be `10`, as variable has been defined by us.
+
+<hr>
+
