@@ -1128,7 +1128,7 @@ document.write(stand_time);
 
 ```js
 let x = new Date();
-x.setDate(x.getDate() + 50);//50 is actually 50 days
+x.setDate(x.getDate() + 50); //50 is actually 50 days
 console.log(x);
 ```
 
@@ -1146,3 +1146,34 @@ console.log(x);
 
 <hr>
 
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  Class: 12,
+
+  get_name: function () {
+    return this.first_name.toUpperCase(); //Hope you remember this :)
+  },
+};
+console.log(get_name());
+```
+
+<hr>
+
+- One disadvantage of the above method is that we are calling method not as a property (as property doesn't have parenthesis), but rather like a method (as methods have parenthesis). Hence if we really wanna call `get_name` as a property, then do as follows:-
+
+<hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  Class: 12,
+
+  get get_name() {
+    return this.first_name.toUpperCase();
+  },
+};
+console.log(person.get_name);
+```
