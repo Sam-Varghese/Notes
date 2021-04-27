@@ -1055,3 +1055,4 @@ document.write(time_stamp);
 
 <hr>
 
+- We can also convert dates of out format to standard form, as follows:-
