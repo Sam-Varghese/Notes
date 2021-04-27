@@ -1077,3 +1077,4 @@ document.write(stand_time);
 - In order to get the **month number**, we use `time_stamp.getMonth()`.
 - In order to get **date(dd)**, we use `time_stamp.getDate()`.
 - In order to get the **hour**, we use `time_stamp.getHours()`.
+- In order to get then **minutes**, we use `time_stamp.getMinutes()`.
