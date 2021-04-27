@@ -1325,3 +1325,31 @@ var x;
 
 <hr>
 
+- But suppose we do as follows:-
+
+<hr>
+
+```js
+console.log(x);
+var x;
+x=10;
+```
+
+<hr>
+
+- Then in this case we would get `undefined` as output as JavaScript in this case just put `var x;` above `console.log(x);`.
+
+<hr>
+
+- Now suppose if we put this code:
+
+<hr>
+
+```js
+console.log(x);
+var x=5;
+```
+
+<hr>
+
+- In this case, this code gets transformed to
