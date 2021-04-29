@@ -365,6 +365,10 @@ for (let counter = 1; counter <= 15; counter += 1) {
 
 <hr>
 
+<p align="center"><img src="https://media1.giphy.com/media/RiWZUGcZPEKdQgrQ96/giphy.gif"></p>
+
+<hr>
+
 - `break` statemet in JavaScript is used in order to get out of the current loop when a certain condition is met.
 - We use `break outer` (After naming 1st for as outer by: `outer: for(;;){}`) if we are in a for loop which is also in a for loop, and inside the 2nd for loop we write break in order to break the outer for loop , not the 2nd for.
 
