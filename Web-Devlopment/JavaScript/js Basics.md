@@ -433,6 +433,10 @@ document.write("<h1>Paul Classes</h1>");
 
 <hr>
 
+![Alert gif](https://i.pinimg.com/originals/44/87/b5/4487b5130278a6316e06e86807a60a7f.gif)
+
+<hr>
+
 # Prompt
 
 <hr>
