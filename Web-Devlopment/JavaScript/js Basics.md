@@ -34,6 +34,10 @@
 
 <hr>
 
+<p align="center"><img src="https://media.tenor.com/images/3ded3820a37d4dc709b08f8ab8284f15/tenor.gif"></p>
+
+<hr>
+
 - If the JavaScript program is written in another js file, then we need not start coding js code inside `<script>`, `</script>`. Just put `<script src="path">`, `</script>`.
 
 <hr>
