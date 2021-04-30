@@ -1270,7 +1270,7 @@ console.log(
 ```js
 Student = {
   name: "Sam",
-  address: { City: "Indore", Country: "India", State: "MP" },//Do like this
+  address: { City: "Indore", Country: "India", State: "MP" }, //Do like this
 };
 console.log(Student.address.City);
 ```
@@ -1316,7 +1316,7 @@ console.log(Student1.Nationality);
 ```js
 var x;
 console.log(x);
-x=10;
+x = 10;
 ```
 
 <hr>
@@ -1330,7 +1330,7 @@ x=10;
 <br>
 
 ```js
-x=10;
+x = 10;
 console.log(x);
 var x;
 ```
@@ -1348,7 +1348,7 @@ var x;
 ```js
 console.log(x);
 var x;
-x=10;
+x = 10;
 ```
 
 <hr>
@@ -1363,7 +1363,7 @@ x=10;
 
 ```js
 console.log(x);
-var x=5;
+var x = 5;
 ```
 
 <hr>
@@ -1373,9 +1373,9 @@ var x=5;
 <hr>
 
 ```js
-var x;//Declaration step shifted up
+var x; //Declaration step shifted up
 console.log(x);
-x=5;
+x = 5;
 ```
 
 <hr>
@@ -1390,7 +1390,7 @@ x=5;
 
 ```js
 console.write(x);
-let x=10;
+let x = 10;
 ```
 
 <hr>
@@ -1404,7 +1404,7 @@ let x=10;
 <hr>
 
 ```js
-x=5;//No declaration done
+x = 5; //No declaration done
 console.log(x);
 ```
 
@@ -1439,3 +1439,4 @@ console.log(x);
 - JavaScript can remove existing HTML elements and attributes.
 - JavaScript can add new HTML elements and attributes.
 - JavaScript can react to all existing HTML events int the page.
+- JavaScript can create new HTML events in the page
