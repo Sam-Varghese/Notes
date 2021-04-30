@@ -34,3 +34,9 @@
 ```
 
 <hr>
+
+- **Element**- Paragraphs, links, images, vedios, sc comes under element tag.
+- **Attribute**- Additional information about element; like its height, width etc.
+
+<hr>
+
