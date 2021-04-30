@@ -1435,3 +1435,5 @@ console.log(x);
 - With object model, JavaScript gets all the powers it needs to create dynamic HTML.
 - JavaScript can change all HTML elements in the page.
 - JavaScript can change all HTML attributes in the page.
+- JavaScript can change all CSS styles in the page.
+- JavaScript can remove existing HTML elements and attributes.
