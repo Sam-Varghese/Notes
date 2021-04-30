@@ -1443,3 +1443,10 @@ console.log(x);
 - JavaScript can add new HTML elements and attributes.
 - JavaScript can react to all existing HTML events int the page.
 - JavaScript can create new HTML events in the page
+
+<hr>
+
+# Selecting Element By ID
+
+<hr>
+
