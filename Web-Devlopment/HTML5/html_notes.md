@@ -20,7 +20,7 @@
 <html lang="en">
 <!-- To tell browser the language of our webpage -->
 <head>
-<!-- Under head tag, we have meta data, ie data about data -->
+<!-- Under head tag, we have meta data, ie data about data for browser-->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
