@@ -1425,6 +1425,9 @@ console.log(x);
 
 - When a web page is loaded, the browser creates a Document Object Model of the page.
 - **Note**: In this DOM tree, the document is the root node or object.
+- **Note**: In DOM, all HTML objects are defined as objects, so it will have both property and method.
+- The document object represents your web page.
+- If you wanna access any HTML element in a HTML page, you always start with accessing the document object.
 
 <hr>
 
