@@ -1437,3 +1437,4 @@ console.log(x);
 - JavaScript can change all HTML attributes in the page.
 - JavaScript can change all CSS styles in the page.
 - JavaScript can remove existing HTML elements and attributes.
+- JavaScript can add new HTML elements and attributes.
