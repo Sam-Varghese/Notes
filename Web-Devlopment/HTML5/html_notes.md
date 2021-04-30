@@ -25,9 +25,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- Used to specify name of this tab -->
 </head>
 <body>
 <!-- Under body tag, we data to be displayed in webpage. -->
 </body>
 </html>
 ```
+
+<hr>
