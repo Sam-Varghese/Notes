@@ -1433,3 +1433,5 @@ console.log(x);
 <hr>
 
 - With object model, JavaScript gets all the powers it needs to create dynamic HTML.
+- JavaScript can change all HTML elements in the page.
+- JavaScript can change all HTML attributes in the page.
