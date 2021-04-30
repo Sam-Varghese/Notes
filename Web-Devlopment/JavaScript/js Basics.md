@@ -1403,3 +1403,33 @@ let x=10;
 
 <hr>
 
+```js
+x=5;//No declaration done
+console.log(x);
+```
+
+<hr>
+
+- We might think that in this case we should get an error as we forgot to declare the type of variable before initializing it, but here we would get no error, rather 5 as an output. This happened because JavaScript automatically detects this error and puts declaration by itself.
+- But this feature can become a cause of many errors while coding, hence to disable this feature of JavaScript, we write `"use strict"` inthe topmost line of our file.
+
+<hr>
+
+# DOM
+
+<hr>
+
+- **D**ocument **O**bject **M**odel is an **A**pplication **P**rogramming **I**nterface for manipulating HTML and XML documents. (add, remove or modify parts of the document/HTML).
+
+<hr>
+
+- When a web page is loaded, the browser creates a Document Object Model of the page.
+- **Note**: In this DOM tree, the document is the root node or object.
+
+<hr>
+
+![DOM image](Images/DOM1.PNG)
+
+<hr>
+
+- With object model, JavaScript gets all the powers it needs to create dynamic HTML.
