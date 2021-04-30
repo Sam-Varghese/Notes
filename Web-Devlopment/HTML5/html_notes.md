@@ -53,4 +53,5 @@
 
 <hr>
 
-- in HTML we have 
+- in HTML we have a `<p>` tag used to insert paragraphs in web pages.
+
