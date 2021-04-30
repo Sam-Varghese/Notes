@@ -40,3 +40,17 @@
 
 <hr>
 
+# Headings
+
+<hr>
+
+- In HTML, we have 6 heading tags, ie `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`.
+- Priority of headings reduces from `<h1>` to `<h6>`.
+
+<hr>
+
+# Paragraphs
+
+<hr>
+
+- in HTML we have 
