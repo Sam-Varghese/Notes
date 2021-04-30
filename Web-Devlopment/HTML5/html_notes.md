@@ -55,3 +55,19 @@
 
 - in HTML we have a `<p>` tag used to insert paragraphs in web pages.
 
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Nostrud id aute proident ipsum reprehenderit occaecat ad proident labore. Fugiat labore laboris eu culpa non. Est dolor nisi irure fugiat aliqua nostrud et enim non elit cillum cupidatat occaecat. Nostrud ea veniam cupidatat culpa. Ipsum duis mollit fugiat tempor ipsum exercitation laboris. Exercitation elit sit dolor sint duis exercitation.</p>̥
+</body>
+</html>
+```
