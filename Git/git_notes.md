@@ -70,4 +70,44 @@ git branch -d <branch name>
 
 <hr>
 
-- In order to move
+- In order to move from one branch to the other, we use `git checkout`.
+
+<hr>
+
+```none
+git checkout <name of branch>
+```
+
+<hr>
+
+## Creating And Switching At Same Time
+
+<hr>
+
+```none
+git checkout -b <name of brach>
+```
+
+<hr>
+
+# Status
+
+<hr>
+
+```none
+git status
+```
+
+<hr>
+
+# Git Add
+
+<hr>
+
+- Used in or
+
+<hr>
+
+```none
+git add <file>
+```
