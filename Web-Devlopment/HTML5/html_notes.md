@@ -71,3 +71,12 @@
 </body>
 </html>
 ```
+
+# Line Break
+
+<hr>
+
+- In HTML, if we wanna leave a line blank, then we simplyuse `<br>` tag.
+
+<hr>
+
