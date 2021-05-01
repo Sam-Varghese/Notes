@@ -18,18 +18,18 @@
 <!DOCTYPE html>
 <!-- Specifies that the document type is HTML -->
 <html lang="en">
-<!-- To tell browser the language of our webpage -->
-<head>
-<!-- Under head tag, we have meta data, ie data about data for browser-->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- Used to specify name of this tab -->
-</head>
-<body>
-<!-- Under body tag, we data to be displayed in webpage. -->
-</body>
+  <!-- To tell browser the language of our webpage -->
+  <head>
+    <!-- Under head tag, we have meta data, ie data about data for browser-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Used to specify name of this tab -->
+  </head>
+  <body>
+    <!-- Under body tag, we data to be displayed in webpage. -->
+  </body>
 </html>
 ```
 
@@ -60,15 +60,22 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>Nostrud id aute proident ipsum reprehenderit occaecat ad proident labore. Fugiat labore laboris eu culpa non. Est dolor nisi irure fugiat aliqua nostrud et enim non elit cillum cupidatat occaecat. Nostrud ea veniam cupidatat culpa. Ipsum duis mollit fugiat tempor ipsum exercitation laboris. Exercitation elit sit dolor sint duis exercitation.</p>̥
-</body>
+  </head>
+  <body>
+    <p>
+      Nostrud id aute proident ipsum reprehenderit occaecat ad proident labore.
+      Fugiat labore laboris eu culpa non. Est dolor nisi irure fugiat aliqua
+      nostrud et enim non elit cillum cupidatat occaecat. Nostrud ea veniam
+      cupidatat culpa. Ipsum duis mollit fugiat tempor ipsum exercitation
+      laboris. Exercitation elit sit dolor sint duis exercitation.
+    </p>
+    ̥
+  </body>
 </html>
 ```
 
@@ -80,3 +87,31 @@
 
 <hr>
 
+# Customize Paragraph Indentation
+
+<hr>
+
+- Whenever we write poems or something like that where we want webpage to show the exact para wuth the style in which we wrote that, then we use `<pre>` tag.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <pre>
+Enim            dolore officia consequat incididunt proident deserunt fugiat. Irure ut amet pariatur voluptate ea duis sint nulla sit minim fugiat sit aliquip. Non ullamco elit dolore sit cupidatat. Excepteur minim dolor aute voluptate eu aute veniam ea quis eu dolore voluptate consectetur non. Reprehenderit deserunt et dolore deserunt ullamco ad. Consequat est dolore tempor anim eiusmod proident aliqua aute laboris.
+
+Dolor exercitation ad           officia enim voluptate nisi. Esse elit deserunt ea Lorem nulla fugiat. Culpa ad id dolor reprehenderit ullamco.
+
+Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit exercitation est commodo reprehenderit veniam officia exercitation ut mollit. Nulla cillum dolor anim culpa. Duis enim esse reprehenderit veniam exercitation voluptate ipsum est non ut aliqua anim laborum aute.</pre
+    >
+  </body>
+</html>
+```
