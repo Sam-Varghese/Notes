@@ -138,3 +138,17 @@ git commit
 
 <hr>
 
+- But this method opens up our text editor, and then asks for commit message.
+
+<hr>
+
+- But suppose if we directly wanna give a commit message with `git commit` command,  we use:
+
+<hr>
+
+```none
+git commit -m "commit message"
+```
+
+<hr>
+
