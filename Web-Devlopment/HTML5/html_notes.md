@@ -164,3 +164,12 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Insert
+
+<hr>
+
+- In order to show that some text has been inserted, we use `<ins>`, `</ins>` tag.
+- This would make text underlined.
+
+<hr>
+
