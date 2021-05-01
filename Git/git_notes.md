@@ -177,3 +177,24 @@ git push -u origin <branch name>
 ```
 
 <hr>
+
+# Git Pull
+
+<hr>
+
+```none
+git pull origin
+```
+
+<hr>
+
+# Undoing A Previous Commit
+
+<hr>
+
+```none
+git reset --hard <commidId> && git clean -f
+```
+
+<hr>
+
