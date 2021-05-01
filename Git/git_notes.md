@@ -104,10 +104,37 @@ git status
 
 <hr>
 
-- Used in or
+- Used in order to select what has to be commited the next time we do commit.
 
 <hr>
 
 ```none
 git add <file>
 ```
+
+<hr>
+
+## Adding Everything
+
+<hr>
+
+```none
+git add -A
+```
+
+<hr>
+
+# Git Commit
+
+<hr>
+
+- To push our changes to the remote repository, we use `git commit`.
+
+<hr>
+
+```none
+git commit
+```
+
+<hr>
+
