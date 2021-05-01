@@ -115,3 +115,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
   </body>
 </html>
 ```
+
+<hr>
+
+# Formatting
+
+<hr>
+
+- In order to make any text bold, we use `<b>`, `</b>` tag.
