@@ -79,6 +79,8 @@
 </html>
 ```
 
+<hr>
+
 # Line Break
 
 <hr>
