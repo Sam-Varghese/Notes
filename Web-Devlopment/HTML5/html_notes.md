@@ -140,3 +140,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Small
+
+<hr>
+
+- In order to make a text small, we use `<small>`, `</small>`.
+
+<hr>
+
