@@ -188,6 +188,20 @@ git pull origin
 
 <hr>
 
+# Reverting changes
+
+<hr>
+
+- The Git revert command will undo the given commit, but will create a new commit without deleting the older one
+
+<hr>
+
+```none
+git revert <CODE/URL>
+```
+
+<hr>
+
 # Undoing A Previous Commit
 
 <hr>
