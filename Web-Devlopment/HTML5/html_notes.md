@@ -122,4 +122,21 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Bold
+
+<hr>
+
 - In order to make any text bold, we use `<b>`, `</b>` tag.
+- In order to make a text bold and also tell browser that this word maks more importance thn other words( To facilitate searches), we use `<strong>`, `</strong>`.
+
+<hr>
+
+## Italics
+
+<hr>
+
+- If we wanna put text texts in italics, we ise `<i>`, `</i>` tag.
+- If we wanna put texts in italics, and also signify the brwser, that this text marks greatervalue than rest of the tags, then we use `<em>`, `</em>` tag.
+
+<hr>
+
