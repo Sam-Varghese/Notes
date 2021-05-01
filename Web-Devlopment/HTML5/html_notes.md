@@ -148,3 +148,10 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Mark
+
+<hr>
+
+- If we wanna highlight a particular set of line, then we use `<mark>`, `</mark>`.
+
+<hr>
