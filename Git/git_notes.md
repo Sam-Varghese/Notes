@@ -152,3 +152,28 @@ git commit -m "commit message"
 
 <hr>
 
+# Git Push
+
+<hr>
+
+```none
+git push origin <branch name>
+```
+
+<hr>
+
+- However if your branch is newly createdm then you can also upload the brach with other changes by using:-
+
+<hr>
+
+```none
+git push --set -upstream origin <branch name>
+```
+
+Or
+
+```none
+git push -u origin <branch name>
+```
+
+<hr>
