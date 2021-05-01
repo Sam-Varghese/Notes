@@ -155,3 +155,12 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - If we wanna highlight a particular set of line, then we use `<mark>`, `</mark>`.
 
 <hr>
+
+## Delete
+
+<hr>
+
+- In order to signify to the browser that a certain part of text has been deleted, we use `<del>`, `</del>` tag.
+
+<hr>
+
