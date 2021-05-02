@@ -48,7 +48,11 @@ git push -u origin <branch name>
 git branch
 ```
 
+<hr>
+
 OR
+
+<hr>
 
 ```none
 git branch --list
