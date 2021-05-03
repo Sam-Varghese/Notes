@@ -190,3 +190,12 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Similar to subscript tag, `<sup>`, `</sup>` are used to put text in superscripts.
 
 <hr>
+
+## Quotation
+
+<hr>
+
+- If we ever wanna put quotations in webpage, which are the word said by another person, then we use `<q>`, `</q>` tags.
+
+<hr>
+
