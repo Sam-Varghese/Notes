@@ -238,3 +238,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - If we want some tet which should be clickable and should redirect us to another webpage, then we use `<a href="link">`, `</a>` tags.
 
 <hr>
+
+- Now if we ever wan to have this webpage opened in a separate tab, then we use `<a href="link" target="_blank">`, `</a>` tags.
+
+<hr>
+
+- If we also want to indicate the user where would clicking that text take him to after he hovers the cursor to that anchored text, the we use `<a href="link" title="Put title text">`, `</a>` tags.
+
+<hr>
