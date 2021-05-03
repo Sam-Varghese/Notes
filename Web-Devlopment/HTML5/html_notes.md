@@ -254,3 +254,12 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Now if we want our anchored text to open up another element of the same web page, then firstly give an id to that element, then inside href of anchor tag, put `#id` where id should be replace by the id we selected for element.
 
 <hr>
+
+## Email
+
+<hr>
+
+- If we ever want some text to directly open up our email whenever we click on it, then we use `<a href="mailto:emailid?put_subject">`, `</a>` tags. For this your default email program should be microsoft mail and not google.
+
+<hr>
+
