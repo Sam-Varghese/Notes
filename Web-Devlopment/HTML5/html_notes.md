@@ -231,3 +231,10 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Anchor
+
+<hr>
+
+- If we want some tet which should be clickable and should redirect us to another webpage, then we use `<a href="link">`, `</a>` tags.
+
+<hr>
