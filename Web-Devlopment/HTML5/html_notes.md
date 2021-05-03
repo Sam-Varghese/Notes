@@ -182,3 +182,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - In order to put anyt text in subscript, we use `<sub>`, `</sub>` tags.
 
 <hr>
+
+## Superscript
+
+<hr>
+
+- Similar to subscript tag, `<sup>`, `</sup>` are used to put text in superscripts.
+
+<hr>
