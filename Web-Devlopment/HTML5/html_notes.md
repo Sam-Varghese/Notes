@@ -203,6 +203,6 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
-- When we use quotation of some other author, then we use blockquotes, where tags `<blockquote>`, `</blockquote>` are used.
+- When we use quotation of some other author, then we use blockquotes, where tags `<blockquote cite="cite url from where this is taken">`, `</blockquote>` are used.
 
 <hr>
