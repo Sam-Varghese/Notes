@@ -263,3 +263,10 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Image
+
+<hr>
+
+- Now if we wanna put images on our web page, then we use `<img src="url/link" alt="text if image doesnt get loaded" height="300" width="300">`.
+
+<hr>
