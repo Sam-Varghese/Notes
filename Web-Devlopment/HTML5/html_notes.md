@@ -206,3 +206,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - When we use quotation of some other author, then we use blockquotes, where tags `<blockquote cite="cite url from where this is taken">`, `</blockquote>` are used.
 
 <hr>
+
+## Abbreviation
+
+<hr>
+
+- Now if we ever wanna pu abbreviation in our text, then we use `<abbr title="Full Form of abbr">`, `</abbr>`.
+
+<hr>
