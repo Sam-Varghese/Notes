@@ -175,4 +175,10 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
-Part 10 5:34
+## Subscript
+
+<hr>
+
+- In order to put anyt text in subscript, we use `<sub>`, `</sub>` tags.
+
+<hr>
