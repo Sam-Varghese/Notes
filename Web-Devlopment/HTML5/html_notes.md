@@ -214,3 +214,20 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Now if we ever wanna pu abbreviation in our text, then we use `<abbr title="Full Form of abbr">`, `</abbr>`.
 
 <hr>
+
+## Address
+
+<hr>
+
+- If we specify any address in our web page, then we are recommended to use `<address>`, `</address>` tags.
+
+<hr>
+
+## title
+
+<hr>
+
+- If we specify any kind of titles( book names etc), then we shoul use `<title>`, `</title>` tags.
+
+<hr>
+
