@@ -246,3 +246,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - If we also want to indicate the user where would clicking that text take him to after he hovers the cursor to that anchored text, the we use `<a href="link" title="Put title text">`, `</a>` tags.
 
 <hr>
+
+## Local Links
+
+<hr>
+
+- Now if we want our anchored text to open up another element of the same web page, then firstly give an id to that element, then inside href of anchor tag, put `#id` where id should be replace by the id we selected for element.
+
+<hr>
