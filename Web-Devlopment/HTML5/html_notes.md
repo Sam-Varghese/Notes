@@ -430,3 +430,7 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- Then there is another tag called `<thead>`, `</thead>` which are used to specify to the browser which row is the heading row; though using these tags would bring no distinction to that row.
+
+<hr>
+
