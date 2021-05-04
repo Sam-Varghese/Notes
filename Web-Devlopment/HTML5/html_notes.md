@@ -388,3 +388,6 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```
 
 <hr>
+
+- But in the above table, we wont be able to see any borders in table. Hence to do so, just put `<table border="1">` where 1 is actually 1 pixel.
+- 
