@@ -425,3 +425,8 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```
 
 <hr>
+
+- In order to give table a title, we use `<caption>`, `</caption>`.
+
+<hr>
+
