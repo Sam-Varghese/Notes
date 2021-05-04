@@ -395,3 +395,4 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- If we wanna combine rows or columns, then we use `<rowspan>` and `<colspan>`.
