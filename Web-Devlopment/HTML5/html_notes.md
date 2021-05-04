@@ -357,4 +357,34 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
-- If we ever wanna put some terms and explaing their meanings side by side, then we use description lists.
+- If we ever wanna put some terms and explain their meanings side by side, then we use description lists.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table>
+     <tr>
+       <td>R1C1</td>
+       <td>R1C2</td>
+       <td>R1C3</td>
+      </tr>
+      <tr>
+        <td>R2C1</td>
+        <td>R2C2</td>
+        <td>R2C3</td>
+      </tr>
+    </table>
+</body>
+</html>
+```
+
+<hr>
