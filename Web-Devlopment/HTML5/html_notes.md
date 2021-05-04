@@ -391,4 +391,7 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 - But in the above table, we wont be able to see any borders in table. Hence to do so, just put `<table border="1">` where 1 is actually 1 pixel.
 - If we wanna put heading in this table, then instead of `<td>`, `</td>` just use `<th>`, `</th>`.
-- In
+- In cells of these tables, instead of texts, we can also use images.
+
+<hr>
+
