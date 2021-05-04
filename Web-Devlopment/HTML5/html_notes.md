@@ -270,3 +270,83 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Now if we wanna put images on our web page, then we use `<img src="url/link" alt="text if image doesnt get loaded" height="300" width="300">`.
 
 <hr>
+
+## Marquee
+
+<hr>
+
+- If we want to have moving text, then we use `<marquee>`, `</marquee>` tags.
+- This tsg is no more supported in the latest version, but as browsers still support older versions, hence this can still be used.
+- If we wanna make the text move from left to right, the we use `<marquee direction="right">`, `</marquee>` tags.
+- Now if we want the text to move from bottom to up, then we simply put `direction="up"`.
+- Similarly if we want text to move from top to bottom, then we simply put `direction="down"`.
+
+<hr>
+
+# List
+
+<hr>
+
+## Ordered Lists
+
+<hr>
+
+- In order to put lists in HTML, we use `<li>`, `<ol>`, `</ol>`,`</li>` tags.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ol>
+      <li>Milk</li>
+      <li>Cream</li>
+      <li>Bread</li>
+      <li>Butter</li>
+    </ol>
+  </body>
+</html>
+```
+
+<hr>
+
+- If we want the numbering to start from any other digit than 1, then just put `<li start="digit">`.
+- Now if we wanna put alphabets in place of number, then just put `<li type="A">` for capital letter alphabatical indexing and `<li type="a">` for small letters alphabatical indexing.
+- Then in order to put roman numbers as our index, just use `<li type="I">`; and `<li type="i">` for small letters roman number indexing.
+
+<hr>
+
+## Unordered Lists
+
+<hr>
+
+- In order to have unordered lists in HTML, we use `<ul>`, `<li>`, `</li>`, `</ul>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>Milk</li>
+      <li>Cream</li>
+      <li>Bread</li>
+      <li>Butter</li>
+    </ul>
+  </body>
+</html>
+```
