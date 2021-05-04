@@ -356,3 +356,5 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ## Description List
 
 <hr>
+
+- If we ever wanna put some terms and explaing their meanings side by side, then we use description lists.
