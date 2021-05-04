@@ -364,18 +364,18 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <table>
-     <tr>
-       <td>R1C1</td>
-       <td>R1C2</td>
-       <td>R1C3</td>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>R1C1</td>
+        <td>R1C2</td>
+        <td>R1C3</td>
       </tr>
       <tr>
         <td>R2C1</td>
@@ -383,7 +383,7 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
         <td>R2C3</td>
       </tr>
     </table>
-</body>
+  </body>
 </html>
 ```
 
@@ -396,3 +396,32 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 <hr>
 
 - If we wanna combine rows or columns, then we use `<rowspan>` and `<colspan>`.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td>R1C1</td>
+        <td rowspan="2">R1C2</td>
+        <td>R1C3</td>
+      </tr>
+      <tr>
+        <td>R2C1</td>
+        <td>R2C3</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+<hr>
