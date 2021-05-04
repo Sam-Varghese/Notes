@@ -431,6 +431,37 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 <hr>
 
 - Then there is another tag called `<thead>`, `</thead>` which are used to specify to the browser which row is the heading row; though using these tags would bring no distinction to that row.
+- There are also tags like `<tbody>`, `</tbody>` which are used to specify to the browser which rows are the body rows.
+- In order to make a distinction to heading and body rows using `<thead>` and `<tbody>`, we can also do CSS styling inside these tags.
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td>R1C1</td>
+          <td>R1C2</td>
+          <td>R1C3</td>
+        </tr>
+      </thead>
+      <tr>
+        <td>R2C1</td>
+        <td>R2C2</td>
+        <td>R2C3</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+<hr>
