@@ -486,18 +486,19 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div>This took full line</div><!--You can alo apply CSS to cross check this fact-->
+  </head>
+  <body>
+    <div>This took full line</div>
+    <!--You can alo apply CSS to cross check this fact-->
     <div>This took full line</div>
     <span>This didnt take full line</span>
     <span>This didnt take full line</span>
-</body>
+  </body>
 </html>
 ```
 
@@ -511,3 +512,46 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- Iframes are used if we want to put one frame of some other website on our webpage.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <iframe src="https://www.financialexpress.com/lifestyle/health/coronavirus-india-lockdown-live-news-may-5-live-updates-lockdown-live-oxygen-crisis-live-delhi-up-rajasthan-haryana-punjab-bihar-maharashtra-mumbai-bengaluru-corona-vaccine-live/2246001/"></iframe>
+  </body>
+</html>
+```
+
+<hr>
+
+# Audio
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+  </body>
+</html>
+```
+
+<hr>
