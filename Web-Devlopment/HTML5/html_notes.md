@@ -465,3 +465,14 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```
 
 <hr>
+
+# Types Of Structure Elements
+
+<hr>
+
+1. `<div>`: Block element
+2. `<span>`: Inline element
+
+<hr>
+
+- A block element always starts on a new line and takes up the full width available. (Strches out to the left and right as much as it can).
