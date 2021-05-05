@@ -559,3 +559,21 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <video controls>
+      <source src="vedio.mp4" type="video/mp4" />
+      Your browser does not supports vedio files.<!--Message if browser does not support audio files-->
+    </video>
+  </body>
+</html>
+
+```
