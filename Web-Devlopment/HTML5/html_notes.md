@@ -476,3 +476,34 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 <hr>
 
 - A block element always starts on a new line and takes up the full width available. (Strches out to the left and right as much as it can).
+
+<hr>
+
+- An inline element does not start on a new line and only take up as much width as necessary.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>This took full line</div><!--You can alo apply CSS to cross check this fact-->
+    <div>This took full line</div>
+    <span>This didnt take full line</span>
+    <span>This didnt take full line</span>
+</body>
+</html>
+```
+
+<hr>
+
+- So with the help of above code, we can indeed conclude that `<div>` occupies full line, which `<span>` does not.
+
+<hr>
+
