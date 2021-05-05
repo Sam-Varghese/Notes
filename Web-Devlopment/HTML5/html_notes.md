@@ -559,6 +559,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- Just put `<audio controls autoplay>` if you want audio to start automatically.
+- Put `<audio autoplay>` if you dont want player to have control options.
+
+<hr>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -575,5 +580,12 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
     </video>
   </body>
 </html>
-
 ```
+
+<hr>
+
+- Just put `video controls autoplay>` if you want video to start automatically.
+- Put `video autoplay>` if you dont want player to have control options.
+
+<hr>
+
