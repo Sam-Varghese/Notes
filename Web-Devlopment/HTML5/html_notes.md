@@ -752,3 +752,5 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```
 
 <hr>
+
+- In place of `<input type="text">`, we can also use `color`, `date`, `emai`, `hidden`, `number`, `password`, `reset`, `time`, `url`, `"range" min="500" max="500"`, 
