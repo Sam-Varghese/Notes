@@ -761,4 +761,5 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Put `maxlength="20"` in order to have only specific number of characters in input.
 - If type is `number`, then we can use `min=""` and `max=""` in order to have some min and max constraint in input.
 - In order to have a pre text in input in order to give hint to the user of what is to be written in that input, we use `placeholder=""`.
-- Just
+- Just put `required` if we want to have that field compulsorily filled.
+- If we have number type input field, then in order to have number increased by specific steps, we use `step="2"`.
