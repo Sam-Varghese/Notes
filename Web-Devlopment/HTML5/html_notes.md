@@ -754,4 +754,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 <hr>
 
 - In place of `<input type="text">`, we can also use `color`, `date`, `emai`, `hidden`, `number`, `password`, `reset`, `time`, `url`, `"range" min="500" max="500"`, `file`, `"file" multiple`.
-- In order to have some default value in input 
+- In order to have some default value in input, just use `value=""`.
+- In order to have a readonly input box, just put `readonly`.
+- We can also use `disabled` in input widget.
+- In order to increase the size of the input widget box, just put `size="50"` where the number is actually number of characters.
+- Put `maxlength="20"` in order to have only specific number of characters in input.
+- If type is `number`, then we can use `min=""` and `max=""` in order to have some min and max constraint in input.
+- In order to have a pre text in input in order to give hint to the user of what is to be written in that input, we use `placeholder=""`.
+- Just
