@@ -766,3 +766,14 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - In order to have the cursor automatically come in that input field, we use `autofocus`.
 - In order to give permission to the browser to have autocomplete enabled/ disabled in our input filed, we use `autocomplete="on/off"`.
 - For backend, if we wanna specify which data comes from which input field, we put `name=""`.
+
+<hr>
+
+# Text Area
+
+<hr>
+
+- If we want to some blank space for user in order to put some big texts, we use text area.
+
+<hr>
+
