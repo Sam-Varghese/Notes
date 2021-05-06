@@ -680,3 +680,11 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- In order to put google maps iframe in our website, we just need to share the location and copy the embed code and put that code as it is on out HTML source code.
+
+<hr>
+
+# Semantic Elements
+
+<hr>
+
