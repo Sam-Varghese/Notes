@@ -688,3 +688,5 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+- Elements with meaning.
+- A semantic element clearly describes its meaning to both browser and the devloper.
