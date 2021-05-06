@@ -765,3 +765,4 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - If we have number type input field, then in order to have number increased by specific steps, we use `step="2"`.
 - In order to have the cursor automatically come in that input field, we use `autofocus`.
 - In order to give permission to the browser to have autocomplete enabled/ disabled in our input filed, we use `autocomplete="on/off"`.
+- For backend, if we wanna specify which data comes from which input field, we put `name=""`.
