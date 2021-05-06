@@ -763,3 +763,5 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - In order to have a pre text in input in order to give hint to the user of what is to be written in that input, we use `placeholder=""`.
 - Just put `required` if we want to have that field compulsorily filled.
 - If we have number type input field, then in order to have number increased by specific steps, we use `step="2"`.
+- In order to have the cursor automatically come in that input field, we use `autofocus`.
+- In order to give permission to the browser to have autocomplete enabled/ disabled in our input filed, we use `autocomplete="on/off"`.
