@@ -1,5 +1,7 @@
 # HTML Notes
 
+https://www.youtube.com/watch?v=QXPWs00RD3A&t=7604s
+
 <hr>
 
 ![](https://syntaxxx.com/wp-content/uploads/2014/08/html5-logo-600.jpg)
@@ -586,6 +588,56 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 - Just put `video controls autoplay>` if you want video to start automatically.
 - Put `video autoplay>` if you dont want player to have control options.
+- Just put `vedio controls width="500" height="500"` in order to set size of player.
 
 <hr>
 
+# PDF
+
+<hr>
+
+## Method 1
+
+<hr>
+
+- In order to show pdf's in web page, we have the following methods:
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <embed src="pdf.pdf" type="application/pdf" />
+  </body>
+</html>
+```
+
+<hr>
+
+## Method 2
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <iframe src="pdf.pdf"></iframe>
+  </body>
+</html>
+```
+
+<hr>
