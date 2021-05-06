@@ -641,3 +641,42 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 ```
 
 <hr>
+
+## Method 3
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <object
+      data="pdf.pdf"
+      height="800"
+      width="800"
+      type="application/pdf"
+    ></object>
+  </body>
+</html>
+```
+
+<hr>
+
+# Youtube
+
+<hr>
+
+- In order to put YouTube vedios in your web page, we need to click on share option and then copy the embed code. Just put that link in your page and you are all done.
+
+<hr>
+
+# Google Maps
+
+<hr>
+
