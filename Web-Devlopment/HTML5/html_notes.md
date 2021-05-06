@@ -717,12 +717,38 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
     <title>Document</title>
   </head>
   <body>
-    Name:<input type="text" />
-    <input type="submit" />
-    <!-- Submit button, put value="" in order to have custom text in value button -->
+    <form>
+      Name:<input type="text" />
+      <input type="submit" />
+      <!-- Submit button, put value="" in order to have custom text in value button -->
+    </form>
   </body>
 </html>
 ```
 
 <hr>
 
+- For backend,we write as follows:
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="GET/POST" action="file name">
+      Name:<input type="text" />
+      <input type="submit" />
+      <!-- Submit button, put value="" in order to have custom text in value button -->
+    </form>
+  </body>
+</html>
+```
+
+<hr>
