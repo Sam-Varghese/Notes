@@ -691,6 +691,7 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 - Elements with meaning.
 - A semantic element clearly describes its meaning to both browser and the devloper.
 - Ex `<form>`, `<table>`, `<article>`.
+- Please refer https://www.w3schools.com/html/html5_semantic_elements.asp for more useful HTML semantic tags.
 <hr>
 
 # Non Sematic Elements
@@ -698,4 +699,10 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 <hr>
 
 - Non semantic elements are the elements which tells nothing about its content.
-- Ex `<div>`, `<span>`
+- Ex `<div>`, `<span>`.
+
+<hr>
+
+# Forms
+
+<hr>
