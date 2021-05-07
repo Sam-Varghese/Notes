@@ -777,3 +777,52 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <textarea rows="20" cols="20" placeholder="Desscription please">
+Put some description here</textarea
+    >
+  </body>
+</html>
+```
+
+<hr>
+
+# DropDown
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <select>
+        <option>Sam</option>
+        <option>Angel</option>
+        <option selected>Rahul</option><!--Rahul selected as default-->
+      </select>
+    </form>
+  </body>
+</html>
+```
+
+<hr>
+
+- In the presently codeed drop-down box, we can see just 1 value at a time. In order to see selected number of options, we use `<select size="2">`.
+- In this drop down box, we can select only one value at a time. If we wanna select multiple options at a time, we use `<select multiple>`.
+- In order to group options on basis of a title, we use `<optgroup>`.
