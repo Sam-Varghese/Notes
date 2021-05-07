@@ -814,7 +814,8 @@ Put some description here</textarea
       <select>
         <option>Sam</option>
         <option>Angel</option>
-        <option selected>Rahul</option><!--Rahul selected as default-->
+        <option selected>Rahul</option>
+        <!--Rahul selected as default-->
       </select>
     </form>
   </body>
@@ -826,3 +827,31 @@ Put some description here</textarea
 - In the presently codeed drop-down box, we can see just 1 value at a time. In order to see selected number of options, we use `<select size="2">`.
 - In this drop down box, we can select only one value at a time. If we wanna select multiple options at a time, we use `<select multiple>`.
 - In order to group options on basis of a title, we use `<optgroup>`.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <select>
+        <optgroup label="School">
+          <option>Sam</option>
+          <option>Angel</option>
+          <option>Rahul</option>
+        </optgroup>
+        <optgroup label="Tuition">
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>
+```
