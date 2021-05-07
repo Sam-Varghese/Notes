@@ -855,3 +855,63 @@ Put some description here</textarea
   </body>
 </html>
 ```
+
+<hr>
+
+# Radio Buttons
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <!-- Put same name for one set of radiobutton -->
+      <input type="radio" name="gender">Male
+      <!-- To make an option already checked -->
+      <input type="radio" name="gender" checked>Female
+      <input type="radio" name="gender">Other
+</body>
+</html>
+```
+
+<hr>
+
+# Checkbox
+
+<hr>
+
+- The main diffrence between a radiobutton and a checkbox is hat in checkox we select only one option for a name.
+- While in checkbox we can select multiple values for a single name.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <!-- Put same name for one set of radiobutton -->
+      <input type="checkbox" name="gender">Male
+      <!-- To make an option already checked -->
+      <input type="checkbox" name="gender" checked>Female
+      <input type="checkbox" name="gender">Other
+</body>
+</html>
+```
+
+<hr>
+
