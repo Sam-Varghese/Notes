@@ -1026,3 +1026,11 @@ Put some description here</textarea
 <hr>
 
 - In order to describe what your website is for, use following code inside the head tag.
+
+<hr>
+
+```html
+<meta name="description" content="write description" />
+```
+
+<hr>
