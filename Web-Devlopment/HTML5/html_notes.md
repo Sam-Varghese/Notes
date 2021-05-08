@@ -1034,3 +1034,13 @@ Put some description here</textarea
 ```
 
 <hr>
+
+- In earlier days, website programmers also used to mention the important keywords of their website, in order to have their website at higher ranks (It is not much useful in present days). But still we can also mention important keywords use following line of code:
+
+<hr>
+
+```html
+<meta name="keywords" content="word1, word2, ..." />
+```
+
+<hr>
