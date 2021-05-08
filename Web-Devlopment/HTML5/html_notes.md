@@ -1050,5 +1050,10 @@ Put some description here</textarea
 <hr>
 
 ```html
-
+<meta name="robots" content="noindex, nofollow" />
+<!-- No index means dont put this page in search results
+No follow means dont follow the links given in this page
+Use index, follow in order to have all opposite to what I mentioned above -->
 ```
+
+<hr>
