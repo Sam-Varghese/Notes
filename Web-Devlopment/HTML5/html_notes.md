@@ -1014,3 +1014,15 @@ Put some description here</textarea
   </body>
 </html>
 ```
+
+<hr>
+
+# SEO Tags
+
+<hr>
+
+- Apart from the introductory tag I wrote in all above HTML code snippets, here are few more HTML snippets you should merge with your code in order to get you website at better ranks.
+
+<hr>
+
+- In order to describe what your website is for, use following code inside the head tag.
