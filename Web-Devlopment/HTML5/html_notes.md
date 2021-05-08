@@ -1057,3 +1057,11 @@ Use index, follow in order to have all opposite to what I mentioned above -->
 ```
 
 <hr>
+
+# Favicon
+
+<hr>
+
+- In order to get a logo of your webpage in diffrent platforms, firstly select an image, and then use real favicon generator in order to get multiple images of correct size suited for diffrent platforms.
+
+<hr>
