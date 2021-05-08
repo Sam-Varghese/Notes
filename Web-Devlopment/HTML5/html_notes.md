@@ -1044,3 +1044,11 @@ Put some description here</textarea
 ```
 
 <hr>
+
+- In order to specify Google wether this web page has to be a part of searches or not, we use the following code:
+
+<hr>
+
+```html
+
+```
