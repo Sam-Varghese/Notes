@@ -896,6 +896,37 @@ Put some description here</textarea
 ```html
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <!-- Put same name for one set of radiobutton -->
+      <input type="checkbox" name="gender" />Male
+      <!-- To make an option already checked -->
+      <input type="checkbox" name="gender" checked />Female
+      <input type="checkbox" name="gender" />Other
+    </form>
+  </body>
+</html>
+```
+
+<hr>
+
+# Searchbox
+
+<hr>
+
+- In order to make a datalist, we just connect a list with our regular input box.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -904,14 +935,14 @@ Put some description here</textarea
 </head>
 <body>
     <form>
-      <!-- Put same name for one set of radiobutton -->
-      <input type="checkbox" name="gender">Male
-      <!-- To make an option already checked -->
-      <input type="checkbox" name="gender" checked>Female
-      <input type="checkbox" name="gender">Other
+      Search <input type="text" list="search">
+      <datalist id="search">
+        <!-- Option tag has no end tag. Remember! -->
+        <option value="Mango">
+        <option value="Orange">
+        <option value="PineApple">
+      </datalist>
 </body>
 </html>
 ```
-
-<hr>
 
