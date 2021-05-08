@@ -946,3 +946,42 @@ Put some description here</textarea
 </html>
 ```
 
+<hr>
+
+# Label
+
+<hr>
+
+- In order to put a text before input in order to specify what is to be inputted, we have a special tag `<label for="input id">text</label>`.
+- Advantage of using this tag is that it directs us to input widget whenever we click the label text.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="a">Enter name: </label>
+      <input id="a" />
+    </form>
+  </body>
+</html>
+```
+
+<hr>
+
+# Frames
+
+<hr>
+
+- In order to enclose widgets inside frames, we use `<fieldset>`, `</fieldset>`. In order to labal the frame, we use `<legend>`, `</legend>`.
+
+<hr>
+
