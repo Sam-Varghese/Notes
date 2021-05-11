@@ -13,6 +13,7 @@ https://www.youtube.com/watch?v=QXPWs00RD3A&t=7604s
 <hr>
 
 - If you want VSCode to automatically generate the starting code, just type `!` and press `Enter`.
+- Comments in HTML start with `<!--`, and end with `-->`.
 
 <hr>
 
