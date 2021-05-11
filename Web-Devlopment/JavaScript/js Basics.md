@@ -124,14 +124,20 @@ alert(a);
 - In JavaScript, `x=x+y` can also be written as `x+=y` just like that in python.
 - The output of the following code:-
 
+<hr>
+
 ```js
 let x = 5;
 let y = "5";
 console.log(x + y);
 ```
 
+<hr>
+
 - would be `'55'`, a feature of JavaScript.
 - If we want to increase an int number by 1, then here are all he ways to do so:
+
+<hr>
 
 ```js
 let x = 2;
@@ -142,20 +148,30 @@ x += 1;
 x++;
 ```
 
+<hr>
+
 - All pluses in above code can be replaced by `-` if we wanna subtract 1 from variable.
 - In JavaScript, strings can be written inside either double quotes, or single quotes.
 - Using backlash can tell browser to ignore the comming quote to recognise as the ending quote.
+
+<hr>
 
 ```js
 str = "Sam's";
 ```
 
+<hr>
+
 - Boolean variables can be sored in the following manner:
+
+<hr>
 
 ```js
 x = 5 > 3;
 alert(x);
 ```
+
+<hr>
 
 - Bollean values:- `true`, `false`.
 - In VSCode, do `Ctrl`+`/` in order to comment line in fastest possible way.
