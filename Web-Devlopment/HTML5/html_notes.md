@@ -84,6 +84,10 @@ https://www.youtube.com/watch?v=QXPWs00RD3A&t=7604s
 
 <hr>
 
+- There is a tag in HTML5, ie `<main>`, `</main>` which is used to tell the browser the main content of our webpage. Usually heading go inside this tag.
+
+<hr>
+
 # Line Break
 
 <hr>
