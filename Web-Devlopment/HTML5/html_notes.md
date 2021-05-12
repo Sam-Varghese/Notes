@@ -968,6 +968,8 @@ Put some description here</textarea
 
 - In order to put a text before input in order to specify what is to be inputted, we have a special tag `<label for="input id">text</label>`.
 - Advantage of using this tag is that it directs us to input widget whenever we click the label text.
+- Screen reader users (will read out loud the label, when the user is focused on the element)
+- Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).
 
 <hr>
 
