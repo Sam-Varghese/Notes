@@ -127,3 +127,17 @@ p {
 - If we put internal CSS after external, then second priority would go to internal, else external.
 
 <hr>
+
+# CSS Selector
+
+<hr>
+
+- There are mainly three types of selectors that are mainly used:-
+
+<hr>
+
+1. Element Selector
+2. ID Selector
+3. Class Selector
+
+<hr>
