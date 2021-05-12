@@ -295,3 +295,14 @@ body {
 ```
 
 <hr>
+
+- But by the above method, we would notice that image repeats itself, hence in order to prevent image from repeating, use following method:
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-repeat: no-repeat;
+}
+```
