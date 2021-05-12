@@ -734,6 +734,7 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
       Name:<input type="text" />
       <input type="submit" />
       <!-- Submit button, put value="" in order to have custom text in value button -->
+      <!-- Or use <button type="submit">this button submits the form</button> -->
     </form>
   </body>
 </html>
