@@ -306,3 +306,6 @@ body {
   background-repeat: no-repeat;
 }
 ```
+
+<hr>
+
