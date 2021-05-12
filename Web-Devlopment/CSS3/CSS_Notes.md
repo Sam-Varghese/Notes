@@ -86,3 +86,7 @@ p {
 ```
 
 <hr>
+
+- Generally prefer to put inline css code under head tag and not under body tag, though using both methods would yield same output.
+
+<hr>
