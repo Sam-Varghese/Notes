@@ -888,6 +888,7 @@ Put some description here</textarea
 <body>
     <form>
       <!-- Put same name for one set of radiobutton -->
+      <!-- After name, putting value give backend the option by that name -->
       <input type="radio" name="gender">Male
       <!-- To make an option already checked -->
       <input type="radio" name="gender" checked>Female
