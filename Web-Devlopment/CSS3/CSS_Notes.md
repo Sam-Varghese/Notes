@@ -263,3 +263,15 @@ p {
 
 <hr>
 
+- In order to have a background color for whole web page, do as follows:
+
+<hr>
+
+```css
+body{
+    background-color: red;
+}
+```
+
+<hr>
+
