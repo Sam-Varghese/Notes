@@ -141,3 +141,19 @@ p {
 3. Class Selector
 
 <hr>
+
+## Element Selector
+
+<hr>
+
+- We just write the element tag followed by style we wanna apply on it:
+
+<hr>
+
+```css
+p {
+  color: red;
+}
+```
+
+<hr>
