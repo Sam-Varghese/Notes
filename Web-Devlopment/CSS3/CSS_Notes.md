@@ -272,8 +272,8 @@ p {
 <hr>
 
 ```css
-body{
-    background-color: red;
+body {
+  background-color: red;
 }
 ```
 
@@ -283,3 +283,15 @@ body{
 
 <hr>
 
+- In order to put a background image, use following method:
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  /* Mostly prefer downloading the image so that even if it gets removed from google, we would still have that */
+}
+```
+
+<hr>
