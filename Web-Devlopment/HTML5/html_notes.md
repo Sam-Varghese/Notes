@@ -254,6 +254,14 @@ Ullamco pariatur sint amet veniam culpa commodo ut. Deserunt et reprehenderit ex
 
 <hr>
 
+## Dead Links
+
+<hr>
+
+- Sometimes for experimental purposes, we would require to put an anchor tag without a link. In this case just put a `#` in front of href in order to make the link dead. This will refresh the page(redirect you to the same page).
+
+<hr>
+
 ## Local Links
 
 <hr>
