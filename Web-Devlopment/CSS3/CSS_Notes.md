@@ -251,6 +251,10 @@ p {
 
 <hr>
 
+## Background Color
+
+<hr>
+
 - In order to have a background color for a paragraph or something else, just enclose it in `<div>` element and give an id to that div element.
 
 <hr>
@@ -272,6 +276,10 @@ body{
     background-color: red;
 }
 ```
+
+<hr>
+
+## Background Image
 
 <hr>
 
