@@ -179,3 +179,38 @@ p {
 
 <hr>
 
+- Class selector is very important because diffrent elements like headings, paragraphs can be assigned same CSS styles by mentioning style given in specified class.
+- Here is the HTML syntax to use class:
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="Style-1">Class Selector</h1>
+    <p class="Style-1">This is an example of class selector</p>
+  </body>
+</html>
+```
+
+<hr>
+
+- Now here is the CSS file syntax for making the class named `Style-1`
+
+<hr>
+
+```css
+.Style-1 {
+  color: green;
+  font-size: 25px;
+}
+```
+
+<hr>
