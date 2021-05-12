@@ -56,3 +56,33 @@ p {
 <hr>
 
 - Suppose using above method, we attach multiple `.css` files, then in that case remember that the last css file would hold the maximum priority.
+
+<hr>
+
+## Internal CSS
+
+<hr>
+
+- We can also use CSS directly along with HTML code in the following way:
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
+```
+
+<hr>
