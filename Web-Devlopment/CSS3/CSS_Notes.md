@@ -115,3 +115,15 @@ p {
 
 <hr />
 ```
+
+<hr>
+
+## Priority Of Different Stylings
+
+<hr>
+
+- Suppose if we use all external, internal and inline CSS, then which would get the most priority?
+- Answer is that first priority always goes to inline CSS, while second and third priority depends on the facor that among external and internal CSS, which has been put recently.
+- If we put internal CSS after external, then second priority would go to internal, else external.
+
+<hr>
