@@ -238,3 +238,12 @@ p {
 - Always the priority order goes as follows: `ID Selector`>`Class Selector`>`Element Selector`.
 
 <hr>
+
+# Comments In CSS3
+
+<hr>
+
+- In order to put both single line or multi line comments in CSS, we use `/*` and `*/`.
+
+<hr>
+
