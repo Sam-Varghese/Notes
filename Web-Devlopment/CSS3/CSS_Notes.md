@@ -214,3 +214,7 @@ p {
 ```
 
 <hr>
+
+- Suppose if we ever use id selector and class selector css styling simultaneously, then that element would have properties mentioned in both. (Assuming that both have properties that aren't same/confilcting).
+
+<hr>
