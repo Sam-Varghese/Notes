@@ -247,3 +247,19 @@ p {
 
 <hr>
 
+# Background Styling
+
+<hr>
+
+- In order to have a background color for a paragraph or something else, just enclose it in `<div>` element and give an id to that div element.
+
+<hr>
+
+```css
+#id {
+  background-color: yellow;
+}
+```
+
+<hr>
+
