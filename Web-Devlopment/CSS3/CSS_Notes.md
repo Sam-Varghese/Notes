@@ -218,3 +218,23 @@ p {
 - Suppose if we ever use id selector and class selector css styling simultaneously, then that element would have properties mentioned in both. (Assuming that both have properties that aren't same/confilcting).
 
 <hr>
+
+- We can asiign two or more class styling to a particular element. Just do in following way:
+
+<hr>
+
+```html
+<element class="class1 class2 .....">
+  <!-- A space between classes is what's all required. --></element
+>
+```
+
+<hr>
+
+# Priority Order Of Selectors
+
+<hr>
+
+- Always the priority order goes as follows: `ID Selector`>`Class Selector`>`Element Selector`.
+
+<hr>
