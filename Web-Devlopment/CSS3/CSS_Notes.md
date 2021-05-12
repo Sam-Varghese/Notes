@@ -41,19 +41,18 @@ p {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="relative path">
+    <link rel="stylesheet" type="text/css" href="relative path" />
     <!-- In place of relative path, provide path of the .CSS file -->
-</head>
-<body>
-    
-</body>
+  </head>
+  <body></body>
 </html>
 ```
 
 <hr>
 
+- Suppose using above method, we attach multiple `.css` files, then in that case remember that the last css file would hold the maximum priority.
