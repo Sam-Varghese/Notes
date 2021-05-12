@@ -309,3 +309,5 @@ body {
 
 <hr>
 
+- If we wish to repeat the image in only x axis, then instead of `no-repeat`, just put `repeat-x`; and in order to have repetetion in only y axis, put `repeat-y`.
+
