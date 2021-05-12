@@ -157,3 +157,25 @@ p {
 ```
 
 <hr>
+
+## ID Selector
+
+<hr>
+
+- We can style a particular element of HTML page in .css file using followed method:
+
+<hr>
+
+```css
+/* Assuming that there is an element in HTML file with id=p3 */
+#p3 {
+  color: red;
+}
+```
+
+<hr>
+
+## Class Selector
+
+<hr>
+
