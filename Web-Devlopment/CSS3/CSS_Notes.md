@@ -326,3 +326,15 @@ body {
 
 <hr>
 
+- `background-position` can have following values"
+- `left top`
+- `left center`
+- `left bottom`
+- `right top`
+- `right center`
+- `right bottom`
+- `center top`
+- `center center`
+- `center bottom`
+
+<hr>
