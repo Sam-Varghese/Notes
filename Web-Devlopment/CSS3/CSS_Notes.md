@@ -311,3 +311,18 @@ body {
 
 - If we wish to repeat the image in only x axis, then instead of `no-repeat`, just put `repeat-x`; and in order to have repetetion in only y axis, put `repeat-y`.
 
+<hr>
+
+- If we have enabled `no-repeat` property, then in order to set its position on screen, we can use following method:
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-position: center;
+}
+```
+
+<hr>
+
