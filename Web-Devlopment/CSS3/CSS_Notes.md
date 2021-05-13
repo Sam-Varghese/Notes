@@ -338,3 +338,14 @@ body {
 - `center bottom`
 
 <hr>
+
+- Another way of setting background image position is by using pixels, which is as follows:
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-position: 50px 100px;
+}
+```
