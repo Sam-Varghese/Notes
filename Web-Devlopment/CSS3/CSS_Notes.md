@@ -529,9 +529,12 @@ p {
   padding-top: 30px;
   padding-bottom: 25px;
   padding-rigth: 20px;
-  padding-left: 20px;
+  padding-left: 20%;
 }
 ```
 
 <hr>
 
+- Padding space can also be mentioned in percentage.
+
+<hr>
