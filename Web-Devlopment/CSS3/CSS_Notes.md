@@ -349,3 +349,18 @@ body {
   background-position: 50px 100px;
 }
 ```
+
+<hr>
+
+- Position can also be mentioned in form of percentage it should take as compared to that of total screen size.
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-position: 5% 10%;
+}
+```
+
+<hr>
