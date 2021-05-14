@@ -760,3 +760,21 @@ p {
 ```
 
 <hr>
+
+# Word Wrap
+
+<hr>
+
+- If we have words of length more than the parent body width, then in this case we can give the following property in order to have have words in line which can be broken and continued in the next line.
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  border-width: ;
+}
+```
+
+<hr>
+
