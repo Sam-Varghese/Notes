@@ -595,3 +595,10 @@ p {
   margin: auto;
 }
 ```
+
+<hr>
+
+- **Remember**: Margins always collapse in top and bottom side. So if we have 2 borders with margins set to 20 and 30px respectively, then final margin between both would be 30px. On the other hand, margins add up in left right directions.
+
+<hr>
+
