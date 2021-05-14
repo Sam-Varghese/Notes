@@ -128,6 +128,12 @@ git add -A
 
 <hr>
 
+```none
+git add .
+```
+
+<hr>
+
 # Git Commit
 
 <hr>
@@ -146,12 +152,12 @@ git commit
 
 <hr>
 
-- But suppose if we directly wanna give a commit message with `git commit` command,  we use:
+- But suppose if we directly wanna give a commit message with `git commit` command, we use:
 
 <hr>
 
 ```none
-git commit -m "commit message"
+git commit -m "commit message" -m "commit description"
 ```
 
 <hr>
@@ -215,4 +221,3 @@ git reset --hard <commidId> && git clean -f
 ```
 
 <hr>
-
