@@ -491,3 +491,18 @@ p {
 ```
 
 <hr>
+
+- In order to have borders of a apsecified radius, use following property:
+
+<hr>
+
+```css
+p{
+  border-style: solid;
+  border-radius: 5px;
+  /* Put 4 different values in order to have different border radius in all corers. */
+}
+```
+
+<hr>
+
