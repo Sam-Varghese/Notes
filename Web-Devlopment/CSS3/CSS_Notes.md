@@ -388,3 +388,18 @@ body {
 ```
 
 <hr>
+
+- We can make only text move in place of background image also, using the following property:
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-attachment: fixed;
+  /* By default its value comes as scroll */
+}
+```
+
+<hr>
+
