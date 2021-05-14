@@ -666,3 +666,23 @@ p{
 
 <hr>
 
+# Text Transform
+
+<hr>
+
+- In order to have text in uppercase, we use the property `text-transform`.
+
+<hr>
+
+```css
+p{
+  text-transform: uppercase;
+  /* Can be lowercase, capitalize */
+}
+```
+
+<hr>
+
+# Line Height
+
+<hr>
