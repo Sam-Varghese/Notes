@@ -497,7 +497,7 @@ p {
 <hr>
 
 ```css
-p{
+p {
   border-style: solid;
   border-radius: 5px;
   /* Put 4 different values in order to have different border radius in all corers. */
@@ -512,6 +512,26 @@ p{
 
 - In CSS, in order to put height and width of a specific element, we use the property `height: value`, and `width: value`.
 - The value can be either in percentage or in pixels.
+
+<hr>
+
+# Padding
+
+<hr>
+
+- Padding means the space to leave between border and the main content, in order to make the document look better and not too congested.
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-rigth: 20px;
+  padding-left: 20px;
+}
+```
 
 <hr>
 
