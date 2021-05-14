@@ -364,3 +364,17 @@ body {
 ```
 
 <hr>
+
+- Now as the image on applying `no-repeat` property turned out to be small, hence we can increase /decrease the size using `background-size` property.
+
+<hr>
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-size: 500px 700px;
+}
+```
+
+<hr>
+
