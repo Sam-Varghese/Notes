@@ -744,3 +744,19 @@ p {
 ```
 
 <hr>
+
+# White Space
+
+<hr>
+
+- In HTML, we know that if we give extra white spaces in between our text, then it does not allow those extra white space to appear. SOin this case we use the property `white-space` and set its value to `pre`.
+
+<hr>
+
+```css
+p {
+  white-space: pre;
+}
+```
+
+<hr>
