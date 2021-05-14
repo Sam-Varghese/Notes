@@ -384,6 +384,7 @@ body {
 #bg {
   background-image: url("Add path/ URL");
   background-size: 100% 100%;
+  /* We can also put cover to have image in full page, but small amout of it would automatically get cut. */
 }
 ```
 
@@ -400,6 +401,14 @@ body {
   /* By default its value comes as scroll */
 }
 ```
+
+<hr>
+
+- If you want to use multiple background images, then we can just use them by putting comma after first image's URL and specifying next one just like `url(URL)`.
+
+<hr>
+
+# Borders
 
 <hr>
 
