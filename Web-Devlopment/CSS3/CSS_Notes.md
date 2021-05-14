@@ -686,3 +686,19 @@ p{
 # Line Height
 
 <hr>
+
+- In order to set the line height, ie space between lines; we use the property `line-height`.
+
+<hr>
+
+```css
+p {
+  line-height: 30px;
+}
+```
+
+<hr>
+
+# Text Indent
+
+<hr>
