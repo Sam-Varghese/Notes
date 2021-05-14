@@ -657,7 +657,7 @@ p {
 <hr>
 
 ```css
-p{
+p {
   text-decoration: underline;
   /* Put overline instead of underline in order to have line above text */
   /* Put line-through in order to have deleted effect on text */
@@ -675,7 +675,7 @@ p{
 <hr>
 
 ```css
-p{
+p {
   text-transform: uppercase;
   /* Can be lowercase, capitalize */
 }
@@ -702,3 +702,13 @@ p {
 # Text Indent
 
 <hr>
+
+- In order to write the first letter after some specified space, just as we do for writing paragraphs, we use the `text-indent` property.
+
+<hr>
+
+```css
+p {
+  text-indent: 50px;
+}
+```
