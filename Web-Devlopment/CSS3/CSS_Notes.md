@@ -474,3 +474,20 @@ p {
   border-width: 5px 10px 5px 10px;
 }
 ````
+
+<hr>
+
+- If we wanna color the borders, then do this as follows:
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  border-width: 5px 10px 5px 10px;
+  border-color: red blue red blue;
+  /* Put only one value if you have same color for all sides */
+}
+```
+
+<hr>
