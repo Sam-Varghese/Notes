@@ -568,3 +568,17 @@ p {
 }
 ```
 
+<hr>
+
+- In margins, we can also give negative values.
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  margin: -10px 12px -10px 12px;
+}
+```
+
+<hr>
