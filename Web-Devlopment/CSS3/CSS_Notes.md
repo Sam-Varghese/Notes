@@ -378,3 +378,13 @@ body {
 
 <hr>
 
+- We can also use percentages in `background-size`.
+
+```css
+#bg {
+  background-image: url("Add path/ URL");
+  background-size: 100% 100%;
+}
+```
+
+<hr>
