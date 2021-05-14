@@ -1,8 +1,8 @@
-# CSS3 Notes
+<h1 align="center">CSS3 Notes</h1>
 
 <hr>
 
-<img src="https://cdn.worldvectorlogo.com/logos/css3.svg" height="700" width="700">
+<p align="center"><img src="https://cdn.worldvectorlogo.com/logos/css3.svg" height="700" width="700"></p>
 
 <hr>
 
@@ -560,3 +560,4 @@ p {
 - Padding on the other is the empty space between border and inner contents.
 
 <hr>
+
