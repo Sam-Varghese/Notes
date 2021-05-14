@@ -512,6 +512,7 @@ p {
 
 - In CSS, in order to put height and width of a specific element, we use the property `height: value`, and `width: value`.
 - The value can be either in percentage or in pixels.
+- We can have borders of specific widths with contents automatically well fitted inside using the above property.
 
 <hr>
 
@@ -582,3 +583,15 @@ p {
 ```
 
 <hr>
+
+- In order to have border in center of small width:
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  width: 200px;
+  margin: auto;
+}
+```
