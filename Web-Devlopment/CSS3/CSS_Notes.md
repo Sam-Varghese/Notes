@@ -435,3 +435,20 @@ p {
 - `outset`
 - `none`
 - `hidden`
+
+<hr>
+
+- Now, if we ever wanna put borders on all side, which are different, then just put space between styles and start writing styles with first one being of top edge, and rest in clockwise direction.
+
+<hr>
+
+```css
+p{
+  border-style: solid ridge none ridge;
+  /* border-style: top right bottom left */
+}
+```
+
+<hr>
+
+- We can also mention the border width as follows:
