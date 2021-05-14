@@ -562,5 +562,9 @@ p {
 <hr>
 
 ```css
-
+p {
+  border-style: solid;
+  margin: 10px 12px 10px 12px;
+}
 ```
+
