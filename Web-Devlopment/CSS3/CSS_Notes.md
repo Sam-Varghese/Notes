@@ -602,3 +602,67 @@ p {
 
 <hr>
 
+# Text Manipulation
+
+<hr>
+
+## Text Color
+
+<hr>
+
+- In order to change the color o the text, we simply use the `color` property.
+
+<hr>
+
+```css
+p {
+  color: blue;
+}
+```
+
+<hr>
+
+## Text Align
+
+<hr>
+
+- In order to align the text, we simply use the property `text-align`.
+
+<hr>
+
+```css
+p {
+  text-align: right;
+}
+```
+
+<hr>
+
+- `Text-align` has the follwing values:
+
+<hr>
+
+- `left` --> By default
+- `right`
+- `justify` --> Text from right to read
+
+<hr>
+
+# Underlined Text
+
+<hr>
+
+- In order to have underlined text, we use `text-decoration` property.
+
+<hr>
+
+```css
+p{
+  text-decoration: underline;
+  /* Put overline instead of underline in order to have line above text */
+  /* Put line-through in order to have deleted effect on text */
+}
+```
+
+<hr>
+
