@@ -712,3 +712,35 @@ p {
   text-indent: 50px;
 }
 ```
+
+<hr>
+
+# Letter Spacing
+
+<hr>
+
+- In order to increase/ decrease the distance between letters, we use the property `letter-spacing`.
+
+<hr>
+
+```css
+letter-spacing: 10px;
+```
+
+<hr>
+
+# Word Spacing
+
+<hr>
+
+- In order to increase the distance between words, we use the property `word-spacing`.
+
+<hr>
+
+```css
+p {
+  word-spacing: 15px;
+}
+```
+
+<hr>
