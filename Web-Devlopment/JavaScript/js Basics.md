@@ -6,6 +6,25 @@
 
 <hr>
 
+# Data Types
+
+<hr>
+
+- In JavaScript, we have seven types of data types:
+
+<hr>
+
+
+- `undefined`
+- `null`
+- `boolean`
+- `string`
+- `symbol`
+- `number`
+- `object`
+
+<hr>
+
 # Hello World Program
 
 <hr>
