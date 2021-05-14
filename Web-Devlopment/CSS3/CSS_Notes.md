@@ -506,3 +506,12 @@ p{
 
 <hr>
 
+# Height And Width
+
+<hr>
+
+- In CSS, in order to put height and width of a specific element, we use the property `height: value`, and `width: value`.
+- The value can be either in percentage or in pixels.
+
+<hr>
+
