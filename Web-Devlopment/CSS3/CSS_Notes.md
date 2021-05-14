@@ -526,6 +526,19 @@ p {
 ```css
 p {
   border-style: solid;
+  padding: 10px 15px 10px 15px;
+}
+```
+
+<hr>
+
+OR
+
+<hr>
+
+```css
+p {
+  border-style: solid;
   padding-top: 30px;
   padding-bottom: 25px;
   padding-rigth: 20px;
@@ -538,3 +551,4 @@ p {
 - Padding space can also be mentioned in percentage.
 
 <hr>
+
