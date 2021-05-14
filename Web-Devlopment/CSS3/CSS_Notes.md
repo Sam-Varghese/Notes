@@ -777,3 +777,5 @@ p {
 ```
 
 <hr>
+
+Leaving note making for CSS cause I have to learn Node js. Video URL= https://www.youtube.com/watch?v=WyxzAU3p8CE and note making has been done till time 2:13:18
