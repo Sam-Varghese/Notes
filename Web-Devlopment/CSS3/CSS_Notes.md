@@ -422,3 +422,16 @@ p {
 }
 ```
 
+<hr>
+
+- Border style can take following values:
+- `dotted`
+- `dashed`
+- `solid`
+- `double`
+- `groove`
+- `ridge`
+- `inset`
+- `outset`
+- `none`
+- `hidden`
