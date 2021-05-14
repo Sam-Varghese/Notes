@@ -443,7 +443,7 @@ p {
 <hr>
 
 ```css
-p{
+p {
   border-style: solid ridge none ridge;
   /* border-style: top right bottom left */
 }
@@ -452,3 +452,25 @@ p{
 <hr>
 
 - We can also mention the border width as follows:
+
+<hr>
+
+````css
+p {
+  border-style: solid;
+  border-width: 5px;
+}
+```
+
+<hr>
+
+- Similar to setting different borders on different side, we can set different widths of borders by as follows:
+
+<hr>
+
+```css
+p {
+  border-style: solid;
+  border-width: 5px 10px 5px 10px;
+}
+````
