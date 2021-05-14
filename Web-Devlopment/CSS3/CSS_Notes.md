@@ -412,3 +412,13 @@ body {
 
 <hr>
 
+- In CSS, we can also put borders around text using the following property:
+
+<hr>
+
+```css
+p {
+  border-style: dotted;
+}
+```
+
