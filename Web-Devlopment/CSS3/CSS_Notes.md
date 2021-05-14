@@ -552,3 +552,11 @@ p {
 
 <hr>
 
+# Margins
+
+<hr>
+
+- Margin is the empty space between border and elements outside the border.
+- Padding on the other is the empty space between border and inner contents.
+
+<hr>
