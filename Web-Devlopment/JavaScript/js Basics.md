@@ -347,6 +347,16 @@ remainder = num1 % num2;
 
 <hr>
 
+# Shortcut Calculation Methods
+
+<hr>
+
+- If we ever wanna do `a=a+5`, then in this case we can write this directly as `a+=5`.
+- If we we wanna do `a=a-5`, then we can write this directly as `a-=5`.
+- If we wanna do `a=a*5`, then we directly write as `a*=5`.
+
+<hr>
+
 - We put break statement because if we wont put that, then switch statement has a prperty that it would directly execute all code line below that, which are under rest of switch statements, without noticing wether the switch statement has approved or disapproved the condition fulfillment.
 
 <hr>
