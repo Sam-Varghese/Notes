@@ -129,6 +129,32 @@ alert(a);
 
 <hr>
 
+# var/ let Difference
+
+<hr>
+
+- The main difference `var` and `let` keword is that **var allows a variable declaration multiple times** while **let allows variable declaration only once**.
+
+<hr>
+
+```js
+let a = "Sam";
+let a = "Angel";
+```
+
+<hr>
+
+- The above code would result in an error.
+
+<hr>
+
+```js
+var a = "Sam";
+var a = "Angel";
+```
+
+<hr>
+
 # Comments In JavaScript
 
 <hr>
