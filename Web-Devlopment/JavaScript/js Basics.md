@@ -406,6 +406,41 @@ remainder = num1 % num2;
 
 <hr>
 
+# Ternary Operator
+
+<hr>
+
+- In order to write `if-else` conditions in just a single line, we use ternary opertor.
+- Syntax:
+
+<hr>
+
+```js
+condition ? statement - true - code : statement - false - code;
+```
+
+<hr>
+
+```js
+function check_equal(a, b) {
+  return a === b ? true : false;
+}
+```
+
+<hr>
+
+- We can also use multiple ternary operators through following way:
+
+<hr>
+
+```js
+let num = 00;
+var b = num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero";
+console.log(b);
+```
+
+<hr>
+
 # While Loop
 
 <hr>
