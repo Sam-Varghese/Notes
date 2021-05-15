@@ -352,6 +352,7 @@ switch (age) {
   case 19:
   case 20:
     console.log("You are a teenager.");
+    break
   default:
     console.log("You are not a teenager.");
 }
