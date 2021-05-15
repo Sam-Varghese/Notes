@@ -688,15 +688,26 @@ console.log(str1);
 
 <hr>
 
-- It should be notes that string in JavaScript are immutable, example: 
+- It should be notes that string in JavaScript are immutable, example:
 
 <hr>
 
 ```js
-var a="Sam";
-a[0]="A";
+var a = "Sam";
+a[0] = "A";
 console.log(a);
 // a would still be "Sam"
+```
+
+<hr>
+
+- In order to find the last character of string even though we don't know the length of string, we use following method:
+
+<hr>
+
+```js
+var a = "Elephant";
+last_element = a[a.length - 1];
 ```
 
 <hr>
