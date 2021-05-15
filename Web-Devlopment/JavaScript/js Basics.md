@@ -317,6 +317,12 @@ if (age < 18) {
 
 <hr>
 
+- Switch operator is used when there is a need to write multiple if, else if statements in order to check is value and type of a variable is really equal to another specified value.
+- Hence syntax is that we start with `switch (variable)`, and then write `case value:` where this statement is similar to `if(variable===value)` and then in the next line, we write our process that has to get executed if this condition is met.
+- `break` is necessary to be written because we would want the if-else code to get terminated when any one of the mentioned equality is met. Hence as switch statements are similar to if and not else if, hence to terminate this code execution, we want break statements.
+
+<hr>
+
 ```js
 let age = 18;
 switch (age) {
