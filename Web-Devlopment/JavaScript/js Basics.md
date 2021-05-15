@@ -17,7 +17,7 @@
 - `undefined`
 - `null`
 - `boolean`
-- `string` ==> Can be surrounded by either `"  "` or `'  '` or ` `  \` `. ==> Important
+- `string` ==> Can be surrounded by either `" "` or `' '` or ` ` \` `. ==> Important
 - `symbol`
 - `number`
 - `object`
@@ -368,6 +368,9 @@ remainder = num1 % num2;
 
 <hr>
 
+- `\n` is used to leave a line blank.
+- `\t` is used to have a tab space.
+
 - We put break statement because if we wont put that, then switch statement has a prperty that it would directly execute all code line below that, which are under rest of switch statements, without noticing wether the switch statement has approved or disapproved the condition fulfillment.
 
 <hr>
@@ -649,12 +652,25 @@ document.write("5" * "2"); //Converted both strings to numbers
 - Addittion of strings is directly possible.
 - String concatenation can also be done using following method:
 
+<hr>
+
 ```js
 str1 = "Sam";
 str2 = "Varghese";
 fin_str = str1.concat(" ", str2); //Means fin_str=str1+" "+str2
 document.write(fin_str);
 ```
+
+<hr>
+
+```js
+let str1 = "Sam";
+let str2 = " Varghese";
+str1 += str2;
+console.log(str1);
+```
+
+<hr>
 
 - String Slicing in JavaScript is done using `word.substr(starting_index, word_length)`.
 - String slicing can also be done using `word.substring(start_index, end_index)`.**Remember** that slicing like this would give string slice from start_index character till end_index-1 character.
@@ -669,6 +685,19 @@ document.write(fin_str);
 - Now, if we ever wanna make all letters in lower case, then we use `word.toLowerCase()`.
 - Now if we ever wanna replace a something from a string, then we use `string.replace(string_to_be_replaced, replacing_string)`.
 - Now if we ever wanna find wether a string is inside another string, then we use `main_string.includes(sub_string)` which gives output in either `true` or `false`.
+
+<hr>
+
+- It should be notes that string in JavaScript are immutable, example: 
+
+<hr>
+
+```js
+var a="Sam";
+a[0]="A";
+console.log(a);
+// a would still be "Sam"
+```
 
 <hr>
 
