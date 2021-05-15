@@ -155,6 +155,10 @@ var a = "Angel";
 
 <hr>
 
+- This code wont result in error.
+
+<hr>
+
 # Comments In JavaScript
 
 <hr>
