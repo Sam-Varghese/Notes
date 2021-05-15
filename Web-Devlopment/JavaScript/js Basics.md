@@ -1234,6 +1234,20 @@ person.sayhello();
 
 <hr>
 
+# parseInt Functions
+
+<hr>
+
+- If we have a string which is basically an integer string, and if we wanna convert that from string to number, then we use the `parseInt` function.
+
+<hr>
+
+```js
+integer = parseInt("123");
+```
+
+<hr>
+
 # Date Object
 
 <hr>
