@@ -159,6 +159,17 @@ var a = "Angel";
 
 <hr>
 
+- But still, the following thing could be done even after using `let`, without any error:
+
+<hr>
+
+```js
+let a = "Sam";
+a = "Angel";
+```
+
+<hr>
+
 # Comments In JavaScript
 
 <hr>
