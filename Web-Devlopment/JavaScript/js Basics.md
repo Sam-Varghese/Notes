@@ -364,6 +364,7 @@ remainder = num1 % num2;
 
 - Suppose if we wanna declare following string: `var = "This is an example of "DOUBLE QUOTES" inside "DOUBLE QUOTES""`, then in this case first `"` would close at `"` of `"DOUBLE`.
 - Hence in order to mention browser to neglect following double quote, we use the escape character `\`.
+- Hence the above line can be correctl written as `var = "This is an example of \"DOUBLE QUOTES\" inside \"DOUBLE QUOTES\""`.
 
 <hr>
 
