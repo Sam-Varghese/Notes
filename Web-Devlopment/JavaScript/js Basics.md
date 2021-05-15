@@ -848,6 +848,7 @@ let func = function () {
 
 - Variables declared outside the function are global variables.
 - **Important**: Variables declared without `var`, are **global automatically**. While variables declared with `var` are **not global**.
+- If we declare a variable in local scope that has already been declared in global scope, then in local that variable's value would be the value declared in local scope while outside that scope variable's value wouls be that declared in global scope.
 
 <hr>
 
