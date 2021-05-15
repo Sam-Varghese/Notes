@@ -14,7 +14,6 @@
 
 <hr>
 
-
 - `undefined`
 - `null`
 - `boolean`
@@ -108,6 +107,10 @@
 <hr>
 
 # Defining Variables In JavaScript
+
+<hr>
+
+- Before giving value to a variable, we always need to declare it.
 
 <hr>
 
@@ -326,6 +329,20 @@ switch (age) {
   default:
     alert("Your age is neither 17 nor 18"); //Similar to else statement
 }
+```
+
+<hr>
+
+# Remainder Operator
+
+<hr>
+
+- In order to find the remainder of division of num1 and num2, we use the `%` operator.
+
+<hr>
+
+```js
+remainder = num1 % num2;
 ```
 
 <hr>
