@@ -340,6 +340,29 @@ switch (age) {
 
 <hr>
 
+- Please take a look at the code given below:
+
+<hr>
+
+```js
+let age = 19;
+switch (age) {
+  case 17:
+  case 18:
+  case 19:
+  case 20:
+    console.log("You are a teenager.");
+  default:
+    console.log("You are not a teenager.");
+}
+```
+
+<hr>
+
+- In the aboce code, we needed to have same output for multiple equality conditions, hence in this case we used to above syntax to have our requirenments met.
+
+<hr>
+
 # Remainder Operator
 
 <hr>
