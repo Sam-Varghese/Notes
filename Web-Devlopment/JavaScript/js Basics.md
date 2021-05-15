@@ -842,6 +842,15 @@ let func = function () {
 
 <hr>
 
+# Scope
+
+<hr>
+
+- Variables declared outside the function are global variables.
+- **Important**: Variables declared without `var`, are **global automatically**. While variables declared with `var` are **not global**.
+
+<hr>
+
 # setTimeout Function
 
 <hr>
