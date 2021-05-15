@@ -1248,6 +1248,16 @@ integer = parseInt("123");
 
 <hr>
 
+- Suppose if we have a binary number (or number to any base), and we wanna convert it to number in decimal form, then we do that by following method:
+
+<hr>
+
+````js
+integer = parseInt("11010", 2);
+// parseInt("Number in any base", that_base)
+
+<hr>
+
 # Date Object
 
 <hr>
@@ -1259,7 +1269,7 @@ integer = parseInt("123");
 ```js
 current = new Date(); //In order to generate present time-stamp
 document.write(current);
-```
+````
 
 <hr>
 
