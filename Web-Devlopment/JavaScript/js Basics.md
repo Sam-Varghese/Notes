@@ -354,6 +354,7 @@ remainder = num1 % num2;
 - If we ever wanna do `a=a+5`, then in this case we can write this directly as `a+=5`.
 - If we we wanna do `a=a-5`, then we can write this directly as `a-=5`.
 - If we wanna do `a=a*5`, then we directly write as `a*=5`.
+- If we ever wanna do `a=a/5`, then we can write directly as `a/=5`.
 
 <hr>
 
