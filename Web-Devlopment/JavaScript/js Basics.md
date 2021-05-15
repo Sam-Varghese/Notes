@@ -17,7 +17,7 @@
 - `undefined`
 - `null`
 - `boolean`
-- `string`
+- `string` ==> Can be surrounded by either `"  "` or `'  '` or ` `  \` `. ==> Important
 - `symbol`
 - `number`
 - `object`
