@@ -352,7 +352,7 @@ switch (age) {
   case 19:
   case 20:
     console.log("You are a teenager.");
-    break
+    break;
   default:
     console.log("You are not a teenager.");
 }
@@ -1027,6 +1027,23 @@ let person = {
   school: "Sica",
 };
 console.log("City" in person);
+```
+
+<hr>
+
+OR
+
+<hr>
+
+```js
+let person = {
+  first_name: "Sam",
+  last_name: "Varghese",
+  age: 17,
+  school: "Sica",
+};
+console.log(person.hasOwnProperty("City"));
+// Returns in true/ false
 ```
 
 <hr>
