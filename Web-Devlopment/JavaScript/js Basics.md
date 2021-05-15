@@ -1258,6 +1258,14 @@ integer = parseInt("11010", 2);
 
 <hr>
 
+# parseFloat Functions
+
+<hr>
+
+- Works very similar to `parseInt`, but converts string floats to number floats.
+
+<hr>
+
 # Date Object
 
 <hr>
