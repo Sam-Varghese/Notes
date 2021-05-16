@@ -207,6 +207,21 @@ a = 20;
 <hr>
 
 - Above code would produce an error as we are trying to reassign the value of a whichis against the rule of `const`.
+- We can **update an array** even when **it is constant**. Ex:
+
+<hr>
+
+```js
+const a = [1, 2, 3];
+a[0] = 2;
+a[1] = 3;
+a[2] = 4;
+console.log(a);
+```
+
+<hr>
+
+- Output of above code is simple going to be [2, 3, 4].
 
 <hr>
 
