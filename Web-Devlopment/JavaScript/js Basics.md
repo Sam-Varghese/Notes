@@ -170,6 +170,26 @@ a = "Angel";
 
 <hr>
 
+- Another main difference `var` and `let` keyword is that the **scope of `let` is only limited to block** while the **scope of `var` is global.**.
+- `Block Scope` is the part of code inside `{` and `}`.
+
+<hr>
+
+```js
+if (5 < 6) {
+  let a = 6;
+  console.log(`Value of a in block scope is= ${a}`);
+}
+console.log(`Value of a in global scope is= ${a}`);
+```
+
+<hr>
+
+- Above code **would produce an error** that a is **not defined**.
+- But in above code **no error would occur** if we **replace `let` by `var`**
+
+<hr>
+
 # Comments In JavaScript
 
 <hr>
