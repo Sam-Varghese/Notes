@@ -1809,6 +1809,18 @@ console.log(str.match(RegEx));`.
 
 <hr>
 
+- Now, If we wanna have a pattern such that we have search result containing element wherein we have multiple/ single occurrence of a specified character. This kind of search is done as follows: 
+
+<hr>
+
+```js
+let word = "Sammonmismmm";
+let RegEx = /m+/g;
+console.log(word.match(RegEx));
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
