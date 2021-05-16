@@ -1803,13 +1803,11 @@ console.log(str.match(RegEx));
 
 <hr>
 
-- The output of above code would be `str = "9906779482";
-RegEx = /[^a][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/;
-console.log(str.match(RegEx));`.
+- The output of above code would be `str = "9906779482"; RegEx = /[^a][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/; console.log(str.match(RegEx));`.
 
 <hr>
 
-- Now, If we wanna have a pattern such that we have search result containing element wherein we have multiple/ single occurrence of a specified character. This kind of search is done as follows: 
+- Now, If we wanna have a pattern such that we have search result containing element wherein we have multiple/ single occurrence of a specified character. This kind of search is done as follows:
 
 <hr>
 
@@ -1820,6 +1818,20 @@ console.log(word.match(RegEx));
 ```
 
 <hr>
+
+- Now, if we wanna have a pattern search wherein we have to search for set of character occuring once and then some characters repeating any number of times, then we use following method:
+
+<hr>
+
+```js
+str = "AahoooooooooooooooooReAahooooooooo";
+Reg_Ex = /Aaho*/g;
+console.log(str.match(Reg_Ex));
+```
+
+<hr>
+
+- The output of the following code would be `[ 'Aahooooooooooooooooo', 'Aahooooooooo' ]`.
 
 # Object Constructor (Classes)
 
