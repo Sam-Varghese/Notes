@@ -1758,6 +1758,23 @@ console.log(a.match(RegEx));
 
 <hr>
 
+- If we ever wanna check for presence of alphabets from suppose a to z, then we can do the folllowing method:
+
+<hr>
+
+```js
+RegEx = /S[a-z]m/gi;
+str =
+  "Hi myself Sam, this is an example to check for the presence of Smm and stm, lets see if they come or not.";
+console.log(str.match(RegEx));
+```
+
+<hr>
+
+- The output of following code would be `[ 'Sam', 'Smm', 'stm' ]`.
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
