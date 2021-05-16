@@ -1670,6 +1670,48 @@ console.log(RegEx.test("Hi, myself Rahul"));
 
 <hr>
 
+- While testing for the presence of a string in another string, we can also tell browser to ignore case by putting an `i` after `/`.
+
+<hr>
+
+```js
+RegEx = /Sam|Angel|Hi/i;
+console.log(RegEx.test("hi, myself Rahul"));
+```
+
+<hr>
+
+## Match
+
+<hr>
+
+- In order to extract the substring from the main string that satisfies the given condition, we use `match`.
+
+<hr>
+
+```js
+RegEx = /Sam|Angel|Hi/i;
+let a = "haim, myself Rahul\nof sam".match(RegEx);
+console.log(a);
+```
+
+<hr>
+
+- Output of the above code would be:
+
+<hr>
+
+```js
+[
+  'sam',
+  index: 22,
+  input: 'haim, myself Rahul\nof sam',
+  groups: undefined
+]
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
