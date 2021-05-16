@@ -195,6 +195,7 @@ console.log(`Value of a in global scope is= ${a}`);
 <hr>
 
 - `const` keyword is used when we wanna keep a check on a variable and prevent its value from being reassigned.
+- There is a tradition of having name of variable which are constant throughout in capitals.
 
 <hr>
 
