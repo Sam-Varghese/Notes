@@ -1647,6 +1647,7 @@ console.log(person.first_name);
 <hr>
 
 - `test` in RegEx is used in order to get `true` in case a pattern is present in a string, else `false`.
+- this is case sensitive.
 
 <hr>
 
@@ -1654,6 +1655,17 @@ console.log(person.first_name);
 my_RegEx = /sam/;
 console.log(my_RegEx.test("Hi, myself Sam"));
 //Output would be true
+```
+
+<hr>
+
+- We can also check for presence of multiple string using `or` ie `|` inside RegEx itself.
+
+<hr>
+
+```js
+RegEx = /Sam|Angel|Hi/;
+console.log(RegEx.test("Hi, myself Rahul"));
 ```
 
 <hr>
