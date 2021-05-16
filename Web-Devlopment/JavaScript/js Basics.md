@@ -190,6 +190,25 @@ console.log(`Value of a in global scope is= ${a}`);
 
 <hr>
 
+# const Keyword
+
+<hr>
+
+- `const` keyword is used when we wanna keep a check on a variable and prevent its value from being reassigned.
+
+<hr>
+
+```js
+const a = 10;
+a = 20;
+```
+
+<hr>
+
+- Above code would produce an error as we are trying to reassign the value of a whichis against the rule of `const`.
+
+<hr>
+
 # Comments In JavaScript
 
 <hr>
