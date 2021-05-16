@@ -1734,10 +1734,27 @@ console.log(a);
 <hr>
 
 ```js
-RegEx = /Sam|Angel|Hi/gi;
-let a = "haim Sam, myself Rahul\nof sam".match(RegEx);
+RegEx = /Sam.|Angel|....Hi/gi;
+let a = "haim Samu, myself Rahul\nof samk\nAarohi".match(RegEx);
 console.log(a);
 ```
+
+<hr>
+
+- Output of the above code is `[ 'Samu', 'samk', 'Aarohi' ]`.
+- Now suppose if we wanna find any word among `bag`, `big`, `bug`, from a given string (note that these words start eith `b` and end with `g`, leaving middle word an alphabet among `a`, `i`, or `g`), then to have these types of searches, we have:
+
+<hr>
+
+```js
+let a = "get one out of bag, or big or bug";
+RegEx = /b[a,i,u]g/g;
+console.log(a.match(RegEx));
+```
+
+<hr>
+
+- Output of the above code would be `[ 'bag', 'big', 'bug' ]`.
 
 <hr>
 
