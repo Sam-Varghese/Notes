@@ -1642,6 +1642,22 @@ console.log(person.first_name);
 
 <hr>
 
+## Test
+
+<hr>
+
+- `test` in RegEx is used in order to get `true` in case a pattern is present in a string, else `false`.
+
+<hr>
+
+```js
+my_RegEx = /sam/;
+console.log(my_RegEx.test("Hi, myself Sam"));
+//Output would be true
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
