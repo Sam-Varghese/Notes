@@ -221,7 +221,29 @@ console.log(a);
 
 <hr>
 
-- Output of above code is simple going to be [2, 3, 4].
+- Output of above code is simple going to be `[2, 3, 4]`.
+
+<hr>
+
+# Freezing Objects
+
+<hr>
+
+- As seen above, even though we put `const` in the array, but still we were able to mutate its value. In order to make it strict not to update/ change value of a specified variable, we use `Object.freeze(variable)` property.
+
+<hr>
+
+```js
+const a = [1, 2, 3];
+a[0] = 2;
+a[1] = 3;
+a[2] = 4;
+console.log(a);
+```
+
+<hr>
+
+- Output of above code is going to be `[1, 2, 3]`.
 
 <hr>
 
