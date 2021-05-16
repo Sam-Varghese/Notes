@@ -1729,6 +1729,18 @@ console.log(a);
 
 <hr>
 
+- Suppose if we have a RegEx pattern that searches for a substring and we have a string that starts with that substring, then using conventional match method we are gonna get only substring in return. In order to get whole string, we use **`.`** (full stop) .
+
+<hr>
+
+```js
+RegEx = /Sam|Angel|Hi/gi;
+let a = "haim Sam, myself Rahul\nof sam".match(RegEx);
+console.log(a);
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
