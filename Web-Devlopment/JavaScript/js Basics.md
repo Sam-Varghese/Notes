@@ -1835,6 +1835,37 @@ console.log(str.match(Reg_Ex));
 
 <hr>
 
+- There are teo kinds of matches, first one being *Greedy Match* and other *Lazy Match*.
+
+<hr>
+
+- *Greedy match* is a match which by default selects the largest possibe substring satisfying a pattern.
+- *Lazy Match* on the other hand selects the smallest possible substring satisfying a condition.
+
+<hr>
+
+```js
+let orig_str = "Titanic";
+RegEx = /t[a-z]*i/i;
+new_str = orig_str.match(RegEx);
+console.log(new_str);
+// new_str in this case is greedy search result which is set as default
+```
+
+<hr>
+
+- Above code produces *Titani* as the output.
+- This is a result of greedy search.
+- In order to execute *lazy search*, just put a *?* as shown:
+
+<hr>
+
+```js
+
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
