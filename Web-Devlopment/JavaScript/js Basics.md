@@ -1819,7 +1819,7 @@ console.log(word.match(RegEx));
 
 <hr>
 
-- Now, if we wanna have a pattern search wherein we have to search for set of character occuring once and then some characters repeating any number of times, then we use following method:
+- Now, if we wanna have a pattern search wherein we have to search for set of character occuring once and then some characters repeating any number of times (0 or more), then we use following method:
 
 <hr>
 
@@ -1832,6 +1832,8 @@ console.log(str.match(Reg_Ex));
 <hr>
 
 - The output of the following code would be `[ 'Aahooooooooooooooooo', 'Aahooooooooo' ]`.
+
+<hr>
 
 # Object Constructor (Classes)
 
