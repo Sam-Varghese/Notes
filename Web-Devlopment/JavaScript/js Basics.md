@@ -1791,6 +1791,21 @@ str.match(RegEx);
 
 <hr>
 
+- Sometimes we might want to do pattern matching on the basis of absence of any specific character. For that we use `[^character list to be ignored]`.
+
+<hr>
+
+```js
+str = "9906779482";
+RegEx = /[^a][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/;
+console.log(str.match(RegEx));
+```
+
+<hr>
+
+- The output of above code would be `str = "9906779482";
+RegEx = /[^a][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/;
+console.log(str.match(RegEx));`.
 
 <hr>
 
