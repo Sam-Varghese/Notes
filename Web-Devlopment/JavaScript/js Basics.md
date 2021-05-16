@@ -927,6 +927,25 @@ console.log(`arr2=${arr2});
 
 <hr>
 
+## Array Filter
+
+<hr>
+
+- Filter function is used to filter out values of an array on the basis of a specified condition, and return array of the values satisfying that condition.
+- Following code shows the use of `filter` in order to filter out all positive values from an array.
+
+<hr>
+
+```js
+original_array = [1,2,3,-5,-4,-3,-2,-1,0];
+filtered_array = original_array.filter((value){
+  return value >= 0;
+});
+console.log(filtered_array);
+```
+
+<hr>
+
 # Splitting
 
 <hr>
@@ -1022,6 +1041,45 @@ let func = function () {
   //If we dont assign any name to this function then anonymous functions would produce error.
   console.log("Hello World!");
 }; //Making functions like this is also valid in JavaScript
+```
+
+<hr>
+
+# Arrow Functions
+
+<hr>
+
+- `Arrow Functions` are just a bit quicker method to write `Anonymous Functions`. following code shows its syntax:
+
+<hr>
+
+```js
+var magic = () => {
+  return 5;
+};
+```
+
+<hr>
+
+- The above function can be written in a much more summarized manner:
+
+<hr>
+
+```js
+var magic = () => 5;
+// This code simply tells to return 5
+// This style is used only when function simply return and does no work in between
+```
+
+<hr>
+
+## Passing Parameters In Arrow Function
+
+<hr>
+
+```js
+var myConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log([1, 2, 3], [4, 5, 6]);
 ```
 
 <hr>
@@ -1573,6 +1631,14 @@ let person = {
 person.set_name = "rohan";
 console.log(person.first_name);
 ```
+
+<hr>
+
+# Regular Expressions (RegEx)
+
+<hr>
+
+- Define a search pattern that can be used to search for things in a string.
 
 <hr>
 
