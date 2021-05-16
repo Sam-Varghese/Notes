@@ -1775,6 +1775,25 @@ console.log(str.match(RegEx));
 
 <hr>
 
+- We can have patterns similar to alphabet ranging that work for numbers in the following way:
+
+<hr>
+
+```js
+str = "9906779482";
+RegEx = /[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/;
+str.match(RegEx);
+```
+
+<hr>
+
+- Output in this case is going to be `[ '990677948', index: 0, input: '9906779482', groups: undefined ]`.
+
+<hr>
+
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
