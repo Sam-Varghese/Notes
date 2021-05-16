@@ -1686,6 +1686,7 @@ console.log(RegEx.test("hi, myself Rahul"));
 <hr>
 
 - In order to extract the substring from the main string that satisfies the given condition, we use `match`.
+- Note that `match` gives information **of only first match and not rest matches.**
 
 <hr>
 
@@ -1709,6 +1710,22 @@ console.log(a);
   groups: undefined
 ]
 ```
+
+<hr>
+
+- In order to find all matches of specified pattern in a string, we use `g` flag.
+
+<hr>
+
+```js
+RegEx = /Sam|Angel|Hi/g;
+let a = "haim Sam, myself Rahul\nof sam".match(RegEx);
+console.log(a);
+```
+
+<hr>
+
+- In order to use `i` flag also, put `ig` instead of `g` in above code.
 
 <hr>
 
