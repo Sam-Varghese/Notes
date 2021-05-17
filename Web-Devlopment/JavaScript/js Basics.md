@@ -1861,8 +1861,14 @@ console.log(new_str);
 <hr>
 
 ```js
-
+let original_string = "Titanic";
+RegEx = /T[a-z]*?i/i
+console.log(original_string.match(RegEx));
 ```
+
+<hr>
+
+- In this case our output would be `[ 'Ti', index: 0, input: 'Titanic', groups: undefined ]`.
 
 <hr>
 
