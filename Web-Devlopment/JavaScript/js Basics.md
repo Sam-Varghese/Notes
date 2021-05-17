@@ -2097,6 +2097,21 @@ console.log(text2.match(RegEx2));
 
 <hr>
 
+## Repeating Patterns Inside RegExp
+
+<hr>
+
+- Suppose we have a following RegExp: `/(w+)\s(w+)/`, so in this example, we can see that first pattern `(w+)` was to be repeated twice, so we would have done this easily as follows:
+
+<hr>
+
+```js
+RegExp = /(w+)\s\1/;
+// \1 means to repeat first pattern
+```
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
