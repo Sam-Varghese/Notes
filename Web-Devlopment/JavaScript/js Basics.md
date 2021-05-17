@@ -958,16 +958,41 @@ console.log(filtered_array);
 <hr>
 
 ```js
-a = [1,2,3,4,5,6];
+a = [1, 2, 3, 4, 5, 6];
 b = a.map(function (value) {
-    return value+9
-})
-console.log(b)
+  return value + 9;
+});
+console.log(b);
 ```
 
 <hr>
 
 - Output of the above code is going to be: `[ 10, 11, 12, 13, 14, 15 ]`
+
+<hr>
+
+# Find Function
+
+<hr>
+
+- Find function is used to find the first element satisfying a given condition mentioned inside `find`, in form of a function.
+
+<hr>
+
+```js
+let a = [1, 2, 3, 4, -4];
+console.log(
+  a.find(function (value) {
+    if (value < 0) {
+      return value;
+    }
+  })
+);
+```
+
+<hr>
+
+- The output of the following code is `-4`.
 
 <hr>
 
@@ -1035,7 +1060,7 @@ function func(value) {
 <hr>
 
 ```js
-let original_array = [1,1,2,2,3,3,4,4,6,6,8,8,9,9];
+let original_array = [1, 1, 2, 2, 3, 3, 4, 4, 6, 6, 8, 8, 9, 9];
 console.log(Array.from(new Set(original_array)));
 ```
 
