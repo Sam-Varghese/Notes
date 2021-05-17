@@ -765,17 +765,54 @@ p {
 
 <hr>
 
-- If we have words of length more than the parent body width, then in this case we can give the following property in order to have have words in line which can be broken and continued in the next line.
+- If we have words of length more than the parent body width, then in this case we can give the following property in order to have words in line which can be broken and continued in the next line.
 
 <hr>
 
 ```css
 p {
   border-style: solid;
-  border-width: ;
+  border-width: 200px;
+  word-wrap: break-word;
 }
 ```
 
 <hr>
 
-Leaving note making for CSS cause I have to learn Node js. Video URL= https://www.youtube.com/watch?v=WyxzAU3p8CE and note making has been done till time 2:13:18
+# Text Shadow
+
+<hr>
+
+- Syntax is `text-shadow: horizontal-shift vertical-shift blur(px) color`
+
+<hr>
+
+# Styling Links
+
+<hr>
+
+- Links are always in any one of the below mentioned states:
+
+<hr>
+
+- `link`
+- `visited`
+- `hover`
+- `active`
+
+<hr>
+
+```css
+a:normal{
+  custom_style;
+};
+a:visited{
+  custom_style;
+};
+a:hover{
+  custom_style;
+};
+a:active{
+  custom_style;
+};
+```
