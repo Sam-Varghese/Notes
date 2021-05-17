@@ -2083,6 +2083,20 @@ let RegEx1 = /q(?=u)/g;
 
 <hr>
 
+```js
+// NEGATIVE LOOKAHEAD
+let text2 = "qt";
+let RegEx2 = /q(?!u)/;
+ <!-- !u means that next character should'nt be u  -->
+console.log(text2.match(RegEx2));
+```
+
+<hr>
+
+- The output of the following code is `[ 'q', index: 0, input: 'qt', groups: undefined ]`.
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
