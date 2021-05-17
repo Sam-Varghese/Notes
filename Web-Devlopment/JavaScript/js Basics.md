@@ -1887,6 +1887,23 @@ console.log(text.match(RegEx));
 
 <hr>
 
+- In order to check for a specific string in the begning of another string, we use following method:
+
+<hr>
+
+```js
+let text = "Cal and Ricky both like racing";
+let RegEx = /^Cal/;
+console.log(RegEx.test(text));
+```
+
+<hr>
+
+- Output in this case is going to be `true`.
+- It would have been `false` if `test = "Ricky and Cal both like racing."`.
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
