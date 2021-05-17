@@ -952,7 +952,7 @@ console.log(filtered_array);
 <hr>
 
 - Returns a new array.
-- Does not change the size of the original array (unlinke filter).
+- Length of final array is always the same as that of array in which mapping is done. (unlike the filter function)
 - Uses value from original array, while making a new one.
 
 <hr>
@@ -1023,6 +1023,25 @@ function func(value) {
   console.log(value);
 }
 ```
+
+<hr>
+
+# Unique Values From Array
+
+<hr>
+
+- In order to get unique values from an array, we use `set`, which return set of unique values from that array.
+
+<hr>
+
+```js
+let original_array = [1,1,2,2,3,3,4,4,6,6,8,8,9,9];
+console.log(Array.from(new Set(original_array)));
+```
+
+<hr>
+
+- The output of this code is going to be `[ 1, 2, 3, 4, 6, 8, 9 ]`.
 
 <hr>
 
