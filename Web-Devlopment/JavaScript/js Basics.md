@@ -1901,6 +1901,101 @@ console.log(RegEx.test(text));
 
 - Output in this case is going to be `true`.
 - It would have been `false` if `test = "Ricky and Cal both like racing."`.
+- In order to look for presence of a string at the end, we put a `string$`. Example:
+
+<hr>
+
+```js
+let text = "Hi, myself sam.";
+let RegEx = /.$/;
+console.log(RegEx.test(text));
+```
+
+<hr>
+
+- Output of the above code is going to be `true`.
+
+<hr>
+
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+    <th style="width:22%">Metacharacter</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_dot.asp">.</a></td>
+    <td>Find a single character, except newline or line terminator</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_wordchar.asp">\w</a></td>
+    <td>Find a word character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_wordchar_non.asp">\W</a></td>
+    <td>Find a non-word character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_digit.asp">\d</a></td>
+    <td>Find a digit</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_digit_non.asp">\D</a></td>
+    <td>Find a non-digit character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_whitespace.asp">\s</a></td>
+    <td>Find a whitespace character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_whitespace_non.asp">\S</a></td>
+    <td>Find a non-whitespace character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_begin.asp">\b</a></td>
+    <td>Find a match at the beginning/end of a word, beginning like this: \bHI, 
+    end like this: HI\b</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_begin_not.asp">\B</a></td>
+    <td>Find a match, but not at the beginning/end of a word</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_nul.asp">\0</a></td>
+    <td>Find a NULL character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_newline.asp">\n</a></td>
+    <td>Find a new line character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_formfeed.asp">\f</a></td>
+    <td>Find a form feed character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_carriagereturn.asp">\r</a></td>
+    <td>Find a carriage return character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_tab.asp">\t</a></td>
+    <td>Find a tab character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_vtab.asp">\v</a></td>
+    <td>Find a vertical tab character</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_octal.asp">\xxx</a></td>
+    <td>Find the character specified by an octal number xxx</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_hex.asp">\xdd</a></td>
+    <td>Find the character specified by a hexadecimal number dd</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_regexp_unicode_hex.asp">\udddd</a></td>
+    <td>Find the Unicode character specified by a hexadecimal number dddd</td>
+  </tr>
+</tbody></table>
 
 <hr>
 
