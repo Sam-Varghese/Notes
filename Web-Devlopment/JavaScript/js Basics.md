@@ -2042,6 +2042,27 @@ console.log(text.match(RegEx));
 
 <hr>
 
+## Specifying Optional Character
+
+<hr>
+
+- Suppose if we havve to search for string _favorite_ and _favourite_, from another string, then as we can notica, we only need to specify through our RegEx pattern that _u_ at 4th index is optional.
+- To specify these kinds of requirenments, we just put `?` after character that has to be set optional.
+
+<hr>
+
+```js
+let text = "So, what is your favourite or favorite color?";
+RegEx = /favou?rite/g;
+console.log(text.match(RegEx));
+```
+
+<hr>
+
+- The output of the above code is going to be `[ 'favourite', 'favorite' ]`.
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
