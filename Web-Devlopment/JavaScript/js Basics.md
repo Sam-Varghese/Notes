@@ -2038,6 +2038,7 @@ console.log(text.match(RegEx));
 <hr>
 
 - The output of the following code would be `[ '1000', '10000', '100000', '100000', '100000' ]`.
+- In the above code, dont put `,` in `{4, 6}`, rather put `{number}` in order to have exact number match.
 
 <hr>
 
