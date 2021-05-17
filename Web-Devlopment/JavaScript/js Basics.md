@@ -1917,6 +1917,10 @@ console.log(RegEx.test(text));
 
 <hr>
 
+## Metacharacter
+
+<hr>
+
 <table class="w3-table-all notranslate">
   <tbody><tr>
     <th style="width:22%">Metacharacter</th>
@@ -1996,6 +2000,44 @@ console.log(RegEx.test(text));
     <td>Find the Unicode character specified by a hexadecimal number dddd</td>
   </tr>
 </tbody></table>
+
+<hr>
+
+## Quantity Match Specifier
+
+<hr>
+
+- In order to have a pattern with specified number of repetetions of another pattern, then in order to specify number of repetetions of that basic pattern, we use the following method:
+
+<hr>
+
+```js
+var text = "100, 1000 or 10000";
+var patt1 = /\d{4}/g;
+// Pttern is to get all numbers with 4 or more integers
+console.log(text.match(patt1));
+```
+
+<hr>
+
+- Output of the above code is going to be `[ '1000', '1000' ]`.
+
+<hr>
+
+- In the above code, we saw that we got all numbers with 4 or more digits. Now in order to have specific number of numbers (in range), we do as follows:
+
+<hr>
+
+```js
+var text = "100, 1000, 10000, 100000, 1000000, 10000000";
+var RegEx = /\d{4,6}/g;
+console.log(text.match(RegEx));
+// Insted of {4,6} put {4,} in order to have upper limit as infinity
+```
+
+<hr>
+
+- The output of the following code would be `[ '1000', '10000', '100000', '100000', '100000' ]`.
 
 <hr>
 
