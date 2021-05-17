@@ -1001,6 +1001,31 @@ function func(value) {
 
 <hr>
 
+# Exception Handling
+
+<hr>
+
+- `try`: Used in order to instantly execute `catch` block is in case error gets generated.
+- `catch`: Executed if `try` block gets an error.
+- `finally`: Used in order to execute some code regardless the fact error happened or not.
+
+<hr>
+
+```js
+try{
+  console.log("Onto try block");
+  unicycle;
+}
+catch(err){
+  console.log(`Onto the catch block, here is all the information about the error: ${err}`);
+}
+finally{
+  console.log("Finally reached the finally block.");
+}
+```
+
+<hr>
+
 # Functions
 
 <hr>
