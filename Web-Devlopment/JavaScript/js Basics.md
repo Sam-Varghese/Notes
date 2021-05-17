@@ -1026,6 +1026,12 @@ finally{
 
 <hr>
 
+- Following is the output of this code: `Onto try block
+Onto the catch block, here is all the information about the error: ReferenceError: unicycle is not defined
+Finally reached the finally block.`.
+
+<hr>
+
 # Functions
 
 <hr>
