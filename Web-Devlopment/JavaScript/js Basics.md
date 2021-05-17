@@ -933,6 +933,7 @@ console.log(`arr2=${arr2});
 
 - Filter function is used to filter out values of an array on the basis of a specified condition, and return array of the values satisfying that condition.
 - Following code shows the use of `filter` in order to filter out all positive values from an array.
+- `filter` returns a value only if the inner function return `true`.
 
 <hr>
 
@@ -943,6 +944,30 @@ filtered_array = original_array.filter((value){
 });
 console.log(filtered_array);
 ```
+
+<hr>
+
+## Array Map
+
+<hr>
+
+- Returns a new array.
+- Does not change the size of the original array (unlinke filter).
+- Uses value from original array, while making a new one.
+
+<hr>
+
+```js
+a = [1,2,3,4,5,6];
+b = a.map(function (value) {
+    return value+9
+})
+console.log(b)
+```
+
+<hr>
+
+- Output of the above code is going to be: `[ 10, 11, 12, 13, 14, 15 ]`
 
 <hr>
 
@@ -1012,23 +1037,21 @@ function func(value) {
 <hr>
 
 ```js
-try{
+try {
   console.log("Onto try block");
   unicycle;
-}
-catch(err){
-  console.log(`Onto the catch block, here is all the information about the error: ${err}`);
-}
-finally{
+} catch (err) {
+  console.log(
+    `Onto the catch block, here is all the information about the error: ${err}`
+  );
+} finally {
   console.log("Finally reached the finally block.");
 }
 ```
 
 <hr>
 
-- Following is the output of this code: `Onto try block
-Onto the catch block, here is all the information about the error: ReferenceError: unicycle is not defined
-Finally reached the finally block.`.
+- Following is the output of this code: `Onto try block Onto the catch block, here is all the information about the error: ReferenceError: unicycle is not defined Finally reached the finally block.`.
 
 <hr>
 
