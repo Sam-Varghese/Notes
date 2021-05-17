@@ -2063,6 +2063,26 @@ console.log(text.match(RegEx));
 
 <hr>
 
+## Positive And Negative LookAhead
+
+<hr>
+
+- Positive look ahead means a pattern wherein we search for a string after which comes a particular character, or set of characters. Note that in output, we wish to get the string only and not the charaters ahead of that which fulfilled the required pattern.
+
+<hr>
+
+```js
+// POSITIVE LOOKAHEAD
+let text1 = "qu";
+let RegEx1 = /q(?=u)/g;
+```
+
+<hr>
+
+- The output of the above code is `['q']`.
+
+<hr>
+
 # Object Constructor (Classes)
 
 <hr>
