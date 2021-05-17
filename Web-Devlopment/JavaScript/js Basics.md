@@ -1835,12 +1835,12 @@ console.log(str.match(Reg_Ex));
 
 <hr>
 
-- There are teo kinds of matches, first one being *Greedy Match* and other *Lazy Match*.
+- There are teo kinds of matches, first one being _Greedy Match_ and other _Lazy Match_.
 
 <hr>
 
-- *Greedy match* is a match which by default selects the largest possibe substring satisfying a pattern.
-- *Lazy Match* on the other hand selects the smallest possible substring satisfying a condition.
+- _Greedy match_ is a match which by default selects the largest possibe substring satisfying a pattern.
+- _Lazy Match_ on the other hand selects the smallest possible substring satisfying a condition.
 
 <hr>
 
@@ -1854,21 +1854,36 @@ console.log(new_str);
 
 <hr>
 
-- Above code produces *Titani* as the output.
+- Above code produces _Titani_ as the output.
 - This is a result of greedy search.
-- In order to execute *lazy search*, just put a *?* as shown:
+- In order to execute _lazy search_, just put a _?_ as shown:
 
 <hr>
 
 ```js
 let original_string = "Titanic";
-RegEx = /T[a-z]*?i/i
+RegEx = /T[a-z]*?i/i;
 console.log(original_string.match(RegEx));
 ```
 
 <hr>
 
 - In this case our output would be `[ 'Ti', index: 0, input: 'Titanic', groups: undefined ]`.
+- Similarly, the out of following code:
+
+<hr>
+
+```js
+let text = "<h1>Winter is comming</h1>";
+RegEx = /<.*>/;
+console.log(text.match(RegEx));
+RegEx = /<.*?>/;
+console.log(text.match(RegEx));
+```
+
+<hr>
+
+- Output by first `console.log` is going to be `[ '<h1>Winter is comming</h1>', index: 0, input: '<h1>Winter is comming</h1>', groups: undefined ]` while output by second `console.log` is going to be `[ '<h1>', index: 0, input: '<h1>Winter is comming</h1>', groups: undefined ]`.
 
 <hr>
 
