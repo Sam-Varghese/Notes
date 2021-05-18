@@ -816,3 +816,67 @@ a:active{
   custom_style;
 };
 ```
+
+<hr>
+
+# Font Weight
+
+<hr>
+
+- This property defines appearance of font. Syntax is `font-weight: regular/ bold/ italic`. (Value can also be from 100-900).
+
+<hr>
+
+- There is one more property to make text italic, ie `font-style: italic;`.
+
+<hr>
+
+- There is a property in order to have capital words and small letter words of same size, ie `font-style: small-caps;`
+
+<hr>
+
+<table class="w3-table-all notranslate">
+  <tr>
+    <th style="width:12%">Unit</th>
+    <th>Description</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>em</td>
+    <td>Relative to the font-size of the element (2em means 2 times the size of the current font)</td>
+  </tr>
+  <tr>
+    <td>ex</td>
+    <td>Relative to the x-height of the current font (rarely used)</td>
+  </tr>
+  <tr>
+    <td>ch</td>
+    <td>Relative to the width of the &quot;0&quot; (zero)</td>
+  </tr>
+  <tr>
+    <td>rem</td>
+    <td>Relative to font-size of the root element</td>
+  </tr>
+  <tr>
+    <td>vw</td>
+    <td>Relative to 1% of the width of the viewport*</td>
+  </tr>
+  <tr>
+    <td>vh</td>
+    <td>Relative to 1% of the height of the viewport*</td>
+  </tr>
+  <tr>
+    <td>vmin</td>
+    <td>Relative to 1% of viewport's* smaller dimension</td>
+  </tr>
+  <tr>
+    <td>vmax</td>
+    <td>Relative to 1% of viewport's* larger dimension</td>
+  </tr>
+  <tr>
+    <td>%</td>
+    <td>Relative to the parent element</td>
+  </tr>
+    </table>
+
+<hr>
