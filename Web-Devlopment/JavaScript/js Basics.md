@@ -2440,4 +2440,15 @@ console.log(x);
 
 <hr>
 
-Pt39 7:38
+- In order to select an element, here is the synatx:
+
+<hr>
+
+```js
+ele = document.getElementById(put_id);
+console.log(ele);
+```
+
+<hr>
+
+- The above code is going to log the element with its tag also.

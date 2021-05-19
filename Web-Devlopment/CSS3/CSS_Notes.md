@@ -880,3 +880,13 @@ a:active{
     </table>
 
 <hr>
+
+# Cursors
+
+<hr>
+
+## Cursor List
+
+<hr>
+
+[Please click here](http://spragucm.com/web-css-cursor-pointers/)
