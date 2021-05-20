@@ -17,3 +17,12 @@
 - Database is a physical container for collections. Each container gets its own set of files on the file system.
 
 <hr>
+
+## Collection
+
+<hr>
+
+- Collection is a group of MongoDB documents. It is the equivalent of RDBMS table. Collection dont enforce a schema.
+
+<hr>
+
