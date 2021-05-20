@@ -82,3 +82,13 @@ db.dropDatabase()
 
 <hr>
 
+## Create Collection
+
+<hr>
+
+```
+db.createCollection('collection_name')
+```
+
+<hr>
+
