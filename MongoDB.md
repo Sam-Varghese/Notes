@@ -41,3 +41,33 @@
 # MongoDB Syntax
 
 <hr>
+
+## Show All Databases
+
+<hr>
+
+```
+show dbs
+```
+
+<hr>
+
+## Show Current Database
+
+<hr>
+
+```
+db
+```
+
+<hr>
+
+## Create Or Switch Database
+
+<hr>
+
+```
+use database_name
+```
+
+<hr>
