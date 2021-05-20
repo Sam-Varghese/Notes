@@ -34,3 +34,10 @@
 
 <hr>
 
+![Comparision](Mongo_Images/Comparision1.PNG)
+
+<hr>
+
+# MongoDB Syntax
+
+<hr>
