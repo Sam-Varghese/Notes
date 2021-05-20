@@ -187,3 +187,26 @@ db.collection_name.find({key: value})
 
 <hr>
 
+## Sort Rows
+
+<hr>
+
+### Ascending Order
+
+<hr>
+
+```
+db.collection_name.find().sort({ key_name: 1 }).pretty()
+```
+
+<hr>
+
+### Descending Order
+
+<hr>
+
+```
+db.collection_name.find().sort({ key_name: -1}).pretty()
+```
+
+<hr>
