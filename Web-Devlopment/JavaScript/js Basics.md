@@ -2452,3 +2452,18 @@ console.log(ele);
 <hr>
 
 - The above code is going to log the element with its tag also.
+- In order to get only the element (without its tag), hen we call `innerHTML`, as follows:
+
+<hr>
+
+```js
+inner_ele = document.getElementById(put_id).innerHTML;
+console.log(`Inner HTML is ${inner_ele}`);
+inner_ele = "Updated inner HTML";
+```
+
+<hr>
+
+- The above code is going to update the inner HTML of that element.
+
+<hr>
