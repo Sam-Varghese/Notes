@@ -120,3 +120,42 @@ db.collection_name.insert({title: 'Post One',
 
 <hr>
 
+## Insert Multiple Rows
+
+<hr>
+
+```
+db.collection_name.insertMany([
+  {
+    title: 'Post Two',
+    body: 'Body of post two',
+    category: 'Technology',
+    date: Date()
+  },
+  {
+    title: 'Post Three',
+    body: 'Body of post three',
+    category: 'News',
+    date: Date()
+  },
+  {
+    title: 'Post Four',
+    body: 'Body of post three',
+    category: 'Entertainment',
+    date: Date()
+  }
+])
+```
+
+<hr>
+
+## Get All Rows
+
+<hr>
+
+```
+db.collection_name.find()
+```
+
+<hr>
+
