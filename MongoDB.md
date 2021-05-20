@@ -173,3 +173,17 @@ db.collection_name.find()pretty()
 
 <hr>
 
+## Find Rows
+
+<hr>
+
+```
+db.collection_name.find({key: value})
+```
+
+<hr>
+
+- The above searching technique would search all rows for the key value pair.
+
+<hr>
+
