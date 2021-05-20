@@ -26,3 +26,11 @@
 
 <hr>
 
+## Document
+
+<hr>
+
+- A document is a set of key-value pairs.
+
+<hr>
+
