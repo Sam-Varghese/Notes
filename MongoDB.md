@@ -92,3 +92,31 @@ db.createCollection('collection_name')
 
 <hr>
 
+## Show Collections
+
+<hr>
+
+```
+show collections
+```
+
+<hr>
+
+## Insert Row
+
+<hr>
+
+```
+db.collection_name.insert({title: 'Post One',
+  body: 'Body of post one',
+  category: 'News',
+  tags: ['news', 'events'],
+  user: {
+    name: 'John Doe',
+    status: 'author'
+  },
+  date: Date()})
+```
+
+<hr>
+
