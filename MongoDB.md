@@ -2,6 +2,10 @@
 
 <hr>
 
+![](Mongo_Images/logo.jpeg)
+
+<hr>
+
 - MongoDB is an open-source document database and a leading NoSQL database. MongoDB is written in C++.
 
 <hr>
@@ -155,6 +159,16 @@ db.collection_name.insertMany([
 
 ```
 db.collection_name.find()
+```
+
+<hr>
+
+## Get All Rows Formatted
+
+<hr>
+
+```
+db.collection_name.find()pretty()
 ```
 
 <hr>
