@@ -210,3 +210,24 @@ db.collection_name.find().sort({ key_name: -1}).pretty()
 ```
 
 <hr>
+
+## Count Rows
+
+<hr>
+
+```
+db.collection_name.find().count()
+```
+
+<hr>
+
+OR
+
+<hr>
+
+```
+db.collection_name.find({ key_name: value }).count()
+```
+
+<hr>
+
