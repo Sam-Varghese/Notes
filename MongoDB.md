@@ -71,3 +71,14 @@ use database_name
 ```
 
 <hr>
+
+## Drop Database
+
+<hr>
+
+```
+db.dropDatabase()
+```
+
+<hr>
+
