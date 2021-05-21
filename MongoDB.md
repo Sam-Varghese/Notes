@@ -335,5 +335,22 @@ db.collection_name.update({key1: value1} {$set: {
   key3: new_value3
 }})
 ```
+
+<hr>
+
+## Increment Field
+
+<hr>
+
+- In order to increment a particular field, we use following method:
+
+<hr>
+
+```
+db.collection_name.update({key1: value1}, {$inc: {
+  key2: increment_value
+}})
+```
+
 <hr>
 
