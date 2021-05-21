@@ -299,3 +299,25 @@ db.collection_name.find({ key1: value1}, {key2: value2, key3: valeu3})
 
 <hr>
 
+## Update Row
+
+<hr>
+
+- In order to update specific rows, we run following code:
+
+<hr>
+
+```
+db.collection_name.update({key1: value1}, {key2: value2, key3: value3,...}, {upsert: true})
+```
+
+<hr>
+
+- The above code takes 3 arguments, first one is the key value pair in order to identify the exact row/ rows that have to be updated. The second argument is the key value pairs that the older rows have to be udated with. Thirdly `upsert` means to create a new row if in case we arent able to identify the row that has to be updated.
+
+<hr>
+
+- In order to identify which row has to be updated, `_id*` is the best key value.
+
+<hr>
+
