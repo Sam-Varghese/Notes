@@ -321,3 +321,19 @@ db.collection_name.update({key1: value1}, {key2: value2, key3: value3,...}, {ups
 
 <hr>
 
+## Update Specific Field
+
+<hr>
+
+- In order to update specific field/ fields, we give 2 parameters here, first one being the key value pair in order to identify which row has to be updated, second one being the updated key value pair. Suppose here if we givs a key value pair, which does not exists, then a new key value pair would get generated for that.
+
+<hr>
+
+```
+db.collection_name.update({key1: value1} {$set: {
+  key2: new_value2,
+  key3: new_value3
+}})
+```
+<hr>
+
