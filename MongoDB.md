@@ -354,3 +354,30 @@ db.collection_name.update({key1: value1}, {$inc: {
 
 <hr>
 
+- Here the first argument is the key value pair i order to identify the row.
+
+<hr>
+
+## Rename Field
+
+<hr>
+
+```
+db.collection_name.update({key1: vaule2}, {
+  $rename: {
+    old_key: new_key
+  }
+})
+```
+
+<hr>
+
+## Delete Row
+
+<hr>
+
+```
+db.collection_name.remove(key1: value1)
+```
+
+<hr>
