@@ -381,3 +381,50 @@ db.collection_name.remove(key1: value1)
 ```
 
 <hr>
+
+## Sub Documents
+
+<hr>
+
+```
+db.posts.update({ title: 'Post One' },
+{
+  $set: {
+    comments: [
+      {
+        body: 'Comment One',
+        user: 'Mary Williams',
+        date: Date()
+      },
+      {
+        body: 'Comment Two',
+        user: 'Harry White',
+        date: Date()
+      }
+    ]
+  }
+})
+```
+
+<hr>
+
+## Find Element In Array
+
+<hr>
+
+- Now, we wanna have some code in order to find an element in object which is put as value of a key in the object. So in order to do so, we use following method.
+
+<hr>
+
+```
+db.collection_name.find({
+  key: {
+    $eleMatch: {
+      key: value
+    }
+  }
+})
+```
+
+<hr>
+
