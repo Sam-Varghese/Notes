@@ -221,12 +221,80 @@ db.collection_name.find().count()
 
 <hr>
 
-OR
+- In order to count rows with a specific key value pair:
 
 <hr>
 
 ```
 db.collection_name.find({ key_name: value }).count()
+```
+
+<hr>
+
+## Limit Rows
+
+<hr>
+
+- In order to get only first n rows of database, use following command:
+
+<hr>
+
+```
+db.collection_name.find().limit(n).pretty()
+```
+
+<hr>
+
+## Chaining
+
+<hr>
+
+- In order to get first n sorted rows, use the below code:
+
+<hr>
+
+```
+db.collection_name
+```
+
+<hr>
+
+## Foreach
+
+<hr>
+
+- In order to iterate over all the rows, and to achieve a specific output through this, we use following method:
+
+<hr>
+
+```
+db.collection_name.find().forEach(function(row){
+  print("First entry: "+row.key)
+})
+```
+
+<hr>
+
+## Find One Row
+
+<hr>
+
+- In order to find first specific row, with a particular key-value pair, we use following code:
+
+<hr>
+
+```
+db.collection_name.findOne({key: value})
+```
+
+<hr>
+
+## Find Specific Fields
+
+<hr>
+
+```
+db.collection_name.find({ key1: value1}, {key2: value2, key3: valeu3})
 ```
 
 <hr>
