@@ -408,7 +408,7 @@ db.posts.update({ title: 'Post One' },
 
 <hr>
 
-## Find Element In Array
+## Find By Element In Array
 
 <hr>
 
@@ -428,3 +428,39 @@ db.collection_name.find({
 
 <hr>
 
+## Add Index
+
+<hr>
+
+```
+db.collection_name.createIndex({ title: 'text' })
+```
+
+<hr>
+
+## Text Search
+
+<hr>
+
+```
+db.collection_name.find({
+  $text: {
+    $search: "\"Post O\""
+    }
+})
+```
+
+<hr>
+
+## Greater & Less Than
+
+<hr>
+
+```
+db.posts.find({ views: { $gt: 2 } })
+db.posts.find({ views: { $gte: 7 } })
+db.posts.find({ views: { $lt: 7 } })
+db.posts.find({ views: { $lte: 7 } })
+```
+
+<hr>
