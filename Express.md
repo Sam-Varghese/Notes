@@ -65,3 +65,14 @@ app.listen(5000);
 
 <hr>
 
+- Middleware functions are the functions that have access to the requests and response object. Express has built in middleware but middleware also comes from 3rd party packages as well as custom middleware.
+
+<hr>
+
+- Execute any code.
+- Make changes to the request/ response objects.
+- End response cycle.
+- Call next middleware on the stack.
+
+<hr>
+
