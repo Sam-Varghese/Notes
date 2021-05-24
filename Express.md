@@ -49,4 +49,19 @@ app.listen(5000);
 
 <hr>
 
-## 
+## Basic Route Handling
+
+<hr>
+
+- Handling requests/ routes is simple.
+- `app.get()`, `app.posts()`, `app.delete()`, etc.
+- Access to params, query strings, url parts, etc.
+- Express has a router so we can store routes in separate files and export.
+- We can parse incomming data with the body parser.
+
+<hr>
+
+## Express Middleware
+
+<hr>
+
