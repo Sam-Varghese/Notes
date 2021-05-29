@@ -279,6 +279,19 @@ body {
 
 <hr>
 
+- We can also set the opacity of that color (or background image) as follows:
+
+<hr>
+
+```css
+p {
+  background-color: red;
+  opacity: 0.5;
+}
+```
+
+<hr>
+
 ## Background Image
 
 <hr>
