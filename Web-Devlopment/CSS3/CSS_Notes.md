@@ -903,3 +903,43 @@ a:active{
 <hr>
 
 [Please click here](http://spragucm.com/web-css-cursor-pointers/)
+
+<hr>
+
+## CSS Filter
+
+<hr>
+
+- Through CSS, we can manipulate image properties directly, as follows:
+
+<hr>
+
+```css
+img{
+  filter: blur(10px);
+  filter: brightness(50%);
+  filter: contrast(70%);
+  filter: drop-shadow(8px 8px 5px red);/*Horizontal shift, vertical shift, blurness, color of shadow */
+  filter: grayscale(20%);/* Used to make image appear in black and white*/
+  filter: hue-rotate(90deg);
+  filter: invert(50%);
+  filter: opacity(30%);
+  filter: saturate(30%);
+  filter: sepia(30%);
+}
+```
+
+<hr>
+
+OR
+
+<hr>
+
+```css
+img{
+  filter: blur(10px), brightness(50%), contrast(70%), drop-shadow(8px 8px 5px red), grayscale(20%), hue-rotate(90deg), invert(50%), opacity(30%), saturate(30%), sepia(30%);
+}
+```
+
+<hr>
+
