@@ -1043,3 +1043,16 @@ p {
 ```
 
 <hr>
+
+- Now if we have a situation wherein we dont know the amount of space our text is going to occupy, but we want to have scrollbar if text overflows, else not. So in this case, we put `overflow: auto`. This one is the **BEST**.
+
+<hr>
+
+## CSS Resizable
+
+<hr>
+
+- This property is used to have any widget get resized by the viewer or to restrict resizing of the widget by the user.
+
+<hr>
+
