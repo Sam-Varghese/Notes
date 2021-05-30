@@ -1138,3 +1138,28 @@ td {
 
 <hr>
 
+## CSS Functions
+
+<hr>
+
+- It is important to note that CSS also has functions. One example of this is the use of `rgb()`.
+- Another way in which we can  use CSS functions is by using `calc()` function. Ex: `width: calc(100%-200px)`.
+
+<hr>
+
+- We can also **DECLARE VARIABLES** in CSS.
+- Names of variable in CSS always start by **--**.
+
+<hr>
+
+```css
+:root {
+  --variable: blue;
+}
+body{
+  background-color: var(--variable)
+}
+```
+
+<hr>
+
