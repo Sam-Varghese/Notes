@@ -1101,3 +1101,31 @@ ol {
 
 <hr>
 
+## Styling Tables
+
+<hr>
+
+```css
+table {
+  border: 1px solid black;
+  border-collapse: separate/ collapse;
+}
+caption {
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+  text-align: right/ left/ center;
+  vertical-align: top/ bottom/ middle;
+}
+td {
+  border: 1px solid black;
+  text-align: right/ left/ center;
+  vertical-align: top/ bottom/ middle;
+}
+```
+
+<hr>
+
+- Adding border to `tr` brings no change.
+- Additionally we can also set `height`, `width`, `padding`
