@@ -979,7 +979,7 @@ p {
 <hr>
 
 ```css
-p{
+p {
   background-image: linear-gradient(120deg, green, blue, red);
 }
 ```
@@ -992,7 +992,7 @@ p{
 <hr>
 
 ```css
-p{
+p {
   background-image: radial-gradient(circle, green, red, yellow);
 }
 ```
@@ -1004,7 +1004,7 @@ p{
 <hr>
 
 ```css
-p{
+p {
   background-image: radial-gradient(circle, green 20%, blue 30%, red 50%);
 }
 ```
@@ -1023,3 +1023,23 @@ p{
 
 <hr>
 
+- If we wanna hide the content that flows out of the container, then we put the value of the overflow as hidden as `overflow: hidden`.
+
+<hr>
+
+- But now if we wanna use idden property and also let the viewers see the full content, the we use the scroll property of overflow as follows `overflow: scroll`.
+
+<hr>
+
+- The above way to add scroll bar also adds a scroll bar in x axis which is not required, then in order to prevent scroll bar from appearing in x axis, then we do as follows:
+
+<hr>
+
+```css
+#container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+```
+
+<hr>
