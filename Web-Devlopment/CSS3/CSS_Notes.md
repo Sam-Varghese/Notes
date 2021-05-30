@@ -972,3 +972,54 @@ p {
 ```
 
 <hr>
+
+- Insted of `to right`, we have one more position named `to bottom-right`.
+- We can even specify angle at which gradient has to be made, as follows:
+
+<hr>
+
+```css
+p{
+  background-image: linear-gradient(120deg, green, blue, red);
+}
+```
+
+<hr>
+
+- Instead of linear-gradient, we can also have **radial-gradients**, on our webpage by just replacing `linear-gradient`, to `radial-gradient`.
+- We can also specify the shape of the gradient manually as follows:
+
+<hr>
+
+```css
+p{
+  background-image: radial-gradient(circle, green, red, yellow);
+}
+```
+
+<hr>
+
+- We can also manually set the part occupied by each color as follows:
+
+<hr>
+
+```css
+p{
+  background-image: radial-gradient(circle, green 20%, blue 30%, red 50%);
+}
+```
+
+<hr>
+
+## Overflow
+
+<hr>
+
+- `overflow` property is used when when the size of the container is less than that of the content. So in this case we can set manually how the rest of the text should appear.
+
+<hr>
+
+- Assuming the the size of container is fixed manually so the content overflows, then the default value of overflow, ie `overflow: visible` is used where the content really flows out of the border.
+
+<hr>
+
