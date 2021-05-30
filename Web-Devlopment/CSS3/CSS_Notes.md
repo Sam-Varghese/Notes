@@ -1061,10 +1061,43 @@ p {
 <hr>
 
 ```css
-textarea{
+textarea {
   resize: none;
 }
 ```
+
+<hr>
+
+- Now in order to make our widget container resizable, we put `resize: both`.
+- Suppose if we wanna restrict user to resize container only horizontally/vertically, then we put that property as `resize: horizontal/ vertical`.
+- **Remember**: `resize` property can be only applied in block element where overflow is not visible.
+
+<hr>
+
+## Styling Lists
+
+<hr>
+
+- We can style lists as follows:
+
+<hr>
+
+```css
+ul {
+  list-style-type: none/ disc/ circle/ square;
+  list-style-image: url("path/ url");
+  list-style-position: outside/ inside;
+}
+ol {
+  list-style-type: lower-alpha/ upper-alpha/ lower-roman/ upper-roman/ decimal/
+    decimal-leading-zero/;
+  list-style-position: outside/ inside;
+}
+```
+
+<hr>
+
+- `list-style-position` is used when we put border in ul/ ol stylings. After putting border on each elements of list items, we notice that the index value of all list items comes outside the border. So in order to have index value of list items inside the borders of all list items, we use `list-style-position: inside` property.
 
 <hr>
 
