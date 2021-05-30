@@ -1109,9 +1109,13 @@ ol {
 table {
   border: 1px solid black;
   border-collapse: separate/ collapse;
+  border-spacing: 15px 20px; /*top/bottom left/right */
+  empty-cells: hide; /*Used to hide empty celly insted of showing their block*/
+  table-layout: auto/ fixed;
 }
 caption {
   border: 1px solid black;
+  caption-side: top/ bottom;
 }
 th {
   border: 1px solid black;
@@ -1129,3 +1133,8 @@ td {
 
 - Adding border to `tr` brings no change.
 - Additionally we can also set `height`, `width`, `padding`
+- `table-layout: fixed` is used in order to have equal width of every columns. If it is set to auto, then columns will of that much width as needed.
+- `width` in table when set to 100% makes width of the table equal to width of the webpage.
+
+<hr>
+
