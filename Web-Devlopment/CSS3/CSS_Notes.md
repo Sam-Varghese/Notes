@@ -915,12 +915,14 @@ a:active{
 <hr>
 
 ```css
-img{
+img {
   filter: blur(10px);
   filter: brightness(50%);
   filter: contrast(70%);
-  filter: drop-shadow(8px 8px 5px red);/*Horizontal shift, vertical shift, blurness, color of shadow */
-  filter: grayscale(20%);/* Used to make image appear in black and white*/
+  filter: drop-shadow(
+    8px 8px 5px red
+  ); /*Horizontal shift, vertical shift, blurness, color of shadow */
+  filter: grayscale(20%); /* Used to make image appear in black and white*/
   filter: hue-rotate(90deg);
   filter: invert(50%);
   filter: opacity(30%);
@@ -936,10 +938,37 @@ OR
 <hr>
 
 ```css
-img{
-  filter: blur(10px), brightness(50%), contrast(70%), drop-shadow(8px 8px 5px red), grayscale(20%), hue-rotate(90deg), invert(50%), opacity(30%), saturate(30%), sepia(30%);
+img {
+  filter: blur(10px), brightness(50%), contrast(70%), drop-shadow(
+      8px 8px 5px red
+    ), grayscale(20%), hue-rotate(90deg), invert(50%), opacity(30%), saturate(
+      30%
+    ), sepia(30%);
 }
 ```
 
 <hr>
 
+## Gradients
+
+<hr>
+
+```css
+p {
+  background-image: linear-gradient(yellow, orange, blue);
+}
+```
+
+<hr>
+
+- In order to ave this gradient from left to right, do as follows:
+
+<hr>
+
+```css
+p {
+  background-image: linear-gradient(to right, yellow, orange, blue);
+}
+```
+
+<hr>
