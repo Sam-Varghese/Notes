@@ -1056,3 +1056,15 @@ p {
 
 <hr>
 
+- Suppose if we want to restrict the user from resizing the textarea (widget we learnt in HTML), then we do as follows:
+
+<hr>
+
+```css
+textarea{
+  resize: none;
+}
+```
+
+<hr>
+
