@@ -1168,3 +1168,14 @@ body{
 <hr>
 
 - Whenever we give padding or give borders to the webpage, then all these increases the size of the container. So if we ever want to have the continer of fixed size and have padding and margins come in that limited space instead of extending the size of the container, then we use the property `box-sizing: border-box;`.
+
+<hr>
+
+## Initial-Inherit Property
+
+<hr>
+
+- We have two more values (which we can give to preperties like `color`) in CSS named `initial`, `inherit`. `initial` is used to set the property value as defined by CSS by default. While the property `inherit` is used to specify the browser to give same property to that element as that of the container in which it is kept.
+
+<hr>
+
