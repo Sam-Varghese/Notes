@@ -1223,35 +1223,7 @@ body {
 
 <hr>
 
-`<address>`<br>
-`<article>`<br>
-`<aside>`<br>
-`<blockquote>`<br>
-`<canvas>`<br>
-`<dd>`<br>
-`<div>`<br>
-`<dl>`<br>
-`<dt>`<br>
-`<fieldset>`<br>
-`<figcaption>`<br>
-`<figure>`<br>
-`<footer>`<br>
-`<form>`<br>
-`<h1>-<h6>`<br>
-`<header>`<br>
-`<hr>`<br>
-`<li>`<br>
-`<main>`<br>
-`<nav>`<br>
-`<noscript>`<br>
-`<ol>`<br>
-`<p>`<br>
-`<pre>`<br>
-`<section>`<br>
-`<table>`<br>
-`<tfoot>`<br>
-`<ul>`<br>
-`<video>`<br>
+`<address>`<br>`<article>`<br>`<aside>`<br>`<blockquote>`<br>`<canvas>`<br>`<dd>`<br>`<div>`<br>`<dl>`<br>`<dt>`<br>`<fieldset>`<br>`<figcaption>`<br>`<figure>`<br>`<footer>`<br>`<form>`<br>`<h1>-<h6>`<br>`<header>`<br>`<hr>`<br>`<li>`<br>`<main>`<br>`<nav>`<br>`<noscript>`<br>`<ol>`<br>`<p>`<br>`<pre>`<br>`<section>`<br>`<table>`<br>`<tfoot>`<br>`<ul>`<br>`<video>`<br>
 
 <hr>
 
@@ -1264,6 +1236,10 @@ body {
 - An inline element only takes up as much width as necessary.
 
 - This is a `<span>` element inside a paragraph.
+
+<hr>
+
+`<a>`<br>`<abbr>`<br>`<acronym>`<br>`<b>`<br>`<bdo>`<br>`<big>`<br>`<br>`<br>`<button>`<br>`<cite>`<br>`<code>`<br>`<dfn>`<br>`<em>`<br>`<i>`<br>`<img>`<br>`<input>`<br>`<kbd>`<br>`<label>`<br>`<map>`<br>`<object>`<br>`<output>`<br>`<q>`<br>`<samp>`<br>`<script>`<br>`<select>`<br>`<small>`<br>`<span>`<br>`<strong>`<br>`<sub>`<br>`<sup>`<br>`<textarea>`<br>`<time>`<br>`<tt>`<br>`<var>`<br>
 
 <hr>
 
