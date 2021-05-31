@@ -1187,6 +1187,19 @@ body{
 - If we want to have image of same dimension as that of the container no matter if dimensions of image distorts, then we use property `object-fit: fit`. 
 - If we wanna get image displayed in same dimensions as that of the contaning body, but now without distorting its dimensions, then we use the property  `object-fit: cover`. But in this case, in order to maintain the dimensions, only some part of the image would be visible.
 - In case using the above property, we now want to set the positions of the part of the image that should compulsorily, then we use the property `object-position: top center` (Or specify the direction s you want).
+- `object-position` propert can also be used with `object-fit: contain` in order to show image in specified direction insted of center which is set by default.
+
+<hr>
+
+**Trick**: In VSCode, if you wanna make 5 tags for suppose `p`, just type `p*5` and press enter.
+
+<hr>
+
+## Pseudo-Classes
+
+<hr>
+
+- We know about states like `hover`, `active`, etc. There are many more states/ classes that exist in CSS. You can learn these from W3 Schools directly.
 
 <hr>
 
