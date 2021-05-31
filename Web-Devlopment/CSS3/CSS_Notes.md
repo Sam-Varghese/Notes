@@ -1143,7 +1143,7 @@ td {
 <hr>
 
 - It is important to note that CSS also has functions. One example of this is the use of `rgb()`.
-- Another way in which we can  use CSS functions is by using `calc()` function. Ex: `width: calc(100%-200px)`.
+- Another way in which we can use CSS functions is by using `calc()` function. Ex: `width: calc(100%-200px)`.
 
 <hr>
 
@@ -1156,8 +1156,8 @@ td {
 :root {
   --variable: blue;
 }
-body{
-  background-color: var(--variable)
+body {
+  background-color: var(--variable);
 }
 ```
 
@@ -1184,8 +1184,8 @@ body{
 <hr>
 
 - Whenevery we simply put an image inside a container of specified dimensions, then browsers change the dimension of the image in order to fit that image into that continer. In order to avoid this, we use the property `object-fit: contain` which may reduce the width of image, by would keep the dimensions of image same as that before.
-- If we want to have image of same dimension as that of the container no matter if dimensions of image distorts, then we use property `object-fit: fit`. 
-- If we wanna get image displayed in same dimensions as that of the contaning body, but now without distorting its dimensions, then we use the property  `object-fit: cover`. But in this case, in order to maintain the dimensions, only some part of the image would be visible.
+- If we want to have image of same dimension as that of the container no matter if dimensions of image distorts, then we use property `object-fit: fit`.
+- If we wanna get image displayed in same dimensions as that of the contaning body, but now without distorting its dimensions, then we use the property `object-fit: cover`. But in this case, in order to maintain the dimensions, only some part of the image would be visible.
 - In case using the above property, we now want to set the positions of the part of the image that should compulsorily, then we use the property `object-position: top center` (Or specify the direction s you want).
 - `object-position` propert can also be used with `object-fit: contain` in order to show image in specified direction insted of center which is set by default.
 
@@ -1200,6 +1200,70 @@ body{
 <hr>
 
 - We know about states like `hover`, `active`, etc. There are many more states/ classes that exist in CSS. You can learn these from W3 Schools directly.
+
+<hr>
+
+## Block Level
+
+<hr>
+
+- Block level elements have the following features:
+
+<hr>
+
+- A block-level element always starts on a new line.
+
+- A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+- A block level element has a top and a bottom margin, whereas an inline element does not.
+
+<hr>
+
+- Following elements comes under this category
+
+<hr>
+
+`<address>`<br>
+`<article>`<br>
+`<aside>`<br>
+`<blockquote>`<br>
+`<canvas>`<br>
+`<dd>`<br>
+`<div>`<br>
+`<dl>`<br>
+`<dt>`<br>
+`<fieldset>`<br>
+`<figcaption>`<br>
+`<figure>`<br>
+`<footer>`<br>
+`<form>`<br>
+`<h1>-<h6>`<br>
+`<header>`<br>
+`<hr>`<br>
+`<li>`<br>
+`<main>`<br>
+`<nav>`<br>
+`<noscript>`<br>
+`<ol>`<br>
+`<p>`<br>
+`<pre>`<br>
+`<section>`<br>
+`<table>`<br>
+`<tfoot>`<br>
+`<ul>`<br>
+`<video>`<br>
+
+<hr>
+
+## Inline Elements
+
+<hr>
+
+- An inline element does not start on a new line.
+
+- An inline element only takes up as much width as necessary.
+
+- This is a `<span>` element inside a paragraph.
 
 <hr>
 
