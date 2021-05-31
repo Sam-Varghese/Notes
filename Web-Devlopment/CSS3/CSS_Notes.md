@@ -1179,3 +1179,14 @@ body{
 
 <hr>
 
+## Object Fit Property
+
+<hr>
+
+- Whenevery we simply put an image inside a container of specified dimensions, then browsers change the dimension of the image in order to fit that image into that continer. In order to avoid this, we use the property `object-fit: contain` which may reduce the width of image, by would keep the dimensions of image same as that before.
+- If we want to have image of same dimension as that of the container no matter if dimensions of image distorts, then we use property `object-fit: fit`. 
+- If we wanna get image displayed in same dimensions as that of the contaning body, but now without distorting its dimensions, then we use the property  `object-fit: cover`. But in this case, in order to maintain the dimensions, only some part of the image would be visible.
+- In case using the above property, we now want to set the positions of the part of the image that should compulsorily, then we use the property `object-position: top center` (Or specify the direction s you want).
+
+<hr>
+
