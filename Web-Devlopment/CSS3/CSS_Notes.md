@@ -1167,3 +1167,4 @@ body{
 
 <hr>
 
+- Whenever we give padding or give borders to the webpage, then all these increases the size of the container. So if we ever want to have the continer of fixed size and have padding and margins come in that limited space instead of extending the size of the container, then we use the property `box-sizing: border-box;`.
