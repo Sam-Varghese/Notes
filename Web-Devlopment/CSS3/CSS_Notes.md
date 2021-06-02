@@ -1415,3 +1415,7 @@ body {
 - `inherit` - The element inherits the clear value of its parent
 
 <hr>
+
+- To add CSS clear property, just use `clear: right`.
+
+<hr>
