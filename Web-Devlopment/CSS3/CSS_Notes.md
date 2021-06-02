@@ -1398,3 +1398,20 @@ body {
 - **Remember**: Many a time you would face situations where the element where we applied float gets out of the container. So in this situation, in the container put the property `overflow: auto`.
 
 <hr>
+
+# CSS Clear
+
+<hr>
+
+- The clear property specifies what elements can float beside the cleared element and on which side.
+- The clear property can have one of the following values:
+
+<hr>
+
+- `none` - Allows floating elements on both sides. This is default
+- `left` - No floating elements allowed on the left side
+- `right`- No floating elements allowed on the right side
+- `both` - No floating elements allowed on either the left or the right side
+- `inherit` - The element inherits the clear value of its parent
+
+<hr>
