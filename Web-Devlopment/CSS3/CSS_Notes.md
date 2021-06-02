@@ -1308,16 +1308,48 @@ body {
 
 <hr>
 
-## Relative
+## Relative Positioning
 
 <hr>
 
-- In order to specify to the browser, that now we would be setting positions relatively, add property `position: relative`.
+- In order to specify to the browser, that now we would be setting positions **relative to its original previous position**, add property `position: relative`.
 - This means that now we can also use properties `top`, `bottom`, `left`, `right`.
 - In order to use these properties, do like this: `top: 5px`, `bottom: 10px`, `left: 5px`, `right: 10px`.
 - One feature of this kind of positioning is that the displaced element wont leave its earlier position blank for other elements to occupy.
 - It won't also displace other elements from thier respective positions.
 - So if through relative positioning we put an element in other element's position, then the positioned element would overlap the element that was already there.
+
+<hr>
+
+## Absolute Positioning
+
+<hr>
+
+- In absolute positioning, **we position an element according to nearest positioned ancestor** ( *An element is said to be positioned, if its position is not static*).
+- So if in case none of the parent body is positioned, then the element would try to position itself with respect to `body` instead of any parent body.
+- Now we can also use properties `top`, `bottom`, `left`, `right`.
+- The displaced element would unline in relative posiioning, would leave its space for other elements to occupy.
+
+<hr>
+
+## Fixed Positioning
+
+<hr>
+
+- In fixed positioning, element is positioned relative to the viewport.
+- This means that it always stays in the same place even if the page is scrolled.
+- Elements space would be free to occupy by other elements.
+
+<hr>
+
+## CSS Layers And Z-Index
+
+<hr>
+
+- As we can see while working with the positioned elements that they can many a times overlap over each other.
+- So in this case, we assign a random number (can be negative) in their CSS style through which browsers decide which element should superimpose other elements.
+- Do as follows in order to put z-index: `z-index: 5`
+- Larger the number, the more it is preffered to superimpose the elements with lesser `z-index`.
 
 <hr>
 
