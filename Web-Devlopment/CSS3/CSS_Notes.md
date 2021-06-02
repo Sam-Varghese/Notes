@@ -267,7 +267,7 @@ p {
 
 <hr>
 
-- In order to have a background color for whole web page, do as follows:
+- In order to have a background color for whole webpage, do as follows:
 
 <hr>
 
@@ -906,7 +906,7 @@ a:active{
 
 <hr>
 
-## CSS Filter
+# CSS Filter
 
 <hr>
 
@@ -949,7 +949,7 @@ img {
 
 <hr>
 
-## Gradients
+# Gradients
 
 <hr>
 
@@ -1011,7 +1011,7 @@ p {
 
 <hr>
 
-## Overflow
+# Overflow
 
 <hr>
 
@@ -1048,7 +1048,7 @@ p {
 
 <hr>
 
-## CSS Resizable
+# CSS Resizable
 
 <hr>
 
@@ -1074,7 +1074,7 @@ textarea {
 
 <hr>
 
-## Styling Lists
+# Styling Lists
 
 <hr>
 
@@ -1101,7 +1101,7 @@ ol {
 
 <hr>
 
-## Styling Tables
+# Styling Tables
 
 <hr>
 
@@ -1138,7 +1138,7 @@ td {
 
 <hr>
 
-## CSS Functions
+# CSS Functions
 
 <hr>
 
@@ -1163,7 +1163,7 @@ body {
 
 <hr>
 
-## Box-Sizing
+# Box-Sizing
 
 <hr>
 
@@ -1171,7 +1171,7 @@ body {
 
 <hr>
 
-## Initial-Inherit Property
+# Initial-Inherit Property
 
 <hr>
 
@@ -1179,7 +1179,7 @@ body {
 
 <hr>
 
-## Object Fit Property
+# Object Fit Property
 
 <hr>
 
@@ -1195,7 +1195,7 @@ body {
 
 <hr>
 
-## Pseudo-Classes
+# Pseudo-Classes
 
 <hr>
 
@@ -1203,7 +1203,7 @@ body {
 
 <hr>
 
-## Block Level
+# Block Level
 
 <hr>
 
@@ -1213,7 +1213,7 @@ body {
 
 - A block-level element always starts on a new line.
 
-- A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+- A block-level element always takes up the full width available (stretches out to the left and right as far as it can). ( Height and width can be set manually)
 
 - A block level element has a top and a bottom margin, whereas an inline element does not.
 
@@ -1227,13 +1227,13 @@ body {
 
 <hr>
 
-## Inline Elements
+# Inline Elements
 
 <hr>
 
 - An inline element does not start on a new line.
 
-- An inline element only takes up as much width as necessary.
+- An inline element only takes up as much width as necessary. ( height and width can't be set manually)
 
 - This is a `<span>` element inside a paragraph.
 
@@ -1243,3 +1243,61 @@ body {
 
 <hr>
 
+# Inline Block
+
+<hr>
+
+- No new start.
+- Does not occupies full width.
+- Height and width can be set manually.
+
+<hr>
+
+# Making Div Inline
+
+<hr>
+
+- Yes, we can make div element inline by adding the property `display: inline`.
+
+<hr>
+
+# Making Div Inline-Block
+
+<hr>
+
+- Just add the property `display: inline-block`.
+
+<hr>
+
+# Hiding Elements
+
+<hr>
+
+- If you want to hide elements, through CSS, then select the element by ID and just add the property `display: none`. This will remove the element from webpage, hence its space would also get occupied by some other element and would not be left idle.
+- But, if you ever want to just hide the element, which means that you want the element's space to be kept idle, then put the property `visibility: hidden` instead.
+
+<hr>
+
+# CSS Positions
+
+<hr>
+
+- CSS has these four types of positions:
+
+<hr>
+
+1. Static ( default )
+2. Relative
+3. Fixed
+4. Absolute
+
+<hr>
+
+- Further, if we are using anyone of relative, fixed or absolute positions on our webpage, then we can further take advantage of the following named positions:
+
+<hr>
+
+- top
+- bottom
+- left
+- right
