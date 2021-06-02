@@ -1483,3 +1483,27 @@ body {
 - There are some terms related to 3D positioning, kindly refer https://codepen.io/desandro/pen/bMqZmr
 
 <hr>
+
+## 3D Rotation
+
+<hr>
+
+- In order to do 3D rotation, do as follows: `transform: perspective(300px) rotate(50, 0, 0, 20deg)`
+- Inside rotate, we put point from where rotation has to take place, ie `rotate(x, y, z, angle)`.
+
+<hr>
+
+## 3D Translate
+
+<hr>
+
+- In order to do 3D translation, do as follows: `perspective(300px) translate3d(0px, 0px, -50px)`.
+- Inside translate3d, we put distance in pixels to tell browsers how much translation has to take place from x, y and z axis respectively.
+
+<hr>
+
+# CSS Transitions
+
+<hr>
+
+- Transitions property is used in order to have a smooth change from one property to the another through CSS.
