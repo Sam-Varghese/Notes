@@ -1342,7 +1342,7 @@ body {
 
 <hr>
 
-## CSS Layers And Z-Index
+# CSS Layers And Z-Index
 
 <hr>
 
@@ -1350,6 +1350,23 @@ body {
 - So in this case, we assign a random number (can be negative) in their CSS style through which browsers decide which element should superimpose other elements.
 - Do as follows in order to put z-index: `z-index: 5`
 - Larger the number, the more it is preffered to superimpose the elements with lesser `z-index`.
+
+<hr>
+
+# CSS Floats
+
+<hr>
+
+- The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+- Float property can take following values:
+- `left` - The element floats to the left of its container
+- `right` - The element floats to the right of its container
+- `none` - The element does not float (will be displayed just where it occurs in the text). This is default
+- `inherit` - The element inherits the float value of its parent
+
+<hr>
+
+- Put float property like `float: right`.
 
 <hr>
 
