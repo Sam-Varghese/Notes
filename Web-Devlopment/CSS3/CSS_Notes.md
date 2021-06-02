@@ -1443,6 +1443,9 @@ body {
 
 - In order to rotate element by some angle (can be either positive or negative), we use rotate property of CSS.
 - Syntax is: `transform: rotate(-20deg)`.
+- You can also select the point in the button from where you want the rotation to happen like this: `transform-origin: 0% 100%`
+- So here we mention the exact point in `%`.
+- **Remember**: Point (0, 0) refers to left corner point of the button.
 
 <hr>
 
@@ -1462,3 +1465,22 @@ body {
 
 <hr>
 
+## Skew
+
+<hr>
+
+- Used in order to skew an element along X and Y axis by given angles.
+- Syntax: `transform: skew(20deg, 10deg)`.
+- In order to skew the element in only X axis, use `skewX(20deg)`.
+- In order to skew the element in only Y axis, use `skewY(20deg)`.
+
+<hr>
+
+# CSS 3D Transformation
+
+<hr>
+
+- There are some terms related to 3D positioning, kindly refer https://codepen.io/desandro/pen/bMqZmr
+- 
+
+<hr>
