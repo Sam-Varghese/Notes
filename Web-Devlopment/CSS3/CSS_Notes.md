@@ -1325,7 +1325,7 @@ body {
 
 <hr>
 
-- In absolute positioning, **we position an element according to nearest positioned ancestor** ( *An element is said to be positioned, if its position is not static*).
+- In absolute positioning, **we position an element according to nearest positioned ancestor** ( _An element is said to be positioned, if its position is not static_).
 - So if in case none of the parent body is positioned, then the element would try to position itself with respect to `body` instead of any parent body.
 - Now we can also use properties `top`, `bottom`, `left`, `right`.
 - The displaced element would unline in relative posiioning, would leave its space for other elements to occupy.
@@ -1367,6 +1367,31 @@ body {
 <hr>
 
 - Put float property like `float: right`.
+
+<hr>
+
+# CSS Navigation Bar
+
+<hr>
+
+- Firstly write all navigation bar value as list items inside an unordered list.
+- Suppose if id of ul is `ul1`, and id of list items are `lists`, then do as follows in CSS:
+
+<hr>
+
+```css
+#ul1 {
+  background-color: green;
+  list-style-type: none; /* In order to remove bullets */
+  overflow: auto; /* When we use float, then list items gets out of ul, in order to avoid this, use float: auto*/
+  }
+#lists {
+    color: white;
+    padding: 10px 15px;
+    float: left;
+  }
+}
+```
 
 <hr>
 
