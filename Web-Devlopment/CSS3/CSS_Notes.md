@@ -1419,3 +1419,46 @@ body {
 - To add CSS clear property, just use `clear: right`.
 
 <hr>
+
+# CSS Transform
+
+<hr>
+
+- Works only with block/ inline-block elements.
+
+<hr>
+
+## Translate
+
+<hr>
+
+- This property is used in order to change the position of element ( not inline) via CSS.
+- Syntax is: `transform: translate(50px, 50px)`.
+
+<hr>
+
+## Rotate
+
+<hr>
+
+- In order to rotate element by some angle (can be either positive or negative), we use rotate property of CSS.
+- Syntax is: `transform: rotate(-20deg)`.
+
+<hr>
+
+## Scale
+
+<hr>
+
+- In order to zoom/ out the element, we use scale property.
+- Here inside `scale`, we give first argument as the value to be multiplie with current width, and the second as the value to be multiplied with the current width.
+- Syntax is: `transform: scale(2, 3)`.
+- In order to change only width, use `scaleX(2)`.
+- In order to change only the height, use `scaleY(2)`.
+
+<hr>
+
+**Remember**: Never forget to make the element either block or inline-block.
+
+<hr>
+
