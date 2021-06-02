@@ -1395,3 +1395,6 @@ body {
 
 <hr>
 
+- **Remember**: Many a time you would face situations where the element where we applied float gets out of the container. So in this situation, in the container put the property `overflow: auto`.
+
+<hr>
