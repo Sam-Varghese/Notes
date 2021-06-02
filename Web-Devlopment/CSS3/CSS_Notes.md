@@ -1301,3 +1301,23 @@ body {
 - bottom
 - left
 - right
+
+<hr>
+
+**Tip**: In VSCode, in order to make an element with an ID, just write element#id, ex for writing `<div id="sam">`, just write `div#sam` and then press enter.
+
+<hr>
+
+## Relative
+
+<hr>
+
+- In order to specify to the browser, that now we would be setting positions relatively, add property `position: relative`.
+- This means that now we can also use properties `top`, `bottom`, `left`, `right`.
+- In order to use these properties, do like this: `top: 5px`, `bottom: 10px`, `left: 5px`, `right: 10px`.
+- One feature of this kind of positioning is that the displaced element wont leave its earlier position blank for other elements to occupy.
+- It won't also displace other elements from thier respective positions.
+- So if through relative positioning we put an element in other element's position, then the positioned element would overlap the element that was already there.
+
+<hr>
+
