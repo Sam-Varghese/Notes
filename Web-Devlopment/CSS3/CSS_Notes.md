@@ -1750,5 +1750,55 @@ body {
 <hr>
 
 - So we can also use `min-width` for browser size greater than or equal to that mentioned.
+- We can also separate sizes with commas as follows:
 
 <hr>
+
+```css
+/* When the width is between 600px and 900px OR above 1100px - change the appearance of <div> */
+@media screen and (max-width: 900px) and (min-width: 600px),
+  (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
+```
+
+<hr>
+
+## Making Images Responsive
+
+<hr>
+
+- In order to make images reponsive, just add following lines of code:
+
+<hr>
+
+```css
+img {
+  width: 100%;
+  height: auto;
+}
+vedio {
+  width: 100%;
+  height: auto;
+}
+```
+
+<hr>
+
+# CSS Specificity
+
+<hr>
+
+- This is a concept through which we can determine the precedence of order of different styles and when they are applicable.
+
+<hr>
+
+## General Rule
+
+<hr>
+
