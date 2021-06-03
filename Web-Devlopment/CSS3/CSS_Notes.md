@@ -1679,6 +1679,10 @@ div {
 
 <hr>
 
+## Using Meta Tags
+
+<hr>
+
 - Firstly in order to have websites responsive use following HTML page structure:
 
 <hr>
@@ -1700,3 +1704,8 @@ div {
 
 <hr>
 
+## Using @media Query
+
+<hr>
+
+- `@media`
