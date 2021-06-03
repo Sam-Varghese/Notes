@@ -1690,15 +1690,13 @@ div {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -1708,4 +1706,49 @@ div {
 
 <hr>
 
-- `@media`
+- `@media` query is used when we wanna have different design for different devices.
+- So in order to use this, just resize the browser window (https://www.webfx.com/tools/whats-my-browser-size/), or see the web page in different devices, and know the width after which website starts to distort.
+- Now, put following media query code:
+
+<hr>
+
+```css
+@media screen and (max-width: 768px) {
+  /* In max width write the width below which website starts to break down */
+  /* max-width means to apply this width browser width<=768> */
+  p {
+    font-size: 20px;
+  }
+  /* And write more normal CSS styles */
+}
+```
+
+<hr>
+
+- **Note**: You can set more `@media query`, just remember that higher width media queries should be written **BELOW** that of lower width.
+
+<hr>
+
+```css
+body {
+  background-color: lightblue;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+```
+
+<hr>
+
+- So we can also use `min-width` for browser size greater than or equal to that mentioned.
+
+<hr>
