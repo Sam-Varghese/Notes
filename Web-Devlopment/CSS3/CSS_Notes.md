@@ -1507,3 +1507,111 @@ body {
 <hr>
 
 - Transitions property is used in order to have a smooth change from one property to the another through CSS.
+- In order to mention which elements are required to do transitions, use `transition-property: width, background-color, ....`
+- In order to have a better look at transitions, use `transiton-duration: 1s/ 1000ms` property. (Time can be either in `s` or `ms`)
+- If suppose in `transition-property`, you wanna mention names of all elements instead of some specific elements, use `transition-property: all`.
+- If you want transitions to hapen after some time, then use `transition-delay: 1000ms`.
+- We have options to select from different kinds of transitions. Given below are options:
+
+<hr>
+
+<table class="w3-table-all notranslate">
+  <tbody><tr>
+    <th style="width:19%;">Value</th>
+    <th>Description</th>
+  </tr>  
+  <tr>
+    <td>ease</td>
+    <td>Default value. Specifies a transition effect with a slow start, then fast, then end slowly (equivalent to cubic-bezier(0.25,0.1,0.25,1))</td>
+  </tr>
+  <tr>
+    <td>linear</td>
+    <td>Specifies a transition effect with the same speed from start to end (equivalent to cubic-bezier(0,0,1,1))</td>
+  </tr>
+  <tr>
+    <td>ease-in</td>
+    <td>Specifies a transition effect with a slow start (equivalent to cubic-bezier(0.42,0,1,1))</td>
+  </tr>
+  <tr>
+    <td>ease-out</td>
+    <td>Specifies a transition effect with a slow end (equivalent to cubic-bezier(0,0,0.58,1))</td>
+  </tr>
+  <tr>
+    <td>ease-in-out</td>
+    <td>Specifies a transition effect with a slow start and end (equivalent to cubic-bezier(0.42,0,0.58,1))</td>
+  </tr>
+  <tr>
+    <td>step-start</td>
+    <td>Equivalent to steps(1, start)</td>
+  </tr>
+  <tr>
+    <td>step-end</td>
+    <td>Equivalent to steps(1, end)</td>
+  </tr>
+  <tr>
+    <td>steps(int,start|end)</td>
+    <td>Specifies a stepping function, with two parameters. The first parameter specifies the number of intervals in the function. It must be a positive integer (greater than 0). The second parameter, which is optional, is either the value "start" or "end", and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value "end" </td>
+  </tr>
+  <tr>
+    <td><a href="func_cubic-bezier.asp">cubic-bezier(<i>n</i>,<i>n</i>,<i>n</i>,<i>n</i>)</a></td>
+    <td>Define your own values in the cubic-bezier function.
+ Possible values are numeric values from 0 to 1</td>
+  </tr>
+  <tr>
+    <td>initial</td>
+    <td>Sets this property to its default value. <a href="css_initial.asp">Read about <em>initial</em></a></td>
+    </tr>
+  <tr>
+    <td>inherit</td>
+    <td>Inherits this property from its parent element. <a href="css_inherit.asp">Read about <em>inherit</em></a></td>
+    </tr>
+</tbody></table>
+
+<hr>
+
+- In order to select a particular one from above, do as `transition-timing-function: ease-in-out`.
+- In order to set different transition duration for different elements, do as `transition: width 2s, height: 3s`.
+
+<hr>
+
+# CSS Animations
+
+<hr>
+
+- In order to make animations in CSS, we need to specify to the browser 2 things:
+
+<hr>
+
+1. What to do in animation
+2. Duration of animation
+
+<hr>
+
+- Here is an example of one such animation:
+
+<hr>
+
+```css
+/* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+```
+
+<hr>
+
+- But the above method is not a great way to add specify animation.
+- Hence we specify animation changes in percentage, as follows:
+
+<hr>
+
