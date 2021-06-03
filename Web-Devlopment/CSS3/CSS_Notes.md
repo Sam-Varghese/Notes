@@ -1808,3 +1808,41 @@ vedio {
 
 <hr>
 
+- `#` id has highest value.
+- `*` universal selector has the lowest value.
+
+<hr>
+
+## Columns
+
+<hr>
+
+- Just like columns of a newspaper, we can also have columns for out webpage text.
+- We use just `column-count: 3`, in order to divide our text in 3 columns.
+- In order to give some space between different columns, we use `column-gap: 50px`.
+- Now, in order to select the width of this line, we use the property `column-rule-width: 1px`.
+- We can also use `column-rule: 1px solid red`.
+- **Remember**: Insode the div, where we entered all text for above columns, if we enter heading along with it, then it would also occupy a column. In order to prevent this from happening, we use the property inside h1 tag `column-span: all`.
+
+<hr>
+
+# Flex
+
+<hr>
+
+- Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
+- Now, this can be done directly with the help of flex using: `display: flex` in parent div.
+- Now, if we want the child div's to appear in reverse direction ie in left side and all firsts, to lasts; then to do so directly, we use `flex-direction: row-reverse` in parent div.
+
+<hr>
+
+- If we wanna make child div's appear in columns, then use `flex-direction: column`
+- We use `flex-wrap: nowrap` if we want the child divs to automatically get adjusted in one row with equal width.
+- We use `flex-wrap: wrap` if we want the child divs to get aligned in another row also.
+- There is also a property called `wrap-reverse`.
+- **We use `justify-content: center` in order to cener align child divs (menu bar items)**.
+- Use propery `justify-content: flex-end` in order to right align menu bar items.
+- **Remember**:  We use the property `justify-content: space-around` in order to equally space menu bar items.
+- **Remember**:  We use the property `justify-content: space-between` in order to equally space menu bar items with no space at corners of menu.
+- Use `flex-flow: row wrap` in order to specify `flex-direction: row` and `flex-wrap: wrap` at the same time.
+- **Remember**: In order to center align one child element inside a container both vertically and horizontally, we use `justify-content: center`, `align-items: center` in parent div.
