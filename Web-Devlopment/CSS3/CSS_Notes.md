@@ -1594,8 +1594,12 @@ body {
 ```css
 /* The animation code */
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
 }
 
 /* The element to apply the animation to */
@@ -1612,6 +1616,87 @@ div {
 
 - But the above method is not a great way to add specify animation.
 - Hence we specify animation changes in percentage, as follows:
+
+<hr>
+
+```css
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: red;
+    border-radius: 10%;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+```
+
+<hr>
+
+- You can also mention the number of times you want this animation to repeat itself using `animation-iteration-count: 3`.
+- If we wanna have this animation going on forever, just use `animation-iteration-count: infinite`
+- Suppose if you wanna have the animations going on in the reverse order, then use `animation-direction: reverse`.
+- In all, there are the below 4 properties that we can mention in `animation-direction`:
+
+<hr>
+
+- normal - The animation is played as normal (forwards). This is default
+- reverse - The animation is played in reverse direction (backwards)
+- alternate - The animation is played forwards first, then backwards
+- alternate-reverse - The animation is played backwards first, then forwards
+
+<hr>
+
+- `animation-timing-function` can also be mentioned here.
+
+<hr>
+
+**You can also programmatically tell brwsers how to show printed website, kindly refer Google**
+
+<hr>
+
+# Responsive Web Designing
+
+<hr>
+
+- **Remember**: You can view any web page on any device with the help og inspect of google chrome.
+
+<hr>
+
+- Firstly in order to have websites responsive use following HTML page structure:
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
 
 <hr>
 
