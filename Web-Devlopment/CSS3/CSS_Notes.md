@@ -1802,3 +1802,9 @@ vedio {
 
 <hr>
 
+- !important will override everything.
+- Inline can override everything except !important.
+- External will work according to specificity.
+
+<hr>
+
