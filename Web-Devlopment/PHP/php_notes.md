@@ -61,3 +61,28 @@ $variable2 = "Angel";
 
 <hr>
 
+- PHP also supports `+=`, `-=`, `*=` and `-=` operator.
+
+<hr>
+
+## Comparision Operator
+
+<hr>
+
+- `==` sign is used in order to check for the equality of 2 variables.
+- `var_dump()` function is used in order to  find the data type of a variable.
+
+<hr>
+
+```php
+echo var_dump(2==3);
+```
+
+<hr>
+
+- The above code would return `bool(false)`.
+- We further have `!=` operator for checking unequality of two variable.
+- Then we have `<=` and `>=` operator, which have their usual meaning.
+
+<hr>
+
