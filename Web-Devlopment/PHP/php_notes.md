@@ -50,3 +50,14 @@ $variable2 = "Angel";
 
 <hr>
 
+## Arithmetic Operators
+
+<hr>
+
+- To add `variable1` with `variable2`, simply write `variable1+variable2`.
+- To subtract `variable1` from `variable2`, we do `variable2-variable1`.
+- In order to multiply, we use `*` sign.
+- In order to divide, we use `/` sign.
+
+<hr>
+
