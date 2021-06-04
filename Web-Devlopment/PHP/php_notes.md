@@ -86,3 +86,10 @@ echo var_dump(2==3);
 
 <hr>
 
+- **Remember**: If we do `echo variable++`, then the original earlier value of the variable would get printed, and then the variable would get incremented by 1.
+- Similar is the case with `echo variable--`.
+- Now if we wanna first increment variable, and then print it to the console, then we use `echo ++variable`.
+- Similarly, `echo --variable` is used for the same.
+
+<hr>
+
