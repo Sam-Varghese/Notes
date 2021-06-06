@@ -2853,3 +2853,62 @@ inner_ele = "Updated inner HTML";
 ```
 
 <hr>
+
+The following HTML objects (and object collections) are also accessible:
+
+<hr>
+
+- document.anchors
+- document.body
+- document.documentElement
+- document.embeds
+- document.forms
+- document.head
+- document.images
+- document.links
+- document.scripts
+- document.title
+
+<hr>
+
+# Changing the HTML Output Stream
+
+<hr>
+
+- In JavaScript, `document.write` can be used to write directly to the HTML output stream.
+
+<hr>
+
+# Changing the Value of an Attribute
+
+<hr>
+
+- To change the value of an HTML attribute, use the following syntax:
+
+<hr>
+
+`document.getElementById(id).attribute = new value`
+
+<hr>
+
+Example: 
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="myImage" src="smiley.gif">
+
+<script>
+document.getElementById("myImage").src = "landscape.jpg";
+</script>
+
+</body>
+</html>
+```
+
+<hr>
+
