@@ -2481,7 +2481,6 @@ inner_ele = "Updated inner HTML";
 
 <hr>
 
-
 <table class="w3-table-all notranslate">
 <tr>
 <th style="width:50%">Method</th>
@@ -2734,26 +2733,28 @@ inner_ele = "Updated inner HTML";
 
 <hr>
 
-- In order to access elements by tag name, we use following syntax: 
+- In order to access elements by tag name, we use following syntax:
 
 <hr>
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rough</title>
-</head>
-<body>
-  <p id="sam">This is the para of id sam</p><p>Sam</p>
-  <p id="demo"></p>
-  <script>
-    document.getElementById("demo").innerHTML=document.getElementsByTagName("p")[0].innerHTML
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rough</title>
+  </head>
+  <body>
+    <p id="sam">This is the para of id sam</p>
+    <p>Sam</p>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML =
+        document.getElementsByTagName("p")[0].innerHTML;
+    </script>
+  </body>
 </html>
 ```
 
@@ -2766,27 +2767,28 @@ inner_ele = "Updated inner HTML";
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h2>Finding HTML Elements by Tag Name</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Finding HTML Elements by Tag Name</h2>
 
-<div id="main">
-<p>The DOM is very useful.</p>
-<p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
-</div>
+    <div id="main">
+      <p>The DOM is very useful.</p>
+      <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+    </div>
 
-<p id="demo"></p>
-  <script>
-    var x = document.getElementById("main");
-    var y = x.getElementsByTagName("p");
-    document.getElementById("demo").innerHTML='The first paragraph (index 0) inside "main" is: '+y[0].innerHTML;
-  </script>
-</body>
+    <p id="demo"></p>
+    <script>
+      var x = document.getElementById("main");
+      var y = x.getElementsByTagName("p");
+      document.getElementById("demo").innerHTML =
+        'The first paragraph (index 0) inside "main" is: ' + y[0].innerHTML;
+    </script>
+  </body>
 </html>
 ```
 
@@ -2823,32 +2825,32 @@ inner_ele = "Updated inner HTML";
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <form id="a">
-    <input id="Name">
-    <input type="text">
-    <input>
-  </form>
-  <p id="demo"></p>
-  <button onclick="fun()">Submit</button>
-  <script>
-    function fun(){
-      var x=document.forms["a"];
-      var text="";
-      for (i=0; i<x.length; i++){
-        text+=x.elements[i].value+"<br>";
-      };
-      console.log(text);
-      document.getElementById("demo").innerHTML=text;
-    }
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="a">
+      <input id="Name" />
+      <input type="text" />
+      <input />
+    </form>
+    <p id="demo"></p>
+    <button onclick="fun()">Submit</button>
+    <script>
+      function fun() {
+        var x = document.forms["a"];
+        var text = "";
+        for (i = 0; i < x.length; i++) {
+          text += x.elements[i].value + "<br>";
+        }
+        console.log(text);
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -2891,22 +2893,20 @@ The following HTML objects (and object collections) are also accessible:
 
 <hr>
 
-Example: 
+Example:
 
 <hr>
 
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
+    <img id="myImage" src="smiley.gif" />
 
-<img id="myImage" src="smiley.gif">
-
-<script>
-document.getElementById("myImage").src = "landscape.jpg";
-</script>
-
-</body>
+    <script>
+      document.getElementById("myImage").src = "landscape.jpg";
+    </script>
+  </body>
 </html>
 ```
 
@@ -2922,23 +2922,146 @@ document.getElementById("myImage").src = "landscape.jpg";
 
 ```html
 <html>
-<body>
+  <body>
+    <p id="p2">Hello World!</p>
 
-<p id="p2">Hello World!</p>
+    <script>
+      document.getElementById("p2").style.color = "blue";
+    </script>
 
-<script>
-document.getElementById("p2").style.color = "blue";
-</script>
-
-<p>The paragraph above was changed by a script.</p>
-
-</body>
+    <p>The paragraph above was changed by a script.</p>
+  </body>
 </html>
 ```
 
 <hr>
 
 # JavaScript HTML DOM Events
+
+<hr>
+
+## Onclick
+
+<hr>
+
+- This event listener function is used when someone clicks a particular function.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+  </body>
+</html>
+```
+
+<hr>
+
+- We can also mention a function inside the onclick function in following manner `onclick="function_name(arguments)"`.
+
+<hr>
+
+## Assign Events Using the HTML DOM
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Click "Try it" to execute the displayDate() function.</p>
+
+    <button id="myBtn">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+      document.getElementById("myBtn").onclick = displayDate;
+
+      function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+      }
+    </script>
+  </body>
+</html>
+```
+
+<hr>
+
+## The onload and onunload Events
+
+<hr>
+
+- `onload` function is used in order to execute a function when the webpage is first loaded/ refreshed.
+
+<hr>
+
+- `onunload` function is not supported by Google.
+
+<hr>
+
+## The onchange Event
+
+<hr>
+
+- The onchange event is often used in combination with validation of input fields.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+      }
+    </script>
+  </head>
+  <body>
+    Enter your name: <input type="text" id="fname" onchange="myFunction()" />
+
+    <p>
+      When you leave the input field, a function is triggered which transforms
+      the input text to upper case.
+    </p>
+  </body>
+</html>
+```
+
+<hr>
+
+## Onmouseover And Onmouseout Event
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo">Hi myself Sam Varghese</p>
+    <script>
+      var x = document.getElementById("demo");
+      x.onmouseover = function () {
+        x.innerHTML = "Nice to meet you";
+      };
+      x.onmouseout = document.getElementById("demo");
+      x.onmouseout = function () {
+        x.innerHTML = "Happy you visited this website";
+      };
+    </script>
+  </body>
+</html>
+```
 
 <hr>
 
