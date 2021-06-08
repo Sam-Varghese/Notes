@@ -3065,3 +3065,7 @@ Example:
 
 <hr>
 
+## Onmouseup And Onmousedown Events
+
+<hr>
+
