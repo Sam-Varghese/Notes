@@ -3080,26 +3080,28 @@ The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. F
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
+    <div
+      onmousedown="mDown(this)"
+      onmouseup="mUp(this)"
+      style="background-color:#D94A38;width:90px;height:20px;padding:40px;"
+    >
+      Click Me
+    </div>
 
-<div onmousedown="mDown(this)" onmouseup="mUp(this)"
-style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
-Click Me</div>
+    <script>
+      function mDown(obj) {
+        obj.style.backgroundColor = "#1ec5e5";
+        obj.innerHTML = "Release Me";
+      }
 
-<script>
-function mDown(obj) {
-  obj.style.backgroundColor = "#1ec5e5";
-  obj.innerHTML = "Release Me";
-}
-
-function mUp(obj) {
-  obj.style.backgroundColor="#D94A38";
-  obj.innerHTML="Thank You";
-}
-</script>
-
-</body>
-</html> 
+      function mUp(obj) {
+        obj.style.backgroundColor = "#D94A38";
+        obj.innerHTML = "Thank You";
+      }
+    </script>
+  </body>
+</html>
 ```
 
 <hr>
@@ -3115,22 +3117,22 @@ function mUp(obj) {
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-<script>
-function myFunction(x) {
-  x.style.background = "yellow";
-}
-</script>
-</head>
-<body>
+  <head>
+    <script>
+      function myFunction(x) {
+        x.style.background = "yellow";
+      }
+    </script>
+  </head>
+  <body>
+    Enter your name: <input type="text" onfocus="myFunction(this)" />
 
-Enter your name: <input type="text" onfocus="myFunction(this)">
-
-<p>When the input field gets focus, a function is triggered which changes the background-color.</p>
-
-</body>
+    <p>
+      When the input field gets focus, a function is triggered which changes the
+      background-color.
+    </p>
+  </body>
 </html>
-
 ```
 
 <hr>
@@ -3175,3 +3177,39 @@ element.addEventListener("mouseout", myThirdFunction);
 
 <hr>
 
+## Add an Event Handler to the window Object
+
+<hr>
+
+```html
+window.addEventListener("resize", function(){
+document.getElementById("demo").innerHTML = sometext; });
+```
+
+<hr>
+
+## Removing An EventListener
+
+<hr>
+
+`element.removeEventListener("mousemove", myFunction);`
+
+<hr>
+
+# SetTimeout Function
+
+<hr>
+
+- Syntax: `window.setTimeout(function_name, milliseconds)`
+
+<hr>
+
+```html
+<button onclick="setTimeout(myFunction, 3000)">Try it</button>
+
+<script>
+  function myFunction() {
+    alert("Hello");
+  }
+</script>
+```
