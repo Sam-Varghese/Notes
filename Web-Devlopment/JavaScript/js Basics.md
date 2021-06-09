@@ -3169,7 +3169,7 @@ The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. F
 
 <hr>
 
-```html
+```js
 element.addEventListener("mouseover", myFunction);
 element.addEventListener("click", mySecondFunction);
 element.addEventListener("mouseout", myThirdFunction);
@@ -3181,7 +3181,7 @@ element.addEventListener("mouseout", myThirdFunction);
 
 <hr>
 
-```html
+```js
 window.addEventListener("resize", function(){
 document.getElementById("demo").innerHTML = sometext; });
 ```
@@ -3213,3 +3213,75 @@ document.getElementById("demo").innerHTML = sometext; });
   }
 </script>
 ```
+
+<hr>
+
+# Stopping SetTimeout Execution
+
+<hr>
+
+- Syntax: `window.clearTimeout( timeoutVariable)`
+
+<hr>
+
+- The clearTimeout() method uses the variable returned from setTimeout():
+
+<hr>
+
+```js
+myVar = setTimeout(function, milliseconds);
+clearTimeout(myVar);
+```
+
+<hr>
+
+## The setInterval() Method
+
+<hr>
+
+- The setInterval() method repeats a given function at every given time-interval.
+
+<hr>
+
+- Syntax: `window.setInterval(function, milliseconds);`
+
+<hr>
+
+- The window.setInterval() method can be written without the window prefix.
+
+<hr>
+
+```js
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+```
+
+<hr>
+
+## Stopping setInterval
+
+<hr>
+
+- To do so, we use `clearInterval` function as follows:
+
+<hr>
+
+```js
+myVar = setInterval(function, milliseconds);
+clearInterval(myVar);
+```
+
+<hr>
+
+# Cookies
+
+<hr>
+
+[Kindly refer this](https://www.w3schools.com/js/js_cookies.asp)
+
+<hr>
+
