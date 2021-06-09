@@ -3077,3 +3077,62 @@ The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. F
 
 <hr>
 
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+Click Me</div>
+
+<script>
+function mDown(obj) {
+  obj.style.backgroundColor = "#1ec5e5";
+  obj.innerHTML = "Release Me";
+}
+
+function mUp(obj) {
+  obj.style.backgroundColor="#D94A38";
+  obj.innerHTML="Thank You";
+}
+</script>
+
+</body>
+</html> 
+```
+
+<hr>
+
+## Onfocus Event
+
+<hr>
+
+- Used in order to run a code whenever an element gets focused.
+
+<hr>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(x) {
+  x.style.background = "yellow";
+}
+</script>
+</head>
+<body>
+
+Enter your name: <input type="text" onfocus="myFunction(this)">
+
+<p>When the input field gets focus, a function is triggered which changes the background-color.</p>
+
+</body>
+</html>
+
+```
+
+<hr>
+
+# JavaScript HTML DOM EventListener
