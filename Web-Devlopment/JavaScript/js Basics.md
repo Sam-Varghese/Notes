@@ -3136,3 +3136,22 @@ Enter your name: <input type="text" onfocus="myFunction(this)">
 <hr>
 
 # JavaScript HTML DOM EventListener
+
+<hr>
+
+## The addEventListener() method
+
+<hr>
+
+- The addEventListener() method attaches an event handler to the specified element.
+
+<hr>
+
+- Syntax
+
+<hr>
+
+`document.getElementById("Id").addEventListener("click", function)`
+
+<hr>
+
