@@ -3155,3 +3155,23 @@ Enter your name: <input type="text" onfocus="myFunction(this)">
 
 <hr>
 
+**Remember**: Here instead on `onclick`, we use `click`.
+
+<hr>
+
+[Click to see all such events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
+<hr>
+
+- We can also add multiple functions for a single event like this:
+
+<hr>
+
+```html
+element.addEventListener("mouseover", myFunction);
+element.addEventListener("click", mySecondFunction);
+element.addEventListener("mouseout", myThirdFunction);
+```
+
+<hr>
+
