@@ -3038,6 +3038,10 @@ Example:
 
 <hr>
 
+The onmouseover and onmouseout events can be used to trigger a function when the user mouses over, or out of, an HTML element.
+
+<hr>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -3066,6 +3070,10 @@ Example:
 <hr>
 
 ## Onmouseup And Onmousedown Events
+
+<hr>
+
+The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. First when a mouse-button is clicked, the onmousedown event is triggered, then, when the mouse-button is released, the onmouseup event is triggered, finally, when the mouse-click is completed, the onclick event is triggered.
 
 <hr>
 

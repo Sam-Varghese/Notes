@@ -40,6 +40,23 @@ git push -u origin <branch name>
 
 <hr>
 
+## Remote Add Origin
+
+<hr>
+
+- Suppose if we create a new folder, and we wanna link it to a repo already there on github, then we do as follows:
+
+<hr>
+
+```git
+git init
+git add .
+git commit -m "Message"
+git remote add origin URL
+```
+
+<hr>
+
 ## Viewing Branches
 
 <hr>
@@ -80,6 +97,7 @@ git branch -d <branch name>
 
 ```none
 git checkout <name of branch>
+<!-- Just press tab for auto completion -->
 ```
 
 <hr>
@@ -91,6 +109,37 @@ git checkout <name of branch>
 ```none
 git checkout -b <name of brach>
 ```
+
+<hr>
+
+## Comparing Branch To Master
+
+<hr>
+
+- If we wanna compare the changes added to a branch as compared to the master branch, then do:
+
+<hr>
+
+```git
+git diff branch_name
+```
+
+<hr>
+
+## Merging
+
+<hr>
+
+- Generally, in order to merge a change, just push bracch to github using following code:
+
+<hr>
+
+`git push -u origin branch_name`
+
+<hr>
+
+- And now, just create a PR, and accept it.
+- Or alternatively use `git merge branch_name`
 
 <hr>
 
@@ -221,3 +270,20 @@ git reset --hard <commidId> && git clean -f
 ```
 
 <hr>
+
+## Undoing git add
+
+<hr>
+
+- If we wanna undo git add command, simply use `git reset`, or alternatively `git reset file_name` in order to remove a single file from the staging area.
+
+<hr>
+
+## Undoing Last Commit
+
+<hr>
+
+- If we wanna undo our previous commit, and reach back to our second last commit, then do `git reset HEAD~1`, where `~1` specifies that we wanna get HEAD to 1 commit before previous commit.
+- If we get back to a particular commit, the just copy its ID, and use `git reset ID`, so we reach the point where the mentioned commit was done.
+- So using above command, we would still see the changes we did recently, but those changes arent even added.
+- If we wanna completely have all files pointing to a certain commit, that means no trace of work after that, then we do `git reset --hard ID`.
