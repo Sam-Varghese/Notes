@@ -217,6 +217,7 @@ Queries are of mainly 2 types:-<br><br>
 
 <div style='text-align:center;'><span style='color:gold;'>DDL Commands</div></span>
 
+* Stands for **D**ata **D**efinition **L**anguage
 * These are those commands that have the ability to change the structure of the table.
 * All commands under this category are auto comiited.
 
@@ -228,6 +229,7 @@ Commands that fall under this category:-
 
 <div style='text-align:center'><span style='color:gold;'>DML Commands</div></span>
 
+* Stands for **D**ata **M**anipulation **L**anguage
 * All commands that have the ability to modify the database comes under these category.
 * These commands dont get auto commited so we need to commit them personally.
 

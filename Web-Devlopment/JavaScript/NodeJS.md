@@ -17,3 +17,11 @@
 
 <hr>
 
+# Node Exports
+
+<hr>
+
+- In order to use variables and functions of a .js file in another file, we need to export those variables and functions, like this:
+
+<hr>
+
