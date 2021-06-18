@@ -522,7 +522,7 @@ def function_name():
 * Function docs can be read through following code:
   
 ```py
-print(functio_name__doc__)#2 underscores before and after doc
+print(functio_name.__doc__)#2 dot then underscores before and after doc
 ```
 * Variables that are in function definition are in local scope , but can still be changed in global scope if the mutable type variables (like list) are not assigned a completely diffrent variable/datatype.
 
