@@ -107,6 +107,7 @@ console.log("Finished reading the file.");
 <hr>
 
 - In order to write data to a file, we use `writeFile` function.
+- We also have to mention a callback function inside `writeFile` function which is to specify what happens after new content has been written.
 
 <hr>
 
