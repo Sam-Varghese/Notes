@@ -25,3 +25,21 @@
 
 <hr>
 
+```js
+dict1 = {
+    name: "Sam Varghese",
+    developer: "true",
+    caste: "Christian"
+};
+
+module.exports=dict1;
+```
+
+<hr>
+
+```js
+const sam=require("./module_name.js");
+```
+
+<hr>
+
