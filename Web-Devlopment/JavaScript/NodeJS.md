@@ -43,3 +43,17 @@ const sam=require("./module_name.js");
 
 <hr>
 
+# Reading Files
+
+<hr>
+
+- In order to read files in JavaScript, we use `fs` module.
+
+<hr>
+
+```js
+const fs = require("fs");
+fs.readFile("a.txt", "utf8", (err, data) => {
+    console.log(err, data);
+})
+```
