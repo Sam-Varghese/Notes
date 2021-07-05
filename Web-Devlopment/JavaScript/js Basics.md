@@ -3312,6 +3312,15 @@ function showPosition(position) {
 
 <hr>
 
-Just use following snippet `console.log(__dirname);`
+- Just use following snippet `console.log(__dirname);`
 
 <hr>
+
+# Getting Current File Path
+
+<hr>
+
+- Just use following snippet `console.log(__filename);`
+
+<hr>
+
