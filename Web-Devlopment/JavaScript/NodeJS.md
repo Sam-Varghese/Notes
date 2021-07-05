@@ -85,7 +85,7 @@ null Hello myself Sam Varghese
 
 <hr>
 
-- This happened because node js works on non blocking system. 
+- This happened because node js works on non blocking system.
 - Hence by the time node js was reading this file, it worked on performing rest of the tasks.
 - We can also mention to nodejs not to run further commands if it has not read the file till yet using following code:
 
@@ -114,9 +114,27 @@ console.log("Finished reading the file.");
 ```js
 const fs = require("fs");
 fs.writeFile("a.txt", "This is the new content", () => {
-    console.log("Written to the file");
+  console.log("Written to the file");
 });
 console.log("Sir this content has been written");
 ```
 
 <hr>
+
+- Similar to `readFileSync`, we can also use `writeFileSync` in order to execute rest of the commands only after the new contents have been written.
+
+<hr>
+
+```js
+const fs = require("fs");
+b = fs.writeFileSync("File.txt", "This is now the new content");
+console.log(b); //This is going to be undefined
+```
+
+<hr>
+
+
+
+<hr>
+
+https://youtu.be/BLl32FvcdVM?t=4721

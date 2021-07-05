@@ -3305,3 +3305,13 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 ```
+
+<hr>
+
+<h1>Getting Current Path</h1>
+
+<hr>
+
+Just use following snippet `console.log(__dirname);`
+
+<hr>
