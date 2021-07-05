@@ -3324,3 +3324,25 @@ function showPosition(position) {
 
 <hr>
 
+# Golden Point
+
+<hr>
+
+- We can do these kinds of things also through JavaScript
+
+<hr>
+
+```js
+function hi() {
+    console.log("Hello sir");
+}
+
+function functionRunner(func) {
+    func();
+}
+
+functionRunner(hi)
+```
+
+<hr>
+

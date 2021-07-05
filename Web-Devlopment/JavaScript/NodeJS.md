@@ -29,10 +29,10 @@
 dict1 = {
   name: "Sam Varghese",
   developer: "true",
-  caste: "Christian",
+  caste: "Christian"
 };
 
-module.exports = dict1;
+module.exports = dict1; //dict1 can also be the name of a function if we wanna have it so
 ```
 
 <hr>
