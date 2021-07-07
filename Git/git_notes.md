@@ -287,3 +287,18 @@ git reset --hard <commidId> && git clean -f
 - If we get back to a particular commit, the just copy its ID, and use `git reset ID`, so we reach the point where the mentioned commit was done.
 - So using above command, we would still see the changes we did recently, but those changes arent even added.
 - If we wanna completely have all files pointing to a certain commit, that means no trace of work after that, then we do `git reset --hard ID`.
+
+<hr>
+
+# Stashing
+
+<hr>
+
+- Stashing is used whenever we need to save the changes and go back to different versions of code, butt at the same time not to add those changes.
+
+<hr>
+
+`git stash save "Message"`
+
+<hr>
+

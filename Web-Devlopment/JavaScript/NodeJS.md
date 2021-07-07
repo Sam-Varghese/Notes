@@ -43,6 +43,36 @@ const sam = require("./module_name.js");
 
 <hr>
 
+- Suppose if we have more than 1 dicts or functions that needs to be exported, the we do as follows:
+
+<hr>
+
+```js
+a="object1";
+b="object2";
+c="object3";
+
+module.exports.a=function(){console.log("Hi Sam...")};
+module.exports.b=b;
+module.exports.c=c;
+```
+
+<hr>
+
+- The require method syntax is as follows:
+
+<hr>
+
+```js
+const objects = require("./a.js");
+
+console.log(objects.a);
+console.log(objects.b);
+console.log(objects.c);
+```
+
+<hr>
+
 # Reading Files
 
 <hr>
