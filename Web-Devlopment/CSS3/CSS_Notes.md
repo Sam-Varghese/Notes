@@ -1386,11 +1386,12 @@ body {
 
 <hr>
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Float CSS Property" src="https://codepen.io/sam-varghese/embed/VwbKRMX?default-tab=html%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/sam-varghese/pen/VwbKRMX">
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwbKRMX" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/VwbKRMX">
   Float CSS Property</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
 
@@ -1858,11 +1859,12 @@ vedio {
 
 <hr>
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="" src="https://codepen.io/sam-varghese/embed/jOmMJoq?default-tab=html%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/sam-varghese/pen/jOmMJoq">
-  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="jOmMJoq" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/jOmMJoq">
+  Flex1</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
 
