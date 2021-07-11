@@ -1143,11 +1143,11 @@ td {
 <hr>
 
 ```css
-tr:nth-child(even){
+tr:nth-child(even) {
   background-color: red;
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd) {
   background-color: red;
 }
 ```
@@ -1867,6 +1867,47 @@ vedio {
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
+
+## Flex Direction Column
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLbarVX" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/yLbarVX">
+  Flex2</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Flex Direction Column Reverse
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyWpLWr" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/dyWpLWr">
+  Flex3</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Flex Direction Row
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYmXMvE" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/vYmXMvE">
+  Flex4</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+
 
 <!-- - Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
 - Now, this can be done directly with the help of flex using: `display: flex` in parent div.
