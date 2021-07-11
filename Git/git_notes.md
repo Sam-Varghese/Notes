@@ -302,3 +302,21 @@ git reset --hard <commidId> && git clean -f
 
 <hr>
 
+- Use `git stash list` in order to get the list of all stashed changes.
+
+<hr>
+
+- Use `git stash apply Stash_ID` to get to stashed changes again.
+
+<hr>
+
+- Use `git checkout --.` to get back to the last commit code.
+
+<hr>
+
+- Use `git stash pop` to get the *FIRST* stashed code, and delete that stash.
+- Use `git stash drop stash_ID` to drop a particular stash.
+- Use `git stash clear` to get rid of al the stashes.
+
+<hr>
+

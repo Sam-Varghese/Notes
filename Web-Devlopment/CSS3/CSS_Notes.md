@@ -1138,6 +1138,22 @@ td {
 
 <hr>
 
+# Styling Alternate Rows Of CSS Table
+
+<hr>
+
+```css
+tr:nth-child(even){
+  background-color: red;
+}
+
+tr:nth-child(odd){
+  background-color: red;
+}
+```
+
+<hr>
+
 # CSS Functions
 
 <hr>
@@ -1367,6 +1383,15 @@ body {
 <hr>
 
 - Put float property like `float: right`.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwbKRMX" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/VwbKRMX">
+  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
 
@@ -1830,7 +1855,20 @@ vedio {
 
 <hr>
 
-- Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
+## Simple Flex
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="jOmMJoq" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/jOmMJoq">
+  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+<!-- - Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
 - Now, this can be done directly with the help of flex using: `display: flex` in parent div.
 - Now, if we want the child div's to appear in reverse direction ie in left side and all firsts, to lasts; then to do so directly, we use `flex-direction: row-reverse` in parent div.
 
@@ -1845,4 +1883,4 @@ vedio {
 - **Remember**:  We use the property `justify-content: space-around` in order to equally space menu bar items.
 - **Remember**:  We use the property `justify-content: space-between` in order to equally space menu bar items with no space at corners of menu.
 - Use `flex-flow: row wrap` in order to specify `flex-direction: row` and `flex-wrap: wrap` at the same time.
-- **Remember**: In order to center align one child element inside a container both vertically and horizontally, we use `justify-content: center`, `align-items: center` in parent div.
+- **Remember**: In order to center align one child element inside a container both vertically and horizontally, we use `justify-content: center`, `align-items: center` in parent div. -->
