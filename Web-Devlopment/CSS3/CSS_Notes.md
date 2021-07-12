@@ -1938,6 +1938,93 @@ vedio {
 
 <hr>
 
+## Justify Content
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="RwVowee" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/RwVowee">
+  Flex7</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Flex Start/ End
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="RwVoPZK" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/RwVoPZK">
+  Flex8</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Space Around/ Between
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyWOoZM" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/dyWOoZM">
+  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+- Just put `space-between` in order to see what happens!
+
+<hr>
+
+## Align Items
+
+<hr>
+
+- Used to vertically align flex items.
+- takes values like `center`, `flex-start`, `flex-end`, `stretch` (default), `baseline`.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBmqdYb" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/qBmqdYb">
+  Flex10</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKmNpxb" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/KKmNpxb">
+  Flex11</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Align Items Baseline
+
+<hr>
+
+- Used in order to align all div items text on the same level
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="XWRNmrb" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/XWRNmrb">
+  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
 <!-- - Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
 - Now, this can be done directly with the help of flex using: `display: flex` in parent div.
 - Now, if we want the child div's to appear in reverse direction ie in left side and all firsts, to lasts; then to do so directly, we use `flex-direction: row-reverse` in parent div.
