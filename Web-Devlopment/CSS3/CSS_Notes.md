@@ -1907,7 +1907,36 @@ vedio {
 
 <hr>
 
+## Flex Direction Row Reverse
 
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBmawLG" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/qBmawLG">
+  Flex5</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Flex Wrap
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvdovKQ" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/wvdovKQ">
+  Flex6</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+- Just put `flex-wrap: wrap` to see what `wrap` does.
+- Just put `flex-wrap: wrap-reverse` to see what `wrap-reverse` does.
+
+<hr>
 
 <!-- - Sometimes you may have many div's inside a main div container. In order to display the child div's in one row, we would need to make it `inline-block`.
 - Now, this can be done directly with the help of flex using: `display: flex` in parent div.
