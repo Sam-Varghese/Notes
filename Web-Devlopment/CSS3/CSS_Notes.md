@@ -1348,6 +1348,23 @@ body {
 
 <hr>
 
+## Relative Positioning
+
+<hr>
+
+- An element with position: relative; is positioned relative to its normal position.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="JjNbybZ" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/JjNbybZ">
+  Flex17</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
 ## Fixed Positioning
 
 <hr>
@@ -1355,6 +1372,33 @@ body {
 - In fixed positioning, element is positioned relative to the viewport.
 - This means that it always stays in the same place even if the page is scrolled.
 - Elements space would be free to occupy by other elements.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="RwVoLWr" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/RwVoLWr">
+  </a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Absolute Positioning
+
+<hr>
+
+- In absolute positioning, the element is positioned relative to the nearest positioned element.
+- Positioned elemtn above means all elements which don't have static position.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="jOmVGYK" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/jOmVGYK">
+  Flex19</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
 
@@ -1366,6 +1410,15 @@ body {
 - So in this case, we assign a random number (can be negative) in their CSS style through which browsers decide which element should superimpose other elements.
 - Do as follows in order to put z-index: `z-index: 5`
 - Larger the number, the more it is preffered to superimpose the elements with lesser `z-index`.
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYwoPBr" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/zYwoPBr">
+  Flex20</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <hr>
 
@@ -2055,6 +2108,10 @@ vedio {
 
 <hr>
 
+- It can take following values: `center`, `flex-start` and `flex-end`.
+
+<hr>
+
 ## Order
 
 <hr>
@@ -2083,6 +2140,19 @@ vedio {
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="BaRQRKR" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/BaRQRKR">
   Flex15</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<hr>
+
+## Flex Basis
+
+<hr>
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="RwVoVpG" data-editable="true" data-user="sam-varghese" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/sam-varghese/pen/RwVoVpG">
+  Flex16</a> by Sam Varghese (<a href="https://codepen.io/sam-varghese">@sam-varghese</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
