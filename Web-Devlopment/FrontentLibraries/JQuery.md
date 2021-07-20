@@ -121,3 +121,7 @@
 
 <hr>
 
+- Every element has some or the other parent element (might be div inside which that element is located)
+- So with JQuery wwe can directly target those using `$("#left-well").parent().css("background-color", "blue")`
+
+<hr>
