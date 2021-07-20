@@ -35,6 +35,7 @@
 <hr>
 
 - Add following classes to button, in order to beautify them: `btn` & `btn-default` ie `btn btn-default`.
+- Bootstrap has another button class called btn-default.
 
 <hr>
 
@@ -81,3 +82,7 @@
 - In order to beautify input field in you application, use this class `form-control`
 
 - Bootstrap has a class called well that can create a visual sense of depth for your columns.
+
+Not every class needs to have corresponding CSS. Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
+
+Give each of your button elements the class target.
