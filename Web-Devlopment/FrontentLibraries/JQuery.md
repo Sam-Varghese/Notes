@@ -100,3 +100,8 @@
 
 <hr>
 
+# Move Elements
+
+<hr>
+
+- We can move elements from one div to another using following code: `$("#target4").appendTo("#left-well");`. ( #left-well is another div)
