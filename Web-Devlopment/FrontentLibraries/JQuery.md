@@ -105,3 +105,19 @@
 <hr>
 
 - We can move elements from one div to another using following code: `$("#target4").appendTo("#left-well");`. ( #left-well is another div)
+
+<hr>
+
+# Cloning Element
+
+<hr>
+
+- We can clone our element using following syntax `$("#target2").clone().appendTo("#right-well");`
+- Did you notice this involves sticking two jQuery functions together? This is called function chaining and it's a convenient way to get things done with jQuery.
+
+<hr>
+
+# Control Parent Properties
+
+<hr>
+
