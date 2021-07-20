@@ -65,3 +65,25 @@
 # Changing CSS
 
 <hr>
+
+- We can also change the CSS directly in the following way `$("#target1").css("color", "blue");`
+
+<hr>
+
+# Disabling Elements
+
+<hr>
+
+- We use `.prop` to disable elements.
+
+<hr>
+
+`$("button").prop("disabled", true);`
+
+<hr>
+
+# Change InnerHTML
+
+<hr>
+
+- We can also change the innerHTML of any tag by using folllowing code: `$("h3").html("<em>jQuery Playground</em>");`
