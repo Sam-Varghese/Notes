@@ -149,3 +149,18 @@
 
 - You can also target elements based on their positions using :odd or :even selectors.
 - Ex: `$(".target:odd").addClass("animated shake");`
+
+<hr>
+
+# Target Body Through JQuery
+
+<hr>
+
+- jQuery can target the body element as well.
+- Here's how we would make the entire body fade out: $("body").addClass("animated fadeOut");
+
+<hr>
+
+# Animated Hinge Effect
+
+- `$("body").addClass("animated hinge");`
