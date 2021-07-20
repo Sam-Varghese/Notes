@@ -19,3 +19,13 @@
 <hr>
 
 - Just add `img-responsive` class to the img tag in order to make images responsive.
+
+<hr>
+
+# Centered Headings
+
+<hr>
+
+- In order to center the headings, we apply following class to the heading tag: `text-center`
+
+<hr>
