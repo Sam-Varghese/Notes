@@ -14,3 +14,8 @@
 
 <hr>
 
+# Responsive Images
+
+<hr>
+
+- Just add `img-responsive` class to the img tag in order to make images responsive.
