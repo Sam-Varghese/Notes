@@ -125,3 +125,14 @@
 - So with JQuery wwe can directly target those using `$("#left-well").parent().css("background-color", "blue")`
 
 <hr>
+
+- All elements inside a div are the child of that div
+
+<hr>
+
+# Control Children
+
+<hr>
+
+- We can control the properties of the child elements directly iin jquery using following code `$("#left-well").children().css("color", "blue")`
+- 
