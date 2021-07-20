@@ -64,6 +64,7 @@
 
 - We can align element in different columns using BootStrap.
 - For this BootStrap has by default 12 column already there.
+- Firstly enclose all elements inside `<div class="row">`
 - Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and * means number specifying with of element.
 - So suppose we have 3 elements, then our * is going to take the value of 12/3 ie 4.
 - Suppose if we are aiming for very small screens ie for mobiles, then we use `col-xs-*`.
