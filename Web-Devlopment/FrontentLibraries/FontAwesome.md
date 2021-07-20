@@ -17,3 +17,19 @@
 
 - Use this in order to have a thumbs up icon `<i class="fas fa-thumbs-up"></i>`
 - Note: The span element is an acceptable alternative to the i element for the directions below.
+
+<hr>
+
+# Info Icon
+
+- Use this `<i class="fas fa-info-circle"></i>`
+
+# Trash Icon
+
+- Use this `<i class="fas fa-trash"></i>`
+
+# Submit Button
+
+- Use this `<i class="fa fa-paper-plane"></i>`
+
+

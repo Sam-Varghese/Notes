@@ -68,6 +68,7 @@
 - Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and * means number specifying with of element.
 - So suppose we have 3 elements, then our * is going to take the value of 12/3 ie 4.
 - Suppose if we are aiming for very small screens ie for mobiles, then we use `col-xs-*`.
+- We can use div row to align radio buttons of forms evenly on a row.
 
 # Text
 
@@ -75,3 +76,8 @@
 - Use `text-danger` class in order to signify any dangerous text :)
 
 
+# Input field
+
+- In order to beautify input field in you application, use this class `form-control`
+
+- Bootstrap has a class called well that can create a visual sense of depth for your columns.
