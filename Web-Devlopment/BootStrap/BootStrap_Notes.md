@@ -38,7 +38,7 @@
 
 <hr>
 
-- We can make button element a block element by adding the following class `btn-block`
+- We can make button element a block element by adding the following class `btn-block`. Still remember that `btn`class is necessary.
 
 <hr>
 
@@ -47,3 +47,11 @@
 <hr>
 
 - Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
+
+<hr>
+
+## Danger Button
+
+<hr>
+
+- In order to alert users of a button that performs a dangerous task, we use `btn-danger` class along with `btn`  and `btn-block`.
