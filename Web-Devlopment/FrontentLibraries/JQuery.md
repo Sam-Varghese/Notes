@@ -7,9 +7,7 @@
 <hr>
 
 ```js
-<script>
-  $(document).ready(function(){})
-</script>
+<script>$(document).ready(function(){})</script>
 ```
 
 <hr>
@@ -135,4 +133,19 @@
 <hr>
 
 - We can control the properties of the child elements directly iin jquery using following code `$("#left-well").children().css("color", "blue")`
-- 
+
+<hr>
+
+# Target a Specific Child of an Element Using jQuery
+
+<hr>
+
+- We can target nth child using following method `$(".target:nth-child(3)").addClass("animated bounce");`
+- Here's how you would give the third element in each well the bounce class ^
+
+<hr>
+
+# Target Even Elements Using jQuery
+
+- You can also target elements based on their positions using :odd or :even selectors.
+- Ex: `$(".target:odd").addClass("animated shake");`
