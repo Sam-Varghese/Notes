@@ -29,3 +29,11 @@
 - In order to center the headings, we apply following class to the heading tag: `text-center`
 
 <hr>
+
+# Button
+
+<hr>
+
+- Add following classes to button, in order to beautify them: `btn` & `btn-default` ie `btn btn-default`.
+
+<hr>
