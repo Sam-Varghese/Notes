@@ -38,4 +38,30 @@
 
 <hr>
 
-`$(".well").addClass("animated shake");`
+`$(".well").addClass("animated shake");` Here well is a class, and we can select an element by class like this
+
+<hr>
+
+# Animated Fadeout
+
+<hr>
+
+- To include animated fadeout effect, use following code:
+
+<hr>
+
+`$("#target3").addClass("animated fadeout");` here target3 is the id of a button
+
+<hr>
+
+# Remove Class
+
+<hr>
+
+- We can also remove a aclass using jquery in following way `$("button").removeClass("btn-default");`
+
+<hr>
+
+# Changing CSS
+
+<hr>
