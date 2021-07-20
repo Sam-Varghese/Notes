@@ -67,3 +67,10 @@
 - Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and * means number specifying with of element.
 - So suppose we have 3 elements, then our * is going to take the value of 12/3 ie 4.
 - Suppose if we are aiming for very small screens ie for mobiles, then we use `col-xs-*`.
+
+# Text
+
+- We can use `text-primary` class in order to beautify heading and texts in our web page.
+- Use `text-danger` class in order to signify any dangerous text :)
+
+
