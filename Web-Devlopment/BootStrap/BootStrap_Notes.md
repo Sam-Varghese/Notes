@@ -55,3 +55,15 @@
 <hr>
 
 - In order to alert users of a button that performs a dangerous task, we use `btn-danger` class along with `btn`  and `btn-block`.
+
+<hr>
+
+# Grid Layout
+
+<hr>
+
+- We can align element in different columns using BootStrap.
+- For this BootStrap has by default 12 column already there.
+- Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and * means number specifying with of element.
+- So suppose we have 3 elements, then our * is going to take the value of 12/3 ie 4.
+- Suppose if we are aiming for very small screens ie for mobiles, then we use `col-xs-*`.
