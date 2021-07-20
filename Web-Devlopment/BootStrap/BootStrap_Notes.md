@@ -37,3 +37,13 @@
 - Add following classes to button, in order to beautify them: `btn` & `btn-default` ie `btn btn-default`.
 
 <hr>
+
+- We can make button element a block element by adding the following class `btn-block`
+
+<hr>
+
+## Call out Optional Actions with btn-info
+
+<hr>
+
+- Bootstrap comes with several pre-defined colors for buttons. The `btn-info` class is used to call attention to optional actions that the user can take.
