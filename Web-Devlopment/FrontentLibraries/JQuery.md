@@ -89,3 +89,14 @@
 - We can also change the innerHTML of any tag by using folllowing code: `$("h3").html("<em>jQuery Playground</em>");`
 - As you can notice, we can also add HTML tags using the above mentioned method.
 - If you dont want HTML tags to be implemented in InnerHTML of any element, then use `.text()` instead of `.html()`
+
+<hr>
+
+# Remove An Element
+
+<hr>
+
+- Use following code to remove any element `$("#target4").remove()`
+
+<hr>
+
