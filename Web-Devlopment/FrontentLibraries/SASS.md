@@ -52,7 +52,7 @@ nav ul li {
 
 <hr>
 
-```sass
+```css
 nav {
   background-color: red;
 
@@ -93,7 +93,7 @@ div {
 
 <hr>
 
-```sass
+```css
 @mixin box-shadow($x, $y, $blur, $c){ 
   -webkit-box-shadow: $x $y $blur $c;
   -moz-box-shadow: $x $y $blur $c;
@@ -106,3 +106,15 @@ div {
 
 - Here `$x`, `$y`, `$blur` and `$c` are parameters which you can set while using this function.
 - `@mixin` is just a way to tell browsers that we are defining a function.
+- In order to use `box-shadow` function, do as follows:
+
+<hr>
+
+```css
+div {
+  @include box-shadow(0px, 0px, 4px, #fff);
+}
+```
+
+<hr>
+
