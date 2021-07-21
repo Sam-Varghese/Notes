@@ -20,3 +20,4 @@ h1 {
 
 <hr>
 
+- Enclose all your CSS and SCSS inside `<style type='text/scss'>`, `</style>`
