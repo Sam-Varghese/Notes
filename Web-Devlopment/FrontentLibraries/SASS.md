@@ -118,3 +118,69 @@ div {
 
 <hr>
 
+# Conditionals In CSS
+
+<hr>
+
+- Using Sass, we can also put conditions like this:
+
+<hr>
+
+```css
+@mixin text-effect($val) {
+  @if $val == danger {
+    color: red;
+  }
+  @else if $val == alert {
+    color: yellow;
+  }
+  @else if $val == success {
+    color: green;
+  }
+  @else {
+    color: black;
+  }
+}
+```
+
+<hr>
+
+# For Loop In CSS
+
+<hr>
+
+- `@for` is used in two ways: "start through end" or "start to end". The main difference is that the "start to end" excludes the end number as part of the count, and "start through end" includes the end number as part of the count.
+- Yes, we can even have a for loop in CSS like this:
+
+<hr>
+
+```css
+@for $i from 1 through 12 {
+  .col-#{$i} { width: 100%/12 * $i; }
+}
+```
+
+<hr>
+
+- The #{$i} part is the syntax to combine a variable (i) with text to make a string. When the Sass file is converted to CSS, it looks like this:
+
+<hr>
+
+```css
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+...
+
+.col-12 {
+  width: 100%;
+}
+```
+
+<hr>
+
