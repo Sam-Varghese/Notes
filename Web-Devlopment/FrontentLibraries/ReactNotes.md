@@ -76,3 +76,23 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 - As you would expect, ReactDOM.render() must be called after the JSX element declarations, just like how you must declare variables before using them.
 
 <hr>
+
+# React And HTML Differences
+
+<hr>
+
+## className In React
+
+<hr>
+
+- One key difference in JSX is that you can no longer use the word class to define HTML classes. This is because class is a reserved word in JavaScript. Instead, JSX uses className.
+- In fact, the naming convention for all HTML attributes and event references in JSX become camelCase. For example, a click event in JSX is onClick, instead of onclick. Likewise, onchange becomes onChange. While this is a subtle difference, it is an important one to keep in mind moving forward.
+
+<hr>
+
+- In HTML, almost all tags have both an opening and closing tag: <div></div>; the closing tag always has a forward slash before the tag name that you are closing. However, there are special instances in HTML called “self-closing tags”, or tags that don’t require both an opening and closing tag before another tag can start.
+- For example the line-break tag can be written as <br> or as <br />, but should never be written as <br></br>, since it doesn't contain any content.
+- In JSX, the rules are a little different. Any JSX element can be written with a self-closing tag, and every element must be closed. The line-break tag, for example, must always be written as <br /> in order to be valid JSX that can be transpiled. A <div>, on the other hand, can be written as <div /> or <div></div>. The difference is that in the first syntax version there is no way to include anything in the <div />. You will see in later challenges that this syntax is useful when rendering React components.
+- So in react `<br>` always needs to be `<br />` and `<hr>` always needs to be `<hr />`
+
+<hr>
