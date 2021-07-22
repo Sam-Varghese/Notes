@@ -66,3 +66,10 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 - To put comments inside JSX, you use the syntax {/* */} to wrap around the comment text.
 
 <hr>
+
+# Render HTML Elements To The DOM
+
+<hr>
+
+- So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
+- ReactDOM offers a simple method to render React elements to the DOM which looks like this: ReactDOM.render(componentToRender, targetNode), where the first argument is the React element or component that you want to render, and the second argument is the DOM node that you want to render the component to.
