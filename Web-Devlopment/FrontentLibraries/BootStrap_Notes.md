@@ -102,3 +102,40 @@ Give each of your button elements the class target.
     .#{$color}-text {color: $color;}
 }
 ```
+
+<hr>
+
+- Alternaltively we can also do as follows:
+
+<hr>
+
+```css
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+```
+
+<hr>
+
+- Note that the $key variable is needed to reference the keys in the map. Otherwise, the compiled CSS would have color1, color2... in it. Both of the above code examples are converted into the following CSS:
+
+<hr>
+
+```css
+.blue-text {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+```
+
+<hr>
+
