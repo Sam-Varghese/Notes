@@ -237,8 +237,13 @@ class TypesOfFood extends React.Component {
 - Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
 - React components are passed into ReactDOM.render() a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example ReactDOM.render(<ComponentToRender />, targetNode). You use this syntax for both ES6 class components and functional components.
 
+<hr>
 
+# My First React Component
 
+<hr>
+
+```js
 // Change code below this line
 class MyComponent extends React.Component {
   constructor(props) {
@@ -250,3 +255,7 @@ class MyComponent extends React.Component {
 }
 
 ReactDOM.render(<MyComponent />, document.getElementById("challenge-node"))
+```
+
+<hr>
+
