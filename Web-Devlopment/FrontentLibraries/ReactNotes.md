@@ -63,7 +63,7 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 <hr>
 
 - JSX is a syntax that gets compiled into valid JavaScript. Sometimes, for readability, you might need to add comments to your code. Like most programming languages, JSX has its own way to do this.
-- To put comments inside JSX, you use the syntax {/* */} to wrap around the comment text.
+- To put comments inside JSX, you use the syntax {/\* \*/} to wrap around the comment text.
 
 <hr>
 
@@ -107,10 +107,8 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 <hr>
 
 ```js
-const DemoComponent = function() {
-  return (
-    <div className='customClass' />
-  );
+const DemoComponent = function () {
+  return <div className="customClass" />;
 };
 ```
 
@@ -122,3 +120,57 @@ const DemoComponent = function() {
 
 <hr>
 
+# Create A React Component
+
+<hr>
+
+The other way to define a React component is with the ES6 class syntax. In the following example, Kitten extends React.Component:
+
+<hr>
+
+```js
+class Kitten extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return <h1>Hi</h1>;
+  }
+}
+```
+
+<hr>
+
+- This creates an ES6 class Kitten which extends the React.Component class. So the Kitten class now has access to many useful React features, such as local state and lifecycle hooks. Don't worry if you aren't familiar with these terms yet, they will be covered in greater detail in later challenges. Also notice the Kitten class has a constructor defined within it that calls super(). It uses super() to call the constructor of the parent class, in this case React.Component. The constructor is a special method used during the initialization of objects that are created with the class keyword. It is best practice to call a component's constructor with super, and pass props to both. This makes sure the component is initialized properly. For now, know that it is standard for this code to be included. Soon you will see other uses for the constructor as well as props.
+
+- A working code:
+
+<hr>
+
+```js
+const ChildComponent = () => {
+  return (
+    <div>
+      <p>I am the child</p>
+    </div>
+  );
+};
+
+class ParentComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>I am the parent</h1>
+        {/* Change code below this line */}
+        <ChildComponent />
+
+        {/* Change code above this line */}
+      </div>
+    );
+  }
+}
+```
