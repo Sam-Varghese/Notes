@@ -174,3 +174,79 @@ class ParentComponent extends React.Component {
   }
 }
 ```
+ 
+ <hr>
+
+ # Use React To Render Nested Components
+
+<hr>
+
+- The last challenge showed a simple way to compose two components, but there are many different ways you can compose components with React.
+
+- Component composition is one of React's powerful features. When you work with React, it is important to start thinking about your user interface in terms of components like the App example in the last challenge. You break down your UI into its basic building blocks, and those pieces become the components. This helps to separate the code responsible for the UI from the code responsible for handling your application logic. It can greatly simplify the development and maintenance of complex projects.
+- There are two functional components defined in the code editor, called TypesOfFruit and Fruits. Take the TypesOfFruit component and compose it, or nest it, within the Fruits component. Then take the Fruits component and nest it within the TypesOfFood component. The result should be a child component, nested within a parent component, which is nested within a parent component of its own!
+
+<hr>
+
+```js
+const TypesOfFruit = () => {
+  return (
+    <div>
+      <h2>Fruits:</h2>
+      <ul>
+        <li>Apples</li>
+        <li>Blueberries</li>
+        <li>Strawberries</li>
+        <li>Bananas</li>
+      </ul>
+    </div>
+  );
+};
+
+const Fruits = () => {
+  return (
+    <div>
+      { /* Change code below this line */ }
+        <TypesOfFruit />
+      { /* Change code above this line */ }
+    </div>
+  );
+};
+
+class TypesOfFood extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Types of Food:</h1>
+        { /* Change code below this line */ }
+        <Fruits />
+        { /* Change code above this line */ }
+      </div>
+    );
+  }
+};
+```
+
+<hr>
+
+- You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
+- Here's a refresher on the syntax: `ReactDOM.render(componentToRender, targetNode)`. The first argument is the React component that you want to render. The second argument is the DOM node that you want to render that component within.
+- React components are passed into ReactDOM.render() a little differently than JSX elements. For JSX elements, you pass in the name of the element that you want to render. However, for React components, you need to use the same syntax as if you were rendering a nested component, for example ReactDOM.render(<ComponentToRender />, targetNode). You use this syntax for both ES6 class components and functional components.
+
+
+
+// Change code below this line
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render(){
+    return <div><h1>My First React Component!</h1></div>
+  }
+}
+
+ReactDOM.render(<MyComponent />, document.getElementById("challenge-node"))
