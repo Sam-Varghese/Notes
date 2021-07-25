@@ -20,6 +20,7 @@
 main()
 {
     printf("Hello World"); //printf==print format
+    printf("Hello\"World");
 }
 ```
 
@@ -61,6 +62,7 @@ main()
     int b=2;
     printf("The addition of %d and %d is %d",a,b,a+b);//"%d" in order to specify that we are to print integer.
     // Use %s for character
+    // Use %f for floating point numbers
 }
 ```
 
