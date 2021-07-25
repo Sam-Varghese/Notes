@@ -119,6 +119,26 @@ int main()
 
 <hr>
 
+# Math.h
+
+<hr>
+
+## Taking powers
+
+<hr>
+
+```c++
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    printf("%f", pow(2,3));
+}
+```
+
+<hr>
+
 # Taking Inputs
 
 <hr>
