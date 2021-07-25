@@ -40,7 +40,8 @@ main()
 {
     float a=5.5;
     int b=5;
-    char c='y'; //For single character, single inverted commas, else double.
+    char c[]='y'; //For single character, single inverted commas, else double.
+    // [] above tells computer that c would be storing a bunch of characters
 
 }
 ```
@@ -119,4 +120,4 @@ int main()
 
 <hr>
 
-- In order to take inputs, we use ``scanf`` function.
+- In order to take inputs, we use `scanf` function.
