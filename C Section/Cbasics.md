@@ -14,7 +14,7 @@
 
 <hr>
 
-```c
+```c++
 #include<stdio.h>
 
 main()
@@ -33,12 +33,12 @@ main()
 
 <hr>
 
-```c
+```c++
 #include<studio.h>
 
 main()
 {
-    float a=5.5;
+    float a=5.5; // Use double instead of float
     int b=5;
     char c[]='y'; //For single character, single inverted commas, else double.
     // [] above tells computer that c would be storing a bunch of characters
@@ -52,7 +52,7 @@ main()
 
 <hr>
 
-```c
+```c++
 #include<stdio.h>
 
 main()
@@ -60,6 +60,7 @@ main()
     int a=1;
     int b=2;
     printf("The addition of %d and %d is %d",a,b,a+b);//"%d" in order to specify that we are to print integer.
+    // Use %s for character
 }
 ```
 
@@ -77,7 +78,7 @@ main()
 
 <hr>
 
-```c
+```c++
 int main() // Called 'return type'
 {
     //Code
@@ -96,7 +97,7 @@ int main() // Called 'return type'
 
 <hr>
 
-```c
+```c++
 #include<stdio.h>
 int main()
 {
