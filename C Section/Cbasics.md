@@ -139,6 +139,26 @@ int main(){
 
 <hr>
 
+## Taking Ceil
+
+<hr>
+
+```c++
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+    printf("%f", ceil(2.3));
+}
+```
+
+<hr>
+
+- Take `floor`'s similarly
+
+<hr>
+
 # Taking Inputs
 
 <hr>
