@@ -49,6 +49,16 @@ main()
 
 <hr>
 
+- Suppose in our program we never want to change the value of a variable, then we use `const`
+
+<hr>
+
+```c++
+const int variable = 5;
+```
+
+<hr>
+
 # Simple Arithematic Operation
 
 <hr>
@@ -155,7 +165,7 @@ int main(){
 
 <hr>
 
-- Take `floor`'s similarly
+- Take `floor`'s similarly.
 
 <hr>
 
