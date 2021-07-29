@@ -44,7 +44,7 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 
 <hr>
 
-
+`<h1 style = {{color: 'red', backgroundColor: 'black'}}>` **Remeber to use only Camel Casing**
 
 <hr>
 
