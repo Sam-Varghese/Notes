@@ -36,7 +36,15 @@ It's worth noting that under the hood the challenges are calling ReactDOM.render
 
 <hr>
 
-`import PropTypes from 'prop'`
+`import PropTypes from 'prop-types'`
+
+<hr>
+
+# Applying CSS Inside JSX
+
+<hr>
+
+
 
 <hr>
 
