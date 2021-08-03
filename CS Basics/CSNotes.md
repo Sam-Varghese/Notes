@@ -14,4 +14,8 @@
 
 <hr>
 
-- Specifies a series of well structured steps and procedures to compose a program
+- Specifies a series of well structured steps and procedures to compose a program.
+- Contains a systematic order of statements, functions and commands to complete a task.
+
+<hr>
+
