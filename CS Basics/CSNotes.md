@@ -19,3 +19,26 @@
 
 <hr>
 
+### Functional Language
+
+<hr>
+
+- Writing a program only in pure functions ie, never modify variables but only create new ones as an output.
+- Used in situation where we have to perform lots of different operations on the same set of data, like ML
+- First class functions?
+
+<hr>
+
+### Object Oriented
+
+<hr>
+
+- Revolves around objects.
+- Code + Data = Object
+- Developed to make it easier to develop, debug and maintain software.
+
+<hr>
+
+<h2 align="center">Static Vs Dynamic Languages</h2>
+
+<hr>
