@@ -42,3 +42,15 @@
 <h2 align="center">Static Vs Dynamic Languages</h2>
 
 <hr>
+
+### Static Languages
+
+<hr>
+
+- Performs type checking at the compile time.
+- Errors will show at compile time.
+- Declare datatype before you use it.
+- More control
+
+<hr>
+
