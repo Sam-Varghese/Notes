@@ -54,3 +54,47 @@
 
 <hr>
 
+### Dynamic Languages
+
+<hr>
+
+- Performs type checking at runtime.
+- Error might not show till program start running.
+- No need to declare datatype of variables.
+- Saves time in writing code.
+
+<hr>
+
+<h2 align="center">FlowCharts</h2>
+
+<hr>
+
+### Start/ Stop
+
+<hr>
+
+<img src="'CS Basics'/../oval.png">
+
+<hr>
+
+### Input/ Output
+
+<hr>
+
+<img src="'CS Basics'/../parallelogram.png">
+
+<hr>
+
+### Processing
+
+<hr>
+
+<img src="'CS Basics'/../rectangle.png">
+
+<hr>
+
+### Condition
+
+<hr>
+
+<img src="'CS Basics'/../rhombus.png">
