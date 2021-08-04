@@ -89,6 +89,10 @@
 
 <hr>
 
+- Which includes addition, mutiplication...
+
+<hr>
+
 <img src="'CS Basics'/../rectangle.png">
 
 <hr>
@@ -98,3 +102,13 @@
 <hr>
 
 <img src="'CS Basics'/../rhombus.png">
+
+<hr>
+
+### Flow of Program
+
+<hr>
+
+<img src="'CS Basics'/../arrow.png">
+
+<hr>
