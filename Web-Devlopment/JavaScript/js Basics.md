@@ -24,6 +24,10 @@
 
 <hr>
 
+- **Remember**: String can't be alter through following way: `string[0]="J"`
+
+<hr>
+
 # Hello World Program
 
 <hr>
@@ -125,6 +129,29 @@ a = 5;
 //Or
 const a = 5; //Now value of a can be never changed as const==constant
 alert(a);
+```
+
+<hr>
+
+# Making Global Variables In Js
+
+<hr>
+
+- Variables that are declared outside functions are automatically global variables.
+- In order to make a variable global, declare the variable outside fn using var, and change its value inside function without using var. Here's the example:
+
+<hr>
+
+```js
+var variable1;
+
+function changer(){
+  variable1 = "Sam";
+}
+
+changer()
+
+setTimeout(console.log(variable1), 2000);
 ```
 
 <hr>
@@ -3345,4 +3372,3 @@ functionRunner(hi)
 ```
 
 <hr>
-
