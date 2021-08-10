@@ -1257,6 +1257,26 @@ console.log([1, 2, 3], [4, 5, 6]);
 
 <hr>
 
+# Use the Rest Parameter with Function Parameters
+
+<hr>
+
+- Suppose if variable number of arguments can be passed to your function, then putting `...args` converts all arguments to arrays with name `args`.
+
+<hr>
+
+```js
+function count_please(...args){
+  console.log(args.length, args);
+}
+
+count_please(1,2,3,4)
+
+// Output is 4 [ 1, 2, 3, 4 ]
+```
+
+<hr>
+
 # Scope
 
 <hr>
