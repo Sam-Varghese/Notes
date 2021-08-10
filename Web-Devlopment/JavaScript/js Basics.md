@@ -212,8 +212,42 @@ console.log(`Value of a in global scope is= ${a}`);
 
 <hr>
 
-- Above code **would produce an error** that a is **not defined**.
+- Above code **would produce an error** that **a is not defined**.
 - But in above code **no error would occur** if we **replace `let` by `var`**
+
+<hr>
+
+# const Keyword
+
+<hr>
+
+- The main advantage of `const` is that it lets you experience the advantage of `let` keyword.
+- It won't let you redeclare the value of a variable.
+
+<hr>
+
+```js
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+
+// So this piece of code would just result in an error
+```
+
+<hr>
+
+# parseInt
+
+<hr>
+
+- Suppose if I have a string `"007"` and I want to get the integer value `7` out of it, then here is the method
+
+<hr>
+
+`var a = parseInt("007");`
+
+<hr>
+
+- parseInt takes one more variable, `radix` which specifies the int out of string is of which data type, and thus would convert it to decimal.
 
 <hr>
 
@@ -455,6 +489,18 @@ if (age < 18) {
   alert("Sir, you are eligible to have vaccine.");
 }
 ```
+
+<hr>
+
+# Ternary Operator
+
+<hr>
+
+- The syntax is a ? b : c, where a is the condition, b is the code to run when the condition returns true, and c is the code to run when the condition returns false.
+
+<hr>
+
+`console.log(5>6?"Yes sir, right":"No sir, you are wrong!")`
 
 <hr>
 
