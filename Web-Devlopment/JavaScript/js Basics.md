@@ -1309,6 +1309,66 @@ console.log(a, b);
 
 <hr>
 
+# Get Max Of An Array
+
+<hr>
+
+- In order to get the max element of an array, this is the traditional way:
+
+<hr>
+
+```js
+var array1 = [3,5,2,9];
+
+var max_value = Math.max.apply(null, array1);
+```
+
+<hr>
+
+- But, there an easier way to get the same output:
+
+<hr>
+
+```js
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr);
+```
+
+<hr>
+
+- Where maximus is the required answer.
+
+<hr>
+
+# Deconstructing Assignment To Extract Values From Objects
+
+<hr>
+
+- If we wanted to deconstruct an array in ES5 syntax, then this was the way:
+
+<hr>
+
+```js
+const user = {a: "Sam", b: 18};
+
+const Name = user.a;
+const Age = user.b;
+```
+
+<hr>
+
+- But in ES6 syntax, this can be done in an easier way:
+
+<hr>
+
+```js
+var user = {a: "Sam", b: 10, c: 20};
+
+const {a, b} = user;
+```
+
+<hr>
+
 # Scope
 
 <hr>
