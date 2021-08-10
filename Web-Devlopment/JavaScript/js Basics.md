@@ -987,7 +987,7 @@ console.log(`arr2=${arr2});
 - In order to find the length of array, do `array.length`.
 - In order to append an element into the array, use `array.push(element)`.
 - Pushed element will go at the end of the array.
-- Suppose if we want to push the element at the begnning of the array, then use `array.unshift(element)`.
+- Suppose if we want to push the element at the beginning of the array, then use `array.unshift(element)`.
 - In order to remove the last element of the array, use `array.pop()`.
 - In order to remove the first element of an array, use `array.shift()`.
 - In order to remove multiple elements from an array, we use `array.splice(start_index, no_of_elements)`.
@@ -1249,8 +1249,10 @@ var magic = () => 5;
 <hr>
 
 ```js
-var myConcat = (arr1, arr2) => arr1.concat(arr2);
+var myConcat = (arr1 = [1,2], arr2) => arr1.concat(arr2);
 console.log([1, 2, 3], [4, 5, 6]);
+
+// Notice the default argument used...
 ```
 
 <hr>
@@ -1261,7 +1263,7 @@ console.log([1, 2, 3], [4, 5, 6]);
 
 - Variables declared outside the function are global variables.
 - **Important**: Variables declared without `var`, are **global automatically**. While variables declared with `var` are **not global**.
-- If we declare a variable in local scope that has already been declared in global scope, then in local that variable's value would be the value declared in local scope while outside that scope variable's value wouls be that declared in global scope.
+- If we declare a variable in local scope that has already been declared in global scope, then in local that variable's value would be the value declared in local scope while outside that scope variable's value would be that declared in global scope.
 
 <hr>
 
