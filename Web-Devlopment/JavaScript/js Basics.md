@@ -1369,6 +1369,36 @@ const {a, b} = user;
 
 <hr>
 
+# Use Destructuring Assignment to Assign Variables from Nested Objects
+
+<hr>
+
+- Destructuring assignment is special syntax introduced in ES6, for neatly assigning values taken directly from an object.
+- Here's how to extract the values of object properties and assign them to variables with the same name:
+
+<hr>
+
+`const { johnDoe: { age, email }} = user;`
+
+<hr>
+
+- And here's how you can assign an object properties' values to variables with different names:
+
+<hr>
+
+```js
+const user = {
+  johnDoe: { 
+    age: 34,
+    email: 'johnDoe@freeCodeCamp.com'
+  }
+};
+
+const { johnDoe: { age: userAge, email: userEmail }} = user;
+```
+
+<hr>
+
 # Scope
 
 <hr>
