@@ -1277,6 +1277,38 @@ count_please(1,2,3,4)
 
 <hr>
 
+# Making True Copy Of An Array
+
+<hr>
+
+- Suppose if you execute the following code:
+
+<hr>
+
+```js
+var a = [1,2,3];
+var b = a;
+b.push(4);
+console.log(a, b);
+```
+
+<hr>
+
+- Then you would notice that a and b, both get altered, even though you intended to change only b.
+- This happened because b referenced a internally.
+- Hence in order to get a true copy of the array a, use this method:
+
+<hr>
+
+```js
+var a = [1,2,3];
+var b = a.slice();
+b.push(4);
+console.log(a, b);
+```
+
+<hr>
+
 # Scope
 
 <hr>
