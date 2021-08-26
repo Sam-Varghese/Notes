@@ -53,6 +53,10 @@ git init
 git add .
 git commit -m "Message"
 git remote add origin URL
+git checkout master
+git branch main master -f
+git checkout main
+git push origin main -f
 ```
 
 <hr>
@@ -130,7 +134,7 @@ git diff branch_name
 
 <hr>
 
-- Generally, in order to merge a change, just push bracch to github using following code:
+- Generally, in order to merge a change, just push branch to github using following code:
 
 <hr>
 
@@ -314,9 +318,8 @@ git reset --hard <commidId> && git clean -f
 
 <hr>
 
-- Use `git stash pop` to get the *FIRST* stashed code, and delete that stash.
+- Use `git stash pop` to get the _FIRST_ stashed code, and delete that stash.
 - Use `git stash drop stash_ID` to drop a particular stash.
 - Use `git stash clear` to get rid of al the stashes.
 
 <hr>
-
