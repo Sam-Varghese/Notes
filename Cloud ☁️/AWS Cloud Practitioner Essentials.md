@@ -27,9 +27,22 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- <h2>Clod Based Development</h2>
+- <h2>Cloud Based Development</h2>
 
 <hr>
 
-- Run all parts of application in the clod.
+- Run all parts of application in the cloud.
 - Migrate existing applications to the cloud.
+- Design and build new applications in the cloud.
+
+<hr>
+
+- ## On Premises Deployment
+
+<hr>
+
+- Also known as **Private Cloud Deployment**.
+- Deploy resources on premises by using virtualization and resource management tools.
+
+<hr>
+
