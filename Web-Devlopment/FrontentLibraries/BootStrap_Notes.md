@@ -6,7 +6,7 @@
 
 <hr>
 
-`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>`
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />`
 
 <hr>
 
@@ -55,7 +55,7 @@
 
 <hr>
 
-- In order to alert users of a button that performs a dangerous task, we use `btn-danger` class along with `btn`  and `btn-block`.
+- In order to alert users of a button that performs a dangerous task, we use `btn-danger` class along with `btn` and `btn-block`.
 
 <hr>
 
@@ -66,8 +66,8 @@
 - We can align element in different columns using BootStrap.
 - For this BootStrap has by default 12 column already there.
 - Firstly enclose all elements inside `<div class="row">`
-- Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and * means number specifying with of element.
-- So suppose we have 3 elements, then our * is going to take the value of 12/3 ie 4.
+- Suppose if we are aiming to make element appear in column for laptops, then we use `col-md-*` where `md` means medium and \* means number specifying with of element.
+- So suppose we have 3 elements, then our \* is going to take the value of 12/3 ie 4.
 - Suppose if we are aiming for very small screens ie for mobiles, then we use `col-xs-*`.
 - We can use div row to align radio buttons of forms evenly on a row.
 
@@ -75,7 +75,6 @@
 
 - We can use `text-primary` class in order to beautify heading and texts in our web page.
 - Use `text-danger` class in order to signify any dangerous text :)
-
 
 # Input field
 
@@ -99,7 +98,9 @@ Give each of your button elements the class target.
 
 ```css
 @each $color in blue, red, green {
-    .#{$color}-text {color: $color;}
+  .#{$color}-text {
+    color: $color;
+  }
 }
 ```
 
@@ -110,10 +111,16 @@ Give each of your button elements the class target.
 <hr>
 
 ```css
-$colors: (color1: blue, color2: red, color3: green);
+$colors: (
+  color1: blue,
+  color2: red,
+  color3: green,
+);
 
 @each $key, $color in $colors {
-  .#{$color}-text {color: $color;}
+  .#{$color}-text {
+    color: $color;
+  }
 }
 ```
 
@@ -142,7 +149,9 @@ $colors: (color1: blue, color2: red, color3: green);
 ```css
 $x: 1;
 @while $x < 13 {
-  .col-#{$x} { width: 100%/12 * $x;}
+  .col-#{$x} {
+    width: 100%/12 * $x;
+  }
   $x: $x + 1;
 }
 ```
@@ -155,9 +164,9 @@ $x: 1;
 
 ` Partials in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. This is a great way to group similar code into a module to keep it organized.
 
-- Names for partials start with the underscore (_) character, which tells Sass it is a small segment of CSS and not to convert it into a CSS file. Also, Sass files end with the .scss file extension. To bring the code in the partial into another Sass file, use the @import directive.
+- Names for partials start with the underscore (\_) character, which tells Sass it is a small segment of CSS and not to convert it into a CSS file. Also, Sass files end with the .scss file extension. To bring the code in the partial into another Sass file, use the @import directive.
 
-- For example, if all your mixins are saved in a partial named "_mixins.scss", and they are needed in the "main.scss" file, this is how to use them in the main file:
+- For example, if all your mixins are saved in a partial named "\_mixins.scss", and they are needed in the "main.scss" file, this is how to use them in the main file:
 
 `@import 'mixins'`
 
@@ -174,7 +183,7 @@ Sass has a feature called extend that makes it easy to borrow the CSS rules from
 For example, the below block of CSS rules style a .panel class. It has a background-color, height and border.
 
 ```css
-.panel{
+.panel {
   background-color: red;
   height: 70px;
   border: 2px solid green;
@@ -184,7 +193,7 @@ For example, the below block of CSS rules style a .panel class. It has a backgro
 Now you want another panel called .big-panel. It has the same base properties as .panel, but also needs a width and font-size. It's possible to copy and paste the initial CSS rules from .panel, but the code becomes repetitive as you add more types of panels. The extend directive is a simple way to reuse the rules written for one element, then add more for another:
 
 ```css
-.big-panel{
+.big-panel {
   @extend .panel;
   width: 150px;
   font-size: 2em;
@@ -192,4 +201,3 @@ Now you want another panel called .big-panel. It has the same base properties as
 ```
 
 The .big-panel will have the same properties as .panel in addition to the new styles.
-
