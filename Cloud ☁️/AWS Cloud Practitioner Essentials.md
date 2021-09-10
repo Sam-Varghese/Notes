@@ -46,3 +46,22 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- ## Hybrid Deployment
+
+<hr>
+
+- Combination of on premise deployment and cloud based deployment.
+- Here we connect cloud based resources to in premise infrastructure.
+
+<hr>
+
+<h1>Benefits Of Cloud Computing</h1>
+
+<hr>
+
+- ## Increase Speed And Agility
+
+<hr>
+
+- Easy development and deployment.
+- Low latency
