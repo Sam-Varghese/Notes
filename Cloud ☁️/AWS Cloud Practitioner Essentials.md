@@ -84,3 +84,28 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - You can stop using it when you have finished running a workload.
 - You pay only for the compute time you use when an instance is running, not when it is stopped or terminated.
 - You can save costs by paying only for the server capacity that you need or want.
+
+<hr>
+
+# How Amazon EC2 Works
+
+<hr>
+
+- ## Launch
+
+<hr>
+
+- So firstly, launch an instance.
+- Here you select operating system, application server, or applications.
+- You specify security settings to control the network of traffic that can flow into and out of your instance.
+
+<hr>
+
+- ## Connect
+
+<hr>
+
+- Next, we simply connect our  programs and applications to the instance.
+
+<hr>
+
