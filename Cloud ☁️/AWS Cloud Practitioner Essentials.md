@@ -109,3 +109,69 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Amazon EC2 Instance Types
+
+<hr>
+
+- In order to cater different requirements of users, Amazon EC2 has several types of instances, namely:
+
+<hr>
+
+- ## General Purpose Instance
+
+<hr>
+
+- A balance of compute, memory, and networking resources.
+- Can be used for 
+- Application servers
+- Gaming Servers
+- Backend services for enterprise applications
+- Small and medium databases
+
+<hr>
+
+- ## Memory Optimized
+
+<hr>
+
+- For application dealing with large datasets in memory.
+- Memory is a temporary storage area.
+
+<hr>
+
+- ## Compute Optimized
+
+<hr>
+
+- Used wherein there is a requirements of high performance processors.
+
+<hr>
+
+- ## Accelerated Computing
+
+<hr>
+
+- Use of hardware accelerators, coprocessors is prevalent here in order to perform functions more efficiently than is possible 
+
+<hr>
+
+- ## Storage Optimized
+
+<hr>
+
+- Used wherein there is a requirement of high local storage.
+
+<hr>
+
+# Amazon EC2 Pricing
+
+<hr>
+
+- With Amazon EC2, you pay only for the compute time that you use.
+- It offers a variety of pricing options for different use cases.
+
+<hr>
+
+- ## On-Demand
+
+<hr>
