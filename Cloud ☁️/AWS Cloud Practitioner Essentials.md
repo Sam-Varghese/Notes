@@ -175,3 +175,39 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - ## On-Demand
 
 <hr>
+
+- Ideal for short term, irregular workloads that cannot be interrupted.
+
+<hr>
+
+- ## Amazon EC2 Saving Plans
+
+<hr>
+
+- This plan enables us to reduce the computer costs by committing to a consistent amount of compute usage for a 1-year or 3-year term.
+- Results in savings of up to 72% over On-Demand costs.
+
+<hr>
+
+- ## Reserved Instances
+
+<hr>
+
+- These are billing discount applied to the use of On-Demand instances in your account.
+- You can purchase Standard Reserved and Convertible Reserved Instances.
+
+<hr>
+
+- ## Spot Instances
+
+<hr>
+
+- Ideal for workloads with flexible start and end times, or that can withstand interruptions.
+
+<hr>
+
+- ## Dedicated Hosts
+
+<hr>
+
+- Dedicated hosts are the physical servers with Amazon EC2 instance that is fully dedicated to your use.
