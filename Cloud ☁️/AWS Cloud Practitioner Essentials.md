@@ -211,3 +211,73 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - Dedicated hosts are the physical servers with Amazon EC2 instance that is fully dedicated to your use.
+
+<hr>
+
+# Scaling Amazon EC2
+
+<hr>
+
+- Amazon EC2 Auto Scaling scales the number of EC2 instances automatically according to the demands of the customers.
+- This auto scaling is done in two types:
+
+<hr>
+
+- *Dynamic Scaling*: Responds to changing demands.
+- *Predictive Scaling*: Automatically schedules the right number of Amazon instances based on predicted demand.
+
+<hr>
+
+<img src="./img1.png">
+
+<hr>
+
+- ## Minimum Capacity:
+
+<hr>
+
+- When we create an auto-scaling group, then we also set the minimum number of Amazon EC2 instances.
+- Minimum capacity is the number of Amazon EC2 instances that launch immediately after you have created Auto Scaling group.
+
+<hr>
+
+- ## Desired Capacity
+
+<hr>
+
+- General number of instances which we prefer to have for out application.
+- Note: If we don't specify the desired number of Amazon EC2 instances, then the minimum number itself becomes the desired number.
+
+<hr>
+
+# Elastic Load Balancer
+
+<hr>
+
+- Elastic load balancing is the AWS service that automatically distributed incoming application traffic across multiple resources, such as Amazon EC2 instances.
+- Elastic Load Balancing and AMazon EC2 Scaling are separate services, but still they work together.
+
+<hr>
+
+# Tightly Coupled Architecture
+
+<hr>
+
+- This is a type of architecture wherein if a single component fails at any point of time, then all the component starts to malfunction.
+
+<hr>
+
+# Loosely Coupled Architecture
+
+<hr>
+
+- This is a type of architecture, wherein failure of a single component does not leads to the malfunctioning of rest of the components.
+- All the component still continues to function correctly.
+
+<hr>
+
+# Monolithic Applications
+
+<hr>
+
+- Applications
