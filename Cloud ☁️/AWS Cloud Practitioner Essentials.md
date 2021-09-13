@@ -294,3 +294,12 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - **Amazon SQS**: Amazon Simple Queue Service
 
 <hr>
+
+# Amazon Simple Notification Service (Amazon SNS)
+
+<hr>
+
+- Amazon SNS is a publish/ subscribe service.
+- Using Amazon SNS, a publisher publishes message to subscribers.
+- This is similar to the coffee shop, the cashier provides coffee orders to the barista who makes the drinks.
+- In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options.
