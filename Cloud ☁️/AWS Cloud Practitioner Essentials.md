@@ -333,4 +333,13 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- So to tackle all these issues, came the serverless computing
+- So to tackle all these issues, came the serverless computing.
+
+<hr>
+
+![alt](img3.png)
+
+<hr>
+
+- So, in serverless computing, we only focus on application instead of also maintaining the servers.
+- In AWS service for serverless computing is **AWS Lambda**
