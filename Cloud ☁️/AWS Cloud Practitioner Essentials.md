@@ -356,3 +356,21 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 ![alt](img4.png)
 
+<hr>
+
+# Containers
+
+<hr>
+
+- Containers provide you with a standard way to package your application's code and dependencies into a single object.
+
+<hr>
+
+![alt](img5.png)
+
+<hr>
+
+- But container management becomes a problem when we have tons of hosts each having hundreds of containers.
+
+<hr>
+
