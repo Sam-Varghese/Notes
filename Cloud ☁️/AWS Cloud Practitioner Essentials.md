@@ -319,3 +319,18 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Serverless Computing
+
+<hr>
+
+- There is a slight problem in using Amazon EC2 for running application, they are:
+
+<hr>
+
+- Provision instances (Virtual Servers)
+- Upload your code
+- Continue to manage the instances while your application is running.
+
+<hr>
+
+- So to tackle all these issues, came the serverless computing
