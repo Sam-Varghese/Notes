@@ -343,3 +343,16 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 - So, in serverless computing, we only focus on application instead of also maintaining the servers.
 - In AWS service for serverless computing is **AWS Lambda**
+
+<hr>
+
+# AWS Lambda
+
+<hr>
+
+- AWS Lambda is a service that lets you run code without needing to provision or manage servers.
+
+<hr>
+
+![alt](img4.png)
+
