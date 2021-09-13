@@ -303,3 +303,19 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - Using Amazon SNS, a publisher publishes message to subscribers.
 - This is similar to the coffee shop, the cashier provides coffee orders to the barista who makes the drinks.
 - In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options.
+
+<hr>
+
+# Amazon Simple Queue Service (Amazon SQS)
+
+<hr>
+
+- Suppose if a server is already working on some request, then the whole system would fail if AWS keeps on sending more and more request to that server, as those request would get lost, and our application is thus gonna break.
+- So, as a solution, we have something called SQS (Simple Queue Service), which enables us to send, store and receive messages between software components, without losing messages or requiring other services to be available.
+
+<hr>
+
+![alt](img2.png)
+
+<hr>
+
