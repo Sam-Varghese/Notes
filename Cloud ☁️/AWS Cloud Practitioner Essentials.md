@@ -280,4 +280,17 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- Applications
+- Suppose if we have a tightly coupled architecture, then it might also include databases, servers, and the user interface, etc. This type of architecture is known as *Monolithic Application*.
+
+<hr>
+
+# Microservices
+
+<hr>
+
+- Loosely coupled applications are simply said to be microservies.
+- Two services facilitate application integration: 
+- **Amazon SNS**: Amazon Simple Notification Service
+- **Amazon SQS**: Amazon Simple Queue Service
+
+<hr>
