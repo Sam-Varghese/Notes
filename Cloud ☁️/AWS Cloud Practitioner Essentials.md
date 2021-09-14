@@ -404,3 +404,23 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - Selecting regions that are closer to customer leads to the faster delivery of data and resources.
+
+<hr>
+
+- ## Available Services Within The Region
+
+<hr>
+
+- Sometimes the closes region might not have all the features that you want to offer to customers.
+
+<hr>
+
+- ## Pricing
+
+<hr>
+
+- Pricing is different in different countries.
+- So we could also select region keeping the price on mind.
+
+<hr>
+
