@@ -10,6 +10,14 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Cloud Computing
+
+<hr>
+
+- The on demand delivery of IT resources with pay as you go pricing.
+
+<hr>
+
 <h1>Client Server Model</h1>
 
 <hr>
@@ -374,3 +382,25 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Amazon Elastic Container Service (Amazon ECS)
+
+<hr>
+
+- Amazon ECS is a highly scalable, high performance container management system that enables you to run and scale containerized application on AWS.
+
+<hr>
+
+# Selecting A Region
+
+<hr>
+
+- If AWS were to be located on a single region only, then due to unexpected failure of that data center, application from all over the world might stop working.
+- Hence in order to avoid this 
+
+<hr>
+
+- ## Proximity To Customers
+
+<hr>
+
+- Selecting regions that are closer to customer leads to the faster delivery of data and resources.
