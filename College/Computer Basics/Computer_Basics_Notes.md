@@ -53,3 +53,43 @@
 
 <hr>
 
+# HD
+
+<hr>
+
+- Hard Disk
+- For permanent storage
+
+<hr>
+
+# CDROM
+
+<hr>
+
+- Compact Disk Read Only Memory
+
+<hr>
+
+# Operating Systems
+
+<hr>
+
+- Controls everything in the way the computer works.
+- Not specific to a CPU type, but often some OS's are associated with specific CPU
+
+<hr>
+
+- Windows
+- Mac OS
+- Fedora Unix
+- Android
+- Ubuntu
+- Raspberry Pi OS
+
+<hr>
+
+- OS controls IO and memory management (latter is important in multi tasking OS)
+- Specific program's implementations are often dependent on OS
+
+<hr>
+
