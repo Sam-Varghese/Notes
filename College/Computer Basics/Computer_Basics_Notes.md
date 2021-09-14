@@ -93,3 +93,20 @@
 
 <hr>
 
+# Hard Disk
+
+<hr>
+
+- Contains the computer's file system
+- A **file system** defines how files are named, stored, and retrieved from a storage device.
+- **NFC**: Network File System allows connections between different computer systems.
+
+<hr>
+
+- Smallest thing in a computer is called **bit**
+- CPU basically only performs how to perform **AND**, **OR** and **XOR**(exclusive or).
+- CPU is a massive collection of **AND** and **OR** gates.
+- CPU's only understand *Machine Language*
+
+<hr>
+
