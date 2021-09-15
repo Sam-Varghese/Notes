@@ -443,3 +443,28 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Edge Locations
+
+<hr>
+
+![alt](img7.png)
+
+<hr>
+
+- An **edge location** is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+
+<hr>
+
+# Ways To Interact With AWS Service
+
+<hr>
+
+- ## AWS Management Console
+
+<hr>
+
+- The AWS Management Console is a web based interface for accessing and managing AWS service.
+- We also have AWS Console mobile application to perform tasks such as monitoring resources, viewing alarms, and accessing billing information.
+
+<hr>
+
