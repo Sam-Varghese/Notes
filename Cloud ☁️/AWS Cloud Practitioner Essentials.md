@@ -477,3 +477,11 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- ## Software Development Kits (SDK's)
+
+<hr>
+
+- It makes it easier for us to use AWS services through an API designed for your programming language or platform.
+
+<hr>
+
