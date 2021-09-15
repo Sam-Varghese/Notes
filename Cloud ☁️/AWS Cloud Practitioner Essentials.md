@@ -451,6 +451,14 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Amazon CloudFront
+
+<hr>
+
+- Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+
+<hr>
+
 - An **edge location** is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 
 <hr>
@@ -485,3 +493,29 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# AWS Elastic Beanstalk and AWS CloudFormation
+
+<hr>
+
+- ## AWS Elastic Beanstalk
+
+<hr>
+
+- With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+
+<hr>
+
+- Adjust capacity
+- Load balancing
+- Automatic scaling
+- Application health monitoring
+
+<hr>
+
+- ## AWS CloudFormation
+
+<hr>
+
+- With AWS CloudFormation, you can treat your infrastructure as code.
+- This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+- AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infra and applications without having to perform manual actions or writing custom scripts.
