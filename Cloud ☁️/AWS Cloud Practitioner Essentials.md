@@ -424,3 +424,22 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Availability Zones (AZ's)
+
+<hr>
+
+![alt](img6.png)
+
+<hr>
+
+- An Availability Zone is a single or a group of data centers within a region.
+- AZ's are located tens of miles apart from each other.
+- But this is also close enough to provide low latency.
+- This arrangement has been made in order to avoid damage to multiple AZ's
+
+<hr>
+
+- So that's why it is recommended to run our EC2 instances on different AZ's in order to avoid application failure in case of any disaster in a particular AZ.
+
+<hr>
+
