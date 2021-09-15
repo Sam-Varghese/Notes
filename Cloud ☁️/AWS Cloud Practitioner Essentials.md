@@ -468,3 +468,12 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- ## AWS Command Line Interface
+
+<hr>
+
+- To save time when making an API request, you can use the **AWS CLI** too
+- It enables us to control multiple AWS services from CL within one tool.
+
+<hr>
+
