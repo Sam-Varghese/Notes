@@ -107,6 +107,21 @@
 - CPU basically only performs how to perform **AND**, **OR** and **XOR**(exclusive or).
 - CPU is a massive collection of **AND** and **OR** gates.
 - CPU's only understand *Machine Language*
+- Every addition, multiplication, subtraction.... happens only through AND, OR and XOR operations.
 
 <hr>
 
+# Clock Speed
+
+<hr>
+
+- The number of instructions per second is set by the clock speed
+- One clock tick is called a cycle and modern CPU's can often execute more than one instruction per cycle
+- Floating point speed is measured in "floating point operations per seconds" flops. ⭐
+
+<hr>
+
+- To manage things, bits are grouped into larger units.
+- 8 bits = 1 byte
+- 2/ 4/ 8 bytes = word (varies between CPU)
+- Most desktop machines are 32 bit word, but 64 bits machines are becoming more common (set by data bus)
