@@ -522,3 +522,63 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Connectivity To AWS
+
+<hr>
+
+- ## Amazon Virtual Private Cloud (Amazon VPC)
+
+<hr>
+
+![alt](img8.png)
+
+<hr>
+
+- Without any restrictions/ boundaries to our network connectivity, we would have data from all over the world flowing in between unrestricted.
+- A networking service that you can use to establish boundaries around your AWS resource is **Amazon Virtual Private Cloud**.
+- Thus, we also get the provision to work on Amazon cloud in an isolated region, and to launch resources in a virtual network we define.
+- Similar to having a bodyguard while data flows through the internet.
+
+<hr>
+
+- ## Subnet
+
+<hr>
+
+- A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+
+<hr>
+
+- ## Internet Gateway
+
+<hr>
+
+- To allow public traffic from the internet to access your VPC, you attach an internet gateway to VPC.
+
+<hr>
+
+- ## Virtual Private Gateway
+
+<hr>
+
+![alt](img9.png)
+
+<hr>
+
+- A virtual private gateway enables you to establish a Virtual Private Network (VPN) connection between your VPC and a private network, such as an on-premise data center or internal corporate network.
+- A Virtual private gateway allows traffic into the VPC only if it is coming from an approved network.
+
+<hr>
+
+# AWS Direct Connect
+
+<hr>
+
+![alt](img10.png)
+
+<hr>
+
+- AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.
+
+<hr>
+
