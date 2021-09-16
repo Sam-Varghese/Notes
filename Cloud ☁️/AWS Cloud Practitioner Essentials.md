@@ -519,3 +519,6 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - With AWS CloudFormation, you can treat your infrastructure as code.
 - This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
 - AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infra and applications without having to perform manual actions or writing custom scripts.
+
+<hr>
+
