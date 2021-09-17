@@ -579,6 +579,12 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.
+- The private connection that AWS Direct Connect provides helps you to reduce network costs and increase the amount of bandwidth that can travel through your network.
 
 <hr>
 
+# Subnets And Network Access Control Lists
+
+<hr>
+
+- Before any packet (Info from internet) arrive a Subnet, it firstly gets checked by Network Access Control List (Network CLI), which checks the packets and sees whether it has the permission to enter/ leave or not.
