@@ -635,3 +635,35 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+![alt](img13.png)
+![alt](img14.png)
+
+<hr>
+
+# IP Address
+
+<hr>
+
+- A unique address that identifies a device on the internet.
+
+<hr>
+
+# Domain Name System (DNS)
+
+<hr>
+
+![alt](img15.png)
+
+<hr>
+
+- We are able to access any website by its link only because of DNS.
+- When a user puts a particular web address in order to access it, then a request is sent to a DNS server.
+- The DNS server asks  the web server for the IP address that corresponds to AnyCompany's website.
+- The web server asks responds by providing the IP address for AnyCompany's website, 192.0.2.0 in this case.
+
+<hr>
+
+# Amazon Route 53
+
+<hr>
+
