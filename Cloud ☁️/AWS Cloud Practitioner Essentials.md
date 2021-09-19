@@ -673,3 +673,14 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 - It can route users to infrastructure outside of AWS too.
 - We can register new domain names directly in Route 53.
 - We can even transfer DNS records for existing domain names managed by other domain registrars.
+
+<hr>
+
+![alt](img16.png)
+
+<hr>
+
+# Instance Stores And Amazon Elastic Block Store (Amazon EBS)
+
+<hr>
+
