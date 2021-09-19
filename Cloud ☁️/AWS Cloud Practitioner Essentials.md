@@ -684,3 +684,38 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- ## Instance Stores
+
+<hr>
+
+- Block level storage volumes that behave lke physical hard drives.
+- An instance store provides temporary block level storage for Amazon EC2 instance.
+- An instance store is a disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance.
+- Because if we ever stop this EC2 instance, and start another one, then because it would be a new EC2 instance, hence we might loose all all our data that was stored in the drive of previous EC2 instance.
+
+<hr>
+
+![alt](img17.png)
+![alt](img18.png)
+![alt](img19.png)
+
+<hr>
+
+- To overcome this, here comes Amazon Elastic Block Storage
+
+<hr>
+
+# Amazon Elastic Block Storage
+
+<hr>
+
+- Amazon EBS is a service that provides block level storage volumes that you can use with Amazon EC2 instances.
+- So now even if you terminate an Amazon EC2 instance, all the data attached to EBS volume remains available.
+- In order to enhance persistence od this data, we can take regular backups by creating Amazon EBS snapshots.
+
+<hr>
+
+![alt](img20.png)
+
+<hr>
+
