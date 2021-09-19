@@ -667,3 +667,9 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- Amazon Route 53 is a DNS web service.
+- Gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
+- Connects user requests to infrastructure running in AWS. (Such as Amazon EC2 instances and load balancers)
+- It can route users to infrastructure outside of AWS too.
+- We can register new domain names directly in Route 53.
+- We can even transfer DNS records for existing domain names managed by other domain registrars.
