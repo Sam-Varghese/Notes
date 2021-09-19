@@ -587,4 +587,51 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+![alt](img11.png)
+
+<hr>
+
 - Before any packet (Info from internet) arrive a Subnet, it firstly gets checked by Network Access Control List (Network CLI), which checks the packets and sees whether it has the permission to enter/ leave or not.
+- A packet which has come in won't be let out if it does not have the proper leaving permissions.
+
+<hr>
+
+- But even this layer of security isn't enough because the EC2 instances that are present inside a subnet might also wanna have a system to let only certain types of requests come in.
+
+<hr>
+
+# Security Group
+
+<hr>
+
+![alt](img12.png)
+
+<hr>
+
+- So the first thing this security layer does is to BLOCK ALL INCOMING REQUEST
+- Yeah, you heard it right, it by defaults lets no request enter the EC2 instance.
+- So, here we need to explicitly mention the type of request that can make their way into this security layer.
+- All the data/ packets that made their way into this layer are free to leave Security group without any checks.
+
+<hr>
+
+# Difference Between Security Group And Network ACL
+
+<hr>
+
+- ## Security Group
+
+<hr>
+
+- Stateful (Remembers whom to allow)
+
+<hr>
+
+- ## Network ACL
+
+<hr>
+
+- Stateless (Doesn't remember anything 😡)
+
+<hr>
+
