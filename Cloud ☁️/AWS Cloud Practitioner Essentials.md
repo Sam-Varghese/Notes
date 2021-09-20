@@ -758,3 +758,28 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Amazon S3 Storage Classes
+
+<hr>
+
+- Amazon S3 offers a range of storage classes designed for different use cases.
+- Here are the two factors we should consider before selecting an S3 storage class:
+- How often you plan to retrieve your data
+- How available you need your data to be
+
+<hr>
+
+- ## S3 Standard
+
+<hr>
+
+- Designed for frequently accessed data.
+- Stores data in a a minimum of 3 Availability Zones.
+- Costs higher than other storage classes
+
+<hr>
+
+- ## S3 Standard-Infrequent Access (S3 Standard-IA)
+
+<hr>
+
