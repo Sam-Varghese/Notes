@@ -808,3 +808,69 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 <hr>
 
+- ## S3 Glacier Deep Archive
+
+<hr>
+
+- Lowest cost object storage class ideal for archiving.
+- Also able to retrieve objects within 12 hours.
+
+<hr>
+
+# Amazon Elastic File System (Amazon EFS)
+
+<hr>
+
+- ## File Storage
+
+<hr>
+
+- In file storage, multiple clients (such as users, applications, servers, and so on) can access data that is stored in shared file folders.
+- In this approach, storage server uses block storage with a local file system to organize files.
+- Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.
+
+<hr>
+
+# Amazon Elastic File System (Amazon EFS)
+
+<hr>
+
+- Amazon EFS is a scalable file system used with AWS Cloud services and on premises resources.
+- As you add or remove files, Amazon EFS grows and shrinks automatically.
+- It can scale up to petabytes without destroying applications.
+
+<hr>
+
+# Amazon EBS Vs Amazon EFS
+
+<hr>
+
+- ## Amazon EBS
+
+<hr>
+
+- An Amazon EBS volume stores data in a single Availability Zone.
+- To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone.
+
+<hr>
+
+- ## Amazon EFS
+
+<hr>
+
+- Amazon EFS is a regional service. It stores data in and across multiple Availability Zones.
+- The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located.
+- Additionally, on premises servers can access Amazon EFS using AWS Direct Connect.
+
+<hr>
+
+# Amazon Relational Database Service (Amazon RDS)
+
+<hr>
+
+- Amazon RDS is a service that enables you to run relational databases in the AWS Cloud.
+- Amazon RDS is a managed service that automates tasks such as hardware provisioning, database setup, patching, and backups.
+- Amazon RDS provides a number of different security options, like protecting data at rest and protecting data in transit (While it is being sent and received)
+
+<hr>
+
