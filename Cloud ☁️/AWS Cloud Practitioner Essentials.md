@@ -23,7 +23,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - A very nice concept wherein there is a client which makes a request to the servers in order to provide the required information/ access ...
-- A server can be services like **Amazon Elastic Compute Cloud** (*Amazon EC2*), a type of virtual server.
+- A server can be services like **Amazon Elastic Compute Cloud** (_Amazon EC2_), a type of virtual server.
 
 <hr>
 
@@ -113,7 +113,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- Next, we simply connect our  programs and applications to the instance.
+- Next, we simply connect our programs and applications to the instance.
 
 <hr>
 
@@ -130,7 +130,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - A balance of compute, memory, and networking resources.
-- Can be used for 
+- Can be used for
 - Application servers
 - Gaming Servers
 - Backend services for enterprise applications
@@ -159,7 +159,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- Use of hardware accelerators, coprocessors is prevalent here in order to perform functions more efficiently than is possible 
+- Use of hardware accelerators, coprocessors is prevalent here in order to perform functions more efficiently than is possible
 
 <hr>
 
@@ -231,8 +231,8 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- *Dynamic Scaling*: Responds to changing demands.
-- *Predictive Scaling*: Automatically schedules the right number of Amazon instances based on predicted demand.
+- _Dynamic Scaling_: Responds to changing demands.
+- _Predictive Scaling_: Automatically schedules the right number of Amazon instances based on predicted demand.
 
 <hr>
 
@@ -288,7 +288,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
-- Suppose if we have a tightly coupled architecture, then it might also include databases, servers, and the user interface, etc. This type of architecture is known as *Monolithic Application*.
+- Suppose if we have a tightly coupled architecture, then it might also include databases, servers, and the user interface, etc. This type of architecture is known as _Monolithic Application_.
 
 <hr>
 
@@ -297,7 +297,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - Loosely coupled applications are simply said to be microservies.
-- Two services facilitate application integration: 
+- Two services facilitate application integration:
 - **Amazon SNS**: Amazon Simple Notification Service
 - **Amazon SQS**: Amazon Simple Queue Service
 
@@ -395,7 +395,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 <hr>
 
 - If AWS were to be located on a single region only, then due to unexpected failure of that data center, application from all over the world might stop working.
-- Hence in order to avoid this 
+- Hence in order to avoid this
 
 <hr>
 
@@ -658,7 +658,7 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 - We are able to access any website by its link only because of DNS.
 - When a user puts a particular web address in order to access it, then a request is sent to a DNS server.
-- The DNS server asks  the web server for the IP address that corresponds to AnyCompany's website.
+- The DNS server asks the web server for the IP address that corresponds to AnyCompany's website.
 - The web server asks responds by providing the IP address for AnyCompany's website, 192.0.2.0 in this case.
 
 <hr>
@@ -874,3 +874,42 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 <hr>
 
+# Amazon RDS Database Engines
+
+<hr>
+
+- Amazon RDS is available on six database engines, here they are:
+- Amazon Aurora
+- PostgreSQL
+- MySQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
+
+<hr>
+
+# Amazon Aurora
+
+<hr>
+
+- Amazon Aurora is an enterprise class relational database.
+- Compatible with MySQL and PostgreSQL relational databases.
+- Up to 5 times faster than standard MySQL databases and up to times faster than standard PostgreSQL databases.
+- It helps to reduce your database costs by reducing unnecessary input/ output (IO) operations, while ensuring that your database resources remain reliable and available.
+- Consider Amazon Aurora if your workloads require high availability.
+- It replicates six copies of your data across 3 availability zones and continuously backs up your data to Amazon S3
+
+<hr>
+
+# Amazon DynamoDB
+
+<hr>
+
+- DynamoDB is serverless, which means that you don't have to provision, patch, or manage servers.
+- You also don't have to install, maintain, or operate software.
+- Best for high speed applications
+
+<hr>
+
+- DynamoDB scales automatically according to the situation.
+- This makes it a suitable choice for use cases that require high performance while scaling.
