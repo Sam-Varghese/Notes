@@ -917,3 +917,12 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 <hr>
 
+# Amazon Redshift
+
+<hr>
+
+- It is a data warehousing service that you can use for big data analytics.
+- It offers the ability to collect data from many sources and helps you to understand relationship and trends across your data.
+
+<hr>
+
