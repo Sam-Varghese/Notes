@@ -788,3 +788,23 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- ## S3 One Zone-Infrequent Access (S3 One Zone-IA)
+
+<hr>
+
+- Stores data in a single availability zone
+- Has a lower storage price than Standard-IA
+
+<hr>
+
+- ## S3 Intelligent-Tiering
+
+<hr>
+
+- Ideal for data with unknown or changing access patterns
+- Requires a small monthly monitoring and automation fee per object.
+
+In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ access patterns. If you haven’t accessed an object for 30 consecutive days, Amazon S3 automatically moves it to the infrequent access tier, S3 Standard-IA. If you access an object in the infrequent access tier, Amazon S3 automatically moves it to the frequent access tier, S3 Standard.
+
+<hr>
+
