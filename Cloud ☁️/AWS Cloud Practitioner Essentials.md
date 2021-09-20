@@ -908,8 +908,12 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 - DynamoDB is serverless, which means that you don't have to provision, patch, or manage servers.
 - You also don't have to install, maintain, or operate software.
 - Best for high speed applications
+- It's a non-relational database.
 
 <hr>
 
 - DynamoDB scales automatically according to the situation.
 - This makes it a suitable choice for use cases that require high performance while scaling.
+
+<hr>
+
