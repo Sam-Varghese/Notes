@@ -729,3 +729,32 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+# Amazon Simple Storage Service (Amazon S3)
+
+<hr>
+
+- ## Object Storage
+
+<hr>
+
+- In object storage, each object consists of data, metadata, and a key.
+- Data might be an image, video, text document, or any other type of file.
+- Metadata contains information about what the data is, how it is used, the object size and so on.
+- And, an object's key is its unique identifier.
+
+<hr>
+
+# Amazon Simple Storage Service (Amazon S3)
+
+<hr>
+
+- Amazon Simple Storage Service (Amazon S3) is a service that provides object-level storage.
+- So, stores data as objects in buckets.
+- We can store any type of data like images, videos, text files, and so on.
+- Offers unlimited storage space.
+- The maximum file size for an object in Amazon S3 is 5 TB.
+- When we upload a file to Amazon S3, we can set permissions to control visibility and access to it.
+- We can also use the amazon S3 versioning feature to track changes to your objects over time.
+
+<hr>
+
