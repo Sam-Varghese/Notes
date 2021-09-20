@@ -783,3 +783,8 @@ These are the notes I am making for [AWS Cloud Practitioner](https://www.courser
 
 <hr>
 
+- Ideal for infrequently accessed data.
+- Similar to S3 Standard but has lower storage price and higher retrieval price.
+
+<hr>
+
