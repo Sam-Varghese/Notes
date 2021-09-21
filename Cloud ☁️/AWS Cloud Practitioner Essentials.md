@@ -926,3 +926,63 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 <hr>
 
+# AWS Database Migration Service (AWS DMS)
+
+<hr>
+
+- AWS Database Migration Service (AWS DMS) enables you to migrate relational database, nonrelational database, and other types of data stores.
+- With AWS DMS, we move data between a source database and a target database.
+- The source and target database can be of same type or different types.
+- During migration, the source database remains operational, reducing downtime for any applications that rely on the database.
+
+<hr>
+
+- ## Other use cases for AWS DMS
+
+<hr>
+
+- ### Development and test database migrations
+
+<hr>
+
+- Enabling developers to test applications against production data without affecting production users.
+
+<hr>
+
+- ### Database Consolidation
+
+<hr>
+
+- Combining several databases into a single database
+
+<hr>
+
+- ### Continuous Replication
+
+<hr>
+
+- Sending ongoing copies of your data to other target sources instead of doing a one-time migration.
+
+<hr>
+
+# Additional Database Services
+
+<hr>
+
+- ## Amazon DocumentDB
+
+<hr>
+
+- Amazon DocumentDB is a document database service that supports MongoDB workloads. (MongoDB is a document database program.)
+
+<hr>
+
+- ## Amazon Neptune
+
+<hr>
+
+- Amazon Neptune is a graph database service.
+- It is used to build and run applications that work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
+
+<hr>
+
