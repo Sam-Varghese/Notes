@@ -1039,3 +1039,13 @@ You can think of this model as being similar to the division of responsibilities
 
 <hr>
 
+# Customers:Security In The Cloud
+
+<hr>
+
+- Customers are responsible for the security of everything that they create and put in the AWS Cloud.
+- We are responsible for managing security requirements for your content, including which content you choose to store on AWS, which AWS services you use, and who has access to that content.
+- We control how the access rights are granted, managed, and revoked.
+
+<hr>
+
