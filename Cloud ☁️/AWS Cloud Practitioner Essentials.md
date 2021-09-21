@@ -1019,3 +1019,23 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 - Amazon DynamoDB Accelerator is an in-memory cache for DynamoDB.
 - It helps improve response times from single digit milliseconds to microseconds.
+
+<hr>
+
+# Shared Responsibility Model
+
+<hr>
+
+- In AWS, both the customers and the AWS is responsible for the security of the resources.
+- Shared responsibilities model divides the customer responsibilities (Commonly referred to as **Security In The Cloud**) and AWS responsibilities (commonly referred to as **Security Of The Cloud**)
+
+<hr>
+
+![alt](img22.png)
+
+<hr>
+
+You can think of this model as being similar to the division of responsibilities between a homeowner and a homebuilder. The builder (AWS) is responsible for constructing your house and ensuring that it is solidly built. As the homeowner (the customer), it is your responsibility to secure everything in the house by ensuring that the doors are closed and locked.
+
+<hr>
+
