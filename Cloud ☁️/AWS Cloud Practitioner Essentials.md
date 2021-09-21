@@ -986,3 +986,36 @@ In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ acces
 
 <hr>
 
+- ## Amazon Quantum Ledger Database (Amazon QLDB)
+
+<hr>
+
+- Amazon QLDB is a ledger database service.
+- You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
+
+<hr>
+
+- ## Amazon Managed Blockchain
+
+<hr>
+
+- It is a service that you can use to create and manage blockchain networks with open-source frameworks.
+- Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+
+<hr>
+
+- ## Amazon ElastiCache
+
+<hr>
+
+- AmazonElastiCache is a service that adds caching layers on top of your databases to help improve the read times of common requests.
+- It supports two types of data stores: Redis and Memcached
+
+<hr>
+
+- ## Amazon DynamoDB Accelerator (DAX)
+
+<hr>
+
+- Amazon DynamoDB Accelerator is an in-memory cache for DynamoDB.
+- It helps improve response times from single digit milliseconds to microseconds.
