@@ -649,6 +649,9 @@ int main(void){
 
 <hr>
 
+# Other Math Functions
+
+<hr>
 
 <table class="ws-table-all notranslate" style="margin:0">
   <tbody><tr>
