@@ -449,9 +449,87 @@ int main(void){
 
 int main(void){
 
-    std::cout << (5>6);
+    std::cout << (5>6); // Ouput is 0
 }
 ```
+
+<hr>
+
+# String Concatenation
+
+<hr>
+
+- In order to add a string with another, here is the way:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA = "Sam";
+    std::string stringB = "Varghese";
+
+    std::string resultingString = stringA + stringB;
+
+    std::cout << "The resulting string is: "<< resultingString;
+}
+```
+
+<hr>
+
+# Append
+
+<hr>
+
+- String concatenation can also be done in the following way:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA = "Sam";
+    std::string stringB = "Varghese";
+
+    std::string resultingString = stringA.append(stringB); // Adds stringB after stringA
+
+    std::cout << "The resulting string is: "<< resultingString;
+}
+```
+
+<hr>
+
+# String Length
+
+<hr>
+
+- In order to find the length of a string, `string.length()` is the function that comes into use.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    std::cout<< "Length of alphabets string: "<< alphabets.length(); // alphabets.size() also works in C++
+
+    return 0;
+}
+```
+
+<hr>
+
+- **Note**: Instead of `.length()`, `.size()` can also be used.
 
 <hr>
 
