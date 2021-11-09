@@ -256,3 +256,19 @@ int main(void){
 
 <hr>
 
+# C++ Constants
+
+<hr>
+
+- In order to restrict the change of value of a variable, we may use `const`.
+
+<hr>
+
+```cpp
+const int integer1 = 5;
+
+integer1 = 10; // Would result in an error as integer1 should always be constant
+```
+
+<hr>
+
