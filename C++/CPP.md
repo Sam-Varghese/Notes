@@ -628,3 +628,21 @@ int main(void){
 
 <hr>
 
+# Min
+
+<hr>
+
+- We also have a `min` function in order to calculate the minimum of 2 numbers.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    std::cout << "The max of 5 and 6 is: "<<std::min(5, 6);
+
+    return 0;
+}
+```
