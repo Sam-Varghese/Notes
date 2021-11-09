@@ -583,3 +583,9 @@ int main(void){
 
 <hr>
 
+- **Note**: Always use `getline` in order to get a string as input, instead of `cin`, reason in the [explanation of getline](https://github.com/Sam-Varghese/Notes/blob/main/C%2B%2B/CPP.md#getline)
+
+<hr>
+
+![alt](https://imgr.search.brave.com/giFQGuU0RsnD5DLFgKChP5J7FD0MrIMubDPRXSp_nFI/fit/640/360/ce/1/aHR0cDovL3BhMS5u/YXJ2aWkuY29tLzY1/MDgvNDQxNzA3MTkx/MTNjMmIxYzk0MmE1/YzZiZTQzNmYyNDJk/ZjM1YTZmMF9ocS5n/aWY.gif)
+
