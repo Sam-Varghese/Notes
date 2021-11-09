@@ -365,3 +365,27 @@ int main(void){
 ```
 
 <hr>
+
+# C++ Booleans
+
+<hr>
+
+- `true` is 1, while `false` is 0
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    bool trueVariable = true;
+    bool falseVariable = false;
+
+    std::cout << "The true variable is: "<< trueVariable<<" The false variable is: "<< falseVariable;
+    // Output is The true variable is: 1 The false variable is: 0
+}
+```
+
+<hr>
+
