@@ -1,0 +1,159 @@
+<h1 align="center">C++ Notes</h1>
+
+<hr>
+
+<p align="center"><img src="Images/cpp.png" alt="C++ logo"></p>
+
+<hr>
+
+- Created by **Bjarne Stroustrup**
+
+<hr>
+
+<img src="Images/2015_bjarne_straustroup.jpg" alt="C++ logo">
+
+<hr>
+
+# Hello World
+
+<hr>
+
+<img src="https://imgr.search.brave.com/QxMSMbotTJNkodL2Mp-ehigPIH6jeDVjMCs4ICrpd34/fit/800/600/ce/1/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzEwMTgy/Nzgvc2NyZWVuc2hv/dHMvMzg3MDg5My9o/ZWxsb193b3JsZC5n/aWY.gif">
+
+<hr>
+
+- Here is a sample hello world program in order to understand the syntax of a C++ program
+
+<hr>
+
+```cpp
+#include<iostream> // Library which has standard standard input output definitions
+
+int main(void){ // defining a function named main, with int return type. This function runs automatically without even calling
+
+// Void keyword simply means that we are passing nothing as an argument in this function
+
+    std::cout << "Hello World"; // cout is the function used in order to output something
+    // std::cout actually stands for standard character output
+    // Semicolons are very necessary to separate one line of code from the other
+
+    return 0; // Any int except 0 can also be returned
+}
+```
+
+<hr>
+
+- Instead of writing `std::cout` always, we may also write the above code as follows:
+
+<hr>
+
+```
+#include<iostream>
+
+using namespace std;
+//using namespace std means that we can use names for objects and variables from the standard library.
+
+int main(void){
+
+    cout << "Hello World";
+    return 0;
+}
+```
+
+<hr>
+
+# New Line
+
+<hr>
+
+- To insert a blank line in C++, we may either use `\n` or the keyword `endl`.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    std::cout << "This is the first line\nAnd this is the second line";
+
+    return 0;
+}
+```
+
+<hr>
+
+OR
+
+```cpp
+
+#include<iostream>
+
+int main(void){
+
+    std::cout << "This is the first line"<<endl << "This is the second line";
+
+    return 0;
+}
+```
+
+<hr>
+
+# Comments
+
+<hr>
+
+- Comments are the lines which we include in our program for explanation, but are not executed by the compiler.
+- There are 2 types of comments:
+
+<hr>
+
+- Single line comments
+- Multiline comments
+
+<hr>
+
+## Single Line Comments
+
+<hr>
+
+- If we wanna comment out a single line, then putting `//` is enough.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    // This is a single line comment
+
+    return 0;
+}
+```
+
+<hr>
+
+## Multi Line Comments
+
+<hr>
+
+- Used in order to comment out multiple lines
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    /*
+    This is the example of multiline comment
+    Here I can comment multiple lines without putting // all the time
+    */
+
+    return 0;
+}
+```
+
+<hr>

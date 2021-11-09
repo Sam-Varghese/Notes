@@ -1049,3 +1049,34 @@ You can think of this model as being similar to the division of responsibilities
 
 <hr>
 
+# AWS: Security Of The Cloud
+
+<hr>
+
+- AWS is responsible for security of he cloud
+- AWS operates, manages, and controls the components at all layers of infrastructure.
+
+<hr>
+
+# User Permission And Access
+
+<hr>
+
+- ## AWS Identity And Access Management (IAM)
+
+<hr>
+
+- IAM enables you to manage access to AWS services and resources securely.
+
+<hr>
+
+- ## AWS Account Root User
+
+<hr>
+
+- When you first create an AWS account, you begin with an identity known as the root user.
+- The root user is accessed by signing in with the email address and password that you used to create your AWS account.
+- The root user has complete access to all the AWS services and resources in the account.
+
+<hr>
+
