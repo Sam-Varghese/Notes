@@ -6,6 +6,14 @@
 
 <hr>
 
+![alt](Images/hello.gif)
+
+<hr>
+
+# Introduction
+
+<hr>
+
 - Created by **Bjarne Stroustrup**
 
 <hr>
