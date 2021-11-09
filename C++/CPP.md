@@ -596,3 +596,35 @@ int main(void){
 <hr>
 
 ![Keep going gif](Images/keepGoing.gif)
+
+<hr>
+
+# C++ Math
+
+<hr>
+
+![Math GIF](Images/math.gif)
+
+<hr>
+
+# Max
+
+<hr>
+
+- Yeah, there is a built in function in C++ to figure out the max value out of 2 numbers
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    std::cout << "The max of 5 and 6 is: "<<std::max(5, 6);
+
+    return 0;
+}
+```
+
+<hr>
+
