@@ -211,6 +211,29 @@ int main(void){
 
     int a=5;
     std::cout<<"Value of a variable: " << a;
+
+    return 0;
+}
+```
+
+<hr>
+
+# Declaring Multiple Variables
+
+<hr>
+
+- We can also declare multiple variables at the same time, as follows:
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int integer1 = 1, integer2 = 2, integer3 = 3, integer4 = 4;
+
+    return 0;
 }
 ```
 
