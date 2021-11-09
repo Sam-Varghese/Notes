@@ -324,3 +324,16 @@ int main(void){
 
 <hr>
 
+# Byte Size Of Data Types
+
+<hr>
+
+| Data Type | Size |
+| -------- | ------- |
+|int| 4 bytes |
+|float| 4 bytes |
+|double| 8 bytes |
+|boolean| 1 byte |
+|char| 1 byte |
+
+<hr>
