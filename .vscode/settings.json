@@ -1,5 +1,16 @@
 {
   "python.pythonPath": "C:\\Users\\Hp\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
   "liveServer.settings.port": 5501,
-  "cSpell.words": ["Bjarne", "Stroustrup"]
+  "cSpell.words": [
+    "Bjarne",
+    "cout",
+    "endl",
+    "getline",
+    "Getline",
+    "interger",
+    "iostream",
+    "straustroup",
+    "Stroustrup",
+    "whitespaces"
+  ]
 }

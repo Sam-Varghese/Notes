@@ -272,3 +272,55 @@ integer1 = 10; // Would result in an error as integer1 should always be constant
 
 <hr>
 
+# C++ User Input
+
+<hr>
+
+- In order to get the user input, we use `std::cin` function.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int integer1;
+
+    std::cout << "Kindly enter the input: ";
+    std::cin >> integer1;
+
+    std::cout << "\nThe inputted integer is: "<<integer1;
+}
+```
+
+<hr>
+
+- **Note**: For `cin`, the delimiter is space(` `), so if you would input a string ex "Myself Sam", then the variable would only be storing "Myself"
+- In order to avoid this problem, we use `getline`
+
+<hr>
+
+# Getline
+
+<hr>
+
+- Used to get inputs where space is also present
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA;
+
+    std::cout <<"\nKindly enter your name: ";
+    std::getline (std::cin, stringA);
+}
+```
+
+<hr>
+
