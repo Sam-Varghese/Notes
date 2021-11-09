@@ -157,3 +157,42 @@ int main(void){
 ```
 
 <hr>
+
+# C++ Variables
+
+<hr>
+
+- In C++ there are different types of variables
+
+<hr>
+
+- **int**: Used to store integers
+- **double**: Stores floating point numbers
+- **char**: Store single characters like 'A' or 'b'. **Chars are always surrounded by single quotes**
+- **strings**: Stores text, such as "Hello world". **String values are surrounded by double quotes**
+- **bool**: Stores values with 2 states: **true** or **false**.
+
+<hr>
+
+# Declaring Variables
+
+<hr>
+
+- Syntax: *type name = value;*, and this may also work: *type name;*
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int integer1 = 5;
+    int integer2;
+
+    integer2 = 10;
+}
+```
+
+<hr>
+
