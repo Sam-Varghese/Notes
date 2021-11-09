@@ -533,3 +533,53 @@ int main(void){
 
 <hr>
 
+# C++ Access Strings
+
+<hr>
+
+- We can access any character of the string, as follows:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA = "Hello World";
+
+    std::cout << "The 5th character of the string is: " << stringA[4];
+
+    return 0;
+}
+```
+
+<hr>
+
+# Change String Characters
+
+<hr>
+
+- We can change the string characters as follows
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA = "Hello World";
+
+    stringA[0] = 'J';
+
+    std::cout << "The new value of the string is: "<< stringA;
+
+    return 0;
+}
+```
+
+<hr>
+
