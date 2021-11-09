@@ -10,7 +10,7 @@
 
 <hr>
 
-<img src="Images/2015_bjarne_straustroup.jpg" alt="C++ logo">
+<img src="Images/2015_bjarne_straustroup.jpg" alt="C++ logo" height="500vh">
 
 <hr>
 
@@ -335,5 +335,33 @@ int main(void){
 |double| 8 bytes |
 |boolean| 1 byte |
 |char| 1 byte |
+
+<hr>
+
+# Float Vs Double
+
+<hr>
+
+- Both of them are used to store floating point numbers, but the precision of *float* is only 6 or 7 decimal digits, while *double* variables have a precision of about 15 digits.
+
+<hr>
+
+- A floating point number can also be a scientific number with an `e` to indicate the power of 10.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    float f1 = 35e3;
+    double d1 = 12E4;
+    cout << f1;
+    cout << d1;
+
+    return 0;
+}
+```
 
 <hr>
