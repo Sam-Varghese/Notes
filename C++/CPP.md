@@ -764,3 +764,71 @@ int main(void){
  </tr>
 </tbody>
 </table>
+
+<hr>
+
+# C++ Conditionals
+
+<hr>
+
+C++ has the following conditional statements:
+
+<hr>
+
+- Use `if` to specify a block of code to be executed, if a specified condition is true
+- Use `else` to specify a block of code to be executed, if the same condition is false
+- Use `else if` to specify a new condition to test, if the first condition is false
+- Use `switch` to specify many alternative blocks of code to be executed
+
+<hr>
+
+# If Statement
+
+<hr>
+
+- Use `if` to specify a block of code to be executed, if a specified condition is true
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    if(20 > 18){
+
+    std::cout << "20 is greater sir";
+    }
+
+    return 0;
+}
+```
+
+<hr>
+
+# Else
+
+<hr>
+
+- Use `else` to specify a block of code to be executed, if the same condition is false
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    if(3>4){
+
+        std::cout << "3 is greater";
+    } else {
+
+        std::cout << "4 is greater";
+    }
+
+    return 0;
+}
+```
+
+<hr>
