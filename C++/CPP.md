@@ -18,7 +18,7 @@
 
 <hr>
 
-<img src="https://imgr.search.brave.com/QxMSMbotTJNkodL2Mp-ehigPIH6jeDVjMCs4ICrpd34/fit/800/600/ce/1/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzEwMTgy/Nzgvc2NyZWVuc2hv/dHMvMzg3MDg5My9o/ZWxsb193b3JsZC5n/aWY.gif">
+<img src="Images/HelloWorld.jpg">
 
 <hr>
 
@@ -178,7 +178,7 @@ int main(void){
 
 <hr>
 
-- Syntax: *type name = value;*, and this may also work: *type name;*
+- Syntax: _type name = value;_, and this may also work: _type name;_
 
 <hr>
 
@@ -196,3 +196,22 @@ int main(void){
 
 <hr>
 
+# Display Variables
+
+<hr>
+
+- In order to print the variables, this is the way:
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int a=5;
+    std::cout<<"Value of a variable: " << a;
+}
+```
+
+<hr>
