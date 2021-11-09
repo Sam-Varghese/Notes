@@ -238,3 +238,21 @@ int main(void){
 ```
 
 <hr>
+
+# Identifiers
+
+<hr>
+
+- Variable names are what's known as identifiers.
+- Variables can't be given arbitrarily any name. Here  are the naming rules:
+
+<hr>
+
+1. Names can contain only letters, digits, and underscores.
+2. Names must begin only with a letter or an underscore.
+3. Identifiers are case sensitive. (So abc, and Abc are different identifiers)
+4. Names cannot contain whitespaces, or special characters like !, #, %, etc.
+5. Reserved words like `int` can't be used as identifiers.
+
+<hr>
+
