@@ -423,3 +423,35 @@ int main(void){
 
 <hr>
 
+## Creating A String
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringA = "Sam Varghese";
+    std::cout << "Value of stringA: "<<stringA;
+}
+```
+
+<hr>
+
+**Note**: Comparison operators always return 1(true) and 0(false) as output.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    std::cout << (5>6);
+}
+```
+
+<hr>
+
