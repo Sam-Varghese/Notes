@@ -832,3 +832,34 @@ int main(void){
 ```
 
 <hr>
+
+# Else If
+
+<hr>
+
+- Use `else if` to specify a new condition to test, if the first condition is false
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    if(4>4){
+
+        std::cout << "Yes, 4 is greater than 4";
+    } else if (4 == 4){
+
+        std::cout << "Yes, 4 is equal to 4";
+    } else {
+
+        std::cout << "No, 4 is less than 4";
+    }
+
+    return 0;
+}
+```
+
+<hr>
+
