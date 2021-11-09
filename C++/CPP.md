@@ -389,3 +389,37 @@ int main(void){
 
 <hr>
 
+# C++ Chars
+
+<hr>
+
+- This datatype is used to store only a single character, enclosed within single quotes.
+- **Note**: We can use ASCII values to display certain characters.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    char value1 = 65, value2 = 70;
+    std::cout<<"The value of value1 variable: "<<value1<< " Value of value1 variable: "<<value2;
+}
+```
+
+# C++ Strings
+
+<hr>
+
+- This is not a built-in datatype in C++
+- To use it we need to include the string header file
+
+<hr>
+
+```cpp
+#include<string>
+```
+
+<hr>
+
