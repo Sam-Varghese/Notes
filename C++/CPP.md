@@ -968,10 +968,56 @@ int main(void){
 
 <hr>
 
-Keep Going bro ❤️‍🔥🔥
+Keep Scrolling bro, You can do this ❤️‍🔥🔥
 
 <hr>
 
 ![Keep Going](Images/keepGoing1.gif)
 
 <hr>
+
+# Do While
+
+<hr>
+
+![Do While Loop Meme](Images/doWhile.jpg)
+
+<hr>
+
+- The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+<hr>
+
+- Syntax:
+
+<hr>
+
+```cpp
+do{
+
+  // code block to be executed
+} while (condition)
+```
+
+<hr>
+
+- Example:
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  int i=0;
+
+  do {
+    i++;
+    std::cout << "Value of i=" << i << "\n";
+  } while (i<10);
+}
+```
+
+<hr>
+
