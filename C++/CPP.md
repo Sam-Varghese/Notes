@@ -1021,3 +1021,27 @@ int main(void){
 
 <hr>
 
+# For Loop
+
+<hr>
+
+- When you know exactly how many times you want to loop through a block of code, use the `for` loop instead of a `while` loop
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  for(int i = 0; i < 11; i++){ // We initialize i variable, set a condition at i, and tell how i would change during the loop
+
+    std::cout << "\nValue of i is: "<<i<< "\n";
+  }
+
+  return 0;
+}
+```
+
+<hr>
+
