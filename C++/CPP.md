@@ -252,7 +252,7 @@ int main(void){
 <hr>
 
 - Variable names are what's known as identifiers.
-- Variables can't be given arbitrarily any name. Here  are the naming rules:
+- Variables can't be given arbitrarily any name. Here are the naming rules:
 
 <hr>
 
@@ -336,13 +336,13 @@ int main(void){
 
 <hr>
 
-| Data Type | Size |
-| -------- | ------- |
-|int| 4 bytes |
-|float| 4 bytes |
-|double| 8 bytes |
-|boolean| 1 byte |
-|char| 1 byte |
+| Data Type | Size    |
+| --------- | ------- |
+| int       | 4 bytes |
+| float     | 4 bytes |
+| double    | 8 bytes |
+| boolean   | 1 byte  |
+| char      | 1 byte  |
 
 <hr>
 
@@ -350,7 +350,7 @@ int main(void){
 
 <hr>
 
-- Both of them are used to store floating point numbers, but the precision of *float* is only 6 or 7 decimal digits, while *double* variables have a precision of about 15 digits.
+- Both of them are used to store floating point numbers, but the precision of _float_ is only 6 or 7 decimal digits, while _double_ variables have a precision of about 15 digits.
 
 <hr>
 
@@ -867,7 +867,7 @@ int main(void){
 
 <hr>
 
-- Syntax: *variable = (condition) ? expressionTrue : expressionFalse;*
+- Syntax: _variable = (condition) ? expressionTrue : expressionFalse;_
 
 <hr>
 
@@ -1037,6 +1037,68 @@ int main(void){
   for(int i = 0; i < 11; i++){ // We initialize i variable, set a condition at i, and tell how i would change during the loop
 
     std::cout << "\nValue of i is: "<<i<< "\n";
+  }
+
+  return 0;
+}
+```
+
+<hr>
+
+# Break Statement
+
+<hr>
+
+- `break` statement is used in order to jump out of loop.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  for(int i = 0; i < 11; i++){
+
+    std::cout << "Value of i="<<i<<"\n";
+
+    if(i==5){
+
+      std::cout << "Breaking the loop\n";
+      break;
+    }
+  }
+
+  std::cout << "Loop ended\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+# Continue
+
+<hr>
+
+- The continue statement breaks the current iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  for(int i=0; i < 11; i++){
+
+    if(i == 5){
+
+      std::cout << "\nValue of i is detected as 5, so continuing the loop\n\n";
+      continue;
+    }
+
+    std::cout << "Value of i= "<< i<< "\n";
   }
 
   return 0;
