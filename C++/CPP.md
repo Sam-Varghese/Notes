@@ -863,3 +863,28 @@ int main(void){
 
 <hr>
 
+# ShortHand If Else
+
+<hr>
+
+- *variable = (condition) ? expressionTrue : expressionFalse;*
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int maxValue;
+
+    maxValue = (5>6) ? 5 : 6;
+
+    std::cout << "The max out of 5, and 6 is: " << maxValue;
+
+    return 0;
+}
+```
+
+<hr>
+
