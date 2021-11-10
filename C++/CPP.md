@@ -867,7 +867,7 @@ int main(void){
 
 <hr>
 
-- *variable = (condition) ? expressionTrue : expressionFalse;*
+- Syntax: *variable = (condition) ? expressionTrue : expressionFalse;*
 
 <hr>
 
@@ -939,3 +939,32 @@ int main(void){
 ```
 
 <hr>
+
+# While Loop
+
+<hr>
+
+- Loops can execute a block of code as long as a specified condition is reached using `while`
+- Syntax: `while(condition){//Code block}`
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  int i=5;
+
+  while(i > 0){
+
+    std::cout << "Value of i is "<< i << "\n";
+    i--;
+  }
+
+  return 0;
+}
+```
+
+<hr>
+
