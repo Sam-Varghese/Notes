@@ -888,3 +888,54 @@ int main(void){
 
 <hr>
 
+# Switch
+
+<hr>
+
+- Use the `switch` statement to select one of many code blocks to be executed.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+    int day = 4;
+
+    switch(day){
+
+        case 0: // Checks wether day is = 0
+
+            std::cout << "Day detected to be equal to 0\n"; // Would run these lines is day = 0
+            break; // Important to put in order to stop program from checking wether day is still = 2/3/4/5
+
+        case 1:
+
+            std::cout << "Day detected to be equal to 1\n";
+            break;
+
+        case 2:
+
+            std::cout << "Day detected to be equal to 2\n";
+            break;
+
+        case 3:
+
+            std::cout << "Day detected to be equal to 3\n";
+            break;
+
+        default: // For the case when day is none of the above switch statement value
+
+            std::cout << "Day detected to be equal to 4\n";
+            break;
+
+    }
+
+    std::cout << "Switch statement ended";
+
+    return 0;
+}
+```
+
+<hr>
