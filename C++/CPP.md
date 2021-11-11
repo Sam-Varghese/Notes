@@ -893,6 +893,7 @@ int main(void){
 <hr>
 
 - Use the `switch` statement to select one of many code blocks to be executed.
+- Prefer using `OR` operator instead of `switch` statement.
 
 <hr>
 
@@ -1200,3 +1201,44 @@ int main(void){
     return 0;
 }
 ```
+
+<hr>
+
+## Omit Array Size
+
+<hr>
+
+- We can initialize an array without even specifying it's size.
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  int integerArray[] = {1, 2, 3, 4, 5};
+
+  return 0;
+}
+```
+
+<hr>
+
+- **Note**: If you won't mention the array length, then you won't be able to add anymore elements later.
+- Like in the following case, we are able to add extra elements:
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  int integerArray[6] = {1, 2, 3, 4, 5};
+  integerArray[5] = 6;
+}
+```
+
+<hr>
+
