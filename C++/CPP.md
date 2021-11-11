@@ -1107,3 +1107,96 @@ int main(void){
 
 <hr>
 
+# Arrays
+
+<hr>
+
+- Used to store multiple values in a single variable, instead of declaring separate variables to store each of them.
+
+<hr>
+
+## Declaring An Array
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+  std::string cars[4]; // Here 4 is the the total number of string elements cars array can store at max
+  int intArray[4]; // This array can store only 4 int's at max
+
+  return 0;
+}
+```
+
+<hr>
+
+## Inserting Values
+
+<hr>
+
+```cpp
+#include<iostream>
+
+int main(void){
+
+  int intArray[3] = {1, 2, 3};
+
+  return 0;
+}
+```
+
+<hr>
+
+## Accessing Array Elements
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringArray = {"Sam", "Varghese", "Indore"};
+
+    std::cout << "The second element of the array is: "<< stringArray[1];
+
+    return 0;
+}
+```
+
+<hr>
+
+## Change Array Element
+
+<hr>
+
+- Arrays are mutable.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+int main(void){
+
+    std::string stringArray[3] = {"Sam", "Varghese", "Indore"};
+
+    // Altering the 3rd element of array
+
+    stringArray[2] = "India";
+
+    // Printing the array
+    for(int i=0; i<3; i++>){
+
+      std::cout << "\nThe next element of the array: "<< stringArray[i];
+    }
+
+    return 0;
+}
+```
