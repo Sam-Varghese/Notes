@@ -1242,3 +1242,146 @@ int main(void){
 
 <hr>
 
+# Char Arrays
+
+<hr>
+
+- Character arrays are simply arrays with all of it's elements of type `char`.
+
+<hr>
+
+## Initializing A Char Array
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+#include<cstring>
+
+int main(void){
+
+    char characterArray[] = {'a', 'b', 'c', 'd', '\0'};
+
+    // Printing the characterArray
+
+    for(int i=0; i< strlen(characterArray); i++){
+
+      std::cout << "Element of array: "<<characterArray[i]<< "\n";
+    }
+
+    return 0;
+}
+```
+
+<hr>
+
+- **Reason For The \0:** If you now put some characters into str it will print str up to the last '\0'. Every string literal ends with '\0', you must make sure your array ends with '\0' too, if not, data will be read beyond your array (until '\0' is encountered) and possibly beyond your application's memory space in which case your app will crash.
+
+<hr>
+
+- Alternatively, we can also initialize an array with the help of strings, as follows:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+#include<cstring>
+
+int main(void){
+
+    char characterArray = "Sam Varghese"; // With this method, we wont need to add \0 at the end
+
+    // Printing the characterArray
+
+    for(int i=0; i< strlen(characterArray); i++){
+
+      std::cout << "Element of array: "<<characterArray[i]<< "\n";
+    }
+
+    return 0;
+}
+```
+
+<hr>
+
+# CString
+
+<hr>
+
+- This header file defines several functions to manipulate char arrays.
+
+<hr>
+
+## C++ memchr()
+
+<hr>
+
+- Used in order to check the presence of a character in a character array.
+- **Note**: Search is case sensitive.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+  char array[] = "Myself Sam Varghese";
+
+  char ele = 'e';
+
+  if(memchr(array, ele, 4)){
+
+    cout << "Found the element sir.";
+  } else {
+
+    cout << "Element not found.";
+  }
+
+  return 0;
+}
+```
+
+<hr>
+
+## strcat()
+
+<hr>
+
+- Concatenates 2 char arrays
+- Returns a pointer to the destination array
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+    char a[] = "Sam ";
+    char b[] = "Angel";
+
+    strcat(a, b);
+
+    cout << a;
+
+    return 0;
+}
+```
+
+<hr>
+
+# C++ References
+
+<hr>
