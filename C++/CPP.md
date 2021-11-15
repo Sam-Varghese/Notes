@@ -1777,3 +1777,120 @@ int main(void){
 
 <hr>
 
+## Default Parameters
+
+<hr>
+
+- If we want to set a default value to the parameter, then we can do so in the following manner:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline int add(int num1, int num2=10, int num3=4){
+
+  return num1+num2+num3;
+}
+
+int main(void){
+
+    cout << add(1,2) // num1 = 1, num2 = 10, num3 = 4 because it has a default value of 4
+
+    return 0;
+}
+```
+
+<hr>
+
+- **Note**: The parameters to the right of a default parameter should always be default parameters.
+
+<hr>
+
+## Pass By Reference
+
+<hr>
+
+- Take the following example which aims in swapping the values of `a`, and `b`
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+void swap(int a, int b){
+
+  int c;
+
+  c = a;
+  a = b;
+  b = c;
+}
+
+int main(void){
+
+  int a = 5;
+  int b = 4;
+
+  swap(a, b);
+
+  cout << "\nValue of a = " << a << " Value of b=" << b << "\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+- After running the program, what we notice is that no change occurred to the variables `a`, and `b`
+
+<hr>
+
+![Frustrated gif](Images/frustrated.gif)
+
+<hr>
+
+- Hence the way out to this problem is store the reference of the variables in parameters instead of values
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+void swap(int &a, int &b){
+
+  int c;
+
+  c = a;
+  a = b;
+  b = c;
+}
+
+int main(void){
+
+  int a = 5;
+  int b = 4;
+
+  swap(a, b);
+
+  cout << "\nValue of a = " << a << " Value of b=" << b << "\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+![Party GIF](Images/party.gif)
