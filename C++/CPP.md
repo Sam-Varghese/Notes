@@ -1687,3 +1687,93 @@ int main(void){
 
 <hr>
 
+```cpp
+void myFunction() { // Void means that it returns nothing
+
+  // Enter the code over here
+}
+
+int main(void){
+
+  myFunction() // Call the function like this
+}
+```
+
+<hr>
+
+## Inline Functions
+
+<hr>
+
+- There is too much overhead while switching from executing the main code, to executing the **SMALL** piece of code in the function.
+- Hence, in order to optimize the program, we have the concept of `inline` functions.
+- Inline functions simply copy paste the contents of function to the main function,  instead of redirecting the program execution to the code inside function.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline string checkEven(int number){
+
+  return (number % 2 == 0) ? "true" : "false";
+}
+
+int main(void){
+
+  cout<< checkEven(45);
+
+  return 0;
+}
+```
+
+<hr>
+
+- It's just a suggestion to the compiler to consider our function as inline, and copy paste the code inside the place where it's called.
+- Prefer making only small functions inline, not all.
+
+<hr>
+
+## Function Parameters
+
+<hr>
+
+- The values which we pass while **making** the function.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline int add (int num1, int num2){// num1 and num2 are parameter
+
+  return num1 + num2;
+}
+
+int main(void){
+
+  cout << add(12, 13); // 12, and 13 are arguments
+
+  return 0;
+}
+```
+
+<hr>
+
+## Function Arguments
+
+<hr>
+
+- The actual values that we pass while calling a function.
+- Like in the above example, 12, and 13 are arguments.
+
+<hr>
+
