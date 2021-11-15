@@ -1679,3 +1679,11 @@ int main(void){
 
 <hr>
 
+# C++ Functions
+
+<hr>
+
+- A function is a block of code which only runs when it is called.
+
+<hr>
+
