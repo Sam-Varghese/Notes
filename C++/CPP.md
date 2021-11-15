@@ -1617,3 +1617,32 @@ int main(void){
 
 <hr>
 
+# C++ Dereference
+
+<hr>
+
+- In the previous example, we used the pointer variable to get the memory address of a variable (used together with the & reference operator)- However, you can also use the pointer to get the value of the variable, by using the * operator (the dereference operator)
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam";
+
+  string* b = &a;
+
+  cout << b << " "<<*b;
+
+  return 0;
+}
+```
+
+<hr>
+
