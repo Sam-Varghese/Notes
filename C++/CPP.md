@@ -2014,3 +2014,6 @@ int main(void){
 <hr>
 
 ![Advance GIF](Images/adv.gif)
+
+<hr>
+
