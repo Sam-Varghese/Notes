@@ -1646,3 +1646,36 @@ int main(void){
 
 <hr>
 
+# C++ Modify Pointers
+
+<hr>
+
+- You can also change the pointer's value. But note that this will also change the value of the original variable:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam";
+
+  string* b = &a;
+
+  cout << "\nMemory address of variable a=" << b << ", and the variable value is=" << *b;
+
+  *b = "Varghese";
+
+  cout << "\nNew value of variable a=" << a << ", and the memory address of a, ie b=" << b;
+
+  return 0;
+}
+```
+
+<hr>
+
