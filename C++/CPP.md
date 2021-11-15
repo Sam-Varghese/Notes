@@ -2008,3 +2008,9 @@ int main(void){
 
 <hr>
 
+- Just want to congratulate for having learnt so much 🎉🎉🥳
+- Now you are going to master advanced C++
+
+<hr>
+
+![Advance GIF](Images/adv.gif)
