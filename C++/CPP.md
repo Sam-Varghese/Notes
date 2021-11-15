@@ -2023,3 +2023,25 @@ int main(void){
 <hr>
 
 ![OOPs meme](Images/OOP.jpg)
+
+<hr>
+
+# OOP
+
+<hr>
+
+- OOP stands for **O**bject **O**riented **P**rogramming
+- Here we are concerned about creating objects
+
+<hr>
+
+## Advantages:
+
+<hr>
+
+- OOPs is faster and easier to execute
+- Provides a clear structure for the programs
+- Helps to keep the C++ Code **DRY** **D**on't **R**epeat **Y**ourself
+
+<hr>
+
