@@ -1382,6 +1382,209 @@ int main(void){
 
 <hr>
 
+## strchr()
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+    char array1[] = "Sam Varghese";
+
+    if(strchr(array1, 'a')){
+
+      cout << "Character found in the character array";
+    } else {
+
+      cout << "Character not found in the character array";
+    }
+
+    return 0;
+}
+```
+
+<hr>
+
+## strcmp()
+
+<hr>
+
+- Used in order to compare 2 char arrays
+- It returns a positive value if the first differing character in `lhs` is greater than the corresponding character in `rhs`.
+- It returns a negative value if the first differing character in `lhs` is smaller than the corresponding character in `rhs`.
+- It returns 0 if `lhs` and `rhs` are equal.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+  char a[] = "Sam";
+  char b[] = "Angel";
+
+  cout << strcmp(a, b); // returns 1
+
+  return 0;
+}
+```
+
+<hr>
+
+## strcpy
+
+<hr>
+
+- The following program will generate an error:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+  char a[] = "Sam Varghese";
+  char b[50];
+
+  b = a;
+
+  cout << b;
+
+  return 0;
+}
+```
+
+<hr>
+
+![Destroying computer meme](Images/destroyComputer.gif)
+
+<hr>
+
+- Hence in order to copy the value of a char array to another, use the following function.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+#include<cstring>
+
+using namespace std;
+
+int main(void){
+
+  char a[] = "Sam Varghese";
+  char b[50];
+
+  strcpy(b, a);
+
+  cout << b;
+
+  return 0;
+}
+```
+
+<hr>
+
 # C++ References
 
 <hr>
+
+- A reference variable is a reference to an existing variable, and is created with an `&` operator.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam ";
+  string b = a;
+  b += "Varghese";
+
+  cout << a << "\n";
+  cout << b << "\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+- In the above example, we can see that the variable `a` didn't change even when we did `b=a` and edited b as `b += "Varghese"`.
+- In order to have the `a` variable automatically altered whenever we alter `b` variable, make `b` the reference of `a` instead of value of `a`
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam ";
+  string &b = a;
+  b += "Varghese";
+
+  cout << a << "\n";
+  cout << b << "\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+# Memory Address
+
+<hr>
+
+- We can get the memory address of a variable using `&` operator.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam";
+
+  cout << &a;
+
+  return 0;
+}
+```
+
+<hr>
+
