@@ -2013,7 +2013,13 @@ int main(void){
 
 <hr>
 
-![Advance GIF](Images/adv.gif)
+![Advance GIF](Images/adv.jpg)
 
 <hr>
 
+- So whatever we studied till yet comes under procedural programming, which includes only functions and procedures.
+- Now lets start a new journey to OOP's
+
+<hr>
+
+![OOPs meme](Images/OOP.jpg)
