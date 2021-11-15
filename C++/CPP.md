@@ -1588,3 +1588,32 @@ int main(void){
 
 <hr>
 
+# C++ Pointers
+
+<hr>
+
+- A pointer is simply a variable that stores memory address as its value.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  string a = "Sam";
+
+  string* b = &a; // string because a is a string
+
+  cout << &a << "  " << b;
+
+  return 0;
+}
+```
+
+<hr>
+
