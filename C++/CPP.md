@@ -1894,3 +1894,117 @@ int main(void){
 <hr>
 
 ![Party GIF](Images/party.gif)
+
+<hr>
+
+## Function Overloading
+
+<hr>
+
+- In C++, multiple functions can have the same name with different parameters.
+- Take the following example which brings the need for function overload:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline int sum(int a, int b){
+
+  return a + b;
+}
+
+int main(void){
+
+  int sum1 = sum(5, 5);
+  float sum2 = sum(0.5, 0.5);
+
+  cout << "The sum of integers, which should be 10 is=" << sum1 << ", and the sum of floats, which should 1.0 is="<< sum2;
+
+  return 0;
+}
+```
+
+<hr>
+
+- The sum of integers 5 and 5 is 10, which is correct.
+- But it gives the sum of 0.5, and 0.5 as 0, which is incorrect.
+- Happened because C++ converted 0.5 to int 0 so sum appeared to be 0.
+- Here's a way out to this problem
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline int sum(int a, int b){
+
+  return a + b;
+}
+
+inline double sum(double a, double b){
+
+  return a + b;
+}
+
+int main(void){
+
+  int sum1 = sum(5, 5);
+  float sum2 = sum(0.5, 0.5);
+
+  cout << "The sum of integers, which should be 10 is=" << sum1 << ", and the sum of floats, which should 1.0 is="<< sum2;
+
+  return 0;
+}
+```
+
+<hr>
+
+- So in the above program, integer calculations will go to `int sum`, and the double calculations will go to `double sum`.
+
+<hr>
+
+- **Note**: The above program would have resulted in an error if we would have used `float` instead of `double`
+- Happened because C++ again converts `float` to `int`, and thus gets confused wether to use the float function, or int function.
+- Here's a way out to that problem:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+inline int sum(int a, int b){
+
+  return a + b;
+}
+
+inline float sum(float a, float b){
+
+  return a + b;
+}
+
+int main(void){
+
+  int sum1 = sum(5, 5);
+  float sum2 = sum(0.5f, 0.5f); // Write f in order to restrict the type of argument as only float
+
+  cout << "The sum of integers, which should be 10 is=" << sum1 << ", and the sum of floats, which should 1.0 is="<< sum2;
+
+  return 0;
+}
+```
+
+<hr>
+
