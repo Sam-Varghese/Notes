@@ -12,5 +12,8 @@
     "straustroup",
     "Stroustrup",
     "whitespaces"
-  ]
+  ],
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }

@@ -1897,6 +1897,10 @@ int main(void){
 
 <hr>
 
+- **Note**: Arrays when passed  
+
+<hr>
+
 ## Function Overloading
 
 <hr>
@@ -2042,6 +2046,85 @@ int main(void){
 - OOPs is faster and easier to execute
 - Provides a clear structure for the programs
 - Helps to keep the C++ Code **DRY** **D**on't **R**epeat **Y**ourself
+
+<hr>
+
+# Creating A Class
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class Student {
+
+  public:
+    string name;
+    string className;
+    string behavior;
+};
+
+int main(void){
+
+  Student Sam;
+
+  Sam.name = "Sam Varghese";
+  Sam.className = "Class 12";
+  Sam.behavior = "Good boy";
+
+  cout << "\nInformation about Sam: Name: " << Sam.name << " class name: " << Sam.className << " behavior: " << Sam.behavior << "\n";
+
+  return 0;
+}
+```
+
+<hr>
+
+- In the above example, we created just one object `Sam`. We may create any number of objects.
+
+<hr>
+
+## Adding Functions To Classes
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class students {
+
+  public:
+
+    int addClass(int &classNo){ // Adding functions just as we add objects.
+
+      classNo++;
+
+      return classNo;
+    };
+
+    int classNo;
+};
+
+int main(void){
+
+  students Sam;
+
+  Sam.classNo = 10;
+
+  cout << Sam.addClass(Sam.classNo) << "\n";
+  cout << Sam.classNo;
+
+  return 0;
+}
+```
 
 <hr>
 
