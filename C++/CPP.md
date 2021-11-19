@@ -2088,7 +2088,7 @@ int main(void){
 
 <hr>
 
-## Adding Functions To Classes
+# Adding Functions To Classes
 
 <hr>
 
@@ -2121,6 +2121,127 @@ int main(void){
 
   cout << Sam.addClass(Sam.classNo) << "\n";
   cout << Sam.classNo;
+
+  return 0;
+}
+```
+
+<hr>
+
+- We can also define functions of a class outside the class
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class sicaClass{
+
+  public:
+
+    string className;
+    int strength;
+    string teacherName;
+    void addFourty(int &strength);
+};
+
+void sicaClass::addFourty(int &strength){
+
+  strength += 40;
+}
+
+int main(void){
+
+  sicaClass class12;
+
+  class12.className = "Class 12th";
+  class12.strength = 40;
+  class12.teacherName = "Rajini Uperati";
+
+  class12.addFourty(class12.strength);
+
+  cout << "Strength of the class+40: " << class12.strength;
+
+  return 0;
+}
+```
+
+<hr>
+
+# Constructor
+
+<hr>
+
+## Constructors
+
+<hr>
+
+- A constructor in C++ is a special C++ method that is automatically called when an object of the class is created.
+- To create a constructor, use the same name as of the class, followed by parenthesis.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class MyClass {     // The class
+  public:           // Access specifier
+    MyClass() {     // Constructor
+      cout << "Hello World!";
+    }
+};
+
+int main() {
+  MyClass myObj;    // Create an object of MyClass (this will call the constructor)
+  return 0;
+}
+```
+
+<hr>
+
+## Constructor Parameters
+
+<hr>
+
+- Constructors can also take parameters which can be useful for setting initial values for attributes.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class sicaClasses{
+
+  public:
+    string name;
+    int strength;
+    string classTeacher;
+
+    sicaClasses(string Name, int Strength, string ClassTeacher){
+
+      name = Name;
+      strength = Strength;
+      classTeacher = ClassTeacher;
+    }
+};
+
+int main(void){
+
+  sicaClasses class12("Class 12", 40, "Rajini Upareti");
+
+  cout << "\nName of the class: " << class12.name << " strength of the class: " << class12.strength << " name of class teacher: " << class12.classTeacher;
 
   return 0;
 }
