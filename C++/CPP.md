@@ -1701,6 +1701,62 @@ int main(void){
 
 <hr>
 
+- If this functions gets called even before itd definition, like in the following case:
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+int main(void){
+
+  printName("Sam Varghese");
+
+  return 0;
+}
+
+void printName(string name){
+
+  cout << name;
+}
+```
+
+<hr>
+
+- Then we get an error saying that the function `printName` was never defined.
+- Hence in order to overcome this error, we may declare the function early, as following:
+
+<hr>
+
+```cpp
+
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+void printName(string); // Just put the types as parameters
+
+int main(void){
+
+  printName("Sam Varghese");
+
+  return 0;
+}
+
+void printName(string name){
+
+  cout << name;
+}
+```
+
+<hr>
+
 ## Inline Functions
 
 <hr>
@@ -2249,3 +2305,50 @@ int main(void){
 
 <hr>
 
+## Constructors Outside Class
+
+<hr>
+
+- Very similar to as we define functions outside classes.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class sicaClass{
+
+  public:
+
+    string className;
+    int strength;
+    string teacherName;
+    void addFourty(int &strength);
+};
+
+void sicaClass::addFourty(int &strength){
+
+  strength += 40;
+}
+
+int main(void){
+
+  sicaClass class12;
+
+  class12.className = "Class 12th";
+  class12.strength = 40;
+  class12.teacherName = "Rajini Uperati";
+
+  class12.addFourty(class12.strength);
+
+  cout << "Strength of the class+40: " << class12.strength;
+
+  return 0;
+}
+```
+
+<hr>
