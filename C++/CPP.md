@@ -2474,3 +2474,55 @@ int main(void){
 
 <hr>
 
+# Inheritance
+
+<hr>
+
+- In C++ it is possible to inherit attributes and methods from one class another.
+- This inheritance concept is categorized in 2 categories
+
+<hr>
+
+- **Derived Classes** (child): The class that inherits from another class
+- **Base Class**(parent): The class being inherited from
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+// Base Class
+
+class student {
+
+  public:
+    string name;
+
+    void printName(){
+
+      cout << "\nMy name is Sam";
+    }
+};
+
+// Derived class
+
+class class12: public student {
+
+  public:
+    int class12ID = 1221;
+};
+
+int main(void){
+
+  class12 Sam;
+  Sam.printName();
+
+  return 0;
+}
+```
+
+<hr>
+
