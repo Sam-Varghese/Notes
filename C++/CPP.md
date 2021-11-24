@@ -2352,3 +2352,125 @@ int main(void){
 ```
 
 <hr>
+
+# Access Specifiers
+
+<hr>
+
+- The `public` keyword that appears inside the class is an access specifier.
+- Access specifiers define how the members (attributes and methods) of a class can be accessed.
+- `public` means that they can be accessed and modified from outside the code
+
+<hr>
+
+- In C++ there are 3 types of access specifiers: 
+
+<hr>
+
+- `public`: Members are accessed from outside the class.
+- `private`: Members can't be accessed from outside the class.
+- `protected`: Members can't be accessed from outside the class, however they can be accessed in inherited classes.
+
+<hr>
+
+- Here's an example demonstrating the difference between `public` and `private` members.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class myClass {
+
+    public:
+        string behaviour;
+
+    private:
+        string bestFriend;
+};
+
+int main(void){
+
+    myClass Sam;
+
+    Sam.behaviour = "Good";
+    Sam.bestFriend = "Tejas";
+
+    return 0;
+}
+```
+
+<hr>
+
+- **Note**: By default all the members of a class are `private` if you don't specify the access specifier.
+
+<hr>
+
+```cpp
+class MyClass {
+  int x;   // Private attribute
+  int y;   // Private attribute
+};
+```
+
+<hr>
+
+# Encapsulation
+
+<hr>
+
+- Encapsulation means to hide the sensitive data from users.
+- To access a private attribute, use the public `get` & `set` method.
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class MySchool{
+
+  public:
+    string studentName;
+    string studentBehaviour;
+
+    // A function to get the value of private object
+
+    long getID(){
+
+      return ID;
+    }
+
+    // A function to change the value of a private object
+
+    void setID(long IDValue){
+
+      ID = IDValue;
+    }
+
+  private:
+    long ID;
+    int result;
+};
+
+int main(void){
+
+  MySchool Sam;
+
+  Sam.setID(1234);
+
+  cout << Sam.getID();
+
+  return 0;
+}
+```
+
+<hr>
+
