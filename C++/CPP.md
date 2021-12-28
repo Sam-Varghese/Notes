@@ -2526,3 +2526,42 @@ int main(void){
 
 <hr>
 
+## Multilevel Inheritance
+
+<hr>
+
+```cpp
+#include<iostream>
+#include<vector>
+#include<string>
+
+using namespace std;
+
+class School {
+
+  public:
+    string schoolsRegion;
+};
+
+class SicaSchool : public School {
+
+  public:
+    string schoolName;
+};
+
+class classes : public SicaSchool {
+
+  public:
+    string className;
+};
+
+int main(void){
+
+  classes class12;
+  class12.schoolName = "SICA";
+
+  cout << class12.schoolName;
+
+  return 0;
+}
+```
