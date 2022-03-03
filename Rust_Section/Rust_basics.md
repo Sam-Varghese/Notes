@@ -1136,6 +1136,28 @@ fn main(){
 
 <hr>
 
+```mermaid
+flowchart TD;
+    datType(Data Types) --> scal(Scalar)
+    datType -->comp(Compound)
+    scal-->int(Integers)
+    int-->|0 to 2^(n)-1|signed(Signed integers)
+    signed-->8(8 bits)
+    8-->16(16 bits)
+    16-->32(32 bits)
+    32-->64(64 bits)
+    64-->128(128 bits)
+    int-->|-(2^(n-1) to 2^(n-1)-1)|unsigned(Unsigned integers)
+    unsigned-->8
+    scal-->floats(Floating pt num.)
+    scal-->bools(Booleans)
+    bools-->true
+    bools-->false
+    scal-->chars(Characters)
+```
+
+<hr>
+
 - Rust is a **Statically typed** language.
 - This means that the types of variables should be known at compile time.
 
@@ -1150,3 +1172,8 @@ fn main(){
 
 <hr>
 
+#### Integers
+
+<hr>
+
+```mermaid
