@@ -1,10 +1,26 @@
-# Rust
+<h1 align="center">Rust</h1>
 
-![Rust logo](https://miqh.gallerycdn.vsassets.io/extensions/miqh/vscode-language-rust/0.14.0/1536151476041/Microsoft.VisualStudio.Services.Icons.Default)
+<p align="center"><img src = "https://miqh.gallerycdn.vsassets.io/extensions/miqh/vscode-language-rust/0.14.0/1536151476041/Microsoft.VisualStudio.Services.Icons.Default" alt = "Rust logo" /></p>
 
 [Rust Playground](https://play.rust-lang.org/)
 
 * Grew out of personal project of **Graydon Hoare** who worked at **Mozilla Research** . Soon **Bredan Eich** (Creator of Javascript) started contributing to this project.
+* In rust, packages of code is called `Crates`.
+
+<hr>
+
+## Cargo
+
+<hr>
+
+- Cargo is the Rust's build system and package manager.
+- Builds code, downloads libraries, and builds libraries.
+- Libraries used in the projects is called *Dependencies*.
+- To create a Rust project using cargo, execute the following command:
+
+```
+cargo new <Project name>
+```
 
 <hr>
 
@@ -23,6 +39,17 @@ fn main(){
     println!("Hello World");
 }
 ```
+
+<hr>
+
+## Executing a cargo program
+
+<hr>
+
+- Execute `cargo build` to create a .exe file.
+- Use `cargo run` to execute the rust program.
+- Use `cargo check` to check if your code compiles or not. It won't produce an exe file.
+- Above command is useful if you wanna check if code compiles or not really fast and without actually making an exe file.
 
 <hr>
 
@@ -981,4 +1008,3 @@ fn main(){
 ```
 
 <hr>
-
