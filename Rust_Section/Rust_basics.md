@@ -16,6 +16,7 @@
 - Cargo is the Rust's build system and package manager.
 - Builds code, downloads libraries, and builds libraries.
 - Libraries used in the projects is called *Dependencies*.
+- Use `cargo update` to upgrade all the crates.
 - To create a Rust project using cargo, execute the following command:
 
 ```
@@ -60,6 +61,27 @@ fn main(){
 ```rs
 fn main(){
     println!("{}",1);
+}
+```
+
+<hr>
+
+## Taking input
+
+<hr>
+
+- We use the `io` module of Rust in order to take input from the user.
+
+```rs
+use std::io;
+
+fn main(){
+    let mut userName = String::new();
+    println!("Kindly tell me your name: ");
+    io::stdin()
+        .read_line(&mut user_name) // &mut means to put input into user_name which is called by reference through & operator. Mut means the variable is mutable.
+        .expect("Failed to read the input");// Error handling basically for 
+    println!("Welcome {} to Rust, you're a Rustaceans now!", user_name);
 }
 ```
 
@@ -146,6 +168,10 @@ fn main(){
     println!("{:?}",(12,true,false,"Sam"));
 }
 ```
+
+<hr>
+
+
 
 <hr>
 
@@ -1008,3 +1034,35 @@ fn main(){
 ```
 
 <hr>
+
+## Random numbers
+
+<hr>
+
+- To generate random numbers in rust, we use the *rand* crate.
+- So put rand = "0.8.3" under dependencies of your *Cargo.toml* file, and execute `cargo build` to install the package.
+
+<hr>
+
+```rs
+let secret_number = rand::thread_rng().gen_range(1..10);
+```
+
+<hr>
+
+## Type-conversion: String to Int
+
+### Shadowing a variable
+
+```rs
+let mut guess = String::new();
+
+// Code to get the user inputs
+
+// Making the string an int
+// colon (:) indicates rust to annotate the variable's type
+let guess: u32 = guess.trim().parse().expect("Please type a number");
+// Trim means to remove all \r\n and \n's from the string. Parse makes the string an int
+```
+
+**Tip**: You can generate the documentation of crates which have been used in your project by this command: `cargo doc --open`.
