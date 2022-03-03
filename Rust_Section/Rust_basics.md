@@ -1065,4 +1065,88 @@ let guess: u32 = guess.trim().parse().expect("Please type a number");
 // Trim means to remove all \r\n and \n's from the string. Parse makes the string an int
 ```
 
+<hr>
+
 **Tip**: You can generate the documentation of crates which have been used in your project by this command: `cargo doc --open`.
+
+<hr>
+
+## Infinite Loop
+
+<hr>
+
+- Use `loop` keyword to make an infinity loop
+
+<hr>
+
+```rs
+use std::io;
+
+fn main(){
+    let mut stop = String::new();
+    loop{
+        println!("I won't stop if you don't stop 😁");
+        io::stdin().read_line(&mut stop);
+    }
+}
+```
+
+<hr>
+
+## Shadowing
+
+<hr>
+
+- Declaring same variable multiple times in order to change its value is called *Shadowing*.
+
+<hr>
+
+```rs
+fn main(){
+    let my_int = 5;
+    {
+        let my_int = 10;
+        println!("Value of x inside the block is {}", my_int);
+    }
+    println!("Value of x outside the block is {}", my_int);
+}
+```
+
+<hr>
+
+- Shadowing is different from `mut` as even after shadowing, our variable remains immutable.
+- Thus shadowing enables us to perform some minor transformations on immutable variable, while keeping them immutable!
+- Another use case of shadowing is when we wanna change the type of the variable.
+- Changing the type of the value in `mut` is impossible,  while we can do this easily through shadowing
+
+<hr>
+
+```rs
+fn main(){
+    let my_variable = "Sam";
+    println!("Initial string value in the variable is {}", my_variable);
+    let my_variable = 5;
+    println!("New value in the variable is {}", my_variable);
+}
+```
+
+<hr>
+
+## Data types
+
+<hr>
+
+- Rust is a **Statically typed** language.
+- This means that the types of variables should be known at compile time.
+
+<hr>
+
+### Scalar types
+
+<hr>
+
+- Those variables which store only 1 value (unlike lists, tuples, etc).
+- Integers, floating point numbers, booleans, and characters come in this type.
+
+<hr>
+
