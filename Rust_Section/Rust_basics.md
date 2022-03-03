@@ -1137,17 +1137,17 @@ fn main(){
 <hr>
 
 ```mermaid
-flowchart TD;
+flowchart TB
     datType(Data Types) --> scal(Scalar)
     datType -->comp(Compound)
     scal-->int(Integers)
-    int-->|0 to 2^(n)-1|signed(Signed integers)
+    int-->signed(Signed integers)
     signed-->8(8 bits)
     8-->16(16 bits)
     16-->32(32 bits)
     32-->64(64 bits)
     64-->128(128 bits)
-    int-->|-(2^(n-1) to 2^(n-1)-1)|unsigned(Unsigned integers)
+    int-->unsigned(Unsigned integers)
     unsigned-->8
     scal-->floats(Floating pt num.)
     scal-->bools(Booleans)
