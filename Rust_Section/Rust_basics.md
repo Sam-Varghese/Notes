@@ -1150,6 +1150,8 @@ flowchart TB
     int-->unsigned(Unsigned integers)
     unsigned-->8
     scal-->floats(Floating pt num.)
+    floats-->f32
+    floats-->f64
     scal-->bools(Booleans)
     bools-->true
     bools-->false
@@ -1175,5 +1177,3 @@ flowchart TB
 #### Integers
 
 <hr>
-
-```mermaid
