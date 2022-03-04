@@ -1178,6 +1178,7 @@ flowchart TB
 
 - Integers in rust can be either signed or unsigned.
 - Unsigned integers have a range twice to that of signed!
+- Default is `i32`
 
 <hr>
 
@@ -1209,3 +1210,32 @@ fn main(){
 <hr>
 
 - Rust uses the term **panicking** when a program exits with an error.
+
+<hr>
+
+#### Floating point types
+
+<hr>
+
+- These are of 2 types: `f32` and `f64`.
+- Default type is `f:64`.
+
+<hr>
+
+#### Booleans
+
+<hr>
+
+- `true` and `false` comes in this category.
+
+<hr>
+
+```rs
+fn main(){
+    let boolean_variable: bool;
+    boolean_variable = true;
+    println!("{}",boolean_variable);
+}
+```
+
+<hr>
