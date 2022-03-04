@@ -1239,3 +1239,73 @@ fn main(){
 ```
 
 <hr>
+
+#### Characters
+
+<hr>
+
+- Strings are always **enclosed in double quotes**.
+- Characters are always **enclosed in single quotes**
+- Accented letters; Chinese, Japanese, and Korean characters; emoji; and zero-width spaces are all valid char values in Rust.
+
+<hr>
+
+
+```rs
+fn main(){
+    let my_variable: char;
+    my_variable = '🦀';
+    println!("{}", my_variable);
+}
+```
+
+### Compound Types
+
+<hr>
+
+```mermaid
+flowchart TB
+comp(Compound types) --> tup(Tuples)
+comp --> arrays(Arrays)
+```
+
+<hr>
+
+- Compound types can group multiple values into one type.
+
+<hr>
+
+#### Tuples
+
+<hr>
+
+- Tuples are immutable, once declared they can't grow or shrink.
+
+<hr>
+
+```rs
+fn main(){
+    let tup: (i32, f64, u8) = (500, 200.0, 255); // Type annotating every element of the tuple
+    println!("{:?}", tup);// Printing the tuple with debug formatter.
+}
+```
+
+<hr>
+
+##### Tuple deconstruction
+
+<hr>
+
+- Accessing the elements of tuple by dividing it to n equal parts is called deconstruction. (*N is the length of tuple*).
+
+<hr>
+
+```rs
+fn main(){
+    let my_tuple: (u32, u32, i32) = (500, 500, 32);
+    let (x, y, z) = my_tuple;
+    println!("Value of x = {}", x);
+    println!("Value of y = {}", y);
+    println!("Value of z = {}", z);
+}
+```
