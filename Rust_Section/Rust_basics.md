@@ -4,8 +4,8 @@
 
 [Rust Playground](https://play.rust-lang.org/)
 
-* Grew out of personal project of **Graydon Hoare** who worked at **Mozilla Research** . Soon **Bredan Eich** (Creator of Javascript) started contributing to this project.
-* In rust, packages of code is called `Crates`.
+-   Grew out of personal project of **Graydon Hoare** who worked at **Mozilla Research** . Soon **Bredan Eich** (Creator of Javascript) started contributing to this project.
+-   In rust, packages of code is called `Crates`.
 
 <hr>
 
@@ -13,11 +13,11 @@
 
 <hr>
 
-- Cargo is the Rust's build system and package manager.
-- Builds code, downloads libraries, and builds libraries.
-- Libraries used in the projects is called *Dependencies*.
-- Use `cargo update` to upgrade all the crates.
-- To create a Rust project using cargo, execute the following command:
+-   Cargo is the Rust's build system and package manager.
+-   Builds code, downloads libraries, and builds libraries.
+-   Libraries used in the projects is called _Dependencies_.
+-   Use `cargo update` to upgrade all the crates.
+-   To create a Rust project using cargo, execute the following command:
 
 ```
 cargo new <Project name>
@@ -25,9 +25,9 @@ cargo new <Project name>
 
 <hr>
 
-* Codes in rust start with `fn main(){program}`
-* Semocolon is necessary after every line.
-* Only double quotes applicable.
+-   Codes in rust start with `fn main(){program}`
+-   Semocolon is necessary after every line.
+-   Only double quotes applicable.
 
 <hr>
 
@@ -47,10 +47,10 @@ fn main(){
 
 <hr>
 
-- Execute `cargo build` to create a .exe file.
-- Use `cargo run` to execute the rust program.
-- Use `cargo check` to check if your code compiles or not. It won't produce an exe file.
-- Above command is useful if you wanna check if code compiles or not really fast and without actually making an exe file.
+-   Execute `cargo build` to create a .exe file.
+-   Use `cargo run` to execute the rust program.
+-   Use `cargo check` to check if your code compiles or not. It won't produce an exe file.
+-   Above command is useful if you wanna check if code compiles or not really fast and without actually making an exe file.
 
 <hr>
 
@@ -70,7 +70,7 @@ fn main(){
 
 <hr>
 
-- We use the `io` module of Rust in order to take input from the user.
+-   We use the `io` module of Rust in order to take input from the user.
 
 ```rs
 use std::io;
@@ -80,7 +80,7 @@ fn main(){
     println!("Kindly tell me your name: ");
     io::stdin()
         .read_line(&mut user_name) // &mut means to put input into user_name which is called by reference through & operator. Mut means the variable is mutable.
-        .expect("Failed to read the input");// Error handling basically for 
+        .expect("Failed to read the input");// Error handling basically for
     println!("Welcome {} to Rust, you're a Rustaceans now!", user_name);
 }
 ```
@@ -99,7 +99,7 @@ fn main(){
 
 <hr>
 
-* Note that boolean true hear is written as true and not True as used in Python.
+-   Note that boolean true hear is written as true and not True as used in Python.
 
 <hr>
 
@@ -153,7 +153,7 @@ fn main(){
 }
 ```
 
-* Execution of above code gives binary form of number 10, hexadecimal form of number 10, octal form of number 10.
+-   Execution of above code gives binary form of number 10, hexadecimal form of number 10, octal form of number 10.
 
 <hr>
 
@@ -161,7 +161,7 @@ fn main(){
 
 <hr>
 
-* Used for printing tuples..
+-   Used for printing tuples..
 
 ```rs
 fn main(){
@@ -171,17 +171,15 @@ fn main(){
 
 <hr>
 
-
-
 <hr>
 
 ## Dealing With Variables
 
 <hr>
 
-* Variables hold primitive data or references to data
-* Variables are **immutable by default**.
-* Rust is a block scoped language.
+-   Variables hold primitive data or references to data
+-   Variables are **immutable by default**.
+-   Rust is a block scoped language.
 
 <hr>
 
@@ -208,7 +206,7 @@ fn main(){
 
 <hr>
 
-* This code will produce an error that would verify that strings are immutable.
+-   This code will produce an error that would verify that strings are immutable.
 
 <hr>
 
@@ -226,7 +224,7 @@ fn main(){
 
 <hr>
 
-* Note that the above code wont produce an error but would warn us that the first value of variable name is unused.
+-   Note that the above code wont produce an error but would warn us that the first value of variable name is unused.
 
 <hr>
 
@@ -243,7 +241,7 @@ fn main(){
 
 <hr>
 
-* Note that in rust constant are in upper case only else a warning would be given by compiler.
+-   Note that in rust constant are in upper case only else a warning would be given by compiler.
 
 <hr>
 
@@ -266,16 +264,16 @@ fn main(){
 
 **Primitive Datatypes**
 
-* Integers: u8 (unsigned 8 bit int), i8 (signed int), u16, i16, u32, i32, u64, i64, u128, i128
-* Floats: f32, f64
-* Boolean (bool): true, false
-* Arrays
-* Characters (char)
-* Tuples
+-   Integers: u8 (unsigned 8 bit int), i8 (signed int), u16, i16, u32, i32, u64, i64, u128, i128
+-   Floats: f32, f64
+-   Boolean (bool): true, false
+-   Arrays
+-   Characters (char)
+-   Tuples
 
 <hr>
 
-* **Note**: Rust is a statically typed language, which means that it must know types of all variables at compile type, however, the compiler can usually infer what type we want to use based on the value and how we use use it.
+-   **Note**: Rust is a statically typed language, which means that it must know types of all variables at compile type, however, the compiler can usually infer what type we want to use based on the value and how we use use it.
 
 <hr>
 
@@ -305,7 +303,7 @@ fn main(){
 
 <hr>
 
-* Note that when you run these programmes in suppose rust playground, then compiler gives warning such as ```#[warn(unused_variables)]` on by default``` which simply signifies that there is a variable which is unused throughout execution. If we want to avoid popping out of this warning, simply put ``_`` before variable name. Ex make variable named ``a`` to ``_a``.
+-   Note that when you run these programmes in suppose rust playground, then compiler gives warning such as `` #[warn(unused_variables)]` on by default `` which simply signifies that there is a variable which is unused throughout execution. If we want to avoid popping out of this warning, simply put `_` before variable name. Ex make variable named `a` to `_a`.
 
 <hr>
 
@@ -313,9 +311,9 @@ fn main(){
 
 <hr>
 
-* Has only a single character
+-   Has only a single character
 
-* Diffrent from string datatype
+-   Diffrent from string datatype
 
 <hr>
 
@@ -331,9 +329,9 @@ fn main(){
 
 ## Strings in Rust
 
-* Rust has two types of string data structure.
-* **Primitive str**: Immutable fixed length string somewhere in the memory.
-* **String**: Growable (possible to append it as if it were an array), heap-allocated data structure- Use when you need to modify or own string data.
+-   Rust has two types of string data structure.
+-   **Primitive str**: Immutable fixed length string somewhere in the memory.
+-   **String**: Growable (possible to append it as if it were an array), heap-allocated data structure- Use when you need to modify or own string data.
 
 <hr>
 
@@ -351,7 +349,7 @@ fn main(){
 
 <hr>
 
-* In order to find length of any item in rust, the following command:
+-   In order to find length of any item in rust, the following command:
 
 <hr>
 
@@ -371,7 +369,7 @@ fn main(){
 ```rs
 fn main(){
     let mut a=String::from("Hello"); //Works only with this datatype
-    
+
     //Pushing a character
     a.push('W');
 
@@ -484,8 +482,8 @@ fn main(){
 
 <hr>
 
-* Tuples group together values of diffrent types
-* **Max 12 Elements Possible**.
+-   Tuples group together values of diffrent types
+-   **Max 12 Elements Possible**.
 
 <hr>
 
@@ -528,7 +526,7 @@ fn main(){
 
 <hr>
 
-* **Arrays in rust are fixed list where elements are of same datatypes**
+-   **Arrays in rust are fixed list where elements are of same datatypes**
 
 <hr>
 
@@ -625,7 +623,7 @@ fn main(){
 
 <hr>
 
-* In rust programming language, vectors are resizable arrays.
+-   In rust programming language, vectors are resizable arrays.
 
 <hr>
 
@@ -854,7 +852,7 @@ fn main(){
 
 <hr>
 
-* It is a kind of challenging problem wherein we are given numbers belonging to a range, and if the number is deivisible by 15, outut should be fizzbuzz, if the number is divisible by 3, out should be only fizz, else if the number is divisible by 5, output should be buzz only.
+-   It is a kind of challenging problem wherein we are given numbers belonging to a range, and if the number is deivisible by 15, outut should be fizzbuzz, if the number is divisible by 3, out should be only fizz, else if the number is divisible by 5, output should be buzz only.
 
 <hr>
 
@@ -948,11 +946,11 @@ fn main(){
 
 <hr>
 
-* Points to a resource in memory.
+-   Points to a resource in memory.
 
 <hr>
 
-* **Primitive Array**
+-   **Primitive Array**
 
 <hr>
 
@@ -966,11 +964,11 @@ fn main(){
 
 <hr>
 
-* **Non Primitive Arrays**
+-   **Non Primitive Arrays**
 
 <hr>
 
-* With non primitive datatypes, if you assign another variable to a piece of data, the first variable will no longer hold that value. Vectors comes under this category.
+-   With non primitive datatypes, if you assign another variable to a piece of data, the first variable will no longer hold that value. Vectors comes under this category.
 
 <hr>
 
@@ -984,7 +982,7 @@ fn main(){
 
 <hr>
 
-* On running the above code you would receive the same error which has been pointed. There is a way out from getting this error, and that is to use refrences(&)
+-   On running the above code you would receive the same error which has been pointed. There is a way out from getting this error, and that is to use refrences(&)
 
 <hr>
 
@@ -998,7 +996,7 @@ fn main(){
 
 <hr>
 
-## Structures (Classes In Rust) 
+## Structures (Classes In Rust)
 
 <hr>
 
@@ -1039,8 +1037,8 @@ fn main(){
 
 <hr>
 
-- To generate random numbers in rust, we use the *rand* crate.
-- So put rand = "0.8.3" under dependencies of your *Cargo.toml* file, and execute `cargo build` to install the package.
+-   To generate random numbers in rust, we use the _rand_ crate.
+-   So put rand = "0.8.3" under dependencies of your _Cargo.toml_ file, and execute `cargo build` to install the package.
 
 <hr>
 
@@ -1075,7 +1073,7 @@ let guess: u32 = guess.trim().parse().expect("Please type a number");
 
 <hr>
 
-- Use `loop` keyword to make an infinity loop
+-   Use `loop` keyword to make an infinity loop
 
 <hr>
 
@@ -1097,7 +1095,7 @@ fn main(){
 
 <hr>
 
-- Declaring same variable multiple times in order to change its value is called *Shadowing*.
+-   Declaring same variable multiple times in order to change its value is called _Shadowing_.
 
 <hr>
 
@@ -1114,10 +1112,10 @@ fn main(){
 
 <hr>
 
-- Shadowing is different from `mut` as even after shadowing, our variable remains immutable.
-- Thus shadowing enables us to perform some minor transformations on immutable variable, while keeping them immutable!
-- Another use case of shadowing is when we wanna change the type of the variable.
-- Changing the type of the value in `mut` is impossible,  while we can do this easily through shadowing
+-   Shadowing is different from `mut` as even after shadowing, our variable remains immutable.
+-   Thus shadowing enables us to perform some minor transformations on immutable variable, while keeping them immutable!
+-   Another use case of shadowing is when we wanna change the type of the variable.
+-   Changing the type of the value in `mut` is impossible, while we can do this easily through shadowing
 
 <hr>
 
@@ -1160,8 +1158,8 @@ flowchart TB
 
 <hr>
 
-- Rust is a **Statically typed** language.
-- This means that the types of variables should be known at compile time.
+-   Rust is a **Statically typed** language.
+-   This means that the types of variables should be known at compile time.
 
 <hr>
 
@@ -1169,11 +1167,45 @@ flowchart TB
 
 <hr>
 
-- Those variables which store only 1 value (unlike lists, tuples, etc).
-- Integers, floating point numbers, booleans, and characters come in this type.
+-   Those variables which store only 1 value (unlike lists, tuples, etc).
+-   Integers, floating point numbers, booleans, and characters come in this type.
 
 <hr>
 
 #### Integers
 
 <hr>
+
+- Integers in rust can be either signed or unsigned.
+- Unsigned integers have a range twice to that of signed!
+
+<hr>
+
+<table><thead><tr><th>Length</th><th>Signed</th><th>Unsigned</th></tr></thead><tbody>
+<tr><td>8-bit</td><td><code>i8</code></td><td><code>u8</code></td></tr>
+<tr><td>16-bit</td><td><code>i16</code></td><td><code>u16</code></td></tr>
+<tr><td>32-bit</td><td><code>i32</code></td><td><code>u32</code></td></tr>
+<tr><td>64-bit</td><td><code>i64</code></td><td><code>u64</code></td></tr>
+<tr><td>128-bit</td><td><code>i128</code></td><td><code>u128</code></td></tr>
+<tr><td>arch</td><td><code>isize</code></td><td><code>usize</code></td></tr>
+</tbody></table>
+
+<hr>
+
+```rs
+fn main(){
+    let integer_variable: u32;
+    integer_variable = 32;
+    println!("{}", integer_variable);
+}
+```
+
+<hr>
+
+**Tip**: Just as we put commas in english number system (Ex: 10, 000), likewise we can also separate numbers in rust for better understandability.
+
+`variable_value = 32_00_000`
+
+<hr>
+
+- Rust uses the term **panicking** when a program exits with an error.
